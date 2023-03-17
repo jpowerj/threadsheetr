@@ -17,3 +17,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     stringr
+URL: https://github.com/jpowerj/threadsheetr
+BugReports: https://github.com/jpowerj/threadsheetr/issues
