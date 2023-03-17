@@ -1,4 +1,4 @@
-Package: threadsheets
+Package: threadsheetr
 Type: Package
 Title: Weave Tabular Datasets into Aggregate Estimates
 Version: 0.1.0
