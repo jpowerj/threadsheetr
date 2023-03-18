@@ -13,29 +13,46 @@ threadsheetr_parse <- function(data_path, spec_fpath) {
   var_glob <- paste0(data_path,"/",v,"/*.csv")
   var_fpaths <- Sys.glob(var_glob)
   print(var_fpaths)
+  # Create the "parsed" subfolder if it doesn't already exist
+  parsed_path <- paste0(data_path,"/parsed/")
+  if (!dir.exists(parsed_path)) {
+    dir.create(parsed_path)
+  }
   all_dfs <- new.env()
   for (cur_fpath in var_fpaths) {
     print(paste0("Parsing ",cur_fpath))
+    cur_fname <- basename(cur_fpath)
     processed_df <- process_data_file(cur_fpath, spec)
+    # Serialize the processed_df
+    serialized_fname <- stringr::str_replace_all(cur_fname, ".csv", ".rds")
+    serialized_fpath <- file.path(parsed_path, serialized_fname)
+    saveRDS(processed_df, serialized_fpath)
     rlang::env_poke(all_dfs, cur_fpath, processed_df)
   }
   #env_print(all_dfs)
   return(all_dfs)
 }
 
-clean_index_vals <- function(df) {
-  # Get index var name
-  index_name <- colnames(df)[1]
-  # Get index var type
-  index_type <- df %>% summarize_all(class) %>% pull(1)
-  # Lowercase index values
-  if (index_type == "character") {
-    df[[1]] <- tolower(df[[1]])
+clean_index_vals <- function(df, spec) {
+  # Get index var names
+  index_specs <- spec$index_rules
+  for (cur_index_spec in index_specs) {
+    cur_index_varname <- cur_index_spec$varname
+    # If its not in the df, return
+    if (!(cur_index_varname %in% names(df))) {
+      return(df)
+    }
+    # Check if it should be lowercased
+    should_lowercase <- cur_index_spec$lowercase
+    if (should_lowercase) {
+      # If so, replace it
+      df[[cur_index_varname]] <- tolower(df[[cur_index_varname]])
+    }
   }
   return(df)
 }
 
-clean_header_vals <- function(df) {
+clean_header_vals <- function(df, spec) {
   # Drop notes columns
   df <- df %>% select(-contains('notes', ignore.case = TRUE))
   return(df)
@@ -60,7 +77,12 @@ detect_header_rows <- function(fpath, spec) {
   return_obj <- new.env()
   return_obj$num_headers = num_headers
   # Now collapse down into *one* header row, if we need to
-  if (num_headers == 1) {
+  if (num_headers == 0) {
+    # The "normal" case, actually: it means that there are no \\ values in the
+    # index. So, just assume that the remaining header vals are variable names,
+    # and that the index header is already set correctly
+    return_obj$header_name = "variable"
+  } else if (num_headers == 1) {
     # Parse just the one entry with \\
     header_elts <- split_header_cell(df_head[1,1] %>% dplyr::pull())
     index_name <- header_elts[1]
@@ -116,18 +138,53 @@ var_in_df <- function(varname, df) {
 }
 
 check_replace_headers <- function(header_row, spec) {
-  # Get the header rules
-  all_rules <- spec$header_map
-  rule_varnames <- names(all_rules)
-  for (cur_varname in rule_varnames) {
-    #print("--- loop iter ---")
-    other_varname <- all_rules[[cur_varname]]
-    header_row <- header_row %>% replace(. == cur_varname, other_varname)
+  # First we check the grid rules
+  grid_spec <- spec$grid
+  # Grid has *one* varname, so just check this varname
+  grid_varname <- grid_spec$varname
+  grid_alt_names <- grid_spec$alt_names
+  header_row <- check_replace_headers_alts(header_row, spec, grid_varname, grid_alt_names)
+  # Now the index rules (plural... so we need to loop)
+  index_spec <- spec$index_rules
+  for (cur_index_rule in index_spec) {
+    cur_varname <- cur_index_rule$varname
+    cur_alt_names <- cur_index_rule$alt_names
+    header_row <- check_replace_headers_alts(header_row, spec, cur_varname, cur_alt_names)
   }
-  #print("headers replaced")
   return(header_row)
 }
 
+check_replace_headers_alts <- function(header_row, spec, varname, alt_var_names) {
+  # Get the header rules for the grid var
+  # See if the main varname is one of the headers
+  if (any(header_row == varname, na.rm = TRUE)) {
+    # We're good, it has the varname, just return as-is
+    return(header_row)
+  }
+  # Otherwise, check the alternate names
+  for (cur_alt_name in alt_var_names) {
+    #print("--- loop iter ---")
+    if (any(header_row == cur_alt_name, na.rm = TRUE)) {
+      header_row <- header_row %>% replace(. == cur_alt_name, varname)
+      # We return on first one we find (so that, the order in the .yaml file
+      # matters, in terms of priority)
+      return(header_row)
+    }
+  }
+  return(header_row)
+}
+
+#' Process a raw data file, transforming it into Threadsheets format
+#'
+#' This is the main function for this file
+#'
+#' @param fpath
+#' @param spec
+#'
+#' @return
+#' @export
+#'
+#' @examples
 process_data_file <- function(fpath, spec) {
   fname <- basename(fpath)
   fname_elts = str_split_one(fname, "_")
@@ -139,14 +196,18 @@ process_data_file <- function(fpath, spec) {
   header_result <- detect_header_rows(fpath, spec)
   df_head <- header_result$df_head
   num_headers <- header_result$num_headers
-  index_name <- header_result$index_name
   print(paste0("num_headers: ",num_headers))
-  print(paste0("index_name: ",index_name))
   ### Part 2: Load csv
   # Need the keep_default_na=False option otherwise it stores missing vals as
   # np.nan even with dtype=str -___-
   df <- readr::read_csv(fpath, skip=num_headers, show_col_types = FALSE,
                         col_types = list(.default = "c"))
+  # If the header detection returned 0, we need to manually set the index name now
+  if (num_headers == 0) {
+    index_name <- df[1,1] %>% dplyr::pull()
+  } else {
+    index_name <- header_result$index_name
+  }
   ### Parts 3a/3b: Parse index column (3a)/Parse header rows (3b)
   # Annoying: df.columns.names if multiindex, df.columns.name if single index
   #if len(df.columns.names) > 1:
@@ -155,22 +216,30 @@ process_data_file <- function(fpath, spec) {
   #  # of *column* names
   #  last_colname = df.columns.names[-1]
   # And now we can remove the index-name part of the column headers
-  colnames(df) <- c(index_name, df_head[1,-1] %>% unlist())
+  #colnames(df) <- c(index_name, df_head[1,-1] %>% unlist())
+  if (num_headers > 0) {
+    colnames(df) <- df_head[1,] %>% unlist()
+  }
   ### Part 4: Lowercase any strings in the index and remove "notes" row if it exists
-  df <- clean_index_vals(df)
-  df <- clean_header_vals(df)
-  # ### Part 4: Doing magic with the unstack() function
+  df <- clean_index_vals(df, spec)
+  df <- clean_header_vals(df, spec)
   # First we make sure any rename rules are applied
-  df <- check_replace_headers(df, spec)
   # Ensure that the tibble is as long as possible
   time_var <- spec$grid$time_var
   unit_var <- spec$grid$unit_of_obs
   main_varname <- spec$grid$varname
   vars_to_keep <- c(time_var, unit_var, main_varname)
-  df <- df %>%
-    tidyr::pivot_longer(cols = contains('@@'), names_pattern = "(.*)@@(.*)",
-                        names_to = c("varname",time_var),
-                        values_transform = list("varname"=as.character,time_var=as.character))
+  # But, before we check, we make sure to do any necessary renames
+  if (num_headers > 1) {
+    # Here we know the unit var will be there
+    df_long <- df %>%
+      tidyr::pivot_longer(cols = contains('@@'), names_pattern = "(.*)@@(.*)",
+                          names_to = c("varname",time_var),
+                          values_transform = list("varname"=as.character,time_var=as.character))
+  } else {
+    df_long <- df %>% select(vars_to_keep) %>%
+      tidyr::pivot_longer(cols = -c(time_var, unit_var), names_to = c("varname"))
+  }
   # ### Part 5: Make sure the year column is all-numeric and apply the index
   # ### rules to the other axis
   # # There could be a "notes" row, so we convert all entries that can be parsed
@@ -223,7 +292,7 @@ process_data_file <- function(fpath, spec) {
   # ### Part 6: Take this entries list and make it into its own df
   # #long_df = pd.DataFrame(all_entries)
   # #breakpoint()
-  return(df)
+  return(df_long)
 }
 
 #
