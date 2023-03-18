@@ -1,0 +1,42 @@
+---
+header_map:
+  "num_members": "cp_membership"
+  "cp_membership_num": "cp_membership"
+index_rules:
+  country:
+    - "Abu Dhabi": {rename: "United Arab Emirates"}
+    - "Basutoland": {rename: "Lesotho"}
+    - "Bechuanaland": {rename: "Botswana"}
+    - "British Guiana": {rename: "Guyana"}
+    - "Cameroons": {addto: "Nigeria"} # British Cameroon, became state in Nigeria in 1960
+    - "Cameroun": {addto: "Cameroon"} # French Cameroon, became modern-day Cameroon
+    - "Ceylon": {rename: "Sri Lanka"}
+    - "Comoro Islands": {rename: "Comoros"}
+    - "Congo": {rename: "Republic of the Congo"}
+    - "Congo-Brazzaville": {rename: "Republic of the Congo"}
+    - "Congo-Kinshasa": {rename: "Democratic Republic of the Congo"}
+    - "Congo-Leopoldville": {rename: "Democratic Republic of the Congo"}
+    - "French Territory of the Afars and the Issas": {rename: "Djibouti"} # 1979
+    - "Great Britain": {rename: "UK"}
+    - "Ifni": {addto: "Morocco"}
+    - "Northern Rhodesia": {rename: "Zambia"}
+    - "Nyasaland": {rename:  "Malawi"}
+    - "Rhodesia": {rename: "Zimbabwe"} # White rule overthrown in 1980
+    - "Rio Muni": {addto: "Equatorial Guinea"} # The non-continental part of Equatorial Guinea
+    - "South West Africa": {rename: "Namibia"} # Independence from SA in 1990
+    - "Southern Rhodesia": {rename: "Zimbabwe"}
+    - "Tanganyika": {rename: "Tanzania"}
+    - "TOTALS": {rename: "Total"}
+    - "Trucial States": {rename: "United Arab Emirates"} # I know it's not 1-to-1 but this makes life a lot easier
+    - "United Arab Republic": {rename: "Egypt"} # Again, I know... but there's literally only 1 single observation where it's actually Egypt+Syria. All the rest just mean Egypt
+    - "U.S.S.R.": {rename: "USSR"}
+    - "Zaire": {rename: "Democratic Republic of the Congo"}
+    - "Zanzibar": {addto: "Tanzania"} # Tanganyika and Zanzibar merged to become Tanzania in 1964
+grid:
+  varname: cp_membership
+  datatype: int
+  rounding: warn
+  unit_of_obs: country
+  time_var: year
+  time_start: 1945
+  time_end: 1975

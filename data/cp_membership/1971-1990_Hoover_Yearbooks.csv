@@ -1,0 +1,959 @@
+year\variable,category,area_prefix,area,party_name,population_est,party_membership,cp_membership_num,pct_of_pop,status,sino_soviet,pub_names,pub_circs,date_founded,party_leader,pct_vote,vote_as_of,seats_txt,seats_controlled,total_seats,seats_pct,leg_text,last_congress
+1971,Eastern Europe and the Soviet Union,,Albania,Albanian Party of Labor (APL),2108000,75673 (claim),75673,0.035898008,,,,,8-Nov-41,Enver Hoxha,,,,,,,,
+1971,,,Bulgaria,Bulgarian Communist Party (BCP),8500000,637000 (claim),637000,0.074941176,,,,,1903,,,,,,,,,
+1971,,,Czechoslovakia,Communist Party of Czechoslovakia (KSC),14300000,slightly above 1.2 million (est),1200000,0.083916084,,,,,Nov-21,,,,,,,,,
+1971,,,German Democratic Republic,Socialist Unity Party of Germany (SED),17075000,1893594 (claim),1893594,0.110898624,,,,,21-Apr-46,,,,,,,,,
+1971,,,Hungary,Hungarian Socialist Workers' Party (HSWP),10340000,662397 (claim),662397,0.064061605,,,,,24-Nov-18,,,,,,,,,
+1971,,,Poland,Polish United Workers' Party (PUWP),32720000,2296000 (claim),2296000,0.070171149,,,,,Dec-18,,,,,,,,,
+1971,,,Romania,Romanian Communist Party (RCP),20140000,1999720 (claim),1999720,0.099290963,,,,,1921,,,,,,,,,
+1971,,,USSR,Communist Party of the Soviet Union (CPSU),241748000,14254000 (claim),14254000,0.058962225,,,,,1 March 1898,,,,,,,,,
+1971,,,Yugoslavia,League of Communists of Yugoslavia (LCY),20400000,1046084 (claim),1046084,0.051278627,,,,,Jun-20,,,,,,,,,
+1971,Western Europe,,Austria,Communist Party of Austria (KPO),7349000,26000 (claim),26000,0.003537896,,,,,3-Nov-18,,,,,,,,,
+1971,,,Belgium,PCB; PCB-II; PCMLB; JGS (Trotskyist),10000000,11000-12500 (11750); 50; 150; 500,12450,0.001245,,,,,,,,,,,,,,
+1971,,,Cyprus,Reconstruction Party of the Working People of Cyprus (AKEL),622000,12000-15000 (est),13500,0.02170418,,,,,Aug-26,,,,,,,,,
+1971,,,Denmark,Communist Party of Denmark (DKP),4870000,6000 (claim),6000,0.001232033,,,,,9-Nov-19,,,,,,,,,
+1971,,,Finland,Communist Party of Finland (SKP),4688000,47000 (est),47000,0.010025597,,,,,29-Aug-18,,,,,,,,,
+1971,,,France,French Communist Party (PCF),50000000,"400000 (claim), 255000 (dissident est), 290000 (media est)",290000,0.0058,,,,,Dec-20,,,,,,,,,
+1971,,,Federal Republic of Germany,Communist Party of Germany (KPD); German Communist Party (DKP),58015000,7000 (est); 30000 (est),37000,0.000637766,,,,,1918,,,,,,,,,
+1971,,,West Berlin,Socialist Unity Party of West Berlin (SEW),2141000,7000 (est),7000,0.0032695,,,,,24-Nov-62,,,,,,,,,
+1971,,,Great Britain,Communist Party of Great Britain (CPGB),56000000,33452 (claim),33452,0.000597357,,,,,1920,,,,,,,,,
+1971,,,Greece,Communist Party of Greece (KKE),8803000,"27000 in greece, 10000-15000 in exile (est)",39500,0.004487107,,,,,22-Nov-18,,,,,,,,,
+1971,,,Iceland,Labor Alliance (LA),203500,1000 (est),1000,0.004914005,,,,,1930,,,,,,,,,
+1971,,,Ireland,Communist Party of Ireland (CPI),4500000,250 (est),250,5.56E-05,,,,,1921,,,,,,,,,
+1971,,,Italy,Italian Communist Party (PCI),54000000,1507047 (claim),1507047,0.027908278,,,,,1921,,,,,,,,,
+1971,,,Luxembourg,Communist Party of Luxembourg (PCL),336000,500-1000 (est),750,0.002232143,,,,,Jan-21,,,,,,,,,
+1971,,,Netherlands,Communist Party of the Netherlands (CPN),12900000,10000 (est),10000,0.000775194,,,,,1918,,,,,,,,,
+1971,,,Norway,Communist Party of Norway (NKP),3867000,3000 (est),3000,0.000775795,,,,,4-Nov-23,,,,,,,,,
+1971,,,Portugal,Portuguese Communist Party (PCP),9505000,"2000 (est, Western sources)",2000,0.000210416,,,,,Mar-21,,,,,,,,,
+1971,,,San Marino,Communist Party of San Marino (PCS),19000,1000 (est),1000,0.052631579,,,,,1922,,,,,,,,,
+1971,,,Spain,Communist Party of Spain (PCE),32411000,"5000-20000 (est), 22000 (claim)",12500,0.000385672,,,,,7-Nov-21,,,,,,,,,
+1971,,,Sweden,Communist Party of Sweden (SKP),7912000,16000-18000 (est),17000,0.002148635,,,,,1921,,,,,,,,,
+1971,,,Switzerland,Communist Party of Switzerland (PdA),6147000,4500-5000 (est),4750,0.000772735,,,,,1921,,,,,,,,,
+1971,,,Turkey,Communist Party of Turkey (TKP),33539000,1200-2000 (est) (plus 10000-15000 sympathizers),1600,4.77E-05,,,,,1920,,,,,,,,,
+1971,Middle East and Africa,,Algeria,Algerian Communist Party (PCA),14000000,750 (est),750,5.36E-05,,,,,1920,,,,,,,,,
+1971,,,Iran,Communist Party of Iran (Tudeh),28400000,500-1000 (est),750,2.64E-05,,,,,1920,,,,,,,,,
+1971,,,Iraq,Iraqi Communist Party (ICP),9700000,2000 (est) (10000-20000 sympathizers),2000,0.000206186,,,,,1934,,,,,,,,,
+1971,,,Israel,MAKI; RAKAH,2900000,1000 (est); 1000 (est),2000,0.000689655,,,,,1919,,,,,,,,,
+1971,,,Jordan,Communist Party of Jordan,2300000,"1000 (est, 5000 sympathizers)",1000,0.000434783,,,,,1943,,,,,,,,,
+1971,,,Lebanon,Lebanese Communist Party (LCP),2800000,2000 (est) (4000 sympathizers),2000,0.000714286,,,,,1924,,,,,,,,,
+1971,,,Lesotho,Communist Party of Lesotho (CPL),1018000,"""small"" (est)",0,0,,,,,Nov-61,,,,,,,,,
+1971,,,Morocco,Moroccan Communist Party (PCM),15700000,400 (est),400,2.55E-05,,,,,1943,,,,,,,,,
+1971,,,Nigeria,Socialist Workers' and Farmers' Party (SWAFP),62650000,1000 (est),1000,1.60E-05,,,,,1963,,,,,,,,,
+1971,,,Reunion,Reunion Communist Party (PCR),500000,"3500 (claim), 500 (est)",500,0.001,,,,,1959,,,,,,,,,
+1971,,,South Africa,South African Communist Party (SACP),20100000,a few hundred (est),300,1.49E-05,,,,,1921,,,,,,,,,
+1971,,,Sudan,Sudanese Communist Party (SCP),15000000,5000-10000 (est),7500,0.0005,,,,,1944,,,,,,,,,
+1971,,,Syria,Syrian Communist Party (SCP),6200000,3000-4000 (est),3500,0.000564516,,,,,1944,,,,,,,,,
+1971,,,Tunisia,Tunisian Communist Party (PCT),5100000,100 (est),100,1.96E-05,,,,,1920,,,,,,,,,
+1971,,,United Arab Republic,Communist Party of Egypt (CPE),<Not stated>,800-1000,900,,,,,,1923,,,,,,,,,
+1971,North America,,Canada,Communist Party of Canada (CPC); CPC-ML; LSA,21089000,2500 (est); 1000 (est); 1000 (est),4500,0.000213381,,,,,1921,,,,,,,,,
+1971,,,USA,Communist Party USA (CPUSA),206240000,12000-13000 (est) (plus 600-800 youth),13100,6.35E-05,,,,,1919,,,,,,,,,
+1971,Latin America and Caribbean,,Argentina,Communist Party of Argentina (PCA),23800000,"100000 (claim), 60000 (est)",60000,0.002521008,,,,,1918,,,,,,,,,
+1971,,,Bolivia,Communist Party of Bolivia (PCB); PCB-ML; POR; ELN,4600000,3000; 1000; 1000; 80-100,5090,0.001106522,,,,,1950,,,,,,,,,
+1971,,,Brazil,Brazilian Communist Party (PCB); PCdoB; Castroite groups,93305000,15000-20000 (est) (17500); 750; 1000-5000 (3000),21250,0.000227748,,,,,Mar-22,,,,,,,,,
+1971,,,Chile,Communist Party of Chile (PCCh),9800000,50000-70000,60000,0.006122449,,,,,1912,,,,,,,,,
+1971,,,Colombia,Communist Party of Colombia (PCC); FARC; EPL; ELN,21116000,8000-10000 (est); 100; 150; 80,9330,0.000441845,,,,,Dec-26,,,,,,,,,
+1971,,,Costa Rica,Popular Vanguard Party (PVP),1800000,600-1200,900,0.0005,,,,,1929,,,,,,,,,
+1971,,,Cuba,Communist Party of Cuba (PCC),8553395,120000 (est),120000,0.014029517,,,,,Aug-25,Fidel Castro Ruz,,,,,,,,
+1971,,,Dominican Republic,Dominican Communist Party (PCD); MPD; MR-1J4; PSP; PCRD,4300000,250; 250; 400; 50; 100 (overall about 1100) (all ests),1100,0.000255814,,,,,1942,,,,,,,,,
+1971,,,Ecuador,Communist Party of Ecuador (PCE); PCE-ML; PSRE,6100000,700-800 (750); 300-400 (350); 500-600 (550) (est),1650,0.000270492,,,,,1926,,,,,,,,,
+1971,,,El Salvador,Communist Party of El Salvador (PCES),3400000,200 (est),200,5.88E-05,,,,,1925,,,,,,,,,
+1971,,,Guadeloupe,Guadeloupe Communist Party (PCG),335000,1500 (est),1500,0.004477612,,,,,1944,,,,,,,,,
+1971,,,Guatemala,Guatemalan Party of Labor (PGT); FAR; MR-13,5100000,750 (est); 50-100 (75); 50-100 (75),900,0.000176471,,,,,1921,,,,,,,,,
+1971,,,Guyana,People's Progressive Party (PPP),721000,20000 (est),20000,0.027739251,,,,,1950,,,,,,,,,
+1971,,,Haiti,Unified Party of Haitian Communists (PUCH),5200000,500 (est),500,9.62E-05,,,,,1930,,,,,,,,,
+1971,,,Honduras,Communist Party of Honduras (PCH); PRH; MFM,2700000,500-1500 (1000) (est); 150-300 (225); 150-300 (225),1450,0.000537037,,,,,1927,,,,,,,,,
+1971,,,Martinique,Martinique Communist Party (PCM),335000,700-1300,1000,0.002985075,,,,,1957,,,,,,,,,
+1971,,,Mexico,Mexican Communist Party (PCM); other small leftist groups; PPS,50700000,5000 (est); 1000 (est); 75000 (est),81000,0.001597633,,,,,Sep-19,,,,,,,,,
+1971,,,Nicaragua,Socialist Party of Nicaragua (PSN); Sandinist [sic] National Liberation Front,2000000,200 (est); 100 (est),300,0.00015,,,,,1937,,,,,,,,,
+1971,,,Panama,People's Party of Panama (PDP),1500000,250 (est),250,0.000166667,,,,,1930,,,,,,,,,
+1971,,,Paraguay,Paraguayan Communist Party (PCP),2400000,4500-5000 (est),4750,0.001979167,,,,,1928,,,,,,,,,
+1971,,,Peru,Peruvian Communist Party (PCP); pro-Chinese faction,13600000,2000; 3000 (est),5000,0.000367647,,,,,1928,,,,,,,,,
+1971,,,Puerto Rico,Puerto Rican Communist Party (PCP); LSP; MPI; PSO; MR; CAL,2800000,20; 30; 750-1500 (1125) (est); 12; 30; unknown,1217,0.000434643,,,,,,,,,,,,,,
+1971,,,Uruguay,Communist Party of Uruguay (PCU); MLN (Tupamaros),2900000,"30000-35000, 1000 (est)",33500,0.011551724,,,,,September 1920; 1962,,,,,,,,,
+1971,,,Venezuela,"Communist Party of Venezuela; FALN, MIR, other guerrilla groups",10800000,8000 (est); 100-250 (est),8175,0.000756944,,,,,1931,,,,,,,,,
+1971,Asia and the Pacific,,Australia,Communist Party of Australia (CPA); ACP(ML),12031000,4000 (est); 250 (est),4250,0.000353254,,,,,October 1920; March 1964,,,,,,,,,
+1971,,,Burma,Burmese Communist Party (White Flags) (BCP); Communist Party of Burma (Red Flags) (CPB); KNUP; KNDO; KIA,27700000,"400-5000 (est) (2700); N/A; 1000-2500 (est) (1750); 7000 (claim), 5000 (est); 2000-3000 (est) (2500)",11950,0.000431408,,,,,15 August 1939; 1946,,,,,,,,,
+1971,,,Cambodia,People's Revolutionary Party of Cambodia (PRP); Khmer People's Party (PP); Khmer Revolutionary Front; Khmer Rouge; CNLA,7100000,100 (est); 1000 (est) (several thousands sympathizers); 100 (est); 500-4000 (est) (2750); 60000-65000 (est) (62500),66450,0.009359155,,,,,1951; 1955; N/A; N/A; 1970,,,,,,,,,
+1971,,,Ceylon,pro-Soviet Ceylon Communist Party (LKP); pro-Chinese LKP; LSSP (Trotskyist) and splinter groups,12730000,1500-2000 (est) (1750); 200-2000 (est) (1100); not stated (???),2850,0.000223881,,,,,1940,,,,,,,,,
+1971,,,China,Chinese Communist Party (CCP),750000000,17000000 (early est),17000000,0.022666667,,,,,Jul-21,,,,,,,,,
+1971,,,India,Communist Party of India (CPI); CPI(M); CPI(M-L); Maoist Communist Centre,554600000,80000 (est); 80000 (est); 5000-10000 (est) (7500); 2000 (est),169500,0.000305626,,,,,26 December 1925; 1964; 1969,,,,,,,,,
+1971,,,Indonesia,Communist Party of Indonesia (PKI),121200000,"169000+8000 at large (177000), 68000+47000 jailed (115000), 2500+5000 (7500) being transported",299500,0.002471122,,,,,23-May-20,,,,,,,,,
+1971,,,Japan,Japan Communist Party (JCP); Democratic Youth League; Communist Workers' Party; Voice of Japan; Japanese Communist Party (Left); Japan Marxist-Leninist Alliance,103703522,280000 (est); 180000 (est); 2000 (est); 500 (est); 2000 (est); 700 (est),465200,0.004485865,,,,,Jul-22,,,,,,,,,
+1971,,,Democratic People's Republic of Korea,Korean Communist Party (KCP),13900000,1600000 (claim),1600000,0.115107914,,,,,1925,,,,,,,,,
+1971,,,Laos,Laotian People's Party (PPL); Laotian Patriotic Front (NLHX); Pathet Lao; PNF,3000000,700 (est); 1500-3000 (est) (2250); 30000-40000 (35000) + 2500 supporters + 2000-3000 dissident neutralists + 40000-67000 North Vietnamese Troops (53500); 2000-3000 (2500),94350,0.03145,,,,,1955,,,,,,,,,
+1971,,,Malaysia,Communist Party of Malaya (CPM); Sarawak Communist Organization (SCO),10800000,2000-2500 (est) (2250); 500 (est),2750,0.00025463,,,,,1928; N/A,,,,,,,,,
+1971,,,Mongolia,Mongolian People's Revolutionary Party (MPRP),1300000,71000 (claim),71000,0.054615385,,,,,1921,,,,,,,,,
+1971,,,Nepal,Communist Party of Nepal (CPN),11200000,8000 (est),8000,0.000714286,,,,,Sep-49,,,,,,,,,
+1971,,,New Zealand,"Communist Party of New Zealand (CPNZ); pro-Soviet Socialist Unity Party (SUP), Trotskyist Socialist Action League (SAL)",2786000,300; 100; 100 (est),500,0.000179469,,,,,December 1920; 1966; 1969,,,,,,,,,
+1971,,,Pakistan,Communist Party of Pakistan (CPP),136900000,"500 in West, 2500 in East (est) (World Strength ests: 700 in East and 750 in West)",3000,2.19E-05,,,,,1948,,,,,,,,,
+1971,,,Philippines,Philippine Communist Party (PKP); Philippine Branch of Chinese Communist Party; Huks; NPA; Nationalist Youth Movement (KM); Masaka,38000000,"1500-2000 (est) (1750); 300-500 (est) (400); 300 (est); 800-900 (est) (850); 6000 (claim), 3000-5000 (est) (4000); 30000",37300,0.000981579,,,,,26 August 1930; 1930,,,,,,,,,
+1971,,,Singapore,Communist Party of Malaya (CPM),2000000,200 (est),200,0.0001,,,,,,,,,,,,,,
+1971,,,Thailand,Communist Party of Thailand (CPT),36200000,"200-500 members (350), 3000-5000 guerrillas (4000), 25000 sympathizers",4350,0.000120166,,,,,1-Dec-42,,,,,,,,,
+1971,,,Democratic Republic of Vietnam (North Vietnam),Vietnam Workers' Party (VWP),21200000,"760000 (Ho Chi Minh, 1966 claim)",760000,0.035849057,,,,,1930,,,,,,,,,
+1971,,,Republic of Vietnam (South Vietnam),People's Revolutionary Party (PRP); NLFSV; North Vietnamese troops in SV,18000000,85000-100000 (est); 40000 main force + 100000 guerrillas (World Strength est) (140000); 117000-119000 (US DoD est) (118000),350500,0.019472222,,,,,1-Jan-62,,,,,,,,,
+1974,Eastern Europe and the Soviet Union,,Albania,,2270000,91985-92985,92485,0.040742291,,,,,,,,,,,,,,
+1974,,,Bulgaria,,N/A,699476,699476,,,,,,,,,,,,,,,
+1974,,,Czechoslovakia,,N/A,1280000,1280000,,,,,,,,,,,,,,,
+1974,,,German Democratic Republic,,17250000,"1902809 members, 48612 candidates",1951421,0.113125855,,,,,,,,,,,,,,
+1974,,,Hungary,,10429000,724000,724000,0.069421805,,,,,,,,,,,,,,
+1974,,,Poland,,33700000,2300000,2300000,0.068249258,,,,,,,,,,,,,,
+1974,,,Romania,,20800000,2366000,2366000,0.11375,,,,,,,,,,,,,,
+1974,,,USSR,,N/A,"14330525 members, 490506 candidate members",14821031,,,,,,,,,,,,,,,
+1974,,,Yugoslavia,,20770000,"1025476 (claim, 1972)",1025476,0.049372942,,,,,,,,,,,,,,
+1974,Western Europe,,Austria,,7400000,15000 (est),15000,0.002027027,,,,,,,,,,,,,,
+1974,,,Belgium,,10000000,12500,12500,0.00125,,,,,,,,,,,,,,
+1974,,,Cyprus,,660000,12000-14000,13000,0.01969697,,,,,,,,,,,,,,
+1974,,,Denmark,,5000000,7500,7500,0.0015,,,,,,,,,,,,,,
+1974,,,Finland,,4700000,48000,48000,0.010212766,,,,,,,,,,,,,,
+1974,,,France,,52000000,300000,300000,0.005769231,,,,,,,,,,,,,,
+1974,,,Federal Republic of Germany,,N/A,"45000 + 4800 ""extreme"" leftists",49800,,,,,,,,,,,,,,,
+1974,,,West Berlin,,2135000,8000,8000,0.003747073,,,,,,,,,,,,,,
+1974,,,Great Britain,,55347000,29943,29943,0.000541005,,,,,,,,,,,,,,
+1974,,,Greece,,8800000,"27000 in greece, 15000 abroad",42000,0.004772727,,,,,,,,,,,,,,
+1974,,,Iceland,,210000,2000,2000,0.00952381,,,,,,,,,,,,,,
+1974,,,Ireland,,4421000,300,300,6.79E-05,,,,,,,,,,,,,,
+1974,,,Italy,,55338000,1726537,1726537,0.031199845,,,,,,,,,,,,,,
+1974,,,Luxembourg,,400000,500-600 (est),550,0.001375,,,,,,,,,,,,,,
+1974,,,Netherlands,,13400000,10000 (est),10000,0.000746269,,,,,,,,,,,,,,
+1974,,,Norway,,4000000,a few thousand (est),3000,0.00075,,,,,,,,,,,,,,
+1974,,,Portugal,,8900000,2000,2000,0.000224719,,,,,,,,,,,,,,
+1974,,,San Marino,,19000,1000,1000,0.052631579,,,,,,,,,,,,,,
+1974,,,Spain,"Communist Party of Spain (PCE); ""rival PCE""",34000000,"5000-20000 in Spain (12500), 22000 exiles; 2000-3000 exile members (2500)",37000,0.001088235,,,,,,,,,,,,,,
+1974,,,Sweden,,8000000,17000,17000,0.002125,,,,,,,,,,,,,,
+1974,,,Switzerland,,N/A,4500-5000,4750,,,,,,,,,,,,,,,
+1974,,,Turkey,,N/A,5000,5000,,,,,,,,,,,,,,,
+1974,Middle East and Africa,,Algeria,,14000000,400,400,2.86E-05,,,,,,,,,,,,,,
+1974,,,Egypt,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1974,,,Iran,,28662000,500,500,1.74E-05,,,,,,,,,,,,,,
+1974,,,Iraq,,9400000,"2000 members, 10000-20000 sympathizers",2000,0.000212766,,,,,,,,,,,,,,
+1974,,,Israel,MAKI; RAKAH,2900000,1500; 1500,3000,0.001034483,,,,,,,,,,,,,,
+1974,,,Jordan,,2500000,"500-1000 members, 5000 sympathizers",750,0.0003,,,,,,,,,,,,,,
+1974,,,Lebanon,,2800000,2000-3000 (est),2500,0.000892857,,,,,,,,,,,,,,
+1974,,,Morocco,,16000000,300-400 (est),350,0.000021875,,,,,,,,,,,,,,
+1974,,,Nigeria,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1974,,,Reunion,,N/A,800 (US State Dept est),800,,,,,,,,,,,,,,,
+1974,,,South Africa,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1974,,,Sudan,,N/A,"5000-10000 active members, several thousand sympathizers",7500,,,,,,,,,,,,,,,
+1974,,,Syria,,6294000,3000-4000 (est),3500,0.000556085,,,,,,,,,,,,,,
+1974,,,Tunisia,,5140000,100 (est),100,1.95E-05,,,,,,,,,,,,,,
+1974,The Americas,,Argentina,,24350000,"115000 members, 40000 in youth group",155000,0.006365503,,,,,,,,,,,,,,
+1974,,,Bolivia,PCB; PCB-ML,5000000,1500; 1100,2600,0.00052,,,,,,,,,,,,,,
+1974,,,Brazil,"PCB; ""all other Marxist groups in Brazil""",100000000,6000; 1000,7000,0.00007,,,,,,,,,,,,,,
+1974,,,Canada,,22000000,2000-3000 (est),2500,0.000113636,,,,,,,,,,,,,,
+1974,,,Chile,,10044900,200000 (claim); 75000 in youth group,275000,0.027377077,,,,,,,,,,,,,,
+1974,,,Colombia,Communist Party of Colombia (PCC); FARC; EPL; ELN,24000000,10000-12000 (est); 500; 200; 100,11800,0.000491667,,,,,,,,,,,,,,
+1974,,,Costa Rica,,1786000,1000,1000,0.00055991,,,,,,,,,,,,,,
+1974,,,Cuba,,8553395,153000,153000,0.017887634,,,,,,,,,,,,,,
+1974,,,Dominican Republic,Dominican Communist Party (PCD); MPD; MR-1J4; PCRD; VP; PSP,4300000,460; 385; 300; 145; 65; 40,1400,0.000325581,,,,,,,,,,,,,,
+1974,,,Ecuador,Communist Party of Ecuador (PCE); PCMLE,6100000,500; 250,750,0.000122951,,,,,,,,,,,,,,
+1974,,,El Salvador,,3541000,100-150 (est),125,3.53E-05,,,,,,,,,,,,,,
+1974,,,Guadeloupe,,335000,"1500 (claim), 3000 (US State Dept est)",3000,0.008955224,,,,,,,,,,,,,,
+1974,,,Guatemala,Guatemalan Party of Labor (PGT); FAR; MR-13,5310000,750; 100; 100,950,0.000178908,,,,,,,,,,,,,,
+1974,,,Guyana,,763000,20000,20000,0.02621232,,,,,,,,,,,,,,
+1974,,,Haiti,,5200000,several hundred persons,500,9.62E-05,,,,,,,,,,,,,,
+1974,,,Honduras,Communist Party of Honduras (PCH),2700000,300,300,0.000111111,,,,,,,,,,,,,,
+1974,,,Martinique,,335000,1000,1000,0.002985075,,,,,,,,,,,,,,
+1974,,,Mexico,,50700000,5000,5000,9.86E-05,,,,,,,,,,,,,,
+1974,,,Nicaragua,Socialist Party of Nicaragua (PSN); Communist Party of Nicaragua (PCN),2000000,less than 100 (est); 40,140,0.00007,,,,,,,,,,,,,,
+1974,,,Panama,,1464000,250-500 (est),375,0.000256148,,,,,,,,,,,,,,
+1974,,,Paraguay,,2400000,3000-4000 (est),3500,0.001458333,,,,,,,,,,,,,,
+1974,,,Peru,Peruvian Communist Party (PCP); pro-Chinese faction,13600000,2000; 1200 (US State Dept est),3200,0.000235294,,,,,,,,,,,,,,
+1974,,,Puerto Rico,Puerto Rican Communist Party (PCP) and LSP; MPI,N/A,100; 15000-18000,16600,,,,,,,,,,,,,,,
+1974,,,USA,"Communist Party, USA (CPUSA)",N/A,10000-16000,13000,,,,,,,,,,,,,,,
+1974,,,Uruguay,,2900000,30000-35000,32500,0.011206897,,,,,,,,,,,,,,
+1974,,,Venezuela,Communist Party of Venezuela (PCV); Movement Towards Socialism (MAS),10800000,3000; 4500 (US State Dept est),7500,0.000694444,,,,,,,,,,,,,,
+1974,Asia and the Pacific,,Australia,,N/A,2300 (claim),2300,,,,,,,,,,,,,,,
+1974,,,Bangladesh,,N/A,2500 (est),2500,,,,,,,,,,,,,,,
+1974,,,Burma,,28000000,10600,10600,0.000378571,,,,,,,,,,,,,,
+1974,,,Cambodia,,N/A,"50000-65000 insurgents (American officials est) (57500), 115000+110000+10000 (235000) Phnom Penh army",292500,,,,,,,,,,,,,,,
+1974,,,China,,800000000,28000000,28000000,0.035,,,,,,,,,,,,,,
+1974,,,India,Communist Party of India (CPI); CPI(M); CPI(M-L),547949809,80000-100000; 80000-100000; 1000,181000,0.000330322,,,,,,,,,,,,,,
+1974,,,Indonesia,,,"4000 (Indonesian army intelligence est), 58000 prisoners",62000,,,,,,,,,,,,,,,
+1974,,,Japan,,108000000,"340000 members, 200000 youth league",540000,0.005,,,,,,,,,,,,,,
+1974,,,Democratic People's Republic of Korea,,14000000,2000000,2000000,0.142857143,,,,,,,,,,,,,,
+1974,,,Laos,Lao People's Party (PPL); Pathet Lao (LPLA); PNF,N/A,12000-14000 (US State Dept est); 43000; 2000,58000,,,,,,,,,,,,,,,
+1974,,,Malaysia,Communist Party of Malaya (CPM); other adherents; SCO,N/A,2000-3000; 5000; 1000,8500,,,,,,,,,,,,,,,
+1974,,,Mongolia,Mongolian People's Revolutionary Party (MPRP),1300000,"58048 (claim, 1971)",58048,0.044652308,,,,,,,,,,,,,,
+1974,,,Nepal,Communist Party of Nepal (CPN),12000000,5000 (est),5000,0.000416667,,,,,,,,,,,,,,
+1974,,,New Zealand,"Communist Party of New Zealand (CPNZ); pro-Soviet Socialist Unity Party (SUP), Trotskyist Socialist Action League (SAL)",3000000,100 (est); 100 (est); 40 (est),240,0.00008,,,,,,,,,,,,,,
+1974,,,Pakistan,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1974,,,Philippines,Communist Party of the Philippines (PKP); AB; radical and/or front groups like Masaka,N/A,1500; 100; several hundred,2000,,,,,,,,,,,,,,,
+1974,,,Singapore,Communist Party of Malaya (CPM),N/A,N/A,N/A,,,,,,,,,,,,,,,
+1974,,,Sri Lanka,SLCP; JVP,12800000,2000 (claim); 18000,20000,0.0015625,,,,,,,,,,,,,,
+1974,,,Thailand,"""communist terrorists""; Thai Communist Party",36000000,3700 hard-core insurgents; 1000 (US Dept of State est),4700,0.000130556,,,,,,,,,,,,,,
+1974,,,Democratic Republic of Vietnam (North Vietnam),Lao Dong Party,22000000,1300000 (widely accepted),1300000,0.059090909,,,,,,,,,,,,,,
+1974,,,Republic of Vietnam (South Vietnam),PRP; PLAF; PAVN in S. Vietnam,18000000,60000 (Western intelligence observers); 80000-100000 (est) (90000); 270000-300000 (estimates produced in Saigon) (285000),435000,0.024166667,,,,,,,,,,,,,,
+1975,,,Albania,,2322600,86985,86985,0.037451563,,,,,,,,,,,,,,
+1975,,,Bulgaria,,6363636,700000,700000,0.110000006,,,,,,,,,,,,,,
+1975,,,Czechoslovakia,,14480000,1250000+124000,1374000,0.094889503,,,,,,,,,,,,,,
+1975,,,German Democratic Republic,,17050000,"1900000 full, 46000 candidates",1946000,0.114134897,,,,,,,,,,,,,,
+1975,,,Hungary,,10400000,770000,770000,0.074038462,,,,,,,,,,,,,,
+1975,,,Poland,,33700000,2330000,2330000,0.069139466,,,,,,,,,,,,,,
+1975,,,Romania,,20770000,2480000,2480000,0.119402985,,,,,,,,,,,,,,
+1975,,,USSR,,252000000,14970000,14970000,0.059404762,,,,,,,,,,,,,,
+1975,,,Yugoslavia,,21260000,1076711,1076711,0.05064492,,,,,,,,,,,,,,
+1975,Western Europe,,Austria,,7400000,20676,20676,0.002794054,,,,,,,,,,,,,,
+1975,,,Belgium,,10000000,10000-12500,11250,0.001125,,,,,,,,,,,,,,
+1975,,,Cyprus,,651000,12000-14000,13000,0.019969278,,,,,,,,,,,,,,
+1975,,,Denmark,,5100000,8000,8000,0.001568627,,,,,,,,,,,,,,
+1975,,,Finland,,4700000,48000,48000,0.010212766,,,,,,,,,,,,,,
+1975,,,France,,N/A,330000-410000,370000,,,,,,,,,,,,,,,
+1975,,,Federal Republic of Germany,,61670000,40000,40000,0.000648614,,,,,,,,,,,,,,
+1975,,,West Berlin,,2134300,8000,8000,0.003748302,,,,,,,,,,,,,,
+1975,,,Great Britain,,55347000,28943,28943,0.000522937,,,,,,,,,,,,,,
+1975,,,Greece,,9000000,100000,100000,0.011111111,,,,,,,,,,,,,,
+1975,,,Iceland,,210000,2500,2500,0.011904762,,,,,,,,,,,,,,
+1975,,,Ireland,,3791000,250-300,275,7.25E-05,,,,,,,,,,,,,,
+1975,,,Italy,,54350000,1657815,1657815,0.030502576,,,,,,,,,,,,,,
+1975,,,Luxembourg,,400000,500-1000,750,0.001875,,,,,,,,,,,,,,
+1975,,,Netherlands,,13400000,10000,10000,0.000746269,,,,,,,,,,,,,,
+1975,,,Norway,,4000000,2000-5000,3500,0.000875,,,,,,,,,,,,,,
+1975,,,Portugal,,N/A,15000-60000 (37500) + 25000 + 800 + 1500,64800,,,,,,,,,,,,,,,
+1975,,,San Marino,,19000,3246,3246,0.170842105,,,,,,,,,,,,,,
+1975,,,Spain,,34500000,34000,34000,0.000985507,,,,,,,,,,,,,,
+1975,,,Sweden,,8000000,17000,17000,0.002125,,,,,,,,,,,,,,
+1975,,,Switzerland,,6420000,5000,5000,0.000778816,,,,,,,,,,,,,,
+1975,,,Turkey,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1975,Asia and the Pacific,,Australia,,N/A,2000,2000,,,,,,,,,,,,,,,
+1975,,,Bangladesh,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1975,,,Burma,,28800000,11200,11200,0.000388889,,,,,,,,,,,,,,
+1975,,,China,,838000000,28000000,28000000,0.033412888,,,,,,,,,,,,,,
+1975,,,India,,590000000,90000*2 + 10000 + 150,190150,0.000322288,,,,,,,,,,,,,,
+1975,,,Indonesia,,N/A,4000,4000,,,,,,,,,,,,,,,
+1975,,,Japan,,110000000,330000,330000,0.003,,,,,,,,,,,,,,
+1975,,,People's Democratic Republic of Korea,,14700000,2000000,2000000,0.136054422,,,,,,,,,,,,,,
+1975,,,Laos,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1975,,,Malaysia,,N/A,3400,3400,,,,,,,,,,,,,,,
+1975,,,Mongolia,,1400000,58048,58048,0.041462857,,,,,,,,,,,,,,
+1975,,,Nepal,,N/A,5000,5000,,,,,,,,,,,,,,,
+1975,,,New Zealand,,3000000,100,100,3.33E-05,,,,,,,,,,,,,,
+1975,,,Pakistan,,N/A,negligible,0,,,,,,,,,,,,,,,
+1975,,,Philippines,,N/A,1200-1500 + 3400,4750,,,,,,,,,,,,,,,
+1975,,,Singapore,,2130000,600,600,0.00028169,,,,,,,,,,,,,,
+1975,,,Sri Lanka,,12800000,2000+1000,3000,0.000234375,,,,,,,,,,,,,,
+1975,,,Thailand,,36000000,7800-8800 (8300),8300,0.000230556,,,,,,,,,,,,,,
+1975,,,North Vietnam,,N/A,1100000,1100000,,,,,,,,,,,,,,,
+1975,,,South Vietnam,,18000000,175000,175000,0.009722222,,,,,,,,,,,,,,
+1975,,,Argentina,,24350000,126000 + 4000,130000,0.005338809,,,,,,,,,,,,,,
+1975,,,Bolivia,,5000000,450,450,0.00009,,,,,,,,,,,,,,
+1975,,,Brazil,,100000000,7000 + 700,7700,0.000077,,,,,,,,,,,,,,
+1975,,,Canada,,22000000,2000-3000,2500,0.000113636,,,,,,,,,,,,,,
+1975,,,Chile,,N/A,255000,255000,,,,,,,,,,,,,,,
+1975,,,Colombia,,25000000,10000-12000,11000,0.00044,,,,,,,,,,,,,,
+1975,,,Costa Rica,,1800000,1000,1000,0.000555556,,,,,,,,,,,,,,
+1975,,,Cuba,,9000000,200000,200000,0.022222222,,,,,,,,,,,,,,
+1975,,,Dominican Republic,,4300000,3000,3000,0.000697674,,,,,,,,,,,,,,
+1975,,,Ecuador,,6300000,600,600,9.52E-05,,,,,,,,,,,,,,
+1975,,,El Salvador,,N/A,200,200,,,,,,,,,,,,,,,
+1975,,,Guadeloupe,,335000,3000,3000,0.008955224,,,,,,,,,,,,,,
+1975,,,Guatemala,,5310000,1050,1050,0.00019774,,,,,,,,,,,,,,
+1975,,,Guyana,,N/A,20000,20000,,,,,,,,,,,,,,,
+1975,,,Haiti,,5400000,200,200,3.70E-05,,,,,,,,,,,,,,
+1975,,,Honduras,,N/A,650,650,,,,,,,,,,,,,,,
+1975,,,Martinique,,335000,1000,1000,0.002985075,,,,,,,,,,,,,,
+1975,,,Mexico,,52640000,125000,125000,0.00237462,,,,,,,,,,,,,,
+1975,,,Nicaragua,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1975,,,Panama,,N/A,500,500,,,,,,,,,,,,,,,
+1975,,,Paraguay,,2500000,3000-4000,3500,0.0014,,,,,,,,,,,,,,
+1975,,,Peru,,14460000,3200,3200,0.0002213,,,,,,,,,,,,,,
+1975,,,Puerto Rico,,N/A,16700,16700,,,,,,,,,,,,,,,
+1975,,,USA,,N/A,16000,16000,,,,,,,,,,,,,,,
+1975,,,Uruguay,,2900000,30000,30000,0.010344828,,,,,,,,,,,,,,
+1975,,,Venezuela,,10970000,6000,6000,0.000546946,,,,,,,,,,,,,,
+1975,,,Egypt,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+1975,,,Iran,,30550000,300,300,9.82E-06,,,,,,,,,,,,,,
+1975,,,Iraq,,N/A,2000-3000,2500,,,,,,,,,,,,,,,
+1975,,,Israel,,3300000,1500*2,3000,0.000909091,,,,,,,,,,,,,,
+1975,,,Jordan,,2575000,400,400,0.00015534,,,,,,,,,,,,,,
+1975,,,Lebanon,,2960000,3000-6000,4500,0.00152027,,,,,,,,,,,,,,
+1975,,,Algeria,,N/A,400,400,,,,,,,,,,,,,,,
+1975,,,Morocco,,,300,300,,,,,,,,,,,,,,,
+1975,,,Tunisia,,,100,100,,,,,,,,,,,,,,,
+1975,,,Reunion,,470000,800,800,0.001702128,,,,,,,,,,,,,,
+1975,,,South Africa,,21448000,300,300,1.40E-05,,,,,,,,,,,,,,
+1975,,,Sudan,,N/A,5000-10000,7500,,,,,,,,,,,,,,,
+1975,,,Syria,,6680000,3000-4000,3500,0.000523952,In power,chinese,,,,,,,,,,,,
+1976,Eastern Europe and the Soviet Union,,Albania,,2378000,100000 plus,100000,0.042052145,In power,soviet,,,,,,,,,,,,
+,,,Bulgaria,,8741000,700000 plus,700000,0.08008237,In power,soviet,,,,,,,,,,,,
+,,,Czechoslovakia,,14804000,1100000 plus,1100000,0.074304242,In power,soviet,,,,,,,,,,,,
+,,,East Germany,,17050000,1900000 plus,1900000,0.11143695,In power,soviet,,,,,,,,,,,,
+,,,Hungary,,10510000,754353,754353,0.071774786,In power,soviet,,,,,,,,,,,,
+,,,Poland,,34022000,2453000,2453000,0.072100406,In power,soviet,,,,,,,,,,,,
+,,,Romania,,21100000,2500000 (1974),2500000,0.118483412,In power,neutral,,,,,,,,,,,,
+,,,USSR,,254300000,15000000 plus,15000000,0.05898545,In power,--,,,,,,,,,,,,
+,,,Yugoslavia,,21352000,1192446,1192446,0.05584704,In power,independent,,,,,,,,,,,,
+1976,Asia and the Pacific,,Australia,,13574000,2300,2300,0.000169442,legal,split,,,,,,,,,,,,
+,,,Bangladesh,,73746000,2500,2500,3.39E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Burma,,30429000,6500,6500,0.000213612,proscribed,chinese,,,,,,,,,,,,
+,,,Cambodia,,7634000,10000,10000,0.001309929,In power,chinese,,,,,,,,,,,,
+,,,China,,942012000,28000000 (1973),28000000,0.029723613,In power,--,,,,,,,,,,,,
+,,,India,CPI; CPI(M),600297000,355000; 106000,461000,0.000767953,legal; legal,soviet; neutral,,,,,,,,,,,,
+,,,Indonesia,,131166000,800,800,6.10E-06,proscribed,split,,,,,,,,,,,,
+,,,Japan,,110932000,330000,330000,0.002974795,legal,independent,,,,,,,,,,,,
+,,,North Korea,,16507000,2000000,2000000,0.12116072,In power,neutral,,,,,,,,,,,,
+,,,Laos,,3336000,unknown,N/A,,In power,neutral,,,,,,,,,,,,
+,,,Malaysia,,11860000,3000 insurgents,3000,0.000252951,proscribed,chinese,,,,,,,,,,,,
+,,,Mongolia,,1444000,58000 (1972),58000,0.040166205,In power,soviet,,,,,,,,,,,,
+,,,Nepal,,12550000,5000,5000,0.000398406,proscribed,factions,,,,,,,,,,,,
+,,,New Zealand,CPNZ; SUP,3092000,100; 120,220,7.12E-05,legal; legal,split; split,,,,,,,,,,,,
+,,,Pakistan,,70938000,800 (1973),800,1.13E-05,proscribed,chinese,,,,,,,,,,,,
+,,,Philippines,,42845000,2000 insurgents,2000,4.67E-05,proscribed,split,,,,,,,,,,,,
+,,,Singapore,,2254000,200,200,8.87E-05,proscribed,chinese,,,,,,,,,,,,
+,,,Sri Lanka,CP/M; CP/P,13763000,2000; 1000,3000,0.000217976,legal; legal,split; split,,,,,,,,,,,,
+,,,Thailand,,42298000,8000 insurgents,8000,0.000189134,proscribed,chinese,,,,,,,,,,,,
+,,,North Vietnam,,24323000,900000,900000,0.037002015,In power,neutral,,,,,,,,,,,,
+,,,South Vietnam,,20843000,180000,180000,0.008635993,In power,neutral,,,,,,,,,,,,
+1976,Middle East and Africa,,Egypt,,37335000,500,500,1.34E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Iran,,33200000,1000,1000,3.01E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Iraq,,11024000,2000,2000,0.000181422,allowed,soviet,,,,,,,,,,,,
+,,,Israel,,3372000,1500,1500,0.00044484,legal,soviet,,,,,,,,,,,,
+,,,Jordan,,2708000,400,400,0.00014771,proscribed,soviet,,,,,,,,,,,,
+,,,Lebanon,,2449000,3000,3000,0.00122499,legal,soviet,,,,,,,,,,,,
+,,,Algeria,,16794000,400,400,2.38E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Morocco,,17274000,500,500,2.89E-05,allowed,soviet,,,,,,,,,,,,
+,,,Tunisia,,5776000,100,100,1.73E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Reunion,,494000,800,800,0.001619433,legal,independent,,,,,,,,,,,,
+,,,South Africa,,24964000,300,300,1.20E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Sudan,,18000000,3500,3500,0.000194444,proscribed,soviet,,,,,,,,,,,,
+,,,Syria,,7345000,3500,3500,0.000476515,allowed,soviet,,,,,,,,,,,,
+1976,The Americas,,Argentina,,25030000,147000,147000,0.005872952,legal,soviet,,,,,,,,,,,,
+,,,Bolivia,,5272000,450,450,8.54E-05,proscribed,split,,,,,,,,,,,,
+,,,Brazil,,107613000,7000,7000,6.50E-05,proscribed,split,,,,,,,,,,,,
+,,,Canada,,22781000,2500,2500,0.000109741,legal,split,,,,,,,,,,,,
+,,,Chile,,10584000,100000,100000,0.009448224,proscribed,soviet,,,,,,,,,,,,
+,,,Colombia,,22217000,12000,12000,0.000540127,legal,split,,,,,,,,,,,,
+,,,Costa Rica,,1968000,1500,1500,0.000762195,legal,soviet,,,,,,,,,,,,
+,,,Cuba,,9252000,200000,200000,0.021616948,In power,soviet,,,,,,,,,,,,
+,,,Dominican Republic,,4697000,1500,1500,0.000319353,proscribed,factions,,,,,,,,,,,,
+,,,Ecuador,,6705000,600,600,8.95E-05,legal,split,,,,,,,,,,,,
+,,,El Salvador,,4100000,175,175,4.27E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Guadeloupe,,352000,3000,3000,0.008522727,legal,soviet,,,,,,,,,,,,
+,,,Guatemala,,5853000,750,750,0.000128139,proscribed,soviet,,,,,,,,,,,,
+,,,Guyana,,811000,100,100,0.000123305,legal,soviet,,,,,,,,,,,,
+,,,Haiti,,4569000,150,150,3.28E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Honduras,,2749000,750,750,0.000272826,proscribed,soviet,,,,,,,,,,,,
+,,,Martinique,,347000,1000,1000,0.002881844,legal,soviet,,,,,,,,,,,,
+,,,Mexico,,58075000,5000,5000,8.61E-05,legal,independent,,,,,,,,,,,,
+,,,Nicaragua,,2153000,150,150,6.97E-05,proscribed,soviet,,,,,,,,,,,,
+,,,Panama,,1668000,500,500,0.00029976,proscribed,soviet,,,,,,,,,,,,
+,,,Paraguay,,2547000,3500,3500,0.001374166,proscribed,split,,,,,,,,,,,,
+,,,Peru,,14819000,3200,3200,0.000215939,legal,split,,,,,,,,,,,,
+,,,Puerto Rico,,900000,125,125,0.000138889,legal,soviet,,,,,,,,,,,,
+,,,USA,,215000000,15000,15000,6.98E-05,legal,soviet,,,,,,,,,,,,
+,,,Uruguay,,3064000,30000,30000,0.009791123,proscribed,soviet,,,,,,,,,,,,
+,,,Venezuela,,11980000,6000,6000,0.000500835,legal,factions,,,,,,,,,,,,
+1976,Western Europe,,Austria,,7575000,20000-25000,22500,0.002970297,legal,,Volksstimme; Weg und Ziel,70000; n/a,,,,,,,,,,
+,,,Belgium,,10000000,13250,13250,0.001325,legal,,Le Drapeau Rouge; De Rode Vaan (Flemish); Cahiers Marxistes; L'Offensive,n/a; n/a; n/a; n/a,,,,,,,,,,
+,,,Cyprus,,650000,12000-14000,13000,0.02,legal,,Kharavyi; Theoritikos Dimokratis; Neoi Kairoi; Ergatiko Vima; Dimokratia; Neolaia; To Vima,,,,,,,,,,,
+,,,Denmark,,5200000,8000,8000,0.001538462,legal,,Land og Folk; Tiden-Verden Rund; Fremad,10000; n/a; n/a,,,,,,,,,,
+,,,Finland,,4700000,48000,48000,0.010212766,legal,,Kansan Uutiset,,,,,,,,,,,
+,,,France,,,450000,450000,,legal,,L'Humanite,,,,,,,,,,,
+,,,West Germany,,60000000,45000,102000,0.0017,,,Unsere Zeit,60000,,,,,,,,,,
+,,,West Berlin,,2100000,8000,8000,0.003809524,,,Die Wahrheit,15000,,,,,,,,,,
+,,,Great Britain,,61000000,28519,28519,0.000467525,,,Morning Star,,,,,,,,,,,
+,,,Greece,,9000000,25000-30000,27500,0.003055556,,,Avgi; Rizospastis; Kommounistiki Epitheorisi,,,,,,,,,,,
+,,,Iceland,,218000,2500,2500,0.01146789,,,Thjodviljiin,,,,,,,,,,,
+,,,Ireland,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+,,,Italy,,55700000,1700000,1700000,0.030520646,,,L'Unita,400000,,,,,,,,,,
+,,,Luxembourg,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+,,,Netherlands,,13634000,10000,10000,0.00073346,,,De Waarheid,,,,,,,,,,,
+,,,Norway,,4000000,2500,2500,0.000625,,,Friheten,,,,,,,,,,,
+,,,Portugal,,N/A,N/A,N/A,,,,Avante,80000,,,,,,,,,,
+,,,San Marino,,19000,300,300,0.015789474,,,,,,,,,,,,,,
+,,,Spain,,35600000,25000,25000,0.000702247,,,,,,,,,,,,,,
+,,,Sweden,,8000000,17000,17000,0.002125,,,Ny Dag,,,,,,,,,,,
+,,,Switzerland,,6524000,5000-7000; 2000-4000,9000,0.001379522,,,Vorwarts; Voix Ouvriere; Il Lavoratore,12000; 8000; 1000,,,,,,,,,,
+,,,Turkey,,N/A,N/A,N/A,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+1978,Eastern Europe and the Soviet Union (9),Asterisk,Albania,,2530000,101500 (as of 1976),101500,,In power,Anti-Soviet,,,,,99.9,1974,All 250,250,250,100,Democratic Front,
+,,,Bulgaria,,8864000,789796,789796,,In power,Pro-Moscow,,,,,99.9,1976,272 of 400,272,400,68,Fatherland Front,
+,,,Czechoslovakia,,15049000,1382860,1382860,,In power,Pro-Moscow,,,,,99.9,1976,All 200,200,200,100,National Front,
+,,,East Germany (GDR),,16786000,2077262,2077262,,In power,Pro-Moscow,,,,,99.9,1976,127 of 500,127,500,25.4,National Front,
+,,,Hungary,,10695000,765566,765566,,In power,Pro-Moscow,,,,,99.6,1975,All 352,352,352,100,Patriotic People's Front,
+,,,Poland,,35000000,2573000,2573000,,In power,Pro-Moscow,,,,,99.4,1976,262 of 460,262,460,56.95652174,Front of National Unity,
+,,Asterisk,Romania,,21559400,2700000,2700000,,In power,Neutral,,,,,99.9,1975,All 349,349,349,100,Front of Socialist Unity,
+,,,USSR,,260178000,16203446,16203446,,In power,--,,,,,99.9,1974,All 1517,1517,1517,100,CPSU-approved,
+,,,Yugoslavia,,21770000,1537000,1537000,,In power,Independent,,,,,N/A,1974,All 200,200,200,100,Socialist Alliance,
+,Western Europe (24),Asterisk,Austria,,7520000,20000 est,20000,,Legal,Pro-Moscow,,,,,1.2,1975,None,0,N/A,#VALUE!,,
+,,Asterisk,Belgium,,10000000,11000 est,11000,,Legal,Pro-Moscow,,,,,2.7,1975,2 of 212,2,212,0.943396226,,
+,,,Cyprus,,640000,11000 est,11000,,Legal,Pro-Moscow,,,,,30,1976,9 of 35,9,35,25.71428571,Greek Cypriot seats,
+,,Asterisk,Denmark,,5090000,8000 est,8000,,Legal,Pro-Moscow,,,,,3.7,1977,7 of 179,7,179,3.910614525,,
+,,Asterisk,Faroe Islands,,42000,insignificant,0,,Allowed,Split,,,,,N/A,1975,None,0,N/A,#VALUE!,,
+,,Asterisk,Finland,,4746000,48000,48000,,Legal,Pro-Moscow,,,,,19,1975,36 of 200,36,200,18,,
+,,Asterisk,France,,53352000,600000 claim,600000,,Legal,Pro-Moscow,,,,,21.3,1973,73 of 490,73,490,14.89795918,,
+,,Asterisk,Germany (FRG),,61520000,40000 est,40000,,Legal,Pro-Moscow,,,,,0.3,1976,None,0,N/A,#VALUE!,,
+,,,West Berlin,,2100000,7500,7500,,Legal,Pro-Moscow,,,,,1.9,1975,None,0,N/A,#VALUE!,,
+,,Asterisk,Great Britain,,56000000,25293 claim,25293,,Legal,Split,,,,,0.5,1974,None,0,N/A,#VALUE!,,
+,,Asterisk,Greece,,9150000,27500 est,27500,,Legal,Split (3),,,,,9.3,1977,11 of 300,11,300,3.666666667,,
+,,Asterisk,Iceland,,223000,2500 est,2500,,Legal,Independent,,,,,18.3,1974,11 of 60,11,60,18.33333333,,
+,,,Ireland,,3199000,500 est,500,,Legal,Pro-Moscow,,,,,N/A,1977,None,0,N/A,#VALUE!,,
+,,Asterisk,Italy,,58000000,1800000 claim,1800000,,Legal,Pro-Moscow,,,,,34.4,1976,228 of 630,228,630,36.19047619,,
+,,Asterisk,Luxembourg,,356400,600 est,600,,Legal,Pro-Moscow,,,,,9,1974,5 of 59,5,59,8.474576271,,
+,,Asterisk,Malta,,322000,100,100,,Legal,Pro-Moscow,,,,,N/A,1976,None,0,N/A,#VALUE!,,
+,,Asterisk,Netherlands,,13869000,14500,14500,,Legal,Independent,,,,,1.7,1977,2 of 150,2,150,1.333333333,,
+,,Asterisk,Norway,,4050000,1500 est,1500,,Legal,Pro-Moscow,,,,,4.2,1977,2 of 155,2,155,1.290322581,coalition of 3 (incl. CP),
+,,Asterisk,Portugal,,9634000,115000,115000,,Legal,Pro-Moscow,,,,,14.6,1976,40 of 263,40,263,15.20912548,,
+,,Asterisk,San Marino,,20000,300,300,,Legal,Pro-Moscow,,,,,23.7,1974,16 of 60,16,60,26.66666667,,
+,,Asterisk,Spain,,36542000,200000 claim,200000,,Legal,Pro-Moscow,,,,,9.2,1977,20 of 350,20,350,5.714285714,,
+,,Asterisk,Sweden,,8250000,17500 est,17500,,Legal,Split,,,,,5,1976,17 of 349,17,349,4.871060172,,
+,,Asterisk,Switzerland,,6421000,5000 est,5000,,Legal,Pro-Moscow,,,,,2.5,1975,5 of 200,5,200,2.5,,
+,,,Turkey,,42518000,26000 claim,26000,,Proscribed,Pro-Moscow,,,,,N/A,1977,,N/A,N/A,#VALUE!,,
+1978,Asia and the Pacific (21),Asterisk,Australia,,13861000,1500 est,1500,,Legal,Split (3),,,,,N/A,1977,None,0,N/A,#VALUE!,,
+,,Asterisk,Bangladesh,,78000000,2500 est,2500,,Proscribed,Split,,,,,N/A,1973,,N/A,N/A,#VALUE!,,
+,,Asterisk,Burma,,31700000,10000 est,10000,,Proscribed,Pro-Peking,,,,,N/A,1974,,N/A,N/A,#VALUE!,,
+,,Asterisk,Cambodia,,8060000,10000 est,10000,,In power,Pro-Peking,,,,,100,1976,All 250,250,250,100,,
+,,,China,,950000000,35000000 claim,35000000,,In power,--,,,,,N/A,,No elections scheduled,N/A,N/A,#VALUE!,,
+,,Asterisk,Hong Kong,,4563000,2000,2000,,Legal,Pro-Peking,,,,,N/A,,,N/A,N/A,#VALUE!,,
+,,Asterisk,India,,649354000,90000 CPI est; 120000 CPI(M) (1974),210000,,Legal; Legal,Pro-Moscow; Neutral,,,,,2.8; 4.3,1977; 1977,7 of 244; 22 of 244,29,244,11.8852459,,
+,,Asterisk,Indonesia,,139075000,1000 est,1000,,Proscribed,Split,,,,,N/A,1971,,N/A,N/A,#VALUE!,,
+,,Asterisk,Japan,,113000000,370000 est,370000,,Legal,Independent,,,,,10.4,1976,17 of 511,17,511,3.326810176,,
+,,Asterisk,Korea (DPRK),,17500000,1800000 claim,1800000,,In power,Neutral,,,,,100,1977,All 579,579,579,100,,
+,,Asterisk,Laos,,3400000,15000 est,15000,,In power,Neutral,,,,,N/A,,No elections scheduled,N/A,N/A,#VALUE!,,
+,,Asterisk,Malaysia,,12736000,2750000 insurgents,2750000,,Proscribed,Pro-Peking,,,,,N/A,1974,,N/A,N/A,#VALUE!,,
+,,,Mongolia,,1561000,67000 claim,67000,,In power,Pro-Moscow,,,,,99.9,1973,All 336,336,336,100,,
+,,,Nepal,,13199000,6500 est,6500,,Proscribed,Split,,,,,N/A,1959,,N/A,N/A,#VALUE!,,
+,,Asterisk,New Zealand,,3100000,500 est,500,,Legal,Split,,,,,0.2,1975,None,0,N/A,#VALUE!,,
+,,,Pakistan,,75657000,1500 est,1500,,Proscribed,Pro-Moscow (mostly),,,,,N/A,1977,,N/A,N/A,#VALUE!,,
+,,Asterisk,Philippines,,40000000,2000 insurgents,2000,,Proscribed,Split,,,,,N/A,,Elections suspended,N/A,N/A,#VALUE!,,
+,,,Singapore,,2400000,400 est,400,,Proscribed,Pro-Peking,,,,,N/A,1972,,N/A,N/A,#VALUE!,,
+,,Asterisk,Sri Lanka,,14349000,5000 SLCP est; 1000 LSSP est,6000,,Legal; Legal,Pro-Moscow; Pro-Peking,,,,,1.9; 3.9,1977; 1977,None; None,N/A,N/A,#VALUE!,,
+,,Asterisk,Thailand,,44790000,unknown,N/A,,Proscribed,Pro-Peking,,,,,N/A,1976,,N/A,N/A,#VALUE!,,
+,,Asterisk,Vietnam,,51152000,1533500 claim,1533500,,In power,Neutral,,,,,99,1976,All 492,492,492,100,,
+1978,The Americas (27),Asterisk,Argentina,,26224000,65000 est,65000,,Legal,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,#VALUE!,,
+,,Asterisk,Bolivia,,5500500,500 est,500,,Proscribed,Split,,,,,N/A,,Elections scheduled 1978,N/A,N/A,#VALUE!,,
+,,,Brazil,,110000000,4500 est,4500,,Proscribed,Split,,,,,N/A,1974,None,0,N/A,#VALUE!,,
+,,Asterisk,Canada,,23437000,2000 est,2000,,Legal,Split,,,,,N/A,1974,None,0,N/A,#VALUE!,,
+,,Asterisk,Chile,,10742000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,,Elections promised,N/A,N/A,#VALUE!,,
+,,Asterisk,Colombia,,24880000,12000 est,12000,,Legal,Split,,,,,N/A,1974,2 of 311,2,311,0.643086817,,
+,,,Costa Rica,,2100000,1000 est,1000,,Legal,Pro-Moscow,,,,,2.3,1974,2 of 57,2,57,3.50877193,,
+,,,Cuba,,9700000,204000 est,204000,,In power,Pro-Moscow,,,,,N/A,1976,441 of 481,441,481,91.68399168,,
+,,Asterisk,Dominican Republic,,5051000,1000 est,1000,,Legal,Factions,,,,,N/A,1974,None,0,N/A,#VALUE!,,
+,,,Ecuador,,7680000,800 est,800,,Legal,Split,,,,,N/A,,Elections scheduled 1978,N/A,N/A,#VALUE!,,
+,,,El Salvador,,4310000,150 est,150,,Proscribed,Pro-Moscow,,,,,N/A,1976,,N/A,N/A,#VALUE!,,
+,,Asterisk,Guadeloupe,,329000,3000 est,3000,,Legal,Pro-Moscow,,,,,N/A,1976,7 of 36,7,36,19.44444444,,
+,,,Guatemala,,6183000,750 est,750,,Proscribed,Pro-Moscow,,,,,N/A,1974,,N/A,N/A,#VALUE!,,
+,,,Guyana,,850000,unknown,N/A,,Legal,Pro-Moscow,,,,,3.6,1973,14 of 53,14,53,26.41509434,,
+,,Asterisk,Haiti,,5000000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,1973,,N/A,N/A,#VALUE!,,
+,,Asterisk,Honduras,,2912000,650,650,,Proscribed,Split,,,,,N/A,,Elections scheduled 1979/80,N/A,N/A,#VALUE!,,
+,,,Jamaica,,2130000,200 est,200,,Allowed,Pro-Moscow,,,,,N/A,1976,None,0,N/A,#VALUE!,,
+,,,Martinique,,327000,1000 est,1000,,Legal,Pro-Moscow,,,,,N/A,1976,3 of 36,3,36,8.333333333,,
+,,,Mexico,,64487000,60000 est,60000,,Legal,Pro-Moscow,,,,,N/A,1976,None,0,N/A,,,
+,,,Nicaragua,,2224000,160 est,160,,Proscribed,Split,,,,,N/A,1974,,N/A,N/A,,,
+,,,Panama,,1750000,425,425,,Allowed,Pro-Moscow,,,,,N/A,1972,None,0,N/A,,,
+,,,Paraguay,,2700000,3500 est,3500,,Proscribed,Split,,,,,N/A,1973,,N/A,N/A,,,
+,,Asterisk,Peru,,16579000,3200,3200,,Legal,Split,,,,,N/A,,Elections scheduled 1978,N/A,N/A,,,
+,,,Puerto Rico,,3200000,125 est,125,,Legal,Pro-Moscow,,,,,N/A,1976,None,0,N/A,,,
+,,Asterisk,United States,,217799000,18000 claimed,18000,,Legal,Pro-Moscow,,,,,0.2,1976,None,0,N/A,,,
+,,Asterisk,Uruguay,,2800000,6000 est,6000,,Proscribed,Pro-Moscow,,,,,N/A,,Elections scheduled 1980,N/A,N/A,,,
+,,Asterisk,Venezuela,,12500000,10000 est,10000,,Legal,Factions,,,,,9,1973,11 of 195,11,195,,,
+1978,Middle East and Africa (17),,Egypt,,39396000,1000 est,1000,,Proscribed,Pro-Moscow,,,,,N/A,1976,2 of 350,2,350,,,
+,,,Iran,,35000000,1500 est,1500,,Proscribed,Pro-Moscow,,,,,N/A,1975,,N/A,N/A,,,
+,,,Iraq,,10000000,2000 est,2000,,Allowed,Pro-Moscow,,,,,N/A,,No elections since 1958,N/A,N/A,,,
+,,,Israel,,3628000,1500 est,1500,,Legal,Pro-Moscow,,,,,4.6,1977,5 of 120,5,120,,,
+,,,Jordan,,2899000,500 est,500,,Proscribed,Pro-Moscow,,,,,N/A,,No elections since 1967,N/A,N/A,,,
+,,,Lebanon,,2500000,2500 est,2500,,Legal,Pro-Moscow,,,,,N/A,1972,None,0,N/A,,,
+,,,Lesotho,,1098000,,N/A,,N/A,N/A,,,,,N/A,,,N/A,N/A,,,
+,,,Algeria,,18120000,400 est,400,,Proscribed,Pro-Moscow,,,,,N/A,1976,,N/A,N/A,,,
+,,,Morocco,,18644000,400 est,400,,Allowed,Pro-Moscow,,,,,N/A,1977,None,0,N/A,,,
+,,,Tunisia,,5936000,100 est,100,,Proscribed,Pro-Moscow,,,,,N/A,1974,,N/A,N/A,,,
+,,,Nigeria,,66555000,unknown,N/A,,Banned,Pro-Moscow,,,,,N/A,1976,No parties,N/A,N/A,,,
+,,Asterisk,Reunion,,504000,2000 est,2000,,Legal,Independent,,,,,40,1973,None in Paris,N/A,N/A,,,
+,,,Saudi Arabia,,7746000,negligible,0,,Proscribed,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,,Senegal,,5301000,unknown,N/A,,Legal,Pro-Moscow,,,,,N/A,1973,None,0,N/A,,,
+,,,South Africa,,27188000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,1977,,N/A,N/A,,,
+,,,Sudan,,16740000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,1974,No parties,N/A,N/A,,,
+,,,Syria,,8000000,4000 est,4000,,Allowed,Pro-Moscow,,,,,N/A,1977,6 of 195,6,195,,,
+1979,Eastern Europe and the Soviet Union (9),,Albania,,2569000,101500 claim,101500,,In power,Independent,,,,,99.8,1978,All 250,250,250,,Democratic Front,
+,,,Bulgaria,,8864000,812000 claim,812000,,In power,Pro-Moscow,,,,,99.9,1976,272 of 400,272,400,,Fatherland Front,
+,,,Czechoslovakia,,15136000,1473000 claim,1473000,,In power,Pro-Moscow,,,,,99.9,1976,All of 200,200,200,,National Front,
+,,,East Germany (GDR),,16757000,2077262 claim,2077262,,In power,Pro-Moscow,,,,,99.9,1976,127 of 500,127,500,,National Front,
+,,,Hungary,,10693000,770000 claim,770000,,In power,Pro-Moscow,,,,,99.6,1975,All 352,352,352,,Patriotic People's Front,
+,,,Poland,,35000000,2758000 claim,2758000,,In power,Pro-Moscow,,,,,99.4,1976,262 of 460,262,460,,Front of National Unity,
+,,Asterisk,Romania,,21868000,2747000 claim,2747000,,In power,Neutral,,,,,99.9,1975,All 349,349,349,,Front of Socialist Unity,
+,,,USSR,,261200000,16300000 claim,16300000,,In power,--,,,,,99.9,1974,All 1517,1517,1517,,CPSU-approved,
+,,,Yugoslavia,,21968000,1629082 claim,1629082,,In power,Independent,,,,,N/A,1978,All 380,380,380,,Socialist Alliance,
+1979,Western Europe (24),Asterisk,Austria,,7517000,22500 est,22500,,Legal,Pro-Moscow,,,,,1.2,1975,None,0,N/A,,,
+,,Asterisk,Belgium,,9840000,10000,10000,,Legal,Pro-Moscow,,,,,2 to 3,1978,4 of 212,4,212,,,
+,,,Cyprus,,641000,11500 est,11500,,Legal,Pro-Moscow,,,,,30,1976,9 of 35,9,35,,Greek Cypriot seats,
+,,Asterisk,Denmark,,5106000,8000 est,8000,,Legal,Pro-Moscow,,,,,3.7,1977,7 of 179,7,179,,,
+,,Asterisk,Faroe Islands,,42000,insignificant,0,,Allowed,Split,,,,,N/A,1977,None,0,N/A,,,
+,,Asterisk,Finland,,4770000,48000 est,48000,,Legal,Pro-Moscow,,,,,19,1975,40 of 200,40,200,,,
+,,Asterisk,France,,53446000,650000 claim,650000,,Legal,Pro-Moscow,,,,,20.6,1978,86 of 491,86,491,,,
+,,Asterisk,Germany (FRG),,61520000,46380 claim,46380,,Legal,Pro-Moscow,,,,,0.3,1976,None,0,N/A,,,
+,,,West Berlin,,2100000,7500 est,7500,,Legal,Pro-Moscow,,,,,1.9,1975,None,0,N/A,,,
+,,Asterisk,Great Britain,,55894000,25938 claim,25938,,Legal,Pro-Moscow,,,,,0.5,1974,None,0,N/A,,,
+,,Asterisk,Greece,,9309000,27500 est,27500,,Legal,Split (3),,,,,9.3,1977,11 of 300,11,300,,,
+,,Asterisk,Iceland,,224000,3000 est,3000,,Legal,Independent,,,,,22.9,1978,14 of 60,14,60,,,
+,,,Ireland,,3288000,600 est,600,,Legal,Pro-Moscow,,,,,N/A,1977,None,0,N/A,,,
+,,Asterisk,Italy,,56711000,1800000 claim,1800000,,Legal,Pro-Moscow,,,,,34.4,1976,228 of 630,228,630,,,
+,,Asterisk,Luxembourg,,358000,600 est,600,,Legal,Pro-Moscow,,,,,9,1974,5 of 59,5,59,,,
+,,Asterisk,Malta,,334000,100 est,100,,Legal,Pro-Moscow,,,,,N/A,1976,None,0,N/A,,,
+,,Asterisk,Netherlands,,14000000,14500,14500,,Legal,Pro-Moscow,,,,,1.7,1977,2 of 150,2,150,,,
+,,Asterisk,Norway,,4061000,2250 est,2250,,Legal,Independent,,,,,5.2,1977,2 of 155,2,155,,,
+,,Asterisk,Portugal,,9786000,142000 claim,142000,,Legal,Pro-Moscow,,,,,14.6,1976,40 of 263,40,263,,,
+,,Asterisk,San Marino,,20000,300 est,300,,Legal,Pro-Moscow,,,,,21.1,1978,16 of 60,16,60,,,
+,,Asterisk,Spain,,36734000,"270000 claim, 200000 est",200000,,Legal,Independent,,,,,9.2,1977,20 of 350,20,350,,,
+,,Asterisk,Sweden,,8273000,17000 est,17000,,Legal,Split,,,,,2.5,1976,17 of 349,17,349,,,
+,,Asterisk,Switzerland,,6293000,5000 est,5000,,Legal,Pro-Moscow,,,,,2.5,1975,6 of 200,6,200,,,
+,,,Turkey,,43059000,2000 est,2000,,Proscribed,Pro-Moscow,,,,,N/A,1977,,N/A,N/A,,,
+1979,Asia and the Pacific (22),,Afghanistan,,14381000,50000 claim,50000,,In power,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Australia,,14227000,3900 est,3900,,Legal,Split (3),,,,,N/A,1977,None,0,N/A,,,
+,,Asterisk,Bangladesh,,85771000,2500 est,2500,,Proscribed,Split,,,,,N/A,1973,,N/A,N/A,,,
+,,Asterisk,Burma,,32205000,7000 est,7000,,Proscribed,Pro-Peking,,,,,N/A,1974,,N/A,N/A,,,
+,,Asterisk,Cambodia,,8148000,10000 est,10000,,In power,Pro-Peking,,,,,100,1976,All 250,250,250,,,
+,,,China,,1003835000,35000000 claim,35000000,,In power,--,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Hong Kong,,4584000,2000 est,2000,,Legal,Pro-Peking,,,,,N/A,,City council @ 2 years,N/A,N/A,,,
+,,Asterisk,India,,660722000,100000 CPM est; 85000 CPI est.,185000,,Legal; N/A,Neutral; Pro-Moscow,,,,,4.3; N/A,1977; N/A,22 of 244,22,244,,,
+,,Asterisk,Indonesia,,140680000,1000 est,1000,,Proscribed,Split,,,,,N/A,1977,,N/A,N/A,,,
+,,Asterisk,Japan,,114983000,350000 est,350000,,Legal,Independent,,,,,10.4,1976,17 of 511,17,511,,,
+,,Asterisk,Korea (DPRK),,18000000,1800000 est,1800000,,In power,Neutral,,,,,100,1977,All 579,579,579,,,
+,,Asterisk,Laos,,3500000,15000 est,15000,,In power,Neutral,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Malaysia,,12860000,3150 est,3150,,Proscribed,Pro-Peking,,,,,N/A,1978,,N/A,N/A,,,
+,,,Mongolia,,1587000,67000 claim,67000,,In power,Pro-Moscow,,,,,99.9,1973,All 336,336,336,,,
+,,,Nepal,,13680000,6500 est,6500,,Proscribed,Split,,,,,N/A,1959,,N/A,N/A,,,
+,,Asterisk,New Zealand,,3116000,500 est,500,,Legal,Split,,,,,0.2,1978,None,0,N/A,,,
+,,,Pakistan,,77786000,1500 est,1500,,Proscribed,Pro-Moscow,,,,,N/A,1977,,N/A,N/A,,,
+,,Asterisk,Philippines,,45880000,2250 est,2250,,Proscribed,Split,,,,,N/A,1978,,N/A,N/A,,,
+,,,Singapore,,2400000,500 est,500,,Proscribed,Pro-Peking,,,,,N/A,1976,,N/A,N/A,,,
+,,Asterisk,Sri Lanka,,14283000,6000 est,6000,,Legal,Split,,,,,1.9,1977,None,0,N/A,,,
+,,Asterisk,Thailand,,45850000,1200 est (plus 10500 guerrillas),11700,,Proscribed,Pro-Peking,,,,,N/A,1976,,N/A,N/A,,,
+,,Asterisk,Vietnam,,51226000,1533000 claim,1533000,,In power,Pro-Moscow,,,,,99,1976,All 492,492,492,,,
+1979,The Americas (27),Asterisk,Argentina,,26487000,70000 est,70000,,Legal,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Bolivia,,5081000,500 est,500,,Proscribed,Split,,,,,N/A,1978,,N/A,N/A,,,
+,,,Brazil,,115415000,6000 est,6000,,Proscribed,Split,,,,,N/A,1974,,N/A,N/A,,,
+,,Asterisk,Canada,,23632000,2000 est,2000,,Legal,Split,,,,,N/A,1974,None,0,N/A,,,
+,,Asterisk,Chile,,10770000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,,Elections promised,N/A,N/A,,,
+,,Asterisk,Colombia,,25559000,12000 est,12000,,Legal,Pro-Moscow,,,,,1.9,1978,3 of 311,3,311,,,
+,,,Costa Rica,,2119000,3200 est,3200,,Legal,Pro-Moscow,,,,,2.7,1978,2 of 57,2,57,,,
+,,,Cuba,,9797000,200000 est,200000,,In power,Pro-Moscow,,,,,91.7,1976,441 of 481,441,481,,,
+,,Asterisk,Dominican Republic,,5393000,5000 est,5000,,Legal,Factions,,,,,N/A,1978,None,0,N/A,,,
+,,,Ecuador,,7550000,1000 est,1000,,Legal,Split,,,,,5.1,1978,None,0,N/A,,,
+,,,El Salvador,,4515000,225 est,225,,Proscribed,Pro-Moscow,,,,,N/A,1976,,N/A,N/A,,,
+,,Asterisk,Guadeloupe,,331000,3000 est,3000,,Legal,Pro-Moscow,,,,,N/A,1976,7 of 36,7,36,,,
+,,,Guatemala,,6621000,740 est,740,,Proscribed,Pro-Moscow,,,,,N/A,1974,,N/A,N/A,,,
+,,,Guyana,,813000,250 est,250,,Legal,Pro-Moscow,,,,,26,1973,14 of 53,14,53,,,
+,,Asterisk,Haiti,,5534000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,1973,,N/A,N/A,,,
+,,Asterisk,Honduras,,3517000,650 est,650,,Proscribed,Split,,,,,N/A,,Promised 1979/80,N/A,N/A,,,
+,,,Jamaica,,2201000,200 est,200,,Allowed,Pro-Moscow,,,,,N/A,1976,None,0,N/A,,,
+,,,Martinique,,327000,1000 est,1000,,Legal,Pro-Moscow,,,,,N/A,1976,3 of 36,3,36,,,
+,,,Mexico,,65833000,25000 est (100000 claim),25000,,Legal,Pro-Moscow,,,,,N/A,1976,None,0,N/A,,,
+,,,Nicaragua,,2409000,160 est (1200 claim),160,,Proscribed,Split,,,,,N/A,1974,,N/A,N/A,,,
+,,,Panama,,1812000,500 est,500,,Allowed,Pro-Moscow,,,,,N/A,1972,None,0,N/A,,,
+,,,Paraguay,,3095000,3500 est,3500,,Proscribed,Split,,,,,N/A,1973,,N/A,N/A,,,
+,,Asterisk,Peru,,16818000,3200 est,3200,,Legal,Split,,,,,5.9,1978,6 of 100,6,100,,,
+,,,Puerto Rico,,3200000,125 est,125,,Legal,Pro-Moscow,,,,,N/A,1976,None,0,N/A,,,
+,,Asterisk,United States,,220000000,18000 claim,18000,,Legal,Pro-Moscow,,,,,0.2,1976,None,0,N/A,,,
+,,Asterisk,Uruguay,,2893000,10000 est,10000,,Proscribed,Pro-Moscow,,,,,N/A,,elections scheduled 1980,N/A,N/A,,,
+,,Asterisk,Venezuela,,14058000,6000 est,6000,,Legal,Factions,,,,,9,1978,22 of 195,22,195,,,
+1979,Africa and the Middle East (17),,Egypt,,39890000,500 est,500,,Proscribed,Pro-Moscow,,,,,N/A,1976,3 of 360,3,360,,,
+,,,Iran,,35286000,1500 est,1500,,Proscribed,Pro-Peking,,,,,N/A,1975,,N/A,N/A,,,
+,,,Iraq,,12000000,2000 est,2000,,Allowed,Pro-Moscow,,,,,N/A,,No elections since 1958,N/A,N/A,,,
+,,,Israel,,3654000,1500 est,1500,,Legal,Pro-Moscow,,,,,4.6,1977,5 of 120,5,120,,,
+,,,Jordan,,2990000,500 est,500,,Proscribed,Pro-Moscow,,,,,N/A,,No elections since 1967,N/A,N/A,,,
+,,,Lebanon,,2500000,2500 est,2500,,Legal,Pro-Moscow,,,,,N/A,1972,None,0,N/A,,,
+,,,Lesotho,,1277000,negligible,0,,Proscribed,Pro-Moscow,,,,,N/A,,Unsuccessfully called for elections since 1970,N/A,N/A,,,
+,,,Algeria,,17639000,500 est,500,,Proscribed,Pro-Moscow,,,,,N/A,1976,,N/A,N/A,,,
+,,,Morocco,,18915000,700 est,700,,Allowed,Pro-Moscow,,,,,N/A,1977,None,0,N/A,,,
+,,,Tunisia,,6242000,100 est,100,,Proscribed,Pro-Moscow,,,,,N/A,1974,,N/A,N/A,,,
+,,,Nigeria,,68486000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,1976,,N/A,N/A,,,
+,,Asterisk,Reunion,,500000,2000 est,2000,,Legal,Independent,,,,,32.8,1978,None in Paris,N/A,N/A,,,
+,,,Saudi Arabia,,7862000,negligible,0,,Proscribed,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,,Senegal,,5380000,2000 est,2000,,Legal,Pro-Moscow,,,,,0.32,1978,None,0,N/A,,,
+,,,South Africa,,27432000,unknown,N/A,,Proscribed,Pro-Moscow,,,,,N/A,1977,,N/A,N/A,,,
+,,,Sudan,,17624000,3500 est,3500,,Proscribed,Pro-Moscow,,,,,N/A,1978,No parties,N/A,N/A,,,
+,,,Syria,,8700000,4000 est,4000,,Allowed,Pro-Moscow,,,,,N/A,1977,6 of 195,6,195,,,
+1980,Eastern Europe and the Soviet Union (9),,Albania,,2626000,101500 claim,101500,,In power,Independent,,,,,99.9,1978,All 250,250,250,,Democratic Front,
+,,,Bulgaria,,8892000,817000 claim,817000,,In power,Pro-Moscow,,,,,99.9,1976,272 of 400,272,400,,Fatherland Front,
+,,,Czechoslovakia,,15239000,1473000 claim,1473000,,In power,Pro-Moscow,,,,,99.7,1976,All 350,350,350,,National Front,
+,,,East Germany (GDR),,16793000,2127413 claim,2127413,,In power,Pro-Moscow,,,,,99.9,1976,127 of 500,127,500,,National Front,
+,,,Hungary,,10735000,797000 claim,797000,,In power,Pro-Moscow,,,,,99.6,1975,All 352,352,352,,Patriotic People's Front,
+,,,Poland,,35391000,3080000 claim,3080000,,In power,Pro-Moscow,,,,,99.4,1976,262 of 460,262,460,,Front of National Unity,
+,,Asterisk,Romania,,22057000,2930000 claim,2930000,,In power,Neutral,,,,,99.9,1975,All 349,349,349,,Front of Socialist Unity,
+,,,USSR,,263818000,16630000 claim,16630000,,In power,--,,,,,99.9,1979,All 1500,1500,1500,,CPSU-approved,
+,,Asterisk,Yugoslavia,,22074000,1855638 claim,1855638,,In power,Independent,,,,,--,1978,All 308,308,308,,Socialist Alliance,
+1980,Western Europe (24),Asterisk,Austria,,7498000,25000 est,25000,,Legal,Pro-Moscow,,,,,0.96,1979,None,0,N/A,,,
+,,Asterisk,Belgium,,9841000,10000 est,10000,,Legal,Pro-Moscow,,,,,3.25,1978,4 of 212,4,212,,,
+,,,Cyprus,,640000,12000 est,12000,,Legal,Pro-Moscow,,,,,30,1976,9 of 35,9,35,,Greek Cypriot seats,
+,,Asterisk,Denmark,,5130000,8000 est,8000,,Legal,Pro-Moscow,,,,,1.9,1979,None,0,N/A,,,
+,,Asterisk,Faroe Islands,,43000,insignificant,0,,Allowed,Split,,,,,N/A,1977,None,0,N/A,,,
+,,Asterisk,Finland,,4771000,45000 est,45000,,Legal,Pro-Moscow,,,,,17.9,1979,35 of 200,35,200,,,
+,,Asterisk,France,,53451000,700000 claim,700000,,Legal,Pro-Moscow,,,,,20.6,1978,86 of 491,86,491,,,
+,,Asterisk,Germany (FRG),,61181000,42000 est,42000,,Legal,Pro-Moscow,,,,,0.3,1976,None,0,N/A,,,
+,,,West Berlin,,2100000,7500 est,7500,,Legal,Pro-Moscow,,,,,1.1,1979,None,0,N/A,,,
+,,Asterisk,Great Britain,,55822000,20599 claim,20599,,Legal,Pro-Moscow,,,,,0.05,1979,None,0,N/A,,,
+,,Asterisk,Greece,,9390000,29300 est,29300,,Legal,Split (3),,,,,9.3,1977,11 of 300,11,300,,,
+,,Asterisk,Iceland,,225000,3000 est,3000,,Legal,Independent,,,,,19.7,1979,11 of 60,11,60,,,
+,,,Ireland,,3267000,600 est,600,,Legal,Pro-Moscow,,,,,N/A,1977,None,0,N/A,,,
+,,Asterisk,Italy,,56924000,1790450 claim,1790450,,Legal,Pro-Moscow,,,,,30.4,1979,201 of 630,201,630,,,
+,,Asterisk,Luxembourg,,358000,600 est,600,,Legal,Pro-Moscow,,,,,4.8,1979,2 of 59,2,59,,,
+,,Asterisk,Malta,,343000,100 est,100,,Legal,Pro-Moscow,,,,,N/A,1976,None,0,N/A,,,
+,,Asterisk,Netherlands,,14015000,15000 est,15000,,Legal,Pro-Moscow,,,,,1.7,1977,2 of 150,2,150,,,
+,,Asterisk,Norway,,4077000,2000 est,2000,,Legal,Independent,,,,,5.2,1977,2 of 155,2,155,,,
+,,Asterisk,Portugal,,9866000,164000 claim,164000,,Legal,Pro-Moscow,,,,,19,1979,47 of 250,47,250,,,
+,,Asterisk,San Marino,,20000,300 est,300,,Legal,Pro-Moscow,,,,,21.1,1978,16 of 60,16,60,,,
+,,Asterisk,Spain,,37551000,200000 claim,200000,,Legal,Independent,,,,,10.5,1979,23 of 350,23,350,,,
+,,Asterisk,Sweden,,8273000,17000 est,17000,,Legal,Independent,,,,,5.6,1979,20 of 349,20,349,,,
+,,Asterisk,Switzerland,,6333000,5000 est,5000,,Legal,Pro-Moscow,,,,,1.5,1979,3 of 200,3,200,,,
+,,,Turkey,,44236000,2000 est,2000,,Proscribed,Pro-Moscow,,,,,N/A,1977,,N/A,N/A,,,
+1980,Asia and the Pacific (22),,Afghanistan,,14702000,100000 claim,100000,,In power,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Australia,,14400000,5000 est,5000,,Legal,Split (3),,,,,N/A,1977,None,0,N/A,,,
+,,Asterisk,Bangladesh,,88092000,2500 est,2500,,Legal,Split,,,,,N/A,1979,1 of 300,1,300,,,
+,,Asterisk,Burma,,33517000,7000 est (ca. 10000 guerrillas),17000,,Proscribed,Pro-Beijing,,,,,N/A,1978,,N/A,N/A,,,
+,,,China,,958030000,37000000 claim,37000000,,In power,--,,,,,N/A,,Indirect elections (1978),N/A,N/A,,,
+,,Asterisk,Hong Kong,,4693000,2000 est,2000,,Legal,Pro-Beijing,,,,,N/A,,City council (1977),N/A,N/A,,,
+,,Asterisk,India,,669785000,100000 CPM est; 546000 CPI claim,646000,,Legal,Neutral; Pro-Moscow,,,,,4.3,1977,22 of 244,22,244,,,
+,,Asterisk,Indonesia,,148085000,1000 est,1000,,Proscribed,Split,,,,,N/A,1977,,N/A,N/A,,,
+,,Asterisk,Japan,,116051000,400000 est,400000,,Legal,Pro-Moscow,,,,,10.4,1979,39 of 511,39,511,,,
+,,Asterisk,Kampuchea,,4500000,unknown,N/A,,In power,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Korea (DPRK),,18717000,2000000 est,2000000,,In power,Neutral,,,,,100,1977,All 579,579,579,,,
+,,Asterisk,Laos,,3630000,15000 est,15000,,In power,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Malaysia,,12280000,3150 est,3150,,Proscribed,Split,,,,,N/A,1978,,N/A,N/A,,,
+,,,Mongolia,,1639000,67000 claim,67000,,In power,Pro-Moscow,,,,,99.9,1977,All 354,354,354,,,
+,,,Nepal,,14028000,5000 est,5000,,Proscribed,Split,,,,,N/A,1959,,N/A,N/A,,,
+,,Asterisk,New Zealand,,3119000,500 est,500,,Legal,Neutral,,,,,0.2,1978,None,0,N/A,,,
+,,,Pakistan,,80171000,few hundred est,250,,Proscribed,Split,,,,,N/A,,1979 elections postponed,N/A,N/A,,,
+,,Asterisk,Philippines,,46893000,4250 est,4250,,Proscribed,Split,,,,,N/A,1978,,N/A,N/A,,,
+,,,Singapore,,2361000,500 est,500,,Proscribed,Pro-Beijing,,,,,N/A,1976,,N/A,N/A,,,
+,,Asterisk,Sri Lanka,,14502000,6000 est,6000,,Legal,Split,,,,,1.9,1977,None,0,N/A,,,
+,,Asterisk,Thailand,,46350000,1200 est (plus 10500 guerrillas),11700,,Proscribed,Pro-Beijing,,,,,N/A,1979,,N/A,N/A,,,
+,,Asterisk,Vietnam,,52558000,1533000 claim,1533000,,In power,Pro-Moscow,,,,,99,1976,All 492,492,492,,,
+1980,The Americas (27),Asterisk,Argentina,,26829000,70000 est,70000,,Proscribed,Pro-Moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,Asterisk,Bolivia,,5216000,2500 est,2500,,Proscribed,Split,,,,,N/A,1979,,N/A,N/A,,,
+,,,Brazil,,124428000,4000 est,4000,,Proscribed,split,,,,,N/A,1978,,N/A,N/A,,,
+,,Asterisk,Canada,,23755000,2500 est,2500,,Legal,split,,,,,0.2,1979,None,0,N/A,,,
+,,Asterisk,Chile,,10850000,75000 est,75000,,Proscribed,split,,,,,N/A,,Elections promised,N/A,N/A,,,
+,,Asterisk,Colombia,,26115000,12000 est,12000,,legal,split,,,,,1.9,1978,3 of 311,3,311,,,
+,,,Costa Rica,,2168000,3000 est,3000,,Legal,Pro-Moscow,,,,,2.7,1978,3 of 57,3,57,,,
+,,,Cuba,,9900000,200000 est,200000,,In power,Pro-Moscow,,,,,91.7,1976,441 of 481,441,481,,,
+,,Asterisk,Dominican Republic,,5539000,5000 est,5000,,Legal,Factions,,,,,N/A,1978,None,0,N/A,,,
+,,,Ecuador,,7781000,2000 est,2000,,Legal,split,,,,,3.2,1979,None,0,N/A,,,
+,,,El Salvador,,4600000,225 est,225,,Legal,Pro-Moscow,,,,,N/A,1976,,N/A,N/A,,,
+,,Asterisk,Guadeloupe,,318000,3000 est,3000,,Legal,Pro-Moscow,,,,,N/A,1979,7 of 36,7,36,,,
+,,,Guatemala,,6817000,750 est,750,,Proscribed,pro-moscow,,,,,N/A,1974,,N/A,N/A,,,
+,,,Guyana,,850000,500 est,500,,legal,pro-moscow,,,,,26,1973,14 of 53,14,53,,,
+,,Asterisk,Haiti,,5500000,250 est,250,,Proscribed,pro-moscow,,,,,N/A,1973,,N/A,N/A,,,
+,,Asterisk,Honduras,,3639000,650 est,650,,Proscribed,split,,,,,N/A,,Promised 1979/80,N/A,N/A,,,
+,,,Jamaica,,2233000,400 est,400,,Allowed,pro-moscow,,,,,N/A,1976,None,0,N/A,,,
+,,,Martinique,,315000,1000 est,1000,,legal,pro-moscow,,,,,N/A,1979,3 of 36,3,36,,,
+,,,Mexico,,68506000,25000 est (100000 claim),25000,,legal,pro-moscow,,,,,5,1979,18 of 300,18,300,,Directly elected,
+,,Asterisk,Nicaragua,,2485000,410 est (1200 claim),410,,uncertain,split,,,,,N/A,1974,,N/A,N/A,,,
+,,,Panama,,1862000,550 est,550,,Allowed,pro-moscow,,,,,N/A,1972,None,0,N/A,,,
+,,,Paraguay,,3100000,3500 est,3500,,Proscribed,split,,,,,N/A,1973,,N/A,N/A,,,
+,,Asterisk,Peru,,17257000,4700 est,4700,,Legal,split,,,,,5.9,1978,6 of 100,6,100,,,
+,,,Puerto Rico,,3300000,125 est,125,,Legal,pro-moscow,,,,,N/A,1976,None,0,N/A,,,
+,,Asterisk,United States,,220232000,15-20000 claim,17500,,legal,pro-moscow,,,,,0.2,1976,None,0,N/A,,,
+,,Asterisk,Uruguay,,2900000,8000 est,8000,,Proscribed,Pro-moscow,,,,,N/A,,Elections promised by 1981,N/A,N/A,,,
+,,Asterisk,Venezuela,,14534000,10000 est,10000,,legal,factions (3),,,,,9,1978,22 of 195,22,195,,,
+1980,Africa and the Middle East (17),Asterisk,Egypt,,40948000,500 est,500,,Proscribed,pro-moscow,,,,,N/A,1979,,N/A,N/A,,,
+,,,Iran,,37582000,1500 est,1500,,Legal,Pro-moscow,,,,,N/A,1975,,N/A,N/A,,,
+,,,Iraq,,12907000,2000 est,2000,,Allowed,pro-moscow,,,,,N/A,,No elections since 1958,N/A,N/A,,,
+,,,Israel,,3802000,1500 est,1500,,legal,pro-moscow,,,,,4.6,1977,5 of 120,5,120,,"(""Democratic Front"")",
+,,,Jordan,,3055000,500 est,500,,Proscribed,pro-moscow,,,,,N/A,,No elections since 1967,N/A,N/A,,,
+,,,Lebanon,,2943000,2500 est,2500,,legal,pro-moscow,,,,,N/A,1972,None,0,N/A,,,
+,,,Lesotho,,1306000,negligible,0,,Proscribed,pro-moscow,,,,,N/A,,,N/A,N/A,,,
+,,,Algeria,,18249000,400 est,400,,Proscribed,pro-moscow,,,,,N/A,1976,,N/A,N/A,,,
+,,,Morocco,,19751000,700 est,700,,Allowed,pro-moscow,,,,,N/A,1977,None,0,N/A,,,
+,,,Tunisia,,6412000,100 est,100,,Proscribed,pro-moscow,,,,,N/A,1974,,N/A,N/A,,,
+,,,Nigeria,,74604000,unknown,N/A,,Proscribed,pro-moscow,,,,,N/A,1976,,N/A,N/A,,,
+,,Asterisk,Reunion,,503000,2000 est,2000,,legal,Independent,,,,,32.8,1978,None in Paris,N/A,N/A,,,
+,,,Saudi Arabia,,8103000,negligible,0,,Proscribed,pro-moscow,,,,,N/A,,No elections scheduled,N/A,N/A,,,
+,,,Senegal,,5519000,2000 est,2000,,legal,pro-moscow,,,,,0.32,1978,None,0,N/A,,,
+,,,South Africa,,28094000,unknown,N/A,,Proscribed,pro-moscow,,,,,N/A,1977,,N/A,N/A,,,
+,,,Sudan,,20941000,3500 est,3500,,Proscribed,pro-moscow,,,,,N/A,1978,,N/A,N/A,,,
+,,,Syria,,8395000,5000 est,5000,,Allowed,pro-moscow,,,,,N/A,1977,6 of 195,6,195,,,
+1985,Africa (12),,Angola,Popular Movement for the Liberation of Angola (MPLA); MPLA-PT,7770000,31000 cl,31000,,*,,,,1956; 1977,Jose Eduardo dos Santos,N/A,1980,All 203 MPLA approved,203,203,,,First Extraord. Dec 1980
+,,,Benin,People's Revolutionary Party of Benin (PRPB),3910000,no data,N/A,,*,,,,1975,Mathieu Kerekou,,1984,All 196 PRPB approved,196,196,,,"Second, 13-15 Nov. 1979"
+,,,Congo,Congolese Labor Party (PCT),1745000,8685 est,8685,,*,,,,1969,Denis Sassou-Ngouesso (chairman),95,1984,All 153 PCT approved,153,153,,,"Third, 27-30 July 1984"
+,,,Ethiopia,Workers' Party of Ethiopia (WPE),31998000,30000 est,30000,,*,,,,1984,Mengistu Haile Mariam,N/A,,,N/A,N/A,,,"First (Const.), 6-10 Sept. 1984"
+,,,Lesotho,Communist Party of Lesotho (CPL),1474000,no data,N/A,,0,,,,1962,Jacob M. Kena,N/A,,,N/A,N/A,,,"Sixth, May 1982"
+,,,Mozambique,Front for the Liberation of Mozambique (FRELIMO),13413000,130000 cl,130000,,*,,,,1962,Samora Moises Machel (chairman),N/A,1977,All 226 FRELIMO approved,226,226,,,"Fourth, 26-29 Apr. 1983"
+,,,Nigeria,Socialist Working People's Party (SWPP),88148000,no data,N/A,,0,,,,1978,Dapo Fatogun,N/A,1983,,N/A,N/A,,,"First, Nov. 1978"
+,,,Reunion,Reunion Communist Party (PCR),535000,10000 cl,10000,,+,,,,1959,Paul Verges,32.73,1983,16 of 45 (local assembly); none in Paris,16,45,,,"Fifth, 12-14 July 1980"
+,,,Senegal,Independence and Labor Party (PIT),6541000,no data,N/A,,+,,,,1981,Amath Dansoko (elected at congress),0.5,1983,None,0,N/A,,,"Second, 28-30 Sept. 1984"
+,,,South Africa,South African Communist Party (SACP),31688000,no data,N/A,,0,,,,1921,Moses Mabhida,N/A,,,N/A,N/A,,,"Sixth, Dec. 1984, in London"
+,,,Sudan,Sudanese Communist Party (SCP),21103000,1500 est,1500,,0,,,,1946,Muhammad Ibrahim Nugud Mansur,N/A,,,N/A,N/A,,,"Fourth (legal), 31 Oct. 1967"
+,,,Zimbabwe,Zimbabwe African National Union (ZANU-PF),8325000,no data,N/A,,*,,,,1963,Robert Mugabe (president),71,1984,58 of 100 (57 of 80 reserved for blacks),58,100,,,"Fifth, 8-12 Aug. 1984"
+1985,The Americas (29),,Argentina,Communist Party of Argentina (PCA),30097000,70000 est,70000,,+,,,,1918,Athos Fava,1.3,1983,None,0,N/A,,,Extraord. 5-6 Sept. 1983
+,,,Bolivia,Communist Party of Bolivia (PCB),6037000,300 est,300,,+,,,,1950,Jorge Kolle Cueto,N/A,1980,,N/A,N/A,,,"Fourth, Apr. 1979"
+,,,Brazil,Brazilian Communist Party (PCB); Communist Party of Brazil,134380000,8000 est,8000,,#,,,,1960; 1922,Giocondo Dias,N/A,1985,,N/A,N/A,,,"Seventh (called National Meeting of Communists), Jan. 1984"
+,,,Canada,Communist Party of Canada (CPC),25142000,2500 est,2500,,+,,,,1921,William Kashtan,0.05,1984,None,0,N/A,,,"Twenty-fifth, 13-15 Feb. 1982"
+,,,Chile,Communist Party of Chile (CPC),11655000,20000 est,20000,,0,,,,1922,Luis Corvalan,N/A,,,N/A,N/A,,,"Sixteenth, June 1984 (clandestine in Chile and abroad)"
+,,,Colombia,Communist Party of Colombia (PCC),28248000,12000 est,12000,,+,,,,1930,Gilberto Vieira,1.2,1982,3 of 199,3,199,,,"Fourteenth, 7-11 Nov. 1984"
+,,,Costa Rica,"Popular Vanguard Party (PVP); Costa Rican People's Party (PPC), split from PVP",2693000,3500 est (prior to split); no data,3500,,+,,,,1931; 1984,Humberto Vargas Carbonell; Manuel Mora Valverde,3.2,1982,4 of 57 (United People's Coalition),4,57,,,"Fourteenth, 8 Apr. 1984, Fifteenth, 15-16 Sept. 1984; Fourteenth, 10-11 Mar. 1984"
+,,,Cuba,Cuban Communist Party (PCC),9995000,434143 cl,434143,,*,,,,1965,Fidel Castro Ruz [sic],N/A,1981,All 499 PCC approved,499,499,,,"Second, 17-20 Dec. 1981"
+,,,Dominican Republic,Dominican Communist Party (PCD),6416000,750 est,750,,+,,,,1944,Narciso Isa Conde,7.1,1982,None,0,N/A,,,"Third, 15-17 Mar. 1984"
+,,,Ecuador,Communist Party of Ecuador (PCE),9091000,500 est,500,,+,,,,1928,Rene Mauge Moskera,3.6; 4.0,1984,"2 of 71 (Broad Leftist Front, FADI), 4.0 (1984) in pres. Elec. For Mauge, FADI cand.",2,71,,,"Tenth, 27-29 Nov. 1981"
+,,,El Salvador,Communist Party of El Salvador (PCES) (one of five in FMLN),4829000,500 est,500,,0,,,,1928,Shafik Jorge Handal,N/A,1984,,N/A,N/A,,,"Sixth, Aug. 1970"
+,,,Grenada,Maurice Bishop Patriotic Movement (MBPM),113000,no data,N/A,,+,,,,1984,Kenrick Radix,5,1984,None,0,N/A,,,N/A
+,,,Guadeloupe,Communist Party of Guadeloupe (PCG),332000,3000 est,3000,,+,,,,1958,Guy Daninthe,22.6,1983,11 of 41 (local assembly); 1 of 3 in Paris,11,41,,,"Eighth, 27-29 Apr. 1984"
+,,,Guatemala,Guatemalan Party of Labor (PGT),7956000,750 est,750,,0,,,,1950,Carlos Gonzalez,N/A,1984,,N/A,N/A,,,"Fourth, Dec. 1969"
+,,,Guyana,People's Progressive Party (PPP),837000,200 est,200,,+,,,,1950,Cheddi Jagan,19.5,1980,10 of 65,10,65,,,"Twenty-first, 31 July-2 Aug. 1982"
+,,,Haiti,Unified Party of Haitian Communists (PUCH),5805000,no data,N/A,,0,,,,1968,Rene Theodore,N/A,1984,,N/A,N/A,,,"First, late 1978 or early 1979"
+,,,Honduras,"Honduran Communist Party (PCH) (one of six in the MHR, 1982)",4424000,no data,N/A,,0,,,,1954,Rigoberto Padilla Rush (expelled in Oct. ?),N/A,1981,,N/A,N/A,,,"Third, Mar. 1977"
+,,,Jamaica,Workers' Party of Jamaica (WPJ),2338000,50 est,50,,+,,,,1978,Trevor Munroe,N/A,1983,,N/A,N/A,,,"Third, 14-21 Dec. 1984"
+,,,Martinique,Martinique Communist Party (PCM),330000,1000 est,1000,,+,,,,1957,Armand Nicolas,9.07,1983,4 of 41 (local assembly); none in Paris,4,41,,,"Eighth, 12-13 Nov. 1983"
+,,,Mexico,United Socialist Party of Mexico (PSUM),77659000,40800 cl,40800,,+,,,,1981,Pablo Gomez Alvarez,4.3,1982,17 of 400,17,400,,,"Second, 9-14 Aug. 1983"
+,,,Nicaragua,Nicaraguan Socialist Party (PSN); Sandinista Front of National Liberation (FSLN),2914000,250 est; 4000 cl,4250,,+; *,,,,1939; 1960,Luis Sanchez Sancho; Bayardo Arce Castano (coord. Of Political Committee),1.3; 67.0,1984; 1984,2 of 96; 61 of 96,63,96,,,"Tenth, Oct. 1973"
+,,,Panama,People's Party of Panama (PPP),2101000,35000 cl,35000,,+,,,,1943,Ruben Dario Souza,N/A,1984,None,0,N/A,,,"Sixth, 8-10 Feb. 1980"
+,,,Paraguay,Paraguayan Communist Party (PCP),3623000,3500 est,3500,,0,,,,1928,Antonio Maidana (arrested 1980),N/A,1973,,N/A,N/A,,,"Third, 10 Apr. 1971"
+,,,Peru,Peruvian Communist Party (PCP),19157000,5000 est,5000,,+,,,,1930,Jorge del Prado,2.8,1980,2 of 60,2,60,,,"Eighth Extraord., 27-31 Jan. 1982"
+,,,Puerto Rico,Puerto Rican Communist Party (PCP),3196520,125 est,125,,+,,,,1934,Frank Irrizarry,N/A,1984,,N/A,N/A,,,unknown
+,,,Suriname,Revolutionary People's Party (RVP),370000,100 est,100,,+,,,,1981,Edward Naarendorp,N/A,,,N/A,N/A,,,"First, 1981"
+,,,United States,Communist Party USA (CPUSA),236413000,17500 cl,17500,,+,,,,1919,Gus Hall,0.01,1984,None,0,N/A,,,"Twenty-third, 10-13 Nov. 1983"
+,,,Uruguay,Communist Party of Uruguay (PCU),2926000,7500 est,7500,,0 (permitted within Broad Front),,,,1920,Rodney Arismendi,6,1984,"none (Broad Front coalition, 21% of vote)",0,N/A,,,"Twentieth, Dec. 1970)"
+,,,Venezuela,Communist Party of Venezuela (PCV),18552000,4000 est,4000,,+,,,,1931,Jesus Faria,2,1983,3 of 195,3,195,,,"Sixth, 8-11 Aug. 1980"
+1985,Asia and the Pacific (21),,Afghanistan,People's Democratic Party of Afghanistan (PDPA),14448000,120000 cl,120000,,*,,,,1965,Babrak Karmal,N/A,1978,(Rev. Council in power since Apr. 1978),N/A,N/A,,,"Nat'l Conf., 14-15 Mar. 1982"
+,,,Australia,Communist Party of Australia (CPA); Socialist Party of Australia (SPA),15462000,1500 est; 1000 est,2500,,+; +,,,,1920; 1971,Judy Mundey; Peter Dudley Symon,N/A,1984,None; None,0,N/A,,,"Twenty-eighth, 4 Nov. 1984; Fifth, 28 Sept.-1 Oct. 1984"
+,,,Bangladesh,Communist Party of Bangladesh (CPB),99585000,3000 est,3000,,+,,,,1948,Muhammed Farhad,N/A,1981,,N/A,N/A,,,"Third, Feb. 1980"
+,,,Burma,Burmese Communist Party (BCP),36196000,3000 cl,3000,,0,,,,1939,Thakin Ba Thein Tin (CC chmn.),N/A,,,N/A,N/A,,,"Second, 20 July 1945 (last known)"
+,,,China,Chinese Commuist Party (CCP),1034907000,over 40000000 cl,40000000,,*,,,,1921,Hu Yaobang,N/A,,All [?] CCP approved,N/A,N/A,,,"Twelfth, [?]-11 Sept. 1982"
+,,,India,Communist Party of India (CPI); Communist Party Marxist (CPM),746388000,478500 cl; 271500 cl,750000,,*; *,,,,1928; 1964,C. Rajeswara Rao; E.M.S. Namboodiripad,2.7[?]; [?],1984,6 of 544; 22 of 544,28,544,,,"Twelfth, 21-28 Mar. 1982; Eleventh, 26-31 Jan. 1982"
+,,,Indonesia,Indonesian Communist Party (PKI) (split),169442000,"250 est (in exile, combined est.)",250,,0,,,,1920,"Jusuf Adjitorop (pro-Beijing faction), Sadiatjaya Sudiman (pro-Moscow faction)",N/A,,,N/A,N/A,,,"Seventh Extraord., Apr. 1962"
+,,,Japan,Japan Communist Party (JCP),120017467,480000 cl,480000,,[?],,,,1922,Tetsuzo Puwa,9.43,1983,26 of 511,26,511,,,"Sixteenth, 27-31 July 1982"
+,,,Kampuchea,Kampuchean People's Revolutionary Party (KPRP); Democratic Kampuchea (DK) or Kampuchean Communist Party (KCP),6118000,700 est; no data,700,,*; 0,,,,1951; 1960,Heng Samrin; Pol Pot,99,1981,All 117,117,117,,,"Fourth, 26-29 May 1981; unknown"
+,,,Korea (North),Korean Workers' Party (KWP),19630000,3000000 cl,3000000,,*,,,,1949,Kim Il-song,100,1982,All 615 KWP approved,615,615,,,"Sixth, 10-15 Oct. 1980"
+,,,Laos,Lao People's Revolutionary Party (LPRP),3732000,35000 est,35000,,*,,,,1955,Kaysone Phomvihane,N/A,Dec. 1975,Supreme People's Assembly (all 45 appointed by LPRP),45,45,,,"Third, 27-30 Apr. 1982"
+,,,Malaysia,Communist Party of Malaya (CPM); Communist Party of Malaysia (MCP),15330000,1100 est; 800 est,1900,,0; 0,,,,1930; 1983,Chin Peng; Ah Leng,N/A,,,N/A,N/A,,,1965 (last known); unknown
+,,,Mongolia,Mongolian People's Revolutionary Party (MPRP),1860000,76240 cl,76240,,*,,,,1921,Jambyn Batmonh,99,1981,all 370 MPRP approved,370,370,,,"Eighteenth, 26-31 May 1981"
+,,,Nepal,Nepal Communist Party (NCP) (factions),16578000,5000 est (75% pro-Beijing and neutral),5000,,0,,,,1949,Man Mohan Adhikary,N/A,,,N/A,N/A,,,"Third, 1968"
+,,,New Zealand,Communist Party of New Zealand (CPNZ); Socialist Unity Party (SUP),3238000,50 est; 100 est,150,,+; +,,,,1921; 1966,Richard C. Wolfe; George Jackson,0.5,1984,None,0,N/A,,,"26-28 Jan. 1979 (first since 1966); Sixth, 22-24 Oct. 1982"
+,,,Pakistan,Communist Party of Pakistan (CPP),96628000,under 200 est,200,,0 (since 1954),,,,1948,Imam Ali Nazish,N/A,,,N/A,N/A,,,"First (cland.), 1976"
+,,,Philippines,"Philippine Communist Party (PKP); Communist Party of the Philippines, Marxist-Leninist (CPP-ML)",55528000,8000 est; 30000 cl,38000,,#; 0,,,,1930; 1968,Felicismo Macapagal; Rafael Baylosis,N/A,,,N/A,N/A,,,"Eighth, 1980; Re-establishment, 26 Dec. 1968"
+,,,Singapore,"Communist Party of Malaya, branch (CPM)",2531000,200 est,200,,0,,,,1930,Chin Peng,N/A,,,N/A,N/A,,,unknown
+,,,Sri Lanka,Communist Party of Sri Lanka (CPSL),15925000,6000 est,6000,,+,,,,1943,Kattorge P. Silva,1.9,1977,1 of 168,1,168,,,"Twelfth, 27-29 Jan. 1984"
+,,,Thailand,Communist Party of Thailand (CPT),51724000,1200 est,1200,,0,,,,1942,Virat Angkhathavorn (active leader),N/A,,,N/A,N/A,,,"Fifth (cland.), Feb. 1984"
+,,,Vietnam,Vietnamese Communist Party (VCP),59030000,1730214 cl,1730214,,*,,,,1930,Le Duan,97.9,1981,All 496 approved by Fatherland Front,496,496,,,"Fifth, 27-31 March 1982"
+1985,Eastern Europe and USSR (9),,Albania,Albanian Party of Labor (APL),2906000,122000 cl,122000,,*,,,,1941,Enver Hoxha,99.9,1982,All 250 Democratic Front,250,250,,,"Eighth, 1-8 Nov. 1981"
+,,,Bulgaria,Bulgarian Communist Party (BCP),8969000,825876 cl,825876,,*,,,,1903,Todor Zhikov,99.9,1981,All 400 Fatherland front,400,400,,,"Twelfth, 31 Mar.-4 Apr. 1981"
+,,,Czechoslovakia,Communist Party of Czechoslovakia (KSC),15420000,1623000 cl,1623000,,*,,,,1921,Gustav Husak,99,1981,All 350 National Front,350,350,,,"Sixteenth, 6-10 Apr. 1981"
+,,,Germany: German Democratic Republic,Socialist Unity Party (SED),16717000,2202277 cl,2202277,,*,,,,1946,Erich Honecker,99.9,1981,All 500 National Front,500,500,,,"Tenth, 11-16 Apr. 1981"
+,,,Hungary,Hungarian Socialist Worker's Party (HSWP),10681000,232000 cl,232000,,*,,,,1956,Jamos Kadar,99.3,1980,All 352 Patriotic People's Front,352,352,,,"Twelfth, 24-27 Mar. 1980"
+,,,Poland,Polish United Workers' Party (PUWP),36887000,2186000 cl,2186000,,*,,,,1948,Wojciech Jaruzelski,99.5,1980,All 460 Fatherland Front,460,460,,,"Ninth Extraord., 14-20 July 1981"
+,,,Romania,Romanian Communist Party (PCR),22683000,3400000 cl,3400000,,*,,,,1921,Nicolae Ceausescu,98.5,1980,All 369 Front of Socialist Democracy and Unity,369,369,,,"Thirteenth, 19-22 Nov. 1984"
+,,,USSR,Communist Party of the Soviet Union (CPSU),274860000,18500000 cl,18500000,,*,,,,1898,Konstantin U. Chernenko (Feb. 1984),99.9,1984,All 1500 CPSU approved (71.4% of 1500 are CPSU members),1500,1500,,,"Twenty-sixth, 23 Feb.-4 Mar. 1981"
+,,,Yugoslavia,League of Communists of Yugoslavia (LCY),22997000,2500000 cl,2500000,,*,,,,1920,Dimce Belovski,N/A,1982,All 308 Socialist Alliance (all LCY approved),308,308,,,"Twelfth, 26-29 June 1982"
+1985,Middle East (13),,Algeria,Socialist Vanguard Party (PAGS),21351000,450 est,450,,0,,,,1920,Sadiq Hadjeres (first secretary),N/A,,,N/A,N/A,,,"Sixth, Feb. 1952"
+,,,Bahrain,Bahrain National Liberation Front (NLF/B),409000,negligible,0,,0,,,,1955,Yusuf al-Hassan al-Ajajai,N/A,,,N/A,N/A,,,unknown
+,,,Egypt,Egyptian Communist Party (ECP),47049000,500 est,500,,0,,,,1921,Farid Mujahid,N/A,,,N/A,N/A,,,"First (held in Egypt), Sept. 1980"
+,,,Iran,Communist Party of Iran (Tudeh Party) (dissolved May 1983),43820000,2000 est (early 1983),2000,,0,,,,1941,"Nureddin Kianuri (imprisoned), Ali Khavari (provisional leader in exile)",3,1980,0 of 270,0,270,,,1965
+,,,Iraq,Iraqi Communist Party (ICP),15000000,no data,N/A,,0,,,,1932,Aziz Muhammad,N/A,,,N/A,N/A,,,"Third, 4-6 May 1976"
+,,,Israel,"Communist Party of Israel (CPI, ""Rakah""); Palestine Communist Party",4235000 (incl. E. Jerusalem),1500 est,1500,,+,,,,1948; 1922,Meir Vilner,3.4,1984,4 of 120,4,120,,,"Nineteenth, 11-14 Feb. 1981"
+,,,Jordan,Communist Party of Jordan (CPJ),2689000,1000 est,1000,,0,,,,1951,Fa'iq Muhammad Warrad,N/A,,,N/A,N/A,,,"Second, Dec. 1983"
+,,,Lebanon,Lebanese Communist Party (LCP),2601000,15000 cl,15000,,+,,,,1924,George Hawi,N/A,1972,,N/A,N/A,,,"Fourth, 1979"
+,,,Morocco,Party of Progress and Socialism (PPS),23565000,30000 cl,30000,,+,,,,1974,`Ali Yata,2.3,1984,2 of 306,2,306,,,"Third, 25-27 Mar. 1983"
+,,,Palestine,Palestine Communist Party (PCP),4500000,200 est,200,,0 but tolerated,,,,1982,Bashir al-Barghuti (presumed),N/A,,,N/A,N/A,,,"First, presumably in 1984"
+,,,Saudi Arabia,Communist Party of Saudi Arabia (CPSA),10794000,negligible,0,,0,,,,1975,Ahmad Musa,N/A,,,N/A,N/A,,,"Second, Aug. 1983"
+,,,Syria,Syrian Communist Party (SCP),10400000,5000 est,5000,,+,,,,1944,Khalid Bakhdash,0,1981,None,0,N/A,,,"Fifth, May 1980"
+,,,Tunisia,Tunisian Communist Party (PCT),6970000 (1984 census),2000 est,2000,,+,,,,1934,Muhammad Harmel (first secretary),0.78,1981,None,0,N/A,,,"Eighth, Feb. 1981"
+,,,Yemen (PDRY),Yemen Socialist Party (YSP),2147000,26000 cl,26000,,*,,,,1978,Ali Nasir Muhammad al-Hasani,N/A,1978,All 111 YSP approved,111,111,,,"Second Extraord., 12-14 Oct. 1980"
+1985,Western Europe (23),,Austria,Communist Party of Austria (KPO),7579000,12000 est,12000,,+,,,,1918,Franz Muhri,0.66,1983,None,0,N/A,,,"Twenty-fifth, 13-15 Jan. 1984"
+,,,Belgium,Belgian Communist Party (PCB/KPB),9872000,10000 est,10000,,+,,,,1921,Louis van Geyt,2.3,1981,2 of 212,2,212,,,"Twenty-fourth, Mar. and Dec. 1982 (two stages)"
+,,,Cyprus,Progressive Party of the Working People (AKEL); Communist Party of Cyprus,662000,14000 cl,14000,,+,,,,1941; 1922,Ezekias Papaioannou,32.8,1981,12 of 35 Greek Cypriot seats,12,35,,,"Fifteenth, 13-15 May 1982"
+,,,Denmark,Communist Party of Denmark (DKP),5112000,10000 est,10000,,+,,,,1919,Poul Emanuel (secretary),0.7,1984,None,0,N/A,,,"Twenty-seventh, 12-15 May 1983"
+,,,Finland,Finnish Communist Party (SKP),4873000,50000 cl,50000,,+,,,,1918,Aarno Aitamurto,14,1983,27 of 200,27,200,,,"Twentieth, 25-27 May 1983"
+,,,France,French Communist Party (PCF),55600000,610000 cl,610000,,+,,,,1920,Georges Marchais,16.2,1981,44 of 491,44,491,,,"Twenty-fourth, 3-7 Feb. 1982"
+,,,Germany: Federal Republic of Germany,German Communist Party (DKP),59387000 (ex. W. Berlin),50482 cl,50482,,+,,,,1968,Herbert Mies,0.2,1983,None,0,N/A,,,"Seventh, 6-8 Jan. 1984"
+,,,Great Britain,Communist Party of Great Britain (CPGB),56023000,16000 est,16000,,+,,,,1920,Gordon McLennan,0.03,1983,None,0,N/A,,,"Thirty-eighth, 12-15 Nov. 1983"
+,,,Greece,Communist Party of Greece (KKE); Communist Party of Greece-Interior (KKE-I),9984000,42000 est; 12000 est,54000,,+; +,,,,1921; 1968,Kharilaos Florakis; Yiannis Banias,10.9; 1.3,1981,13 of 300; None,13,300,,,"Eleventh, 15-18 Dec. 1982; Third, 17-23 May 1982"
+,,,Iceland,People's Alliance (AB),239000,3000 est,3000,,+,,,,1968,Svavar Gestsson,17.3,1983,10 of 60,10,60,,,"Biennial Congr., Nov. 1983"
+,,,Ireland,Communist Party of Ireland (CPI),3575000,500 est,500,,+,,,,1933,James Stewart,N/A,1982,None,0,N/A,,,"Eighteenth, 14-16 May 1982"
+,,,Italy,Italian Communist Party (PCI),56998000,1700000 cl,1700000,,+,,,,1921,Alessandro Natta (since June 1984),29.9,1983,198 of 630,198,630,,,"Sixteenth, 2-6 Mar. 1983"
+,,,Luxembourg,Communist Party of Luxembourg (CPL),366000,600 est,600,,+,,,,1921,Rene Urbany,5,1979,2 of 59,2,59,,,"Twenty-fourth, 4-5 Feb. 1984"
+,,,Malta,Communist Party of Malta (CPM),329599,100 est,100,,+,,,,1969,Anthony Vassallo,N/A,1981,None,0,N/A,,,"Extraordinary, 18-25 May 1984"
+,,,Netherlands,Communist Party of the Netherlands (CPN),14437000,10000 est,10000,,+,,,,1909,Elli Izeboud,1.9,1982,3 of 150,3,150,,,"Extraordinary, 4 5 12 27 Feb. 1984"
+,,,Norway,Norwegian Communist Party (NKP); Workers' Communist Party (AKP),4145000,500 est; 1000 est,1500,,+; +,,,,1923; 1973,Hans I. Kleven; Paal Steigan,0.3; 0.7,1981,None,0,N/A,,,"Eighteenth, 30 Mar.-2 Apr. 1984; Third, 4-5 Apr. 1983"
+,,,Portugal,Portuguese Communist Party (PCP),10045000,200000 est,200000,,+,,,,1921,Alvaro Cunhal,18,1983,44 of 250,44,250,,,"Tenth, 8-11 Dec. 1983"
+,,,San Marino,Communist Party of San Marino (PCS),22000,300 est,300,,+,,,,1941,Ermenegildo Gasperoni,24.3,1983,15 of 60,15,60,,,"Tenth, 1980"
+,,,Spain,Spanish Communist Party (PCE); Communist Party (PC),38435000,84000 est; 25000 cl,109000,,+; +,,,,1920; 1984,Gerardo Iglesias; Ignacio Gallego,3.8,1982,4 of 350,4,350,,,"Eleventh, 14-18 Dec. 1983; First, 13-15 Jan. 1984"
+,,,Sweden,Left Party Communists (VPK); Communist Workers' Party (APK),8335000,17500 cl; 5000 l,22500,,+; +,,,,1921; 1977,Lars Werner; Rolf Hagel,5.6; 0.1,1982,20 of 349,20,349,,,"Twenty-sixth, 20-24 Nov. 1981; Twenty-seventh, 1983"
+,,,Switzerland,Swiss Labor Party (PdAS),6477000,4500 est,4500,,+,,,,1921,Armand Magnin,0.9,1983,1 of 200,1,200,,,"Twelfth, 21-22 May 1983"
+,,,Turkey,Communist Party of Turkey (TCP),50207000,negligible,0,,0,,,,1920,Haydar Kutlu,N/A,,,N/A,N/A,,,"Fifth, Oct. or Nov. 1983"
+,,,West Berlin,Socialist Unity Party of West Berlin (SEW),2000000,4500 est,4500,,+,,,,1949,Horst Schmitt,0.7,1981,None,0,N/A,,,"Seventh, 25-27 May 1984"
+1990,Africa (11),,Angola,Popular Movement for the Liberation of Angola (MPLA); MPLA-PT,8533989,45000 cl,45000,,*,,,,1956; 1977,Jose Eduardo dos Santos,N/A,1980,All 203 MPLA approved,203,203,,,"Second, 9-11 Dec. 1985"
+,,,Benin,People's Revolutionary Party of Benin (PRPB),4663832,2600 est,2600,,*,,,,1975,"Mathieu Kerekou (chairman, CC)",89.6,1989,All 206 PRPB approved,206,206,,,"Second, 18-24 Nov. 1985"
+,,,Congo,Congolese Party of Labor (PCT),2227744,"9912 cl (Nguesso, at 4th congress)",9912,,*,,,,1969,Denis Sassou-Ngouesso (chairman),95,1984,All 153 PCT approved,153,153,,,"Fourth, 26-31 July 1989"
+,,,Ethiopia,Workers' Party of Ethiopia (WPE),49762492,70000 cl,70000,,*,,,,1984,Mengistu Haile Mariam,85,1987,835 all WPE members,835,835,,,"First (Const.), 6-10 Sept. 1984"
+,,,Lesotho,Communist Party of Lesotho (CPL),1711072,no data,N/A,,0 (tolerated),,,,1962,Jacob M. Kena,N/A,1985,,N/A,N/A,,,"Seventh, ""early 1987"""
+,,,Mozambique,Front for the Liberation of Mozambique (FRELIMO),14275301,130000 cl,130000,,*,,,,1962,Joaquim Albert Chissano,N/A,1986,incomplete [?],N/A,N/A,,,"Fifth, 24-30 July 1989"
+,,,Reunion,Reunion Communist Party (PCR),565548,2000 est,2000,,+,,,,1959,Paul Verges,35,1988,"13 of 44 left coal., 9 for PCR (local assembly); 2 in Paris",13,44,,,"Fifth, 12-14 July 1980"
+,,,Senegal,Independence and Labor Party (PIT),7506197,no data,N/A,,+,,,,1957,Amath Dansoko,0.84,1988,None,0,N/A,,,"Second, 28 Sept.-2 Oct. 1984"
+,,,South Africa,South African Communist Party (SACP),38509312,no data (increase of 90% in five years since last congress),N/A,,0,,,,1921,Joe Slovo (in exile); Dan Tloome (chairman),N/A,,,N/A,N/A,,,"Seventh, June 1989, in Havana"
+,,,Sudan,Sudanese Communist Party (SCP),24476290,9000 est,9000,,+/0 (illegal after 30 June 1989),,,,1946,Muhammad Ibrahim Nugud Mansur,1.67,1986,"5 of 301; 2 in territ., 3 in grad constituencies",5,301,,,"Fourth (legal), 31 Oct. 1967"
+,,,Zimbabwe,Zimbabwe African National Union (ZANU-PF),10022000,"[3000000] (Interestingly, only 2026976 votes were cast for Mugabe)",3000000,,*,,,,1963,Robert G. Mugabe (president and first secretary),76,1987,77 of 100,77,100,,,"Fourth, 12-19 Dec. 1989"
+1990,The Americas (28),,Argentina,Communist Party of Argentina (PCA),31914473,80000 cl,80000,,+,,,,1918,Athos Fava to April; Patricio Echegaray (Fava chairman since Apr.),5.3,1987,None in Broad Front coal.,0,N/A,,,"Sixteenth, 4-7 Nov. 1986"
+,,,Bolivia,Communist Party of Bolivia (PCB),6558601,500 cl,500,,+,,,,"1950 (split, 1985)","Humberto Ramirez (majority faction), Carlos Soria Galvarro (minority faction)",7.2,1989,12 of 130 are in United Left (IU) coalition; PCB's share of 12 seats not listed,12,130,,,"Fifth, 9-13 Feb. 1985; Extraordinary, 26-29 April 1986"
+,,,Brazil,Brazilian Communist Party (PCB),150750232,130000 cl,130000,,+,,,,1922,Salomao Malina (chairman),N/A,1986,3 of 559,3,559,,,"Eighth (called National Meeting of Communists), 17-20 July 1987"
+,,,Canada,Communist Party of Canada (CPC),26310836,3000 est,3000,,+,,,,1921,"George Hewison (general secretary), William Kashtan (chairman)",0.09,1988,None,0,N/A,,,"Twenty-seventh, 20-24 May 1988"
+,,,Chile,Communist Party of Chile (CPC),12827411,20000 est,20000,,0,,,,1922,Luis Corvalan Lepe (in exile) to May; Volodia Teitelboim,6,1989,None,0,N/A,,,"Fifteenth, 5-12 May 1989"
+,,,Colombia,Communist Party of Colombia (PCC),31945165,18000 est (incl. youth org.),18000,,+,,,,1930,Gilberto Vieira White,1.4,1986,9 of 199; Patriotic Union,9,199,,,"Fifteenth, 12-15 Dec. 1988"
+,,,Costa Rica,"Popular Vanguard Party (PVP); Costa Rican People's Party (PPC), split from PVP",2953908,7500 est,7500,,+,,,,1931; 1984,Humberto Vargas Carbonell; Lenin Chacon Vargas,0.8,1986,"1 of 57, Popular Alliance; 1 of 57, United People's Coalition",2,57,,,"Fifteenth, 23-24 Aug. 1987"
+,,,Cuba,Cuban Communist Party (PCC),10450360,600000 est,600000,,*,,,,1965,Fidel Castro Ruz [sic],N/A,1986,All 499 PCC approved,499,499,,,"Third, 4-7 Feb. and 30 Nov.-2 Dec. 1986"
+,,,Dominican Republic,Dominican Communist Party (PCD),7106114,750 est,750,,+,,,,1944,Narciso Isa Conde,0.28,1986,None,0,N/A,,,"Fourth, 16-19 Mar. 1989"
+,,,Ecuador,Communist Party of Ecuador (PCE); Marxist-Leninist Communist Party of Ecuador (PCE-ML),10262271,600 est; 600 est,1200,,+,,,,1928; 1972,"Rene Mauge Mosquera (member of parliament); Jaime Hurtado Gonzalez (national director, MPD)",3.6,1988,"2 of 71, Broad Leftist Front, FADI; 2 of 71, participates as Movimiento Popular Democratico (MPD)",4,71,,,"Eleventh, 21-23 July 1988; N/A"
+,,,El Salvador,Communist Party of El Salvador (PCES) (one of five in FMLN),5124931,1000 est,1000,,0,,,,1930,Jorge Shafik Handal,N/A,1988,,N/A,N/A,,,"Seventh, Apr. 1979"
+,,,Grenada,Maurice Bishop Patriotic Movement (MBPM),84480,no data,N/A,,+,,,,1984,Terrence Marryshow,5,1984,None,0,N/A,,,"Second, May 1988"
+,,,Guadeloupe,Communist Party of Guadeloupe (PCG),341430,3000 est,3000,,+,,,,1958,Christian Celeste,N/A,1988,22 of 42; also 1 of 3 in Paris,22,42,,,"Ninth, 12-13 Mar. 1988"
+,,,Guatemala,Guatemalan Party of Labor (PGT),9116877,250 est,250,,0,,,,1952,"Carlos Gonzalez Orellana (""Camarilla"" faction), Juan Manuel Diaz/Mario Sanchez (National Leadership Nucleus faction has taken the new name of ""PGT 6 de Enero"")",N/A,1985,,N/A,N/A,,,"Fourth, Dec. 1969; First, 1988"
+,,,Guyana,People's Progressive Party (PPP),765461,300 est (100 leadership),300,,+,,,,1950,Cheddi Jagan,16.8,1985,8 of 53 elected members,8,53,,,"Twenty-third, 30 July-1 Aug. 1988"
+,,,Haiti,Unified Party of Haitian Communists (PUCH),6322198,350 est,350,,+,,,,1968,Rene Theodore,N/A,1988,(PUCH boycotted),N/A,N/A,,,"First, 1979"
+,,,Honduras,"Communist Party of Honduras (PCH) (one of six in the Honduran Revolutionary Movement, MHR, 1982)",5103772,100 est; (less than 100),100,,0,,,,1954,"Rigoberto Padilla Rush (in exile), Mario Sosa Navarro (leader in Honduras)",N/A,1985,,N/A,N/A,,,"Fourth, Jan. 1986 (clandestine)"
+,,,Jamaica,Workers' Party of Jamaica (WPJ); Jamaican Communist Party (JCP),2484957,100 est; no data,100,,+; +,,,,1978; 1975,Trevor Munroe,N/A,1989,(WPJ did not contest),N/A,N/A,,,"Fourth, 11-13 Sept. 1988; no data"
+,,,Martinique,Martinique Communist Party (PCM),331511,1000 est,1000,,+,,,,1957,Armand Nicolas,N/A,1988,2 of 45 (local assembly); none in Paris,2,45,,,"Ninth, 12-13 Dec. 1988"
+,,,Mexico,Mexican Socialist Party (PMS); Democratic Revolution Party (PRD),86336019,90000 cl; no data,90000,,+,,,,1987; May 1989,Gilberto Rincon Gallardo; Cuauhtemoc Cardenas (noncommunist coordinator general),N/A,1988,(presid.),N/A,N/A,,,"First, 14 May 1989; N/A"
+,,,Nicaragua,"Nicaraguan Socialist Party (PSN); Communist Party of Nicaragua (PCN, splinter of PSN); Sandinista Front of National Liberation (FSLN)",3519620,1400 est; 1600 est; 5500 est,8500,,+; +; *,,,,1937; 1970; 1961,Gustavo Tablada; Eli Altamirano Perez; Daniel Ortega (coord. Of Executive Commission),1.3; ca. 2.0; 63.0,1984,2 of 96; 2 of 96; 61 of 96,65,96,,,"Tenth, Oct. 1973; Second, June 1986; FSLN Assembly, 18 Feb. & 24 Sept. 1989"
+,,,Panama,People's Party (PDP),2373053,"25600 cl (based on signatures), (750 militants, est)",26350,,+,,,,1943,Ruben Dario Sousa,2,1984,None,0,N/A,,,"Eighth, 24-26 Jan. 1986"
+,,,Paraguay,Paraguayan Communist Party (PCP),4522172,4000 est,4000,,0 (but tolerated),,,,1928,"Julio Rojas (acting), Antonio Maidana (arrested in 1980)",N/A,1989,,N/A,N/A,,,"Third, 10 Apr. 1971"
+,,,Peru,Peruvian Communist Party (PCP),21448501,4000 est,4000,,+,,,,1928,Jorge del Prado Chavez,26,1985,48 of 180 United Left Coalition; 6 PCP repr. Of 48,48,180,,,"Ninth, 27-30 May 1987"
+,,,Puerto Rico,Puerto Rican Communist Party (PCP),3300707,100 est,100,,+,,,,1934,Frank Irrizarry,N/A,1988,None (did not contest),0,N/A,,,"Fourth, 1954"
+,,,USA,Communist Party USA (CPUSA),248231030,20000 cl (4000-6000 est),5000,,+,,,,1919,Gus Hall,N/A,1988,None (did not contest),0,N/A,,,"Twenty-fourth, 13-16 Aug. 1987 (nat'l conference, 14-16 July)"
+,,,Uruguay,Communist Party of Uruguay (PCU),2988813,"11000 cl (Pravda, 14, 22 Dec. 1987)",11000,,+,,,,1920,"Jaime Perez Gerschuni, Rodney Arismendi (chairman) (died, 27 Dec.)",34,1989,"22 of 99, Frente Amplio coal. (10% and 11 seats for PCU)",22,99,,,"Twenty-first, 7-11 Dec. 1988"
+,,,Venezuela,Communist Party of Venezuela (PCV),19263376,4000 est,4000,,+,,,,1931,Alonso Ojeda Olaechea,2,1988,1 of 201,1,201,,,"Seventh, 24-27 Oct. 1985"
+1990,Asia and the Pacific (20),,Australia,Communist Party of Australia (CPA); Socialist Party of Australia (SPA),16451955,1000 est; 500 est,1500,,+; +,,,,1920; 1971,"Brian Aarons, et al. (nat'l executive); Peter Dudley Symon, Jack McPhillips (pres.)",0.3; negl.,1987,None; None,0,N/A,,,"Thirtieth/special, 2-3 Dec. 1989 (voted to dissolve, create New Left Party); Sixth, 3 Oct. 1988"
+,,,Bangladesh,Communist Party of Bangladesh (CPB),114718395,5000 est (9911 cl),5000,,+,,,,1948,"Saifuddin Ahmed Manik Nurul Islam, sec. of CPB (FBIS-NES, 12 May 1989)",0,1988,boycotted,N/A,N/A,,,"Fourth, 7-11 Apr. 1987"
+,,,Burma,Burmese Communist Party (BCP),40451732,"3000 cl (several hundred, est)",3000,,0,,,,1939,[Thakin] Ba Thein Tin (chairman),N/A,1985,,N/A,N/A,,,"Third, 9 Sept.-2 Oct. 1985"
+,,,Cambodia,"Khmer People's Revolutionary Party (KPRP); Party of Democratic Kampuchea (PDK), or Kampuchean Communist Party (KCP)",6838033,10000 cl; no data,10000,,*; 0,,,,1951; 1951,Heng Samrin; Pol Pot (officially until 1981),N/A,1981; N/A,All 117; n/a,117,117,,,"Fifth, 13-16 Oct. 1985 (national conference of cadres, 5-12 April); Third, 14 Dec. 1975"
+,,,China,Chinese Commuist Party (CCP),1112298677,48000000 cl,48000000,,*,,,,1921,"Zhao Ziyang (to 24 June), Jiang Zemin",N/A,1987,All 3202 CCP approved,3202,3202,,,"Thirteenth, 25 Oct.-1 Nov. 1987"
+,,,India,Communist Party of India (CPI); Communist Party of India Marxist (CPM); United Communist Party of India (UCPI),833421982,467539 cl; 450000 cl; negligible,917539,,+; +; +,,,,1928; 1964; 1989,C. Rajeswara Rao; E.M.S. Namboodiripad; Mohit Sen (gen. sec.) S. A. Dange (chmn.),N/A,1989,"No % data, 12 of 545; 32 of 545; negl.",44,545,,,"Fourteenth, 6-12 Mar. 1989; Thirteenth, 26-31 Dec. 1988; Nat'l conf. in Salem, 29 May 1989"
+,,,Indonesia,Indonesian Communist Party (PKI) (split),187651163,"1500 est, ca. 200 exiles",1700,,0,,,,1920,"Jusuf Adjitorop (pro-Beijing faction), Thomas Sinuraya (pro-Moscow faction)",N/A,1987,n/a,N/A,N/A,,,"Seventh Extraord., Apr. 1962"
+,,,Japan,Japan Communist Party (JCP),123220129,470000 est,470000,,+,,,,1922,"Hiromu Murakami to June, Tetsuzo Fuwa (Presidium chairman),  Kenji Miyamoto (CC chairman)",8.8,1989,27 of 512,27,512,,,"Eighteenth, 26-28 Nov. 1987"
+,,,Korea (North),Korean Workers' Party (KWP),22521223,3000000 cl,3000000,,*,,,,1946,Kim Il-song,100,1986,All 706 KWP approved,706,706,,,"Sixth, 10-15 Oct. 1980"
+,,,Laos,Lao People's Revolutionary Party (LPRP),3935786,40000 cl,40000,,*,,,,1955,Kaysone Phomvihane,N/A,1989,Supreme People's Assembly (65 of 79 are LPRP members)),65,79,,,"Fourth, 13-15 Nov. 1986"
+,,,Malaysia,Communist Party of Malaya (CPM) (may be active under new party name per agreement of 2 Dec.); Communist Party of Malaysia (MCP),16726766,1300 est; 800 est,2100,,0; 0,,,,1930; 1983,Chin Peng (pseud.); Ah Leng,N/A,1984,,N/A,N/A,,,1965 (last known); unknown
+,,,Mongolia,Mongolian People's Revolutionary Party (MPRP),2145463,89312 cl,89312,,*,,,,1921,Jambyn Batmonh (Dzamblin Batmunkh),93.5,1986,346 of 370 MPRP approved,N/A,N/A,,,"Nineteenth, 28-31 May 1986"
+,,,Nepal,Nepal Communist Party (NCP) (factions),18699884,10000 est (75% pro-Beijing and neutral),10000,,0,,,,1949,Man Mohan Adhikary,N/A,1986,n/a,N/A,N/A,,,"Third, 1961 (before split; right wing held its own third in 1968)"
+,,,New Zealand,Communist Party of New Zealand (CPNZ); Socialist Unity Party (SUP),3372763,100 est; 300 est,400,,+; +,,,,1921; 1966,"Harold Crook (chairman); George H. Jackson (pres.), Marilyn Tucker (gen. sec.)",N/A,1987,none,0,N/A,,,"Twenty-third, 22 Apr. 1984; Eighth, 22-24 Oct. 1988"
+,,,Pakistan,Communist Party of Pakistan (CPP),110407376,under 200 est,200,,+,,,,1948,Ali Nazish,N/A,1988,,N/A,N/A,,,"Third, 25-27 May 1989"
+,,,Philippines,Philippine Communist Party (PKP); Communist Party of the Philippines (CPP),64906990,5000 est (range 5-8000); 30000 est (range 30000-40000),35000,,+; 0,,,,1930; 1968,"Merlin Magallona (gen. sec.) Felicismo Macapagal (chmn.); Benito Tiamzon (acting chmn.), Jose Maria Sison (chmn. In absentia)",N/A,1987,,N/A,N/A,,,"Ninth, Dec. 1986; Founding/Reest., 26 Dec. 1968-7 Jan. 1969"
+,,,Singapore,"Communist Party of Malaya, branch (CPM)",2674362,300 est,300,,0,,,,1930,Chin Peng (pseud.),N/A,1984,,N/A,N/A,,,unknown
+,,,Sri Lanka,Communist Party of Sri Lanka (CPSL); Janatha Vimukthi Peramuna (JVP),16883130,5000 est; no data,5000,,+; +,,,,1943; 1968,"Kattorge P. Silva; Rohana Wijewwera (leader), Upatissa Gamanayake (dep.) (both killed Nov. 1989)",2.9,1989,"3 of 225, as part of United Socialist Alliance; did not contest",3,225,,,"Thirteenth, 22-26 March 1987, Extraordinary, 9-11 Dec. 1989; no data"
+,,,Thailand,Communist Party of Thailand (CPT),55524352,375 est (range 250-500),375,,0,,,,1942,"Thong Jaensri (unconfirmed, pseudonym?)",N/A,1988,n/a,N/A,N/A,,,"Fourth, Mar.-Apr. 1984 (clandestine)"
+,,,Vietnam,Vietnamese Communist Party (VCP),66820544,2195824 cl,2195824,,*,,,,1930,Nguyen Van Linh,98.8,1987,"496, all VCP endorsed",496,496,,,"Sixth, 15-18 Dec. 1986"
+1990,Eastern Europe and the USSR (9),,Albania,Albanian Party of Labor (APL),3208033,147000 cl,147000,,*,,,,1941,Ramiz Alia,100,1987,All 250 Democratic Front,250,250,,,"Ninth, 3-8 Nov. 1986"
+,,,Bulgaria,Bulgarian Communist Party (BCP),8985800,984000 cl,984000,,*,,,,1903,"Todor Zhivkov, to 10 Nov. 1989, Petur Toshev Mladenov",99.9,1986,All 400 Fatherland front,400,400,,,"Thirteenth, 2-5 Apr. 1986"
+,,,Czechoslovakia,Communist Party of Czechoslovakia (KSC),15658079,1574690 cl,1574690,,*/+,,,,1921,"Milos Jakes, Karel Urbanek, Ladislav Adamec (chmn.), Vasil Mohorita",99.94,1986,All 350 National Front,350,350,,,"Seventeenth, 24-28 Mar. 1986, Extraordinary, 20-21 Dec. 1989"
+,,,Germany: German Democratic Republic,Socialist Unity Party (SED); Socialist Unity Party-Party of Democratic Socialists (SED-PDS),16586490,ca. 1000000 cl,1000000,,*/+,,,,1946; 1989,"Erich Honecker to Nov., Egon Krenz to Dec., Gregor Gysi",99.94,1986,All 500 National Front,500,500,,,"Eleventh, 17-21 Apr. 1986, Extraordinary, 8-10, 16-17 Dec. 1989"
+,,,Hungary,Hungarian Socialist Worker's Party (HSWP) reconstituted; Hungarian Socialist Party (HSP) split from HSWP,10566944,82000 cl; 50000 cl,132000,,*/+; +,,,,1956; 1989,"Karoly Grosz to 7 Oct. 1989, Gyula Thurmer; Rezso Nyers",98.9,1985,All 352 Patriotic People's Front,352,352,,,"Reconst./Fourteenth, 14 Dec. 1989; Founding/Fourteenth, 6-10 October 1989"
+,,,Poland,"Polish United Workers' Party (PZPR); Social Democracy of the Polish Republic (SDRP); New Party of Polish Leftist Forces (USDRP, split from SDRP)",38169800,1000000 est (2000000 cl); 5000 est; ca. 100 est,1005100,,*; +; +,,,,1948; 1990; 1990,"Wojciech Jaruzelski to July 1989, Mieczyslaw F. Rakowski to 27 Jan. 1990; Aleksander Kwasniewski; Tadeusz Fiszbach (pres.)",78.8,1985,All 460 Fatherland Front,460,460,,,"Eleventh, 27 Jan. 1990; Founding, 29 Jan. 1990; "
+,,,Romania,Romanian Communist Party (PCR); National Salvation Front,23153475,none; no data,0,,*/+;,,,,1921; ,Nicolae Ceausescu to 25 Dec.; Ion Iliescu,97.8,1985,All 369 Socialist Democracy and Unity Front,369,369,,,"Fourteenth, 20-24 Nov. 1989; "
+,,,USSR,Communist Party of the Soviet Union (CPSU),288742342,19487822 cl,19487822,,*,,,,1898,Mikhail S. Gorbachev,N/A,1989,2250 (87.6% are CPSU members),2250,2250,,,"Twenty-seventh, 25 Feb.-6 Mar. 1986"
+,,,Yugoslavia,League of Communists of Yugoslavia (LCY),23724919,ca 1868000 cl,1868000,,*,,,,1920,"Stipe Suvar (pres. Of Presidium until May), Milan Pancevski",N/A,1986,All 308 LCY-approved Socialist Alliance,308,308,,,"Thirteenth, 25-28 June 1986"
+1990,Middle East (15),,Afghanistan,People's Democratic Party of Afghanistan (PDPA),14825013,30000 est (200000 cl),30000,,*,,,,1965,Mohammed Najibullah,38,1988,69 of 184 elected of 234 total (National Front) (22.6% and 42 for PDPA),69,184,,,"Second nat'l conference, 18-19 Oct. 1987"
+,,,Algeria,Socialist Vanguard Party (PAGS),24946073,no data,N/A,,0/+,,,,1920,Sadiq Hadjeres (first secretary),N/A,1982,,N/A,N/A,,,"Sixth, Feb. 1952"
+,,,Bahrain,Bahrain National Liberation Front (NLF/B),496759,negligible,0,,0,,,,1955,"Saif ben Ali (gen. sec.), Yusuf al-Hassan al-Ajajai (chairman, not noted since 1983)",N/A,,n/a,N/A,N/A,,,unknown
+,,,Egypt,Egyptian Communist Party (ECP),54777615,500 est,500,,0,,,,1921,Farid Mujahid (apparently),N/A,1987,n/a,N/A,N/A,,,"Second, Sept. 1984"
+,,,Iran,Communist Party of Iran (Tudeh Party) (dissolved May 1983),53866523,1500 est,1500,,0,,,,1941,"Ali Khavari (first sec. of CC, party leader in exile)",N/A,1988,n/a,N/A,N/A,,,"National Conference, 1986"
+,,,Iraq,Iraqi Communist Party (ICP),18073969,no data,N/A,,0,,,,1934,Aziz Muhammad (first secretary),N/A,1989,n/a,N/A,N/A,,,"Fourth, 10-15 Nov. 1985"
+,,,Israel,"Communist Party of Israel (CPI, ""Rakah""); Palestine Communist Party",4371478 (excl. E. Jerusalem and the West Bank),2000 est,2000,,+,,,,1948; 1922,Meir Vilner,3.7,1988,4 of 120 (with Dem. Front of Peace and Equality),4,120,,,"Twentieth, 4-7 Dec. 1985"
+,,,Jordan,Communist Party of Jordan (CPJ),2955660,no data,N/A,,0,,,,1951,Dr. Ya'qub Zayadin,N/A,1989,1 of 80 (but not as CPJ member),1,80,,,"Second, Dec. 1983"
+,,,Lebanon,Lebanese Communist Party (LCP); Organization of Communist Action in Lebanon (OCAL),3300802,2500 est (14000-16000 cl); 1500 est,4000,,+; +,,,,1924; 1970,George Hawi; Muhsin Ibrahim,N/A,1972,None,0,N/A,,,"Fifth, 3-5 Feb. 1987; First, 1971"
+,,,Morocco,"Party of Progress and Socialism (PPS) (Moroccan Communist Party, 1943)",25605579,ca. 4500 est (50000 cl),4500,,+,,,,1974,Ali Yata,2.3,1984,2 of 306,2,306,,,"Fourth, 17-19 July 1987"
+,,,Palestine,Palestine Communist Party (PCP),4500000,no data,N/A,,0,,,,1982,Bashir al-Barghuti (presumably),N/A,,n/a,N/A,N/A,,,"First, 1984 (or late 1983)"
+,,,Saudi Arabia,Communist Party of Saudi Arabia (CPSA),16108539,negligible,0,,0,,,,1975,Mahdi Habib,N/A,,n/a (absolute monarchy),N/A,N/A,,,"Third, Aug. 1989"
+,,,Syria,Syrian Communist Party (SCP),12010564,5000 est,5000,,+,,,,1924,"Khalid Bakhdash to May, Yusuf Faysal (succeeded Bakhdash)",N/A,1986,8 of 195,8,195,,,"Sixth, July 1986"
+,,,Tunisia,Tunisian Communist Party (PCT),7916104,2000 est (4000 cl),2000,,+,,,,1934,Muhammad Harmel (first secretary),N/A,1989,none,0,N/A,,,"Tenth, June 1989"
+,,,Yemen (PDRY),Yemen Socialist Party (YSP),2503641,31000 cl (incl. cand. Members),31000,,*,,,,1978,Ali Salim al-Bayd,N/A,1986,All 111 YSP approved,111,111,,,"Fourth, 20-21 June 1987"
+1990,Western Europe (23),,Austria,Communist Party of Austria (KPO),7584766,15000 est,15000,,+,,,,1918,Franz Muhri (chairman),0.72,1986,none,0,N/A,,,"Twenty-sixth, 25-28 Mar. 1987"
+,,,Belgium,Belgian Communist Party (PCB/KPB),9887998,5000 est,5000,,+,,,,1921,Louis van Geyt (president),0.8,1987,none,0,N/A,,,"Twenty-sixth, 18-19 Mar. 1989"
+,,,Cyprus,"Progressive Party of the Working People (AKEL) (Communist Party of Cyprus, 1922)",700009,15000 cl,15000,,+,,,,1941,Dimitris Christofias,27.4,1985,15 of 56,15,56,,,"Sixteenth, 26-30 Nov. 1986, Extraordinary Congress, 20 Dec. 1987"
+,,,Denmark,Communist Party of Denmark (DKP),5129659,7400 est,7400,,+,,,,1919,"Poul Emanuel (party sec.), Ole Sohn (chairman)",0.8,1988,none,0,N/A,,,"Twenty-eighth, 16-19 Apr. 1987"
+,,,Finland,Finnish Communist Party (SKP); Finnish Communist Party-Unity (SKP-Y); Communist Workers' Party (KTP),4963359,21000 est; 13500 est; 200 est,34700,,+,,,,1918; 1986; 1988,"Helja Tammisola (gen. sec.), Jorma Wahlstrom (chairman); Yrjo Hakanan (gen. sec.), Jouko Kajanoja (chmn. To Oct., replaced by Esko-Juhani Tennila); Heikki Mannikko (gen. sec.), Timo Lahdenmaeki (chairman)",9.4; 4.3; registered,1987,"16 of 200 SKDL Front (11 of 16 for SKP); 4 of 200 DEVA Front; registered, part of DEVA Front",20,200,,,"Twenty-first, 12-15 June 1987; First, 5-7 June, 1987; First, 17-18 June 1989 (founding, 23-24 May 1988)"
+,,,France,French Communist Party (PCF),55994085,200000 cl,200000,,+,,,,1920,Georges Marchais,11.3,1988,25 of 577 (and two from overseas depts.),25,577,,,"Twenty-sixth, 2-6 Dec. 1987"
+,,,Germany: Federal Republic of Germany,German Communist Party (DKP),60977195 (excl. W. Berlin),27500 (BfV est.) (400000 cl.),27500,,+,,,,1968,Herbert Mies (chairman),0.5,1987,none for Peace List in which DKP participated,0,N/A,,,"Ninth, 6-9 Jan. 1989"
+,,,Great Britain,Communist Party of Great Britain (CPGB),57028169,7500 est,7500,,+,,,,1920,Gordon McLennan (resigned at congress),0.01,1987,none,0,N/A,,,"Forty-first, 25-28 Nov. 1989"
+,,,Greece,Communist Party of Greece (KKE); Communist Party of Greece-Interior (KKE-I); KKE-I Renovating Left; Greek Left (E.AR),10041414,50000 est; (split into two factions); no data; no data,50000,,+; +; +; +,,,,1921; 1968; 1987; 1987,"Grigoris Farakos (gen. sec.), Kharilaos Florakis (chairman); ; Giannis Banias; Leonidas Kyrkos",10.97,1989,21 of 300 (Coalition of the Left and Progress),21,300,,,"Twelfth, 12-16 May 1987; Fourth, May 1986; ; 24-26 April 1987"
+,,,Iceland,People's Alliance (PA),248501,3000 est,3000,,+,,,,1968,Olafur Ragnar Grimsson (chairman),13.2,1987,8 of 63,8,63,,,"Biennial Congr., 16-20 Nov. 1989"
+,,,Ireland,Communist Party of Ireland (CPI),3550352,500 est,500,,+,,,,1933,James Stewart,N/A,1989,none,0,N/A,,,"Twentieth, 28-29 Oct. 1989"
+,,,Italy,Italian Communist Party (PCI),57557767,800000 cl,800000,,+,,,,1921,Achille Ochetto,26.6,1987,177 of 630,177,630,,,"Eighteenth, 17-22 March 1989"
+,,,Luxembourg,Communist Party of Luxembourg (CPL),366329,600 est,600,,+,,,,1921,Rene Urbany (chairman),3.6,1989,1 of 64,1,64,,,"Twenty-fifth, 23-24 Apr. 1988"
+,,,Malta,Communist Party of Malta (CPM),351307,300 est,300,,+,,,,1969,Anthony Vassallo,0.08,1987,none,0,N/A,,,"Fourth, 15-17 July 1988"
+,,,Netherlands,Communist Party of the Netherlands (CPN),14790125,4000 est (range of 3000-5000),4000,,+,,,,1909,Elli Izeboud (chairman),4.1,1989,6 of 150 (with Green Left),6,150,,,"Thirty-first, 8-11 April 1989"
+,,,Norway,Norwegian Communist Party (NKP); Workers' Communist Party (AKP),4202502,ca. 1750 est.; ca. 6000 est,7750,,+; +,,,,1923; 1973,Kare Andre Nilsen (chairman); Siri Jensen (chairman),0.84,1989,none (Joint with AKP); none (see NKP above),0,N/A,,,"Nineteenth, 23-26 Apr. 1987; Fifth, Dec. 1988 (secret)"
+,,,Portugal,Portuguese Communist Party (PCP),10459701,over 199275 cl,199275,,+,,,,1921,Alvaro Cunhal,11,1987,30 of 250 United People's  Alliance Coalition (25 of 30 for PCP),30,250,,,"Twelfth, 1-4 Dec. 1988"
+,,,San Marino,Communist Party of San Marino (PCS),22980,1200 cl (300 est),300,,+,,,,1921,Gilberto Ghiotti,28.71,1988,18 of 60,18,60,,,"Eleventh, 27 Jan. 1986"
+,,,Spain,Spanish Communist Party (PCE); Communist Party of the Peoples of Spain (PCPE); Spanish Workers' Party-Communist Unity (PTE-UC),39417220,83000 cl; 16500 est; 14000 est,113500,,+; +; +,,,,1920; 1984; 1987,"Julio Anguita Gonzalez; Juan Ramos Camarero; Adolfo Pinedo (gen. sec.), Santiago Carrillo (chairman)",9.05,1989,18 of 350 United Left Coalition; as above; none,18,350,,,"Twelfth, 19-21 Feb. 1988; Third extraord., March 1989; First, 8 Feb.1987"
+,,,Sweden,Left Party Communists (VPK); Communist Workers' Party (APK),8401098,17800 cl; 5000 cl,22800,,+; +,,,,1921; 1977,Lars Werner (chairman); Rolf Hagel (chairman),5.8,1988,21 of 349; no data,21,349,,,"Twenty-eighth, 23-25 May 1987; Twenty-ninth, 4-6 May 1989"
+,,,Switzerland,Swiss Labor Party (PdAS),6611019,4500 est,4500,,+,,,,1921,Jean Spielman,0.8,1987,1 of 200,1,200,,,"Thirteenth, 27 Feb.-1 Mar. 1987"
+,,,Turkey,United Communist Party of Turkey (UCPT),55355831,negligible,0,,0,,,,1988,"Haydar Kutlu (gen. sec.), Nihat Sargin (chairman)",N/A,1987,n/a,N/A,N/A,,,"First, 12-13 Oct. 1988"
+,,,West Berlin,Socialist Unity Party of West Berlin (SEW),1869000,7000 cl,7000,,+,,,,1949,"Horst Schmitt, died Apr. 1989, Dietmar Ahrens",0.6,1989,none,0,N/A,,,"Eighth, 15-27 May 1987"

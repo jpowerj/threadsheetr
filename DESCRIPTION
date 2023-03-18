@@ -16,6 +16,12 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
-    stringr
+    dplyr,
+    purrr,
+    readr,
+    rlang,
+    stringr,
+    tidyr,
+    yaml
 URL: https://github.com/jpowerj/threadsheetr
 BugReports: https://github.com/jpowerj/threadsheetr/issues

@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(threadsheets)
+library(threadsheetr)
 
-test_check("threadsheets")
+test_check("threadsheetr")
