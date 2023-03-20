@@ -1,10 +1,10 @@
-#' Parse Data Files
+#' Step 1: Parse Data Files
 #'
 #' @return
 #' @export
 #'
 #' @examples
-threadsheetr_parse <- function(data_path, spec_fpath) {
+threader_parse <- function(data_path, spec_fpath, verbose = FALSE) {
   # Load data spec
   spec <- yaml::read_yaml(spec_fpath)
   # Find the variable
@@ -22,7 +22,7 @@ threadsheetr_parse <- function(data_path, spec_fpath) {
   for (cur_fpath in var_fpaths) {
     print(paste0("Parsing ",cur_fpath))
     cur_fname <- basename(cur_fpath)
-    processed_df <- process_data_file(cur_fpath, spec)
+    processed_df <- process_data_file(cur_fpath, spec, verbose=verbose)
     # Serialize the processed_df
     serialized_fname <- stringr::str_replace_all(cur_fname, ".csv", ".rds")
     serialized_fpath <- file.path(parsed_path, serialized_fname)
@@ -33,46 +33,95 @@ threadsheetr_parse <- function(data_path, spec_fpath) {
   return(all_dfs)
 }
 
+# Helper Functions
+
+
+check_replace_headers <- function(header_row, spec) {
+  # First we check the grid rules
+  grid_spec <- spec$grid
+  # Grid has *one* varname, so just check this varname
+  grid_varname <- grid_spec$varname
+  grid_alt_names <- grid_spec$alt_names
+  header_row <- check_replace_headers_alts(header_row, spec, grid_varname, grid_alt_names)
+  # Now the index rules (plural... so we need to loop)
+  index_spec <- spec$index_rules
+  for (cur_index_rule in index_spec) {
+    cur_varname <- cur_index_rule$varname
+    cur_alt_names <- cur_index_rule$alt_names
+    header_row <- check_replace_headers_alts(header_row, spec, cur_varname, cur_alt_names)
+  }
+  return(header_row)
+}
+
+
+check_replace_headers_alts <- function(header_row, spec, varname, alt_var_names) {
+  # Get the header rules for the grid var
+  # See if the main varname is one of the headers
+  if (any(header_row == varname, na.rm = TRUE)) {
+    # We're good, it has the varname, just return as-is
+    return(header_row)
+  }
+  # Otherwise, check the alternate names
+  for (cur_alt_name in alt_var_names) {
+    #print("--- loop iter ---")
+    if (any(header_row == cur_alt_name, na.rm = TRUE)) {
+      header_row <- header_row %>% replace(. == cur_alt_name, varname)
+      # We return on first one we find (so that, the order in the .yaml file
+      # matters, in terms of priority)
+      return(header_row)
+    }
+  }
+  return(header_row)
+}
+
+clean_header_vals <- function(df, spec) {
+  # Drop notes columns
+  df <- df %>% dplyr::select(-dplyr::contains('notes', ignore.case = TRUE))
+  return(df)
+}
+
 clean_index_vals <- function(df, spec) {
   # Get index var names
   index_specs <- spec$index_rules
   for (cur_index_spec in index_specs) {
     cur_index_varname <- cur_index_spec$varname
-    # If its not in the df, return
+    # If its not in the df, continue to next var
     if (!(cur_index_varname %in% names(df))) {
-      return(df)
+      next
     }
     # Check if it should be lowercased
-    should_lowercase <- cur_index_spec$lowercase
-    if (should_lowercase) {
-      # If so, replace it
-      df[[cur_index_varname]] <- tolower(df[[cur_index_varname]])
+    # Default is, leave as-is
+    should_lowercase <- FALSE
+    if ("lowercase" %in% names(cur_index_spec)) {
+      should_lowercase <- cur_index_spec$lowercase
+      if (should_lowercase) {
+        # If so, replace it
+        df[[cur_index_varname]] <- tolower(df[[cur_index_varname]])
+      }
+    }
+    # And ffill
+    should_ffill <- FALSE
+    if ("ffill" %in% names(cur_index_spec)) {
+      should_ffill <- cur_index_spec$ffill
+      if (should_ffill) {
+        df <- df %>% tidyr::fill(all_of(cur_index_varname))
+      }
     }
   }
   return(df)
 }
 
-clean_header_vals <- function(df, spec) {
-  # Drop notes columns
-  df <- df %>% select(-contains('notes', ignore.case = TRUE))
-  return(df)
-}
 
-split_header_cell <- function(header_cell_str) {
-  header_elts <- str_split_one(header_cell_str, '\\\\')
-  index_name <- header_elts[1]
-  header_name <- header_elts[2]
-  return(c(index_name, header_name))
-}
-
-detect_header_rows <- function(fpath, spec) {
+detect_header_rows <- function(fpath, spec, verbose = FALSE) {
+  print(verbose)
+  if (verbose) { print(paste0("detect_header_rows(): ",fpath)) }
   # Load the csv *without* assuming header rows
   df_head <- readr::read_csv(fpath, col_names = FALSE, show_col_types = FALSE)
   # Find number of rows with '\\\\' in the index col
   df_head <- df_head %>%
     tidyr::drop_na(X1) %>%
-    filter(stringr::str_detect(.$X1,'\\\\'))
-  num_headers <- df_head %>% count() %>% pull()
+    dplyr::filter(stringr::str_detect(.$X1,'\\\\'))
+  num_headers <- df_head %>% dplyr::count() %>% dplyr::pull()
   print(paste0("Detected ",num_headers," headers"))
   return_obj <- new.env()
   return_obj$num_headers = num_headers
@@ -118,61 +167,7 @@ detect_header_rows <- function(fpath, spec) {
   return(return_obj)
 }
 
-#' Check if a variable is present in a tibble
-#'
-#' We need this because of the special '@@' character, which separates levels
-#' of the MultiIndex
-#'
-#' @param df
-#' @param varname
-#'
-#' @return
-#' @export
-#'
-#' @examples
-var_in_df <- function(varname, df) {
-  # This gets the *full* list of varnames
-  full_varlist <- names(df) %>% stringr::str_split("@@") %>% unlist()
-  # And now we can just use %in%
-  return(varname %in% full_varlist)
-}
 
-check_replace_headers <- function(header_row, spec) {
-  # First we check the grid rules
-  grid_spec <- spec$grid
-  # Grid has *one* varname, so just check this varname
-  grid_varname <- grid_spec$varname
-  grid_alt_names <- grid_spec$alt_names
-  header_row <- check_replace_headers_alts(header_row, spec, grid_varname, grid_alt_names)
-  # Now the index rules (plural... so we need to loop)
-  index_spec <- spec$index_rules
-  for (cur_index_rule in index_spec) {
-    cur_varname <- cur_index_rule$varname
-    cur_alt_names <- cur_index_rule$alt_names
-    header_row <- check_replace_headers_alts(header_row, spec, cur_varname, cur_alt_names)
-  }
-  return(header_row)
-}
-
-check_replace_headers_alts <- function(header_row, spec, varname, alt_var_names) {
-  # Get the header rules for the grid var
-  # See if the main varname is one of the headers
-  if (any(header_row == varname, na.rm = TRUE)) {
-    # We're good, it has the varname, just return as-is
-    return(header_row)
-  }
-  # Otherwise, check the alternate names
-  for (cur_alt_name in alt_var_names) {
-    #print("--- loop iter ---")
-    if (any(header_row == cur_alt_name, na.rm = TRUE)) {
-      header_row <- header_row %>% replace(. == cur_alt_name, varname)
-      # We return on first one we find (so that, the order in the .yaml file
-      # matters, in terms of priority)
-      return(header_row)
-    }
-  }
-  return(header_row)
-}
 
 #' Process a raw data file, transforming it into Threadsheets format
 #'
@@ -185,7 +180,7 @@ check_replace_headers_alts <- function(header_row, spec, varname, alt_var_names)
 #' @export
 #'
 #' @examples
-process_data_file <- function(fpath, spec) {
+process_data_file <- function(fpath, spec, verbose = FALSE) {
   fname <- basename(fpath)
   fname_elts = str_split_one(fname, "_")
   if (endsWith(fname_elts[1], "_entries")) {
@@ -193,7 +188,7 @@ process_data_file <- function(fpath, spec) {
     return(process_entries_file(fpath, spec))
   }
   ### Part 1: Detect the headers/data split
-  header_result <- detect_header_rows(fpath, spec)
+  header_result <- detect_header_rows(fpath, spec, verbose=verbose)
   df_head <- header_result$df_head
   num_headers <- header_result$num_headers
   print(paste0("num_headers: ",num_headers))
@@ -221,8 +216,10 @@ process_data_file <- function(fpath, spec) {
     colnames(df) <- df_head[1,] %>% unlist()
   }
   ### Part 4: Lowercase any strings in the index and remove "notes" row if it exists
-  df <- clean_index_vals(df, spec)
+  # ORDER MATTERS: Need to clean the headers first, since clean_index depends on
+  # having the correct headers
   df <- clean_header_vals(df, spec)
+  df <- clean_index_vals(df, spec)
   # First we make sure any rename rules are applied
   # Ensure that the tibble is as long as possible
   time_var <- spec$grid$time_var
@@ -237,7 +234,7 @@ process_data_file <- function(fpath, spec) {
                           names_to = c("varname",time_var),
                           values_transform = list("varname"=as.character,time_var=as.character))
   } else {
-    df_long <- df %>% select(vars_to_keep) %>%
+    df_long <- df %>% dplyr::select(vars_to_keep) %>%
       tidyr::pivot_longer(cols = -c(time_var, unit_var), names_to = c("varname"))
   }
   # ### Part 5: Make sure the year column is all-numeric and apply the index
@@ -295,6 +292,8 @@ process_data_file <- function(fpath, spec) {
   return(df_long)
 }
 
+
+
 #
 # process_entries_file <- function(fpath, spec) {
 #   fname <- basename(fpath)
@@ -318,3 +317,32 @@ process_data_file <- function(fpath, spec) {
 #   new_df["source_id"] = fname
 #   return new_df
 # }
+
+split_header_cell <- function(header_cell_str) {
+  header_elts <- str_split_one(header_cell_str, '\\\\')
+  index_name <- header_elts[1]
+  header_name <- header_elts[2]
+  return(c(index_name, header_name))
+}
+
+
+#' Check if a variable is present in a tibble
+#'
+#' We need this because of the special '@@' character, which separates levels
+#' of the MultiIndex
+#'
+#' @param df
+#' @param varname
+#'
+#' @return
+#' @export
+#'
+#' @examples
+var_in_df <- function(varname, df) {
+  # This gets the *full* list of varnames
+  full_varlist <- names(df) %>% stringr::str_split("@@") %>% unlist()
+  # And now we can just use %in%
+  return(varname %in% full_varlist)
+}
+
+

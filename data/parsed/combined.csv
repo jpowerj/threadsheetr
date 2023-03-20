@@ -1,0 +1,3941 @@
+country,varname,year,value
+albania,cp_membership_num,1924,NA
+albania,cp_membership_num,1928,NA
+albania,cp_membership_num,1947,"5,000"
+albania,cp_membership_num,1960,"50,000"
+albania,cp_membership_num,1965,"53,000"
+albania,cp_membership_num,1968,"66,327"
+algeria,cp_membership_num,1924,NA
+algeria,cp_membership_num,1928,NA
+algeria,cp_membership_num,1947,"25,000"
+algeria,cp_membership_num,1960,"7,500"
+algeria,cp_membership_num,1965,"5,500"
+algeria,cp_membership_num,1968,"1,000"
+angola,cp_membership_num,1924,NA
+angola,cp_membership_num,1928,NA
+angola,cp_membership_num,1947,NA
+angola,cp_membership_num,1960,50
+angola,cp_membership_num,1965,0
+angola,cp_membership_num,1968,0
+antilles,cp_membership_num,1924,NA
+antilles,cp_membership_num,1928,NA
+antilles,cp_membership_num,1947,NA
+antilles,cp_membership_num,1960,NA
+antilles,cp_membership_num,1965,0
+antilles,cp_membership_num,1968,0
+argentina,cp_membership_num,1924,NA
+argentina,cp_membership_num,1928,NA
+argentina,cp_membership_num,1947,"30,000"
+argentina,cp_membership_num,1960,"75,000"
+argentina,cp_membership_num,1965,"65,000"
+argentina,cp_membership_num,1968,"60,000"
+australia,cp_membership_num,1924,NA
+australia,cp_membership_num,1928,NA
+australia,cp_membership_num,1947,"25,000"
+australia,cp_membership_num,1960,"5,800"
+australia,cp_membership_num,1965,"5,000"
+australia,cp_membership_num,1968,"4,750"
+austria,cp_membership_num,1924,NA
+austria,cp_membership_num,1928,NA
+austria,cp_membership_num,1947,"150,000"
+austria,cp_membership_num,1960,"50,000"
+austria,cp_membership_num,1965,"35,000"
+austria,cp_membership_num,1968,"27,500"
+bahrain,cp_membership_num,1924,NA
+bahrain,cp_membership_num,1928,NA
+bahrain,cp_membership_num,1947,NA
+bahrain,cp_membership_num,1960,50
+bahrain,cp_membership_num,1965,50
+bahrain,cp_membership_num,1968,50
+barbados,cp_membership_num,1924,NA
+barbados,cp_membership_num,1928,NA
+barbados,cp_membership_num,1947,NA
+barbados,cp_membership_num,1960,0
+barbados,cp_membership_num,1965,0
+barbados,cp_membership_num,1968,0
+belgium,cp_membership_num,1924,NA
+belgium,cp_membership_num,1928,NA
+belgium,cp_membership_num,1947,"95,000"
+belgium,cp_membership_num,1960,"11,000"
+belgium,cp_membership_num,1965,"11,000"
+belgium,cp_membership_num,1968,"12,500"
+west berlin,cp_membership_num,1924,NA
+west berlin,cp_membership_num,1928,NA
+west berlin,cp_membership_num,1947,NA
+west berlin,cp_membership_num,1960,"5,000"
+west berlin,cp_membership_num,1965,NA
+west berlin,cp_membership_num,1968,"6,000"
+bolivia,cp_membership_num,1924,NA
+bolivia,cp_membership_num,1928,NA
+bolivia,cp_membership_num,1947,NA
+bolivia,cp_membership_num,1960,"4,000"
+bolivia,cp_membership_num,1965,"4,500"
+bolivia,cp_membership_num,1968,"6,000"
+botswana,cp_membership_num,1924,NA
+botswana,cp_membership_num,1928,NA
+botswana,cp_membership_num,1947,NA
+botswana,cp_membership_num,1960,NA
+botswana,cp_membership_num,1965,0
+botswana,cp_membership_num,1968,0
+brazil,cp_membership_num,1924,NA
+brazil,cp_membership_num,1928,NA
+brazil,cp_membership_num,1947,"130,000"
+brazil,cp_membership_num,1960,"50,000"
+brazil,cp_membership_num,1965,"31,000"
+brazil,cp_membership_num,1968,"15,750"
+bulgaria,cp_membership_num,1924,NA
+bulgaria,cp_membership_num,1928,NA
+bulgaria,cp_membership_num,1947,"450,000"
+bulgaria,cp_membership_num,1960,"484,000"
+bulgaria,cp_membership_num,1965,"528,674"
+bulgaria,cp_membership_num,1968,"613,393"
+burma,cp_membership_num,1924,NA
+burma,cp_membership_num,1928,NA
+burma,cp_membership_num,1947,"4,000"
+burma,cp_membership_num,1960,"8,000"
+burma,cp_membership_num,1965,"5,000"
+burma,cp_membership_num,1968,N/A
+burundi,cp_membership_num,1924,NA
+burundi,cp_membership_num,1928,NA
+burundi,cp_membership_num,1947,NA
+burundi,cp_membership_num,1960,0
+burundi,cp_membership_num,1965,0
+burundi,cp_membership_num,1968,0
+cambodia,cp_membership_num,1924,NA
+cambodia,cp_membership_num,1928,NA
+cambodia,cp_membership_num,1947,NA
+cambodia,cp_membership_num,1960,"1,000"
+cambodia,cp_membership_num,1965,100
+cambodia,cp_membership_num,1968,100
+cameroon,cp_membership_num,1924,NA
+cameroon,cp_membership_num,1928,NA
+cameroon,cp_membership_num,1947,NA
+cameroon,cp_membership_num,1960,50
+cameroon,cp_membership_num,1965,0
+cameroon,cp_membership_num,1968,0
+canada,cp_membership_num,1924,NA
+canada,cp_membership_num,1928,NA
+canada,cp_membership_num,1947,"25,000"
+canada,cp_membership_num,1960,"3,000"
+canada,cp_membership_num,1965,"3,500"
+canada,cp_membership_num,1968,"2,500"
+central african republic,cp_membership_num,1924,NA
+central african republic,cp_membership_num,1928,NA
+central african republic,cp_membership_num,1947,NA
+central african republic,cp_membership_num,1960,0
+central african republic,cp_membership_num,1965,0
+central african republic,cp_membership_num,1968,0
+sri lanka,cp_membership_num,1924,NA
+sri lanka,cp_membership_num,1928,NA
+sri lanka,cp_membership_num,1947,NA
+sri lanka,cp_membership_num,1960,"4,000"
+sri lanka,cp_membership_num,1965,"1,900"
+sri lanka,cp_membership_num,1968,"2,300"
+chad,cp_membership_num,1924,NA
+chad,cp_membership_num,1928,NA
+chad,cp_membership_num,1947,NA
+chad,cp_membership_num,1960,0
+chad,cp_membership_num,1965,0
+chad,cp_membership_num,1968,0
+chile,cp_membership_num,1924,NA
+chile,cp_membership_num,1928,NA
+chile,cp_membership_num,1947,"50,000"
+chile,cp_membership_num,1960,"22,500"
+chile,cp_membership_num,1965,"27,500"
+chile,cp_membership_num,1968,"45,000"
+china,cp_membership_num,1924,NA
+china,cp_membership_num,1928,NA
+china,cp_membership_num,1947,2000000
+china,cp_membership_num,1960,"13,960,000"
+china,cp_membership_num,1965,"18,000,000"
+china,cp_membership_num,1968,"17,000,000"
+taiwan,cp_membership_num,1924,NA
+taiwan,cp_membership_num,1928,NA
+taiwan,cp_membership_num,1947,NA
+taiwan,cp_membership_num,1960,50
+taiwan,cp_membership_num,1965,50
+taiwan,cp_membership_num,1968,50
+colombia,cp_membership_num,1924,NA
+colombia,cp_membership_num,1928,NA
+colombia,cp_membership_num,1947,"5,000"
+colombia,cp_membership_num,1960,"5,000"
+colombia,cp_membership_num,1965,"13,000"
+colombia,cp_membership_num,1968,"9,000"
+comoros,cp_membership_num,1924,NA
+comoros,cp_membership_num,1928,NA
+comoros,cp_membership_num,1947,NA
+comoros,cp_membership_num,1960,NA
+comoros,cp_membership_num,1965,NA
+comoros,cp_membership_num,1968,0
+republic of the congo,cp_membership_num,1924,NA
+republic of the congo,cp_membership_num,1928,NA
+republic of the congo,cp_membership_num,1947,NA
+republic of the congo,cp_membership_num,1960,50
+republic of the congo,cp_membership_num,1965,0
+republic of the congo,cp_membership_num,1968,0
+democratic republic of the congo,cp_membership_num,1924,NA
+democratic republic of the congo,cp_membership_num,1928,NA
+democratic republic of the congo,cp_membership_num,1947,NA
+democratic republic of the congo,cp_membership_num,1960,50
+democratic republic of the congo,cp_membership_num,1965,50
+democratic republic of the congo,cp_membership_num,1968,50
+costa rica,cp_membership_num,1924,NA
+costa rica,cp_membership_num,1928,NA
+costa rica,cp_membership_num,1947,"20,000"
+costa rica,cp_membership_num,1960,300
+costa rica,cp_membership_num,1965,300
+costa rica,cp_membership_num,1968,600
+cuba,cp_membership_num,1924,NA
+cuba,cp_membership_num,1928,NA
+cuba,cp_membership_num,1947,"200,000"
+cuba,cp_membership_num,1960,"27,000"
+cuba,cp_membership_num,1965,"35,000"
+cuba,cp_membership_num,1968,"60,000"
+cyprus,cp_membership_num,1924,NA
+cyprus,cp_membership_num,1928,NA
+cyprus,cp_membership_num,1947,"4 ,000"
+cyprus,cp_membership_num,1960,"5,000"
+cyprus,cp_membership_num,1965,"10,000"
+cyprus,cp_membership_num,1968,"13,000"
+czechoslovakia,cp_membership_num,1924,138996
+czechoslovakia,cp_membership_num,1928,150000
+czechoslovakia,cp_membership_num,1947,"250,000"
+czechoslovakia,cp_membership_num,1960,"1,500,000"
+czechoslovakia,cp_membership_num,1965,"1,676,509"
+czechoslovakia,cp_membership_num,1968,"1,700,000"
+benin,cp_membership_num,1924,NA
+benin,cp_membership_num,1928,NA
+benin,cp_membership_num,1947,NA
+benin,cp_membership_num,1960,0
+benin,cp_membership_num,1965,0
+benin,cp_membership_num,1968,0
+denmark,cp_membership_num,1924,NA
+denmark,cp_membership_num,1928,NA
+denmark,cp_membership_num,1947,"60,000"
+denmark,cp_membership_num,1960,"5,000"
+denmark,cp_membership_num,1965,"5,000"
+denmark,cp_membership_num,1968,"6,000"
+dominican republic,cp_membership_num,1924,NA
+dominican republic,cp_membership_num,1928,NA
+dominican republic,cp_membership_num,1947,"2,000"
+dominican republic,cp_membership_num,1960,50
+dominican republic,cp_membership_num,1965,N/A
+dominican republic,cp_membership_num,1968,"1,100"
+ecuador,cp_membership_num,1924,NA
+ecuador,cp_membership_num,1928,NA
+ecuador,cp_membership_num,1947,"2,500"
+ecuador,cp_membership_num,1960,"1,000"
+ecuador,cp_membership_num,1965,"2,500"
+ecuador,cp_membership_num,1968,"1,650"
+el salvador,cp_membership_num,1924,NA
+el salvador,cp_membership_num,1928,NA
+el salvador,cp_membership_num,1947,NA
+el salvador,cp_membership_num,1960,"1,000"
+el salvador,cp_membership_num,1965,200
+el salvador,cp_membership_num,1968,200
+ethiopia,cp_membership_num,1924,NA
+ethiopia,cp_membership_num,1928,NA
+ethiopia,cp_membership_num,1947,NA
+ethiopia,cp_membership_num,1960,50
+ethiopia,cp_membership_num,1965,0
+ethiopia,cp_membership_num,1968,0
+finland,cp_membership_num,1924,NA
+finland,cp_membership_num,1928,NA
+finland,cp_membership_num,1947,"25,000"
+finland,cp_membership_num,1960,"32,500"
+finland,cp_membership_num,1965,"40,000"
+finland,cp_membership_num,1968,"49,000"
+france,cp_membership_num,1924,"68,187"
+france,cp_membership_num,1928,"52,376"
+france,cp_membership_num,1947,"1,300,000"
+france,cp_membership_num,1960,"250,000"
+france,cp_membership_num,1965,"260,000"
+france,cp_membership_num,1968,"275,000"
+djibouti,cp_membership_num,1924,NA
+djibouti,cp_membership_num,1928,NA
+djibouti,cp_membership_num,1947,NA
+djibouti,cp_membership_num,1960,NA
+djibouti,cp_membership_num,1965,0
+djibouti,cp_membership_num,1968,0
+gabon,cp_membership_num,1924,NA
+gabon,cp_membership_num,1928,NA
+gabon,cp_membership_num,1947,NA
+gabon,cp_membership_num,1960,0
+gabon,cp_membership_num,1965,0
+gabon,cp_membership_num,1968,0
+gambia,cp_membership_num,1924,NA
+gambia,cp_membership_num,1928,NA
+gambia,cp_membership_num,1947,NA
+gambia,cp_membership_num,1960,NA
+gambia,cp_membership_num,1965,0
+gambia,cp_membership_num,1968,0
+east germany,cp_membership_num,1924,NA
+east germany,cp_membership_num,1928,NA
+east germany,cp_membership_num,1947,1600000
+east germany,cp_membership_num,1960,1472930
+east germany,cp_membership_num,1965,1610679
+east germany,cp_membership_num,1968,1769912
+west germany,cp_membership_num,1924,NA
+west germany,cp_membership_num,1928,NA
+west germany,cp_membership_num,1947,"350,000"
+west germany,cp_membership_num,1960,"50,000"
+west germany,cp_membership_num,1965,"50,000"
+west germany,cp_membership_num,1968,7000
+germany (combined),cp_membership_num,1924,"121,394"
+germany (combined),cp_membership_num,1928,"124,729"
+germany (combined),cp_membership_num,1947,NA
+germany (combined),cp_membership_num,1960,NA
+germany (combined),cp_membership_num,1965,NA
+germany (combined),cp_membership_num,1968,NA
+ghana,cp_membership_num,1924,NA
+ghana,cp_membership_num,1928,NA
+ghana,cp_membership_num,1947,NA
+ghana,cp_membership_num,1960,50
+ghana,cp_membership_num,1965,0
+ghana,cp_membership_num,1968,0
+greece,cp_membership_num,1924,NA
+greece,cp_membership_num,1928,NA
+greece,cp_membership_num,1947,"250,000"
+greece,cp_membership_num,1960,"20,000"
+greece,cp_membership_num,1965,"20,000"
+greece,cp_membership_num,1968,"27,000"
+guadeloupe,cp_membership_num,1924,NA
+guadeloupe,cp_membership_num,1928,NA
+guadeloupe,cp_membership_num,1947,NA
+guadeloupe,cp_membership_num,1960,"3,000"
+guadeloupe,cp_membership_num,1965,"1,000"
+guadeloupe,cp_membership_num,1968,"1,300"
+guatemala,cp_membership_num,1924,NA
+guatemala,cp_membership_num,1928,NA
+guatemala,cp_membership_num,1947,NA
+guatemala,cp_membership_num,1960,"1,200"
+guatemala,cp_membership_num,1965,"1,300"
+guatemala,cp_membership_num,1968,750
+french guiana,cp_membership_num,1924,NA
+french guiana,cp_membership_num,1928,NA
+french guiana,cp_membership_num,1947,NA
+french guiana,cp_membership_num,1960,50
+french guiana,cp_membership_num,1965,50
+french guiana,cp_membership_num,1968,50
+guinea,cp_membership_num,1924,NA
+guinea,cp_membership_num,1928,NA
+guinea,cp_membership_num,1947,NA
+guinea,cp_membership_num,1960,50
+guinea,cp_membership_num,1965,0
+guinea,cp_membership_num,1968,0
+equatorial guinea,cp_membership_num,1924,NA
+equatorial guinea,cp_membership_num,1928,NA
+equatorial guinea,cp_membership_num,1947,NA
+equatorial guinea,cp_membership_num,1960,NA
+equatorial guinea,cp_membership_num,1965,NA
+equatorial guinea,cp_membership_num,1968,0
+guinea-bissau,cp_membership_num,1924,NA
+guinea-bissau,cp_membership_num,1928,NA
+guinea-bissau,cp_membership_num,1947,NA
+guinea-bissau,cp_membership_num,1960,NA
+guinea-bissau,cp_membership_num,1965,0
+guinea-bissau,cp_membership_num,1968,0
+guyana,cp_membership_num,1924,NA
+guyana,cp_membership_num,1928,NA
+guyana,cp_membership_num,1947,NA
+guyana,cp_membership_num,1960,"6,000"
+guyana,cp_membership_num,1965,0
+guyana,cp_membership_num,1968,100
+haiti,cp_membership_num,1924,NA
+haiti,cp_membership_num,1928,NA
+haiti,cp_membership_num,1947,500
+haiti,cp_membership_num,1960,50
+haiti,cp_membership_num,1965,N/A
+haiti,cp_membership_num,1968,N/A
+honduras,cp_membership_num,1924,NA
+honduras,cp_membership_num,1928,NA
+honduras,cp_membership_num,1947,NA
+honduras,cp_membership_num,1960,400
+honduras,cp_membership_num,1965,"2,400"
+honduras,cp_membership_num,1968,300
+hong kong,cp_membership_num,1924,NA
+hong kong,cp_membership_num,1928,NA
+hong kong,cp_membership_num,1947,NA
+hong kong,cp_membership_num,1960,N/A
+hong kong,cp_membership_num,1965,N/A
+hong kong,cp_membership_num,1968,N/A
+hungary,cp_membership_num,1924,NA
+hungary,cp_membership_num,1928,NA
+hungary,cp_membership_num,1947,"650,000"
+hungary,cp_membership_num,1960,"437,956"
+hungary,cp_membership_num,1965,"520,000"
+hungary,cp_membership_num,1968,"600,000"
+iceland,cp_membership_num,1924,NA
+iceland,cp_membership_num,1928,NA
+iceland,cp_membership_num,1947,"1,000"
+iceland,cp_membership_num,1960,"1,000"
+iceland,cp_membership_num,1965,"1,000"
+iceland,cp_membership_num,1968,"1,000"
+ifni,cp_membership_num,1924,NA
+ifni,cp_membership_num,1928,NA
+ifni,cp_membership_num,1947,NA
+ifni,cp_membership_num,1960,NA
+ifni,cp_membership_num,1965,0
+ifni,cp_membership_num,1968,0
+india,cp_membership_num,1924,NA
+india,cp_membership_num,1928,NA
+india,cp_membership_num,1947,"54 ,000"
+india,cp_membership_num,1960,"230,000"
+india,cp_membership_num,1965,"135,000"
+india,cp_membership_num,1968,"125,000"
+indonesia,cp_membership_num,1924,NA
+indonesia,cp_membership_num,1928,NA
+indonesia,cp_membership_num,1947,"6,000"
+indonesia,cp_membership_num,1960,"1,500,000"
+indonesia,cp_membership_num,1965,"2,000,000"
+indonesia,cp_membership_num,1968,"5,000"
+iran,cp_membership_num,1924,NA
+iran,cp_membership_num,1928,NA
+iran,cp_membership_num,1947,"75,000"
+iran,cp_membership_num,1960,"1,500"
+iran,cp_membership_num,1965,"1,500"
+iran,cp_membership_num,1968,"1,000"
+iraq,cp_membership_num,1924,NA
+iraq,cp_membership_num,1928,NA
+iraq,cp_membership_num,1947,NA
+iraq,cp_membership_num,1960,"2,000"
+iraq,cp_membership_num,1965,"15,000"
+iraq,cp_membership_num,1968,"2,000"
+ireland,cp_membership_num,1924,NA
+ireland,cp_membership_num,1928,NA
+ireland,cp_membership_num,1947,NA
+ireland,cp_membership_num,1960,100
+ireland,cp_membership_num,1965,100
+ireland,cp_membership_num,1968,125
+israel,cp_membership_num,1924,NA
+israel,cp_membership_num,1928,NA
+israel,cp_membership_num,1947,"1,000"
+israel,cp_membership_num,1960,"2,000"
+israel,cp_membership_num,1965,"2,000"
+israel,cp_membership_num,1968,"2,000"
+italy,cp_membership_num,1924,NA
+italy,cp_membership_num,1928,NA
+italy,cp_membership_num,1947,"2,000,000"
+italy,cp_membership_num,1960,"1,350,000"
+italy,cp_membership_num,1965,"1,350,000"
+italy,cp_membership_num,1968,"1,500,000"
+ivory coast,cp_membership_num,1924,NA
+ivory coast,cp_membership_num,1928,NA
+ivory coast,cp_membership_num,1947,NA
+ivory coast,cp_membership_num,1960,0
+ivory coast,cp_membership_num,1965,0
+ivory coast,cp_membership_num,1968,0
+jamaica,cp_membership_num,1924,NA
+jamaica,cp_membership_num,1928,NA
+jamaica,cp_membership_num,1947,NA
+jamaica,cp_membership_num,1960,150
+jamaica,cp_membership_num,1965,0
+jamaica,cp_membership_num,1968,50
+japan,cp_membership_num,1924,NA
+japan,cp_membership_num,1928,NA
+japan,cp_membership_num,1947,"60,000"
+japan,cp_membership_num,1960,"70,000"
+japan,cp_membership_num,1965,"120,000"
+japan,cp_membership_num,1968,"250,000"
+jordan,cp_membership_num,1924,NA
+jordan,cp_membership_num,1928,NA
+jordan,cp_membership_num,1947,NA
+jordan,cp_membership_num,1960,200
+jordan,cp_membership_num,1965,500
+jordan,cp_membership_num,1968,700
+kenya,cp_membership_num,1924,NA
+kenya,cp_membership_num,1928,NA
+kenya,cp_membership_num,1947,NA
+kenya,cp_membership_num,1960,0
+kenya,cp_membership_num,1965,0
+kenya,cp_membership_num,1968,0
+north korea,cp_membership_num,1924,NA
+north korea,cp_membership_num,1928,NA
+north korea,cp_membership_num,1947,"40,000"
+north korea,cp_membership_num,1960,"1,200,000"
+north korea,cp_membership_num,1965,"1,300,000"
+north korea,cp_membership_num,1968,"1,600,000"
+south korea,cp_membership_num,1924,NA
+south korea,cp_membership_num,1928,NA
+south korea,cp_membership_num,1947,"10,000"
+south korea,cp_membership_num,1960,50
+south korea,cp_membership_num,1965,50
+south korea,cp_membership_num,1968,50
+kuwait,cp_membership_num,1924,NA
+kuwait,cp_membership_num,1928,NA
+kuwait,cp_membership_num,1947,NA
+kuwait,cp_membership_num,1960,50
+kuwait,cp_membership_num,1965,50
+kuwait,cp_membership_num,1968,50
+laos,cp_membership_num,1924,NA
+laos,cp_membership_num,1928,NA
+laos,cp_membership_num,1947,NA
+laos,cp_membership_num,1960,100
+laos,cp_membership_num,1965,100
+laos,cp_membership_num,1968,N/A
+lebanon,cp_membership_num,1924,NA
+lebanon,cp_membership_num,1928,NA
+lebanon,cp_membership_num,1947,"15,000"
+lebanon,cp_membership_num,1960,NA
+lebanon,cp_membership_num,1965,"3,000"
+lebanon,cp_membership_num,1968,"6,000"
+lesotho,cp_membership_num,1924,NA
+lesotho,cp_membership_num,1928,NA
+lesotho,cp_membership_num,1947,NA
+lesotho,cp_membership_num,1960,0
+lesotho,cp_membership_num,1965,100
+lesotho,cp_membership_num,1968,50
+liberia,cp_membership_num,1924,NA
+liberia,cp_membership_num,1928,NA
+liberia,cp_membership_num,1947,NA
+liberia,cp_membership_num,1960,NA
+liberia,cp_membership_num,1965,0
+liberia,cp_membership_num,1968,0
+libya,cp_membership_num,1924,NA
+libya,cp_membership_num,1928,NA
+libya,cp_membership_num,1947,NA
+libya,cp_membership_num,1960,50
+libya,cp_membership_num,1965,0
+libya,cp_membership_num,1968,50
+luxembourg,cp_membership_num,1924,NA
+luxembourg,cp_membership_num,1928,NA
+luxembourg,cp_membership_num,1947,"5,000"
+luxembourg,cp_membership_num,1960,500
+luxembourg,cp_membership_num,1965,500
+luxembourg,cp_membership_num,1968,500
+madagascar,cp_membership_num,1924,NA
+madagascar,cp_membership_num,1928,NA
+madagascar,cp_membership_num,1947,NA
+madagascar,cp_membership_num,1960,N/A
+madagascar,cp_membership_num,1965,100
+madagascar,cp_membership_num,1968,50
+malawi,cp_membership_num,1924,NA
+malawi,cp_membership_num,1928,NA
+malawi,cp_membership_num,1947,NA
+malawi,cp_membership_num,1960,0
+malawi,cp_membership_num,1965,0
+malawi,cp_membership_num,1968,0
+malaysia,cp_membership_num,1924,NA
+malaysia,cp_membership_num,1928,NA
+malaysia,cp_membership_num,1947,"10,000"
+malaysia,cp_membership_num,1960,"5,000"
+malaysia,cp_membership_num,1965,"2,000"
+malaysia,cp_membership_num,1968,"2,000"
+maldives,cp_membership_num,1924,NA
+maldives,cp_membership_num,1928,NA
+maldives,cp_membership_num,1947,NA
+maldives,cp_membership_num,1960,NA
+maldives,cp_membership_num,1965,NA
+maldives,cp_membership_num,1968,0
+mali,cp_membership_num,1924,NA
+mali,cp_membership_num,1928,NA
+mali,cp_membership_num,1947,NA
+mali,cp_membership_num,1960,0
+mali,cp_membership_num,1965,0
+mali,cp_membership_num,1968,0
+malta,cp_membership_num,1924,NA
+malta,cp_membership_num,1928,NA
+malta,cp_membership_num,1947,NA
+malta,cp_membership_num,1960,NA
+malta,cp_membership_num,1965,NA
+malta,cp_membership_num,1968,0
+martinique,cp_membership_num,1924,NA
+martinique,cp_membership_num,1928,NA
+martinique,cp_membership_num,1947,NA
+martinique,cp_membership_num,1960,"2,500"
+martinique,cp_membership_num,1965,700
+martinique,cp_membership_num,1968,700
+mauritania,cp_membership_num,1924,NA
+mauritania,cp_membership_num,1928,NA
+mauritania,cp_membership_num,1947,NA
+mauritania,cp_membership_num,1960,0
+mauritania,cp_membership_num,1965,0
+mauritania,cp_membership_num,1968,0
+mauritius,cp_membership_num,1924,NA
+mauritius,cp_membership_num,1928,NA
+mauritius,cp_membership_num,1947,NA
+mauritius,cp_membership_num,1960,NA
+mauritius,cp_membership_num,1965,0
+mauritius,cp_membership_num,1968,50
+mexico,cp_membership_num,1924,NA
+mexico,cp_membership_num,1928,NA
+mexico,cp_membership_num,1947,"25,000"
+mexico,cp_membership_num,1960,"5,000"
+mexico,cp_membership_num,1965,"50,000"
+mexico,cp_membership_num,1968,"5,250"
+mongolia,cp_membership_num,1924,NA
+mongolia,cp_membership_num,1928,NA
+mongolia,cp_membership_num,1947,NA
+mongolia,cp_membership_num,1960,"36,333"
+mongolia,cp_membership_num,1965,"46,000"
+mongolia,cp_membership_num,1968,"48,570"
+morocco,cp_membership_num,1924,NA
+morocco,cp_membership_num,1928,NA
+morocco,cp_membership_num,1947,NA
+morocco,cp_membership_num,1960,"1,250"
+morocco,cp_membership_num,1965,"1,250"
+morocco,cp_membership_num,1968,600
+mozambique,cp_membership_num,1924,NA
+mozambique,cp_membership_num,1928,NA
+mozambique,cp_membership_num,1947,NA
+mozambique,cp_membership_num,1960,50
+mozambique,cp_membership_num,1965,0
+mozambique,cp_membership_num,1968,0
+namibia,cp_membership_num,1924,NA
+namibia,cp_membership_num,1928,NA
+namibia,cp_membership_num,1947,NA
+namibia,cp_membership_num,1960,NA
+namibia,cp_membership_num,1965,0
+namibia,cp_membership_num,1968,0
+nepal,cp_membership_num,1924,NA
+nepal,cp_membership_num,1928,NA
+nepal,cp_membership_num,1947,NA
+nepal,cp_membership_num,1960,"3,250"
+nepal,cp_membership_num,1965,"3,500"
+nepal,cp_membership_num,1968,"8,000"
+netherlands,cp_membership_num,1924,NA
+netherlands,cp_membership_num,1928,NA
+netherlands,cp_membership_num,1947,"50,000"
+netherlands,cp_membership_num,1960,"15,000"
+netherlands,cp_membership_num,1965,"12,000"
+netherlands,cp_membership_num,1968,"11,500"
+new zealand,cp_membership_num,1924,NA
+new zealand,cp_membership_num,1928,NA
+new zealand,cp_membership_num,1947,"2,000"
+new zealand,cp_membership_num,1960,400
+new zealand,cp_membership_num,1965,500
+new zealand,cp_membership_num,1968,400
+nicaragua,cp_membership_num,1924,NA
+nicaragua,cp_membership_num,1928,NA
+nicaragua,cp_membership_num,1947,"2,000"
+nicaragua,cp_membership_num,1960,200
+nicaragua,cp_membership_num,1965,250
+nicaragua,cp_membership_num,1968,200
+niger,cp_membership_num,1924,NA
+niger,cp_membership_num,1928,NA
+niger,cp_membership_num,1947,NA
+niger,cp_membership_num,1960,0
+niger,cp_membership_num,1965,0
+niger,cp_membership_num,1968,0
+nigeria,cp_membership_num,1924,NA
+nigeria,cp_membership_num,1928,NA
+nigeria,cp_membership_num,1947,NA
+nigeria,cp_membership_num,1960,50
+nigeria,cp_membership_num,1965,100
+nigeria,cp_membership_num,1968,"1 ,000"
+norway,cp_membership_num,1924,NA
+norway,cp_membership_num,1928,NA
+norway,cp_membership_num,1947,"33,000"
+norway,cp_membership_num,1960,"4,700"
+norway,cp_membership_num,1965,"4,500"
+norway,cp_membership_num,1968,"2,500"
+pakistan,cp_membership_num,1924,NA
+pakistan,cp_membership_num,1928,NA
+pakistan,cp_membership_num,1947,NA
+pakistan,cp_membership_num,1960,"4,250"
+pakistan,cp_membership_num,1965,"3,000"
+pakistan,cp_membership_num,1968,"1,450"
+panama,cp_membership_num,1924,NA
+panama,cp_membership_num,1928,NA
+panama,cp_membership_num,1947,500
+panama,cp_membership_num,1960,50
+panama,cp_membership_num,1965,400
+panama,cp_membership_num,1968,250
+paraguay,cp_membership_num,1924,NA
+paraguay,cp_membership_num,1928,NA
+paraguay,cp_membership_num,1947,N/A
+paraguay,cp_membership_num,1960,500
+paraguay,cp_membership_num,1965,"5,000"
+paraguay,cp_membership_num,1968,"5,000"
+south yemen,cp_membership_num,1924,NA
+south yemen,cp_membership_num,1928,NA
+south yemen,cp_membership_num,1947,NA
+south yemen,cp_membership_num,1960,NA
+south yemen,cp_membership_num,1965,50
+south yemen,cp_membership_num,1968,50
+persian gulf states,cp_membership_num,1924,NA
+persian gulf states,cp_membership_num,1928,NA
+persian gulf states,cp_membership_num,1947,NA
+persian gulf states,cp_membership_num,1960,NA
+persian gulf states,cp_membership_num,1965,NA
+persian gulf states,cp_membership_num,1968,50
+peru,cp_membership_num,1924,NA
+peru,cp_membership_num,1928,NA
+peru,cp_membership_num,1947,"35,000"
+peru,cp_membership_num,1960,"6,000"
+peru,cp_membership_num,1965,"8,500"
+peru,cp_membership_num,1968,"5,000"
+philippines,cp_membership_num,1924,NA
+philippines,cp_membership_num,1928,NA
+philippines,cp_membership_num,1947,"3,000"
+philippines,cp_membership_num,1960,"1,250"
+philippines,cp_membership_num,1965,"1,200"
+philippines,cp_membership_num,1968,"2,000"
+poland,cp_membership_num,1924,NA
+poland,cp_membership_num,1928,NA
+poland,cp_membership_num,1947,"600,000"
+poland,cp_membership_num,1960,"1,023,577"
+poland,cp_membership_num,1965,"1,614,237"
+poland,cp_membership_num,1968,"2,030,065"
+portugal,cp_membership_num,1924,NA
+portugal,cp_membership_num,1928,NA
+portugal,cp_membership_num,1947,N/A
+portugal,cp_membership_num,1960,"2,000"
+portugal,cp_membership_num,1965,"2,000"
+portugal,cp_membership_num,1968,"2,000"
+reunion,cp_membership_num,1924,NA
+reunion,cp_membership_num,1928,NA
+reunion,cp_membership_num,1947,NA
+reunion,cp_membership_num,1960,NA
+reunion,cp_membership_num,1965,N/A
+reunion,cp_membership_num,1968,500
+rio muni,cp_membership_num,1924,NA
+rio muni,cp_membership_num,1928,NA
+rio muni,cp_membership_num,1947,NA
+rio muni,cp_membership_num,1960,NA
+rio muni,cp_membership_num,1965,0
+rio muni,cp_membership_num,1968,0
+romania,cp_membership_num,1924,NA
+romania,cp_membership_num,1928,NA
+romania,cp_membership_num,1947,"500,000"
+romania,cp_membership_num,1960,"720,000"
+romania,cp_membership_num,1965,"1,240,000"
+romania,cp_membership_num,1968,"1,800,000"
+rwanda,cp_membership_num,1924,NA
+rwanda,cp_membership_num,1928,NA
+rwanda,cp_membership_num,1947,NA
+rwanda,cp_membership_num,1960,0
+rwanda,cp_membership_num,1965,0
+rwanda,cp_membership_num,1968,0
+san marino,cp_membership_num,1924,N/A
+san marino,cp_membership_num,1928,N/A
+san marino,cp_membership_num,1947,N/A
+san marino,cp_membership_num,1960,N/A
+san marino,cp_membership_num,1965,N/A
+san marino,cp_membership_num,1968,N/A
+saudi arabia,cp_membership_num,1924,NA
+saudi arabia,cp_membership_num,1928,NA
+saudi arabia,cp_membership_num,1947,NA
+saudi arabia,cp_membership_num,1960,50
+saudi arabia,cp_membership_num,1965,0
+saudi arabia,cp_membership_num,1968,50
+senegal,cp_membership_num,1924,NA
+senegal,cp_membership_num,1928,NA
+senegal,cp_membership_num,1947,NA
+senegal,cp_membership_num,1960,0
+senegal,cp_membership_num,1965,0
+senegal,cp_membership_num,1968,0
+sierra leone,cp_membership_num,1924,NA
+sierra leone,cp_membership_num,1928,NA
+sierra leone,cp_membership_num,1947,NA
+sierra leone,cp_membership_num,1960,0
+sierra leone,cp_membership_num,1965,0
+sierra leone,cp_membership_num,1968,0
+somalia,cp_membership_num,1924,NA
+somalia,cp_membership_num,1928,NA
+somalia,cp_membership_num,1947,NA
+somalia,cp_membership_num,1960,50
+somalia,cp_membership_num,1965,0
+somalia,cp_membership_num,1968,0
+south africa,cp_membership_num,1924,NA
+south africa,cp_membership_num,1928,NA
+south africa,cp_membership_num,1947,"1,500"
+south africa,cp_membership_num,1960,"1,500"
+south africa,cp_membership_num,1965,800
+south africa,cp_membership_num,1968,N/A
+spain,cp_membership_num,1924,NA
+spain,cp_membership_num,1928,NA
+spain,cp_membership_num,1947,N/A
+spain,cp_membership_num,1960,"5,000"
+spain,cp_membership_num,1965,"5,000"
+spain,cp_membership_num,1968,"5,000"
+sudan,cp_membership_num,1924,NA
+sudan,cp_membership_num,1928,NA
+sudan,cp_membership_num,1947,NA
+sudan,cp_membership_num,1960,300
+sudan,cp_membership_num,1965,"2,500"
+sudan,cp_membership_num,1968,"7,500"
+suriname,cp_membership_num,1924,NA
+suriname,cp_membership_num,1928,NA
+suriname,cp_membership_num,1947,NA
+suriname,cp_membership_num,1960,0
+suriname,cp_membership_num,1965,0
+suriname,cp_membership_num,1968,0
+swaziland,cp_membership_num,1924,NA
+swaziland,cp_membership_num,1928,NA
+swaziland,cp_membership_num,1947,NA
+swaziland,cp_membership_num,1960,NA
+swaziland,cp_membership_num,1965,0
+swaziland,cp_membership_num,1968,0
+sweden,cp_membership_num,1924,7011
+sweden,cp_membership_num,1928,15479
+sweden,cp_membership_num,1947,"46,000"
+sweden,cp_membership_num,1960,"25,000"
+sweden,cp_membership_num,1965,"20,000"
+sweden,cp_membership_num,1968,"29,000"
+switzerland,cp_membership_num,1924,NA
+switzerland,cp_membership_num,1928,NA
+switzerland,cp_membership_num,1947,"20,000"
+switzerland,cp_membership_num,1960,"6,000"
+switzerland,cp_membership_num,1965,"6,000"
+switzerland,cp_membership_num,1968,"4 ,000"
+syria,cp_membership_num,1924,NA
+syria,cp_membership_num,1928,NA
+syria,cp_membership_num,1947,"8,000"
+syria,cp_membership_num,1960,"1,500"
+syria,cp_membership_num,1965,"4,000"
+syria,cp_membership_num,1968,"3,000"
+tanzania,cp_membership_num,1924,NA
+tanzania,cp_membership_num,1928,NA
+tanzania,cp_membership_num,1947,NA
+tanzania,cp_membership_num,1960,0
+tanzania,cp_membership_num,1965,0
+tanzania,cp_membership_num,1968,0
+thailand,cp_membership_num,1924,NA
+thailand,cp_membership_num,1928,NA
+thailand,cp_membership_num,1947,NA
+thailand,cp_membership_num,1960,"4,000"
+thailand,cp_membership_num,1965,N/A
+thailand,cp_membership_num,1968,"2,500"
+togo,cp_membership_num,1924,NA
+togo,cp_membership_num,1928,NA
+togo,cp_membership_num,1947,NA
+togo,cp_membership_num,1960,50
+togo,cp_membership_num,1965,0
+togo,cp_membership_num,1968,0
+trinidad and tobago,cp_membership_num,1924,NA
+trinidad and tobago,cp_membership_num,1928,NA
+trinidad and tobago,cp_membership_num,1947,NA
+trinidad and tobago,cp_membership_num,1960,75
+trinidad and tobago,cp_membership_num,1965,50
+trinidad and tobago,cp_membership_num,1968,0
+tunisia,cp_membership_num,1924,NA
+tunisia,cp_membership_num,1928,NA
+tunisia,cp_membership_num,1947,"20,000"
+tunisia,cp_membership_num,1960,400
+tunisia,cp_membership_num,1965,"1,000"
+tunisia,cp_membership_num,1968,100
+turkey,cp_membership_num,1924,NA
+turkey,cp_membership_num,1928,NA
+turkey,cp_membership_num,1947,NA
+turkey,cp_membership_num,1960,NA
+turkey,cp_membership_num,1965,"1,000"
+turkey,cp_membership_num,1968,"1,250"
+uganda,cp_membership_num,1924,NA
+uganda,cp_membership_num,1928,NA
+uganda,cp_membership_num,1947,NA
+uganda,cp_membership_num,1960,0
+uganda,cp_membership_num,1965,0
+uganda,cp_membership_num,1968,0
+ussr,cp_membership_num,1924,"446,089"
+ussr,cp_membership_num,1928,"1,210,954"
+ussr,cp_membership_num,1947,"6,000,000"
+ussr,cp_membership_num,1960,"8,366,000"
+ussr,cp_membership_num,1965,"12,000,000"
+ussr,cp_membership_num,1968,"13,500,000"
+united arab republic,cp_membership_num,1924,NA
+united arab republic,cp_membership_num,1928,NA
+united arab republic,cp_membership_num,1947,NA
+united arab republic,cp_membership_num,1960,"1,000"
+united arab republic,cp_membership_num,1965,"1,000"
+united arab republic,cp_membership_num,1968,0
+uk,cp_membership_num,1924,"4,000"
+uk,cp_membership_num,1928,"9,000"
+uk,cp_membership_num,1947,"43,500"
+uk,cp_membership_num,1960,"26,000"
+uk,cp_membership_num,1965,"34,372"
+uk,cp_membership_num,1968,"32,532"
+usa,cp_membership_num,1924,"17,000"
+usa,cp_membership_num,1928,"12,000"
+usa,cp_membership_num,1947,"75,000"
+usa,cp_membership_num,1960,NA
+usa,cp_membership_num,1965,NA
+usa,cp_membership_num,1968,"13,000"
+burkina faso,cp_membership_num,1924,NA
+burkina faso,cp_membership_num,1928,NA
+burkina faso,cp_membership_num,1947,NA
+burkina faso,cp_membership_num,1960,0
+burkina faso,cp_membership_num,1965,0
+burkina faso,cp_membership_num,1968,0
+uruguay,cp_membership_num,1924,NA
+uruguay,cp_membership_num,1928,NA
+uruguay,cp_membership_num,1947,"15,000"
+uruguay,cp_membership_num,1960,"5,000"
+uruguay,cp_membership_num,1965,"10,000"
+uruguay,cp_membership_num,1968,"21,000"
+venezuela,cp_membership_num,1924,NA
+venezuela,cp_membership_num,1928,NA
+venezuela,cp_membership_num,1947,"20,000"
+venezuela,cp_membership_num,1960,"40,000"
+venezuela,cp_membership_num,1965,"30,000"
+venezuela,cp_membership_num,1968,"5,000"
+north vietnam,cp_membership_num,1924,NA
+north vietnam,cp_membership_num,1928,NA
+north vietnam,cp_membership_num,1947,NA
+north vietnam,cp_membership_num,1960,"620,000"
+north vietnam,cp_membership_num,1965,"570,000"
+north vietnam,cp_membership_num,1968,"766,000"
+south vietnam,cp_membership_num,1924,NA
+south vietnam,cp_membership_num,1928,NA
+south vietnam,cp_membership_num,1947,NA
+south vietnam,cp_membership_num,1960,"1,800"
+south vietnam,cp_membership_num,1965,"31,000"
+south vietnam,cp_membership_num,1968,N/A
+north yemen,cp_membership_num,1924,NA
+north yemen,cp_membership_num,1928,NA
+north yemen,cp_membership_num,1947,NA
+north yemen,cp_membership_num,1960,50
+north yemen,cp_membership_num,1965,50
+north yemen,cp_membership_num,1968,50
+yugoslavia,cp_membership_num,1924,NA
+yugoslavia,cp_membership_num,1928,NA
+yugoslavia,cp_membership_num,1947,"150,000"
+yugoslavia,cp_membership_num,1960,"899,310"
+yugoslavia,cp_membership_num,1965,"1,030,041"
+yugoslavia,cp_membership_num,1968,"1,013,500"
+zambia,cp_membership_num,1924,NA
+zambia,cp_membership_num,1928,NA
+zambia,cp_membership_num,1947,NA
+zambia,cp_membership_num,1960,0
+zambia,cp_membership_num,1965,0
+zambia,cp_membership_num,1968,0
+total,cp_membership_num,1924,"1,222,035"
+total,cp_membership_num,1928,"1,707,769"
+total,cp_membership_num,1947,"18,634,500"
+total,cp_membership_num,1960,"35,000,000"
+total,cp_membership_num,1965,"45,000,000"
+total,cp_membership_num,1968,"45,055,700"
+bolivia,cp_membership_num,1947,N/A
+bolivia,cp_membership_num,1952,2000
+bolivia,cp_membership_num,1956,2000
+bolivia,cp_membership_num,1957,4000
+bolivia,cp_membership_num,1958,4000
+bolivia,cp_membership_num,1959,4000
+bolivia,cp_membership_num,1960,4000
+bolivia,cp_membership_num,1961,5000
+bolivia,cp_membership_num,1962,5000
+bolivia,cp_membership_num,1963,6500
+bolivia,cp_membership_num,1964,4500
+bolivia,cp_membership_num,1965,4500
+bolivia,cp_membership_num,1966,5500
+bolivia,cp_membership_num,1967,6000
+bolivia,cp_membership_num,1968,6000
+bolivia,cp_membership_num,1969,5000
+bolivia,cp_membership_num,1970,4500
+bolivia,cp_membership_num,1971,2800
+bolivia,cp_membership_num,1972,3200
+bolivia,cp_membership_num,1973,2600
+bolivia,cp_membership_num,1974,450
+bolivia,cp_membership_num,1975,450
+bolivia,cp_membership_num,1976,500
+brazil,cp_membership_num,1947,150000
+brazil,cp_membership_num,1952,60000
+brazil,cp_membership_num,1956,100000
+brazil,cp_membership_num,1957,50000
+brazil,cp_membership_num,1958,50000
+brazil,cp_membership_num,1959,25000
+brazil,cp_membership_num,1960,50000
+brazil,cp_membership_num,1961,40000
+brazil,cp_membership_num,1962,35000
+brazil,cp_membership_num,1963,31000
+brazil,cp_membership_num,1964,31000
+brazil,cp_membership_num,1965,23000
+brazil,cp_membership_num,1966,20000
+brazil,cp_membership_num,1967,20000
+brazil,cp_membership_num,1968,15750
+brazil,cp_membership_num,1969,16000
+brazil,cp_membership_num,1970,14000
+brazil,cp_membership_num,1971,13000
+brazil,cp_membership_num,1972,13000
+brazil,cp_membership_num,1973,6000
+brazil,cp_membership_num,1974,6000
+brazil,cp_membership_num,1975,7000
+brazil,cp_membership_num,1976,6000
+chile,cp_membership_num,1947,50000
+chile,cp_membership_num,1952,35000
+chile,cp_membership_num,1956,40000
+chile,cp_membership_num,1957,25000
+chile,cp_membership_num,1958,25000
+chile,cp_membership_num,1959,N/A
+chile,cp_membership_num,1960,25000
+chile,cp_membership_num,1961,20000
+chile,cp_membership_num,1962,25000
+chile,cp_membership_num,1963,25000
+chile,cp_membership_num,1964,27500
+chile,cp_membership_num,1965,30000
+chile,cp_membership_num,1966,30000
+chile,cp_membership_num,1967,32500
+chile,cp_membership_num,1968,45000
+chile,cp_membership_num,1969,45000
+chile,cp_membership_num,1970,45000
+chile,cp_membership_num,1971,90000
+chile,cp_membership_num,1972,120000
+chile,cp_membership_num,1973,N/A
+chile,cp_membership_num,1974,N/A
+chile,cp_membership_num,1975,100000
+chile,cp_membership_num,1976,N/A
+colombia,cp_membership_num,1947,5000
+colombia,cp_membership_num,1952,3000
+colombia,cp_membership_num,1956,5000
+colombia,cp_membership_num,1957,5000
+colombia,cp_membership_num,1958,5000
+colombia,cp_membership_num,1959,5000
+colombia,cp_membership_num,1960,5000
+colombia,cp_membership_num,1961,8000
+colombia,cp_membership_num,1962,10000
+colombia,cp_membership_num,1963,11000
+colombia,cp_membership_num,1964,13000
+colombia,cp_membership_num,1965,12000
+colombia,cp_membership_num,1966,10000
+colombia,cp_membership_num,1967,9000
+colombia,cp_membership_num,1968,9000
+colombia,cp_membership_num,1969,9000
+colombia,cp_membership_num,1970,9000
+colombia,cp_membership_num,1971,11000
+colombia,cp_membership_num,1972,11000
+colombia,cp_membership_num,1973,11000
+colombia,cp_membership_num,1974,11000
+colombia,cp_membership_num,1975,12000
+colombia,cp_membership_num,1976,11000
+costa rica,cp_membership_num,1947,3000
+costa rica,cp_membership_num,1952,2000
+costa rica,cp_membership_num,1956,1000
+costa rica,cp_membership_num,1957,300
+costa rica,cp_membership_num,1958,300
+costa rica,cp_membership_num,1959,300
+costa rica,cp_membership_num,1960,300
+costa rica,cp_membership_num,1961,300
+costa rica,cp_membership_num,1962,300
+costa rica,cp_membership_num,1963,300
+costa rica,cp_membership_num,1964,300
+costa rica,cp_membership_num,1965,400
+costa rica,cp_membership_num,1966,450
+costa rica,cp_membership_num,1967,550
+costa rica,cp_membership_num,1968,600
+costa rica,cp_membership_num,1969,600
+costa rica,cp_membership_num,1970,1000
+costa rica,cp_membership_num,1971,1000
+costa rica,cp_membership_num,1972,1000
+costa rica,cp_membership_num,1973,1000
+costa rica,cp_membership_num,1974,1000
+costa rica,cp_membership_num,1975,1500
+costa rica,cp_membership_num,1976,3200
+cuba,cp_membership_num,1947,50000
+cuba,cp_membership_num,1952,25000
+cuba,cp_membership_num,1956,30000
+cuba,cp_membership_num,1957,12000
+cuba,cp_membership_num,1958,12000
+cuba,cp_membership_num,1959,27000
+cuba,cp_membership_num,1960,27000
+cuba,cp_membership_num,1961,27000
+cuba,cp_membership_num,1962,60000
+cuba,cp_membership_num,1963,28000
+cuba,cp_membership_num,1964,35000
+cuba,cp_membership_num,1965,50000
+cuba,cp_membership_num,1966,60000
+cuba,cp_membership_num,1967,60000
+cuba,cp_membership_num,1968,60000
+cuba,cp_membership_num,1969,120000
+cuba,cp_membership_num,1970,125000
+cuba,cp_membership_num,1971,125000
+cuba,cp_membership_num,1972,125000
+cuba,cp_membership_num,1973,153000
+cuba,cp_membership_num,1974,200000
+cuba,cp_membership_num,1975,200000
+cuba,cp_membership_num,1976,200000
+dominican republic,cp_membership_num,1947,500
+dominican republic,cp_membership_num,1952,N/A
+dominican republic,cp_membership_num,1956,N/A
+dominican republic,cp_membership_num,1957,N/A
+dominican republic,cp_membership_num,1958,N/A
+dominican republic,cp_membership_num,1959,N/A
+dominican republic,cp_membership_num,1960,N/A
+dominican republic,cp_membership_num,1961,N/A
+dominican republic,cp_membership_num,1962,N/A
+dominican republic,cp_membership_num,1963,N/A
+dominican republic,cp_membership_num,1964,N/A
+dominican republic,cp_membership_num,1965,1700
+dominican republic,cp_membership_num,1966,1300
+dominican republic,cp_membership_num,1967,1300
+dominican republic,cp_membership_num,1968,1100
+dominican republic,cp_membership_num,1969,1100
+dominican republic,cp_membership_num,1970,1680
+dominican republic,cp_membership_num,1971,1400
+dominican republic,cp_membership_num,1972,1400
+dominican republic,cp_membership_num,1973,1400
+dominican republic,cp_membership_num,1974,1400
+dominican republic,cp_membership_num,1975,1500
+dominican republic,cp_membership_num,1976,1650
+ecuador,cp_membership_num,1947,2500
+ecuador,cp_membership_num,1952,2000
+ecuador,cp_membership_num,1956,5000
+ecuador,cp_membership_num,1957,1000
+ecuador,cp_membership_num,1958,1000
+ecuador,cp_membership_num,1959,1000
+ecuador,cp_membership_num,1960,1000
+ecuador,cp_membership_num,1961,3000
+ecuador,cp_membership_num,1962,3000
+ecuador,cp_membership_num,1963,2500
+ecuador,cp_membership_num,1964,2500
+ecuador,cp_membership_num,1965,2500
+ecuador,cp_membership_num,1966,1500
+ecuador,cp_membership_num,1967,1500
+ecuador,cp_membership_num,1968,1650
+ecuador,cp_membership_num,1969,1650
+ecuador,cp_membership_num,1970,1250
+ecuador,cp_membership_num,1971,1200
+ecuador,cp_membership_num,1972,1200
+ecuador,cp_membership_num,1973,750
+ecuador,cp_membership_num,1974,750
+ecuador,cp_membership_num,1975,600
+ecuador,cp_membership_num,1976,800
+el salvador,cp_membership_num,1947,N/A
+el salvador,cp_membership_num,1952,500
+el salvador,cp_membership_num,1956,1000
+el salvador,cp_membership_num,1957,500
+el salvador,cp_membership_num,1958,500
+el salvador,cp_membership_num,1959,1000
+el salvador,cp_membership_num,1960,1000
+el salvador,cp_membership_num,1961,500
+el salvador,cp_membership_num,1962,500
+el salvador,cp_membership_num,1963,500
+el salvador,cp_membership_num,1964,200
+el salvador,cp_membership_num,1965,200
+el salvador,cp_membership_num,1966,200
+el salvador,cp_membership_num,1967,200
+el salvador,cp_membership_num,1968,200
+el salvador,cp_membership_num,1969,200
+el salvador,cp_membership_num,1970,100
+el salvador,cp_membership_num,1971,100
+el salvador,cp_membership_num,1972,130
+el salvador,cp_membership_num,1973,150
+el salvador,cp_membership_num,1974,200
+el salvador,cp_membership_num,1975,180
+el salvador,cp_membership_num,1976,150
+guatemala,cp_membership_num,1947,N/A
+guatemala,cp_membership_num,1952,1000
+guatemala,cp_membership_num,1956,1000
+guatemala,cp_membership_num,1957,1000
+guatemala,cp_membership_num,1958,1000
+guatemala,cp_membership_num,1959,1200
+guatemala,cp_membership_num,1960,1200
+guatemala,cp_membership_num,1961,1000
+guatemala,cp_membership_num,1962,1100
+guatemala,cp_membership_num,1963,1300
+guatemala,cp_membership_num,1964,1300
+guatemala,cp_membership_num,1965,1000
+guatemala,cp_membership_num,1966,1000
+guatemala,cp_membership_num,1967,750
+guatemala,cp_membership_num,1968,750
+guatemala,cp_membership_num,1969,750
+guatemala,cp_membership_num,1970,750
+guatemala,cp_membership_num,1971,750
+guatemala,cp_membership_num,1972,750
+guatemala,cp_membership_num,1973,750
+guatemala,cp_membership_num,1974,750
+guatemala,cp_membership_num,1975,750
+guatemala,cp_membership_num,1976,750
+haiti,cp_membership_num,1947,500
+haiti,cp_membership_num,1952,N/A
+haiti,cp_membership_num,1956,N/A
+haiti,cp_membership_num,1957,N/A
+haiti,cp_membership_num,1958,N/A
+haiti,cp_membership_num,1959,N/A
+haiti,cp_membership_num,1960,N/A
+haiti,cp_membership_num,1961,N/A
+haiti,cp_membership_num,1962,N/A
+haiti,cp_membership_num,1963,N/A
+haiti,cp_membership_num,1964,N/A
+haiti,cp_membership_num,1965,N/A
+haiti,cp_membership_num,1966,N/A
+haiti,cp_membership_num,1967,N/A
+haiti,cp_membership_num,1968,N/A
+haiti,cp_membership_num,1969,N/A
+haiti,cp_membership_num,1970,N/A
+haiti,cp_membership_num,1971,N/A
+haiti,cp_membership_num,1972,N/A
+haiti,cp_membership_num,1973,N/A
+haiti,cp_membership_num,1974,N/A
+haiti,cp_membership_num,1975,150
+haiti,cp_membership_num,1976,N/A
+honduras,cp_membership_num,1947,N/A
+honduras,cp_membership_num,1952,N/A
+honduras,cp_membership_num,1956,500
+honduras,cp_membership_num,1957,500
+honduras,cp_membership_num,1958,500
+honduras,cp_membership_num,1959,400
+honduras,cp_membership_num,1960,400
+honduras,cp_membership_num,1961,2000
+honduras,cp_membership_num,1962,2000
+honduras,cp_membership_num,1963,2400
+honduras,cp_membership_num,1964,2400
+honduras,cp_membership_num,1965,1300
+honduras,cp_membership_num,1966,1300
+honduras,cp_membership_num,1967,650
+honduras,cp_membership_num,1968,300
+honduras,cp_membership_num,1969,300
+honduras,cp_membership_num,1970,300
+honduras,cp_membership_num,1971,300
+honduras,cp_membership_num,1972,300
+honduras,cp_membership_num,1973,300
+honduras,cp_membership_num,1974,350
+honduras,cp_membership_num,1975,750
+honduras,cp_membership_num,1976,650
+mexico,cp_membership_num,1947,10000
+mexico,cp_membership_num,1952,5000
+mexico,cp_membership_num,1956,5000
+mexico,cp_membership_num,1957,5000
+mexico,cp_membership_num,1958,5000
+mexico,cp_membership_num,1959,5000
+mexico,cp_membership_num,1960,5000
+mexico,cp_membership_num,1961,6000
+mexico,cp_membership_num,1962,6000
+mexico,cp_membership_num,1963,50000
+mexico,cp_membership_num,1964,50000
+mexico,cp_membership_num,1965,5250
+mexico,cp_membership_num,1966,5250
+mexico,cp_membership_num,1967,5250
+mexico,cp_membership_num,1968,5250
+mexico,cp_membership_num,1969,5000
+mexico,cp_membership_num,1970,5000
+mexico,cp_membership_num,1971,5000
+mexico,cp_membership_num,1972,5000
+mexico,cp_membership_num,1973,5000
+mexico,cp_membership_num,1974,5000
+mexico,cp_membership_num,1975,5000
+mexico,cp_membership_num,1976,5000
+nicaragua,cp_membership_num,1947,500
+nicaragua,cp_membership_num,1952,500
+nicaragua,cp_membership_num,1956,500
+nicaragua,cp_membership_num,1957,200
+nicaragua,cp_membership_num,1958,200
+nicaragua,cp_membership_num,1959,200
+nicaragua,cp_membership_num,1960,200
+nicaragua,cp_membership_num,1961,300
+nicaragua,cp_membership_num,1962,300
+nicaragua,cp_membership_num,1963,250
+nicaragua,cp_membership_num,1964,250
+nicaragua,cp_membership_num,1965,200
+nicaragua,cp_membership_num,1966,200
+nicaragua,cp_membership_num,1967,200
+nicaragua,cp_membership_num,1968,200
+nicaragua,cp_membership_num,1969,200
+nicaragua,cp_membership_num,1970,100
+nicaragua,cp_membership_num,1971,100
+nicaragua,cp_membership_num,1972,100
+nicaragua,cp_membership_num,1973,100
+nicaragua,cp_membership_num,1974,N/A
+nicaragua,cp_membership_num,1975,150
+nicaragua,cp_membership_num,1976,100
+panama,cp_membership_num,1947,500
+panama,cp_membership_num,1952,500
+panama,cp_membership_num,1956,500
+panama,cp_membership_num,1957,N/A
+panama,cp_membership_num,1958,N/A
+panama,cp_membership_num,1959,N/A
+panama,cp_membership_num,1960,300
+panama,cp_membership_num,1961,150
+panama,cp_membership_num,1962,150
+panama,cp_membership_num,1963,400
+panama,cp_membership_num,1964,400
+panama,cp_membership_num,1965,500
+panama,cp_membership_num,1966,500
+panama,cp_membership_num,1967,250
+panama,cp_membership_num,1968,250
+panama,cp_membership_num,1969,250
+panama,cp_membership_num,1970,130
+panama,cp_membership_num,1971,250
+panama,cp_membership_num,1972,500
+panama,cp_membership_num,1973,500
+panama,cp_membership_num,1974,500
+panama,cp_membership_num,1975,500
+panama,cp_membership_num,1976,600
+paraguay,cp_membership_num,1947,8000
+paraguay,cp_membership_num,1952,1000
+paraguay,cp_membership_num,1956,2000
+paraguay,cp_membership_num,1957,500
+paraguay,cp_membership_num,1958,500
+paraguay,cp_membership_num,1959,500
+paraguay,cp_membership_num,1960,500
+paraguay,cp_membership_num,1961,5000
+paraguay,cp_membership_num,1962,4000
+paraguay,cp_membership_num,1963,3500
+paraguay,cp_membership_num,1964,5000
+paraguay,cp_membership_num,1965,5000
+paraguay,cp_membership_num,1966,5000
+paraguay,cp_membership_num,1967,5000
+paraguay,cp_membership_num,1968,5000
+paraguay,cp_membership_num,1969,4500
+paraguay,cp_membership_num,1970,4500
+paraguay,cp_membership_num,1971,4500
+paraguay,cp_membership_num,1972,3500
+paraguay,cp_membership_num,1973,3500
+paraguay,cp_membership_num,1974,3500
+paraguay,cp_membership_num,1975,3500
+paraguay,cp_membership_num,1976,3500
+peru,cp_membership_num,1947,30000
+peru,cp_membership_num,1952,10000
+peru,cp_membership_num,1956,5000
+peru,cp_membership_num,1957,6000
+peru,cp_membership_num,1958,6000
+peru,cp_membership_num,1959,6000
+peru,cp_membership_num,1960,7000
+peru,cp_membership_num,1961,7000
+peru,cp_membership_num,1962,10000
+peru,cp_membership_num,1963,8500
+peru,cp_membership_num,1964,8500
+peru,cp_membership_num,1965,5000
+peru,cp_membership_num,1966,5000
+peru,cp_membership_num,1967,5000
+peru,cp_membership_num,1968,5000
+peru,cp_membership_num,1969,5000
+peru,cp_membership_num,1970,3200
+peru,cp_membership_num,1971,3200
+peru,cp_membership_num,1972,3200
+peru,cp_membership_num,1973,3200
+peru,cp_membership_num,1974,3200
+peru,cp_membership_num,1975,3200
+peru,cp_membership_num,1976,3200
+uruguay,cp_membership_num,1947,15000
+uruguay,cp_membership_num,1952,10000
+uruguay,cp_membership_num,1956,5000
+uruguay,cp_membership_num,1957,3000
+uruguay,cp_membership_num,1958,3000
+uruguay,cp_membership_num,1959,5000
+uruguay,cp_membership_num,1960,4000
+uruguay,cp_membership_num,1961,3000
+uruguay,cp_membership_num,1962,5000
+uruguay,cp_membership_num,1963,10000
+uruguay,cp_membership_num,1964,10000
+uruguay,cp_membership_num,1965,10000
+uruguay,cp_membership_num,1966,15000
+uruguay,cp_membership_num,1967,21000
+uruguay,cp_membership_num,1968,21000
+uruguay,cp_membership_num,1969,20000
+uruguay,cp_membership_num,1970,20000
+uruguay,cp_membership_num,1971,20000
+uruguay,cp_membership_num,1972,22000
+uruguay,cp_membership_num,1973,30000
+uruguay,cp_membership_num,1974,30000
+uruguay,cp_membership_num,1975,30000
+uruguay,cp_membership_num,1976,6000
+venezuela,cp_membership_num,1947,20000
+venezuela,cp_membership_num,1952,10000
+venezuela,cp_membership_num,1956,10000
+venezuela,cp_membership_num,1957,9000
+venezuela,cp_membership_num,1958,35000
+venezuela,cp_membership_num,1959,40000
+venezuela,cp_membership_num,1960,40000
+venezuela,cp_membership_num,1961,20000
+venezuela,cp_membership_num,1962,30000
+venezuela,cp_membership_num,1963,30000
+venezuela,cp_membership_num,1964,30000
+venezuela,cp_membership_num,1965,20000
+venezuela,cp_membership_num,1966,10000
+venezuela,cp_membership_num,1967,5000
+venezuela,cp_membership_num,1968,5000
+venezuela,cp_membership_num,1969,8000
+venezuela,cp_membership_num,1970,8000
+venezuela,cp_membership_num,1971,8000
+venezuela,cp_membership_num,1972,8000
+venezuela,cp_membership_num,1973,7500
+venezuela,cp_membership_num,1974,6000
+venezuela,cp_membership_num,1975,6000
+venezuela,cp_membership_num,1976,5000
+uk,cp_membership_num,1963,32500
+ireland,cp_membership_num,1963,125
+netherlands,cp_membership_num,1963,12000
+belgium,cp_membership_num,1963,11000
+luxembourg,cp_membership_num,1963,500
+france,cp_membership_num,1963,240000
+italy,cp_membership_num,1963,1350000
+spain,cp_membership_num,1963,5000
+portugal,cp_membership_num,1963,2000
+switzerland,cp_membership_num,1963,6000
+austria,cp_membership_num,1963,50000
+germany (federal republic of germany),cp_membership_num,1963,42500
+germany (west berlin),cp_membership_num,1963,2500
+germany (german democratic republic and east berlin),cp_membership_num,1963,1610000
+iceland,cp_membership_num,1963,975
+denmark,cp_membership_num,1963,5000
+norway,cp_membership_num,1963,4500
+sweden,cp_membership_num,1963,25000
+finland,cp_membership_num,1963,40000
+albania,cp_membership_num,1963,53000
+bulgaria,cp_membership_num,1963,528674
+czechoslovakia,cp_membership_num,1963,1773049
+hungary,cp_membership_num,1963,511565
+poland,cp_membership_num,1963,1336959
+rumania,cp_membership_num,1963,875394
+ussr,cp_membership_num,1963,10000000
+yugoslavia,cp_membership_num,1963,1000000
+algeria,cp_membership_num,1963,5500
+morocco,cp_membership_num,1963,1250
+tunisia,cp_membership_num,1963,1000
+libya,cp_membership_num,1963,0
+sudan,cp_membership_num,1963,1500
+ethiopia,cp_membership_num,1963,0
+somali republic,cp_membership_num,1963,0
+tanganyika,cp_membership_num,1963,0
+uganda,cp_membership_num,1963,0
+kenya,cp_membership_num,1963,0
+zanzibar (british protectorate),cp_membership_num,1963,N/A
+mauritius (british colony),cp_membership_num,1963,0
+"portuguese africa (angola, mozambique, and portuguese guinea)",cp_membership_num,1963,0
+"spanish africa (spanish sahara, ifni, rio muni, fernando po)",cp_membership_num,1963,0
+federation of rhodesia and nyasaland,cp_membership_num,1963,0
+republic of south africa,cp_membership_num,1963,800
+basutoland,cp_membership_num,1963,50
+ivory coast,cp_membership_num,1963,0
+dahomey,cp_membership_num,1963,0
+niger,cp_membership_num,1963,0
+upper volta,cp_membership_num,1963,0
+cameroon,cp_membership_num,1963,0
+central african republic,cp_membership_num,1963,0
+chad,cp_membership_num,1963,0
+republic of congo (brazzaville),cp_membership_num,1963,0
+gabon,cp_membership_num,1963,0
+senegal,cp_membership_num,1963,0
+mauritania,cp_membership_num,1963,0
+malagasy republic (madagascar),cp_membership_num,1963,0
+guinea,cp_membership_num,1963,0
+ghana,cp_membership_num,1963,0
+mali,cp_membership_num,1963,0
+sierra leone,cp_membership_num,1963,0
+liberia,cp_membership_num,1963,0
+togo,cp_membership_num,1963,0
+nigeria,cp_membership_num,1963,250
+gambia (british colony and protectorate),cp_membership_num,1963,0
+republic of the congo (leopoldville),cp_membership_num,1963,0
+republic of rwanda/kingdom of burundi,cp_membership_num,1963,0
+greece,cp_membership_num,1963,20000
+cyprus,cp_membership_num,1963,10000
+united arab republic,cp_membership_num,1963,1000
+syria,cp_membership_num,1963,1000
+lebanon,cp_membership_num,1963,300
+iran,cp_membership_num,1963,1500
+jordan,cp_membership_num,1963,200
+turkey,cp_membership_num,1963,500
+israel,cp_membership_num,1963,1000
+saudi arabia,cp_membership_num,1963,0
+the yemen,cp_membership_num,1963,0
+kuwait,cp_membership_num,1963,0
+bahrein,cp_membership_num,1963,0
+iraq,cp_membership_num,1963,900
+afghanistan,cp_membership_num,1963,0
+pakistan,cp_membership_num,1963,3300
+india,cp_membership_num,1963,150000
+ceylon,cp_membership_num,1963,3500
+nepal,cp_membership_num,1963,3000
+burma,cp_membership_num,1963,5000
+thailand,cp_membership_num,1963,N/A
+federation of malaya,cp_membership_num,1963,400
+singapore,cp_membership_num,1963,400
+republic of vietnam (south vietnam),cp_membership_num,1963,20000
+"north vietnam (""democratic republic of vietnam"")",cp_membership_num,1963,650000
+laos,cp_membership_num,1963,100
+cambodia,cp_membership_num,1963,100
+republic of china,cp_membership_num,1963,0
+hong kong,cp_membership_num,1963,N/A
+"outer mongolia (""mongolian people's republic"")",cp_membership_num,1963,46000
+"communist china (""people's republic of china"")",cp_membership_num,1963,17000000
+"north korea (""democratic people's republic of korea"")",cp_membership_num,1963,1311563
+republic of korea (south korea),cp_membership_num,1963,0
+japan,cp_membership_num,1963,100000
+indonesia,cp_membership_num,1963,1900000
+new zealand,cp_membership_num,1963,500
+australia,cp_membership_num,1963,6000
+philippines,cp_membership_num,1963,1750
+canada,cp_membership_num,1963,3500
+british guiana,cp_membership_num,1963,0
+trinidad,cp_membership_num,1963,0
+jamaica,cp_membership_num,1963,0
+the west indies,cp_membership_num,1963,0
+martinique,cp_membership_num,1963,700
+guadeloupe,cp_membership_num,1963,1000
+french guiana,cp_membership_num,1963,0
+aruba,cp_membership_num,1963,0
+bonaire,cp_membership_num,1963,0
+curacao,cp_membership_num,1963,0
+windward islands,cp_membership_num,1963,0
+surinam,cp_membership_num,1963,0
+cuba,cp_membership_num,1963,60000
+haiti,cp_membership_num,1963,N/A
+dominican republic,cp_membership_num,1963,N/A
+mexico,cp_membership_num,1963,75650
+guatemala,cp_membership_num,1963,1050
+honduras,cp_membership_num,1963,1750
+el salvador,cp_membership_num,1963,500
+nicaragua,cp_membership_num,1963,250
+costa rica,cp_membership_num,1963,300
+panama,cp_membership_num,1963,150
+colombia,cp_membership_num,1963,9000
+venezuela,cp_membership_num,1963,30000
+brazil,cp_membership_num,1963,31000
+paraguay,cp_membership_num,1963,3500
+argentina,cp_membership_num,1963,45000
+uruguay,cp_membership_num,1963,4000
+chile,cp_membership_num,1963,22500
+bolivia,cp_membership_num,1963,5500
+ecuador,cp_membership_num,1963,2500
+peru,cp_membership_num,1963,9000
+aden,cp_membership_num,1964,0
+afghanistan,cp_membership_num,1964,0
+albania,cp_membership_num,1964,53000
+algeria,cp_membership_num,1964,5000
+angola,cp_membership_num,1964,0
+argentina,cp_membership_num,1964,45000
+aruba,cp_membership_num,1964,0
+australia,cp_membership_num,1964,6000
+austria,cp_membership_num,1964,35000
+bahrain,cp_membership_num,1964,0
+barbados,cp_membership_num,1964,0
+basutoland,cp_membership_num,1964,50
+bechuanaland,cp_membership_num,1964,0
+belgium,cp_membership_num,1964,11000
+"berlin, west -- part of east german party",cp_membership_num,1964,NA
+bolivia,cp_membership_num,1964,6500
+bonaire,cp_membership_num,1964,0
+brazil,cp_membership_num,1964,31000
+british dependencies (west. hemisphere) -- listed separately,cp_membership_num,1964,NA
+bulgaria,cp_membership_num,1964,506261
+burma,cp_membership_num,1964,5000
+burundi,cp_membership_num,1964,0
+cambodia,cp_membership_num,1964,100
+cameroon,cp_membership_num,1964,0
+canada,cp_membership_num,1964,3500
+central african republic,cp_membership_num,1964,0
+ceylon,cp_membership_num,1964,5000
+chad,cp_membership_num,1964,0
+chile,cp_membership_num,1964,25000
+"china, communist",cp_membership_num,1964,18000000
+"china, republic of",cp_membership_num,1964,0
+colombia,cp_membership_num,1964,11000
+congo (brazzaville),cp_membership_num,1964,0
+congo (leopoldville),cp_membership_num,1964,0
+costa rica,cp_membership_num,1964,300
+cuba,cp_membership_num,1964,28000
+curacao,cp_membership_num,1964,0
+cyprus,cp_membership_num,1964,10000
+czechoslovakia,cp_membership_num,1964,1624197
+dahomey,cp_membership_num,1964,0
+denmark,cp_membership_num,1964,5000
+dominican republic,cp_membership_num,1964,N/A
+ecuador,cp_membership_num,1964,2500
+egypt (see uar),cp_membership_num,1964,NA
+el salvador,cp_membership_num,1964,500
+ethiopia,cp_membership_num,1964,0
+fernando po,cp_membership_num,1964,0
+finland,cp_membership_num,1964,40000
+france,cp_membership_num,1964,260000
+french overseas departments listed separately (west. hemisphere),cp_membership_num,1964,NA
+gabon,cp_membership_num,1964,0
+gambia,cp_membership_num,1964,0
+"germany, east",cp_membership_num,1964,1610679
+"germany, west",cp_membership_num,1964,50000
+ghana,cp_membership_num,1964,0
+greece,cp_membership_num,1964,20000
+guadeloupe,cp_membership_num,1964,1000
+guatemala,cp_membership_num,1964,1300
+"guiana, british",cp_membership_num,1964,0
+"guiana, french",cp_membership_num,1964,0
+guinea,cp_membership_num,1964,0
+"guinea, portuguese",cp_membership_num,1964,0
+haiti,cp_membership_num,1964,N/A
+honduras,cp_membership_num,1964,2400
+hong kong,cp_membership_num,1964,N/A
+hungary,cp_membership_num,1964,520000
+iceland,cp_membership_num,1964,1000
+ifni,cp_membership_num,1964,0
+india,cp_membership_num,1964,120000
+indonesia,cp_membership_num,1964,1900000
+iran,cp_membership_num,1964,1500
+iraq,cp_membership_num,1964,15000
+ireland,cp_membership_num,1964,100
+israel,cp_membership_num,1964,2000
+italy,cp_membership_num,1964,1350000
+ivory coast,cp_membership_num,1964,0
+jamaica,cp_membership_num,1964,0
+japan,cp_membership_num,1964,115000
+jordan,cp_membership_num,1964,200
+kenya,cp_membership_num,1964,0
+"korea, north",cp_membership_num,1964,1300000
+"korea, south",cp_membership_num,1964,0
+kuwait,cp_membership_num,1964,0
+laos,cp_membership_num,1964,100
+lebanon,cp_membership_num,1964,3500
+leward islands,cp_membership_num,1964,0
+liberia,cp_membership_num,1964,0
+libya,cp_membership_num,1964,0
+luxembourg,cp_membership_num,1964,500
+malaysia,cp_membership_num,1964,2000
+malagasy,cp_membership_num,1964,50
+mali,cp_membership_num,1964,0
+martinique,cp_membership_num,1964,700
+mauritania,cp_membership_num,1964,0
+mauritius,cp_membership_num,1964,0
+mexico,cp_membership_num,1964,50000
+"mongolia, outer",cp_membership_num,1964,46000
+morocco,cp_membership_num,1964,1250
+mozambique,cp_membership_num,1964,0
+nepal,cp_membership_num,1964,3500
+netherlands,cp_membership_num,1964,12000
+netherlands possessions (west. hemisphere),cp_membership_num,1964,0
+new zealand,cp_membership_num,1964,500
+nicaragua,cp_membership_num,1964,250
+niger,cp_membership_num,1964,0
+nigeria,cp_membership_num,1964,50
+northern rhodesia,cp_membership_num,1964,0
+norway,cp_membership_num,1964,4500
+nyasaland,cp_membership_num,1964,0
+pakistan,cp_membership_num,1964,3000
+panama,cp_membership_num,1964,400
+paraguay,cp_membership_num,1964,3500
+peru,cp_membership_num,1964,8500
+philippines,cp_membership_num,1964,1800
+poland,cp_membership_num,1964,1474521
+portugal,cp_membership_num,1964,2000
+portuguese africa,cp_membership_num,1964,0
+rio muni,cp_membership_num,1964,0
+rumania,cp_membership_num,1964,1240000
+rwanda,cp_membership_num,1964,0
+san marino -- part of italian party,cp_membership_num,1964,NA
+saudi arabia,cp_membership_num,1964,0
+senegal,cp_membership_num,1964,0
+sierra leone,cp_membership_num,1964,0
+somalia,cp_membership_num,1964,0
+south africa,cp_membership_num,1964,800
+southern rhodesia,cp_membership_num,1964,0
+spain,cp_membership_num,1964,5000
+spanish africa,cp_membership_num,1964,0
+spanish sahara,cp_membership_num,1964,0
+sudan,cp_membership_num,1964,1500
+surinam,cp_membership_num,1964,0
+swaziland,cp_membership_num,1964,0
+sweden,cp_membership_num,1964,20000
+switzerland,cp_membership_num,1964,3000
+syria,cp_membership_num,1964,4500
+tanganyika,cp_membership_num,1964,0
+thailand,cp_membership_num,1964,N/A
+togo,cp_membership_num,1964,0
+trinidad & tobago,cp_membership_num,1964,0
+tunisia,cp_membership_num,1964,1000
+turkey,cp_membership_num,1964,1000
+uganda,cp_membership_num,1964,0
+ussr,cp_membership_num,1964,11000000
+united arab republic,cp_membership_num,1964,1000
+uk,cp_membership_num,1964,34372
+upper volta,cp_membership_num,1964,0
+uruguay,cp_membership_num,1964,10000
+venezuela,cp_membership_num,1964,30000
+"vietnam, north",cp_membership_num,1964,600000
+"vietnam, south",cp_membership_num,1964,20000
+west indies (british),cp_membership_num,1964,0
+west indies (netherlands),cp_membership_num,1964,0
+yemen,cp_membership_num,1964,0
+yugoslavia,cp_membership_num,1964,1035003
+zanzibar,cp_membership_num,1964,N/A
+aden,cp_membership_num,1965,0
+afghanistan,cp_membership_num,1965,0
+albania,cp_membership_num,1965,53000
+algeria,cp_membership_num,1965,5500
+angola,cp_membership_num,1965,0
+argentina,cp_membership_num,1965,65000
+aruba,cp_membership_num,1965,0
+australia,cp_membership_num,1965,5000
+austria,cp_membership_num,1965,35000
+bahrain,cp_membership_num,1965,0
+barbados,cp_membership_num,1965,0
+basutoland,cp_membership_num,1965,50
+bechuanaland,cp_membership_num,1965,0
+belgium,cp_membership_num,1965,11000
+"berlin, west -- part of east german party",cp_membership_num,1965,NA
+bolivia,cp_membership_num,1965,4500
+bonaire,cp_membership_num,1965,0
+brazil,cp_membership_num,1965,31000
+british dependencies (west. hemisphere) -- listed separately,cp_membership_num,1965,NA
+bulgaria,cp_membership_num,1965,528674
+burma,cp_membership_num,1965,5000
+burundi,cp_membership_num,1965,0
+cambodia,cp_membership_num,1965,100
+cameroon,cp_membership_num,1965,0
+canada,cp_membership_num,1965,3500
+central african republic,cp_membership_num,1965,0
+ceylon,cp_membership_num,1965,1900
+chad,cp_membership_num,1965,0
+chile,cp_membership_num,1965,27500
+"china, communist",cp_membership_num,1965,18000000
+"china, republic of",cp_membership_num,1965,0
+colombia,cp_membership_num,1965,13000
+congo (brazzaville),cp_membership_num,1965,0
+congo (leopoldville),cp_membership_num,1965,0
+costa rica,cp_membership_num,1965,300
+cuba,cp_membership_num,1965,35000
+curacao,cp_membership_num,1965,0
+cyprus,cp_membership_num,1965,10000
+czechoslovakia,cp_membership_num,1965,1676509
+dahomey,cp_membership_num,1965,0
+denmark,cp_membership_num,1965,5000
+dominican republic,cp_membership_num,1965,N/A
+ecuador,cp_membership_num,1965,2500
+egypt (see uar),cp_membership_num,1965,NA
+el salvador,cp_membership_num,1965,200
+ethiopia,cp_membership_num,1965,0
+fernando po,cp_membership_num,1965,0
+finland,cp_membership_num,1965,40000
+france,cp_membership_num,1965,260000
+french overseas departments listed separately (west. hemisphere),cp_membership_num,1965,NA
+gabon,cp_membership_num,1965,0
+gambia,cp_membership_num,1965,0
+"germany, east",cp_membership_num,1965,1610679
+"germany, west",cp_membership_num,1965,50000
+ghana,cp_membership_num,1965,0
+greece,cp_membership_num,1965,20000
+guadeloupe,cp_membership_num,1965,1000
+guatemala,cp_membership_num,1965,1300
+"guiana, british",cp_membership_num,1965,0
+"guiana, french",cp_membership_num,1965,0
+guinea,cp_membership_num,1965,0
+"guinea, portuguese",cp_membership_num,1965,0
+haiti,cp_membership_num,1965,N/A
+honduras,cp_membership_num,1965,2400
+hong kong,cp_membership_num,1965,N/A
+hungary,cp_membership_num,1965,520000
+iceland,cp_membership_num,1965,1000
+ifni,cp_membership_num,1965,0
+india,cp_membership_num,1965,135000
+indonesia,cp_membership_num,1965,2000000
+iran,cp_membership_num,1965,1500
+iraq,cp_membership_num,1965,15000
+ireland,cp_membership_num,1965,100
+israel,cp_membership_num,1965,2000
+italy,cp_membership_num,1965,1350000
+ivory coast,cp_membership_num,1965,0
+jamaica,cp_membership_num,1965,0
+japan,cp_membership_num,1965,120000
+jordan,cp_membership_num,1965,500
+kenya,cp_membership_num,1965,0
+"korea, north",cp_membership_num,1965,1300000
+"korea, south",cp_membership_num,1965,0
+kuwait,cp_membership_num,1965,0
+laos,cp_membership_num,1965,100
+lebanon,cp_membership_num,1965,3000
+leward islands,cp_membership_num,1965,0
+liberia,cp_membership_num,1965,0
+libya,cp_membership_num,1965,0
+luxembourg,cp_membership_num,1965,500
+malagasy,cp_membership_num,1965,50
+malawi,cp_membership_num,1965,0
+malaysia,cp_membership_num,1965,2000
+martinique,cp_membership_num,1965,700
+mauritania,cp_membership_num,1965,0
+mauritius,cp_membership_num,1965,0
+mexico,cp_membership_num,1965,50000
+"mongolia, outer",cp_membership_num,1965,46000
+morocco,cp_membership_num,1965,1250
+mozambique,cp_membership_num,1965,0
+nepal,cp_membership_num,1965,3500
+netherlands,cp_membership_num,1965,12000
+netherlands possessions (west. hemisphere),cp_membership_num,1965,0
+new zealand,cp_membership_num,1965,500
+nicaragua,cp_membership_num,1965,250
+niger,cp_membership_num,1965,0
+nigeria,cp_membership_num,1965,50
+norway,cp_membership_num,1965,4500
+pakistan,cp_membership_num,1965,3000
+panama,cp_membership_num,1965,400
+paraguay,cp_membership_num,1965,5000
+peru,cp_membership_num,1965,8500
+philippines,cp_membership_num,1965,1200
+poland,cp_membership_num,1965,1614237
+portugal,cp_membership_num,1965,2000
+portuguese africa,cp_membership_num,1965,0
+reunion,cp_membership_num,1965,N/A
+rio muni,cp_membership_num,1965,0
+rumania,cp_membership_num,1965,1240000
+rwanda,cp_membership_num,1965,0
+san marino -- part of italian party,cp_membership_num,1965,NA
+saudi arabia,cp_membership_num,1965,0
+senegal,cp_membership_num,1965,0
+sierra leone,cp_membership_num,1965,0
+somali republic,cp_membership_num,1965,0
+south africa,cp_membership_num,1965,800
+southern rhodesia,cp_membership_num,1965,0
+south west africa,cp_membership_num,1965,0
+spain,cp_membership_num,1965,5000
+spanish africa,cp_membership_num,1965,0
+spanish sahara,cp_membership_num,1965,0
+sudan,cp_membership_num,1965,2500
+surinam,cp_membership_num,1965,0
+swaziland,cp_membership_num,1965,0
+sweden,cp_membership_num,1965,20000
+switzerland,cp_membership_num,1965,3000
+syria,cp_membership_num,1965,4000
+tanzania,cp_membership_num,1965,0
+thailand,cp_membership_num,1965,N/A
+togo,cp_membership_num,1965,0
+trinidad & tobago,cp_membership_num,1965,0
+tunisia,cp_membership_num,1965,1000
+turkey,cp_membership_num,1965,1000
+uganda,cp_membership_num,1965,0
+ussr,cp_membership_num,1965,12000000
+united arab republic,cp_membership_num,1965,1000
+uk,cp_membership_num,1965,34372
+upper volta,cp_membership_num,1965,0
+uruguay,cp_membership_num,1965,10000
+venezuela,cp_membership_num,1965,30000
+"vietnam, north",cp_membership_num,1965,570000
+"vietnam, south",cp_membership_num,1965,31000
+west indies (british),cp_membership_num,1965,0
+west indies (netherlands),cp_membership_num,1965,0
+yemen,cp_membership_num,1965,0
+yugoslavia,cp_membership_num,1965,1030041
+zambia,cp_membership_num,1965,0
+aden,cp_membership_num,1966,0
+afghanistan,cp_membership_num,1966,0
+albania,cp_membership_num,1966,53000
+algeria,cp_membership_num,1966,500
+angola,cp_membership_num,1966,0
+argentina,cp_membership_num,1966,65000
+aruba,cp_membership_num,1966,0
+australia,cp_membership_num,1966,5000
+austria,cp_membership_num,1966,35000
+bahrain,cp_membership_num,1966,0
+basutoland,cp_membership_num,1966,50
+bechuanaland,cp_membership_num,1966,0
+belgium,cp_membership_num,1966,13000
+"berlin, west -- part of east german party",cp_membership_num,1966,NA
+bolivia,cp_membership_num,1966,4500
+bonaire,cp_membership_num,1966,0
+brazil,cp_membership_num,1966,23000
+bulgaria,cp_membership_num,1966,550384
+burma,cp_membership_num,1966,5000
+burundi,cp_membership_num,1966,0
+cambodia,cp_membership_num,1966,100
+cameroon,cp_membership_num,1966,0
+canada,cp_membership_num,1966,3500
+central african republic,cp_membership_num,1966,0
+ceylon,cp_membership_num,1966,2600
+chad,cp_membership_num,1966,0
+chile,cp_membership_num,1966,30000
+"china, communist",cp_membership_num,1966,18500000
+"china, republic of",cp_membership_num,1966,0
+colombia,cp_membership_num,1966,12000
+congo (brazzaville),cp_membership_num,1966,0
+congo (leopoldville),cp_membership_num,1966,0
+costa rica,cp_membership_num,1966,400
+cuba,cp_membership_num,1966,50000
+curacao,cp_membership_num,1966,0
+cyprus,cp_membership_num,1966,10000
+czechoslovakia,cp_membership_num,1966,1684416
+dahomey,cp_membership_num,1966,0
+denmark,cp_membership_num,1966,5000
+dominican republic,cp_membership_num,1966,1700
+ecuador,cp_membership_num,1966,2500
+egypt (see uar),cp_membership_num,1966,NA
+el salvador,cp_membership_num,1966,200
+ethiopia,cp_membership_num,1966,0
+fernando po,cp_membership_num,1966,0
+finland,cp_membership_num,1966,50000
+france,cp_membership_num,1966,280000
+french overseas departments listed separately (west. hemisphere),cp_membership_num,1966,NA
+gabon,cp_membership_num,1966,0
+gambia,cp_membership_num,1966,0
+"germany, east",cp_membership_num,1966,1610679
+"germany, west",cp_membership_num,1966,10000
+ghana,cp_membership_num,1966,0
+greece,cp_membership_num,1966,20000
+guadeloupe,cp_membership_num,1966,1000
+guatemala,cp_membership_num,1966,1000
+"guiana, british",cp_membership_num,1966,0
+"guiana, french",cp_membership_num,1966,0
+guinea,cp_membership_num,1966,0
+"guinea, equatorial",cp_membership_num,1966,0
+"guinea, portuguese",cp_membership_num,1966,0
+haiti,cp_membership_num,1966,N/A
+honduras,cp_membership_num,1966,1300
+hong kong,cp_membership_num,1966,N/A
+hungary,cp_membership_num,1966,540000
+iceland,cp_membership_num,1966,975
+ifni,cp_membership_num,1966,0
+india,cp_membership_num,1966,125000
+indonesia,cp_membership_num,1966,100000
+iran,cp_membership_num,1966,1500
+iraq,cp_membership_num,1966,2000
+ireland,cp_membership_num,1966,125
+israel,cp_membership_num,1966,2000
+italy,cp_membership_num,1966,1350000
+ivory coast,cp_membership_num,1966,0
+jamaica,cp_membership_num,1966,0
+japan,cp_membership_num,1966,137500
+jordan,cp_membership_num,1966,500
+kenya,cp_membership_num,1966,0
+"korea, north",cp_membership_num,1966,1600000
+"korea, south",cp_membership_num,1966,0
+kuwait,cp_membership_num,1966,0
+laos,cp_membership_num,1966,N/A
+lebanon,cp_membership_num,1966,4000
+liberia,cp_membership_num,1966,0
+libya,cp_membership_num,1966,0
+luxembourg,cp_membership_num,1966,500
+malagasy,cp_membership_num,1966,50
+malawi,cp_membership_num,1966,0
+malaysia,cp_membership_num,1966,2700
+maldive islands,cp_membership_num,1966,0
+mali,cp_membership_num,1966,0
+malta,cp_membership_num,1966,0
+martinique,cp_membership_num,1966,700
+mauritania,cp_membership_num,1966,0
+mauritius,cp_membership_num,1966,0
+mexico,cp_membership_num,1966,5250
+"mongolia, outer",cp_membership_num,1966,46000
+morocco,cp_membership_num,1966,500
+mozambique,cp_membership_num,1966,0
+nepal,cp_membership_num,1966,6000
+netherlands,cp_membership_num,1966,12000
+new zealand,cp_membership_num,1966,400
+nicaragua,cp_membership_num,1966,200
+niger,cp_membership_num,1966,0
+nigeria,cp_membership_num,1966,250
+norway,cp_membership_num,1966,2500
+pakistan,cp_membership_num,1966,3250
+panama,cp_membership_num,1966,500
+paraguay,cp_membership_num,1966,5000
+peru,cp_membership_num,1966,5000
+philippines,cp_membership_num,1966,1750
+poland,cp_membership_num,1966,1725000
+portugal,cp_membership_num,1966,2000
+portuguese africa,cp_membership_num,1966,0
+reunion,cp_membership_num,1966,N/A
+rio muni,cp_membership_num,1966,0
+romania,cp_membership_num,1966,1450000
+rwanda,cp_membership_num,1966,0
+saudi arabia,cp_membership_num,1966,0
+senegal,cp_membership_num,1966,0
+sierra leone,cp_membership_num,1966,0
+singapore,cp_membership_num,1966,200
+somali republic,cp_membership_num,1966,0
+south africa,cp_membership_num,1966,100
+southern rhodesia,cp_membership_num,1966,0
+south west africa,cp_membership_num,1966,0
+spain,cp_membership_num,1966,5000
+spanish africa,cp_membership_num,1966,0
+spanish sahara,cp_membership_num,1966,0
+sudan,cp_membership_num,1966,8000
+surinam,cp_membership_num,1966,0
+swaziland,cp_membership_num,1966,0
+sweden,cp_membership_num,1966,20000
+switzerland,cp_membership_num,1966,2000
+syria,cp_membership_num,1966,3000
+tanzania,cp_membership_num,1966,0
+thailand,cp_membership_num,1966,N/A
+togo,cp_membership_num,1966,0
+trinidad & tobago,cp_membership_num,1966,0
+tunisia,cp_membership_num,1966,250
+turkey,cp_membership_num,1966,1250
+uganda,cp_membership_num,1966,0
+ussr,cp_membership_num,1966,12000000
+united arab republic,cp_membership_num,1966,0
+uk,cp_membership_num,1966,33734
+upper volta,cp_membership_num,1966,0
+uruguay,cp_membership_num,1966,10000
+venezuela,cp_membership_num,1966,20000
+"vietnam, north",cp_membership_num,1966,700000
+"vietnam, south",cp_membership_num,1966,31000
+windward islands,cp_membership_num,1966,0
+yemen,cp_membership_num,1966,0
+yugoslavia,cp_membership_num,1966,1030041
+zambia,cp_membership_num,1966,0
+aden,cp_membership_num,1967,0
+afghanistan,cp_membership_num,1967,0
+albania,cp_membership_num,1967,66327
+algeria,cp_membership_num,1967,500
+angola,cp_membership_num,1967,0
+antilles (netherlands),cp_membership_num,1967,0
+arabian peninsula,cp_membership_num,1967,0
+argentina,cp_membership_num,1967,60000
+australia,cp_membership_num,1967,5000
+austria,cp_membership_num,1967,35000
+bahrain,cp_membership_num,1967,0
+barbados,cp_membership_num,1967,0
+belgium,cp_membership_num,1967,13500
+"berlin, west",cp_membership_num,1967,6000
+bolivia,cp_membership_num,1967,5500
+botswana,cp_membership_num,1967,0
+brazil,cp_membership_num,1967,20000
+bulgaria,cp_membership_num,1967,611179
+burma,cp_membership_num,1967,5000
+burundi,cp_membership_num,1967,0
+cambodia,cp_membership_num,1967,100
+cameroon,cp_membership_num,1967,0
+canada,cp_membership_num,1967,3500
+central african republic,cp_membership_num,1967,0
+ceylon,cp_membership_num,1967,1900
+chad,cp_membership_num,1967,0
+chile,cp_membership_num,1967,30000
+"china, communist",cp_membership_num,1967,21000000
+"china, republic of",cp_membership_num,1967,0
+colombia,cp_membership_num,1967,10000
+congo (brazzaville),cp_membership_num,1967,0
+congo (kinshasa),cp_membership_num,1967,0
+costa rica,cp_membership_num,1967,450
+cuba,cp_membership_num,1967,60000
+cyprus,cp_membership_num,1967,10000
+czechoslovakia,cp_membership_num,1967,1698002
+dahomey,cp_membership_num,1967,0
+denmark,cp_membership_num,1967,6000
+dominican republic,cp_membership_num,1967,1300
+ecuador,cp_membership_num,1967,1500
+egypt (see uar),cp_membership_num,1967,NA
+el salvador,cp_membership_num,1967,200
+ethiopia,cp_membership_num,1967,0
+fernando po,cp_membership_num,1967,0
+finland,cp_membership_num,1967,49000
+france,cp_membership_num,1967,290000
+french overseas departments listed separately (west. hemisphere),cp_membership_num,1967,NA
+french somaliland,cp_membership_num,1967,0
+gabon,cp_membership_num,1967,0
+gambia,cp_membership_num,1967,0
+"germany, east",cp_membership_num,1967,1610679
+"germany, west",cp_membership_num,1967,7000
+ghana,cp_membership_num,1967,0
+greece,cp_membership_num,1967,27000
+guadeloupe,cp_membership_num,1967,1000
+guatemala,cp_membership_num,1967,1000
+"guiana, french",cp_membership_num,1967,0
+guinea,cp_membership_num,1967,0
+"guinea, equatorial",cp_membership_num,1967,0
+"guinea, portuguese",cp_membership_num,1967,0
+guyana,cp_membership_num,1967,0
+haiti,cp_membership_num,1967,N/A
+honduras,cp_membership_num,1967,1300
+hong kong,cp_membership_num,1967,N/A
+hungary,cp_membership_num,1967,540000
+iceland,cp_membership_num,1967,1000
+ifni,cp_membership_num,1967,0
+india,cp_membership_num,1967,125000
+indonesia,cp_membership_num,1967,150000
+iran,cp_membership_num,1967,1000
+iraq,cp_membership_num,1967,2000
+ireland,cp_membership_num,1967,125
+israel,cp_membership_num,1967,2000
+italy,cp_membership_num,1967,1575000
+ivory coast,cp_membership_num,1967,0
+jamaica,cp_membership_num,1967,0
+japan,cp_membership_num,1967,250000
+jordan,cp_membership_num,1967,400
+kenya,cp_membership_num,1967,0
+"korea, north",cp_membership_num,1967,1600000
+"korea, south",cp_membership_num,1967,0
+kuwait,cp_membership_num,1967,0
+laos,cp_membership_num,1967,N/A
+lebanon,cp_membership_num,1967,6000
+lesotho,cp_membership_num,1967,0
+liberia,cp_membership_num,1967,0
+libya,cp_membership_num,1967,0
+luxembourg,cp_membership_num,1967,500
+malagasy,cp_membership_num,1967,50
+malawi,cp_membership_num,1967,0
+malaysia,cp_membership_num,1967,3000
+maldive islands,cp_membership_num,1967,0
+mali,cp_membership_num,1967,0
+malta,cp_membership_num,1967,0
+martinique,cp_membership_num,1967,700
+mauritania,cp_membership_num,1967,0
+mauritius,cp_membership_num,1967,0
+mexico,cp_membership_num,1967,5250
+"mongolia, outer",cp_membership_num,1967,48570
+morocco,cp_membership_num,1967,500
+mozambique,cp_membership_num,1967,0
+nepal,cp_membership_num,1967,7500
+netherlands,cp_membership_num,1967,12000
+netherlands realm members (western hemisphere) listed separately,cp_membership_num,1967,NA
+new zealand,cp_membership_num,1967,400
+nicaragua,cp_membership_num,1967,200
+niger,cp_membership_num,1967,0
+nigeria,cp_membership_num,1967,500
+norway,cp_membership_num,1967,2500
+pakistan,cp_membership_num,1967,3250
+panama,cp_membership_num,1967,500
+paraguay,cp_membership_num,1967,5000
+peru,cp_membership_num,1967,5000
+philippines,cp_membership_num,1967,1750
+poland,cp_membership_num,1967,1860000
+portugal,cp_membership_num,1967,2000
+portuguese africa,cp_membership_num,1967,0
+reunion,cp_membership_num,1967,0
+rio muni,cp_membership_num,1967,0
+romania,cp_membership_num,1967,1518000
+rwanda,cp_membership_num,1967,0
+san marino -- part of italian party,cp_membership_num,1967,NA
+saudi arabia,cp_membership_num,1967,0
+senegal,cp_membership_num,1967,0
+sierra leone,cp_membership_num,1967,0
+singapore,cp_membership_num,1967,200
+somali republic,cp_membership_num,1967,0
+south africa,cp_membership_num,1967,N/A
+southern rhodesia,cp_membership_num,1967,0
+south west africa,cp_membership_num,1967,0
+spain,cp_membership_num,1967,5000
+spanish africa,cp_membership_num,1967,0
+spanish sahara,cp_membership_num,1967,0
+sudan,cp_membership_num,1967,7500
+surinam,cp_membership_num,1967,0
+swaziland,cp_membership_num,1967,0
+sweden,cp_membership_num,1967,29000
+switzerland,cp_membership_num,1967,4000
+syria,cp_membership_num,1967,3000
+tanzania,cp_membership_num,1967,0
+thailand,cp_membership_num,1967,N/A
+togo,cp_membership_num,1967,0
+trinidad & tobago,cp_membership_num,1967,0
+tunisia,cp_membership_num,1967,250
+turkey,cp_membership_num,1967,2000
+uganda,cp_membership_num,1967,0
+ussr,cp_membership_num,1967,12471079
+united arab republic,cp_membership_num,1967,0
+uk,cp_membership_num,1967,33240
+upper volta,cp_membership_num,1967,0
+uruguay,cp_membership_num,1967,15000
+venezuela,cp_membership_num,1967,10000
+"vietnam, north",cp_membership_num,1967,760000
+"vietnam, south",cp_membership_num,1967,N/A
+yemen,cp_membership_num,1967,0
+yugoslavia,cp_membership_num,1967,1046202
+zambia,cp_membership_num,1967,0
+afghanistan,cp_membership_num,1968,175
+albania,cp_membership_num,1968,66327
+algeria,cp_membership_num,1968,500
+angola (see portuguese africa),cp_membership_num,1968,0
+antilles (netherlands),cp_membership_num,1968,0
+arabian peninsula,cp_membership_num,1968,0
+argentina,cp_membership_num,1968,60000
+australia,cp_membership_num,1968,5000
+austria,cp_membership_num,1968,27500
+bahrain,cp_membership_num,1968,0
+barbados,cp_membership_num,1968,0
+belgium,cp_membership_num,1968,12500
+"berlin, west",cp_membership_num,1968,6000
+bolivia,cp_membership_num,1968,6000
+botswana,cp_membership_num,1968,0
+brazil,cp_membership_num,1968,20000
+bulgaria,cp_membership_num,1968,613393
+burma,cp_membership_num,1968,N/A
+burundi,cp_membership_num,1968,0
+cambodia,cp_membership_num,1968,100
+cameroon,cp_membership_num,1968,0
+canada,cp_membership_num,1968,2500
+central african republic,cp_membership_num,1968,0
+ceylon,cp_membership_num,1968,1900
+chad,cp_membership_num,1968,0
+chile,cp_membership_num,1968,32500
+"china, communist",cp_membership_num,1968,17000000
+"china, republic of",cp_membership_num,1968,0
+colombia,cp_membership_num,1968,9000
+congo (brazzaville),cp_membership_num,1968,0
+congo (kinshasa),cp_membership_num,1968,0
+costa rica,cp_membership_num,1968,550
+cuba,cp_membership_num,1968,60000
+cyprus,cp_membership_num,1968,13000
+czechoslovakia,cp_membership_num,1968,1689207
+dahomey,cp_membership_num,1968,0
+denmark,cp_membership_num,1968,6000
+dominican republic,cp_membership_num,1968,1300
+ecuador,cp_membership_num,1968,1500
+egypt (see uar),cp_membership_num,1968,NA
+el salvador,cp_membership_num,1968,200
+ethiopia,cp_membership_num,1968,0
+fernando po (see spanish africa),cp_membership_num,1968,0
+finland,cp_membership_num,1968,49000
+france,cp_membership_num,1968,275000
+french overseas departments listed separately,cp_membership_num,1968,NA
+french territory of the afars and issas (ftai),cp_membership_num,1968,0
+gabon,cp_membership_num,1968,0
+the gambia,cp_membership_num,1968,0
+"germany, east",cp_membership_num,1968,1769912
+"germany, west",cp_membership_num,1968,7000
+ghana,cp_membership_num,1968,0
+greece,cp_membership_num,1968,27000
+guadeloupe,cp_membership_num,1968,1000
+guatemala,cp_membership_num,1968,750
+"guiana, french",cp_membership_num,1968,0
+"guinea, equatorial (see spanish africa)",cp_membership_num,1968,0
+"guinea, portuguese (see portuguese africa)",cp_membership_num,1968,0
+guyana,cp_membership_num,1968,0
+haiti,cp_membership_num,1968,N/A
+honduras,cp_membership_num,1968,650
+hong kong,cp_membership_num,1968,N/A
+hungary,cp_membership_num,1968,584849
+iceland,cp_membership_num,1968,1000
+ifni (see spanish africa),cp_membership_num,1968,0
+india,cp_membership_num,1968,125000
+indonesia,cp_membership_num,1968,150000
+iran,cp_membership_num,1968,1000
+iraq,cp_membership_num,1968,2000
+ireland,cp_membership_num,1968,125
+israel,cp_membership_num,1968,1600
+italy,cp_membership_num,1968,1531000
+ivory coast,cp_membership_num,1968,0
+jamaica,cp_membership_num,1968,0
+japan,cp_membership_num,1968,250000
+jordan,cp_membership_num,1968,400
+kenya,cp_membership_num,1968,0
+"korea, north",cp_membership_num,1968,1600000
+"korea, south",cp_membership_num,1968,0
+kuwait,cp_membership_num,1968,0
+laos,cp_membership_num,1968,N/A
+lebanon,cp_membership_num,1968,6000
+lesotho,cp_membership_num,1968,0
+liberia,cp_membership_num,1968,0
+libya,cp_membership_num,1968,0
+luxembourg,cp_membership_num,1968,500
+malagasy republic,cp_membership_num,1968,50
+malawi,cp_membership_num,1968,0
+malaysia,cp_membership_num,1968,2000
+maldive islands,cp_membership_num,1968,0
+mali,cp_membership_num,1968,0
+malta,cp_membership_num,1968,0
+martinique,cp_membership_num,1968,700
+mauritania,cp_membership_num,1968,0
+mauritius,cp_membership_num,1968,25
+mexico,cp_membership_num,1968,5250
+"mongolia, outer",cp_membership_num,1968,48570
+morocco,cp_membership_num,1968,500
+mozambique (see portuguese africa),cp_membership_num,1968,0
+nepal,cp_membership_num,1968,8000
+the netherlands,cp_membership_num,1968,11500
+netherlands realm members (western hemisphere) listed separately,cp_membership_num,1968,NA
+new zealand,cp_membership_num,1968,400
+nicaragua,cp_membership_num,1968,200
+niger,cp_membership_num,1968,0
+nigeria,cp_membership_num,1968,500
+norway,cp_membership_num,1968,2500
+pakistan,cp_membership_num,1968,1450
+panama,cp_membership_num,1968,250
+paraguay,cp_membership_num,1968,5000
+peru,cp_membership_num,1968,5000
+philippines,cp_membership_num,1968,1750
+poland,cp_membership_num,1968,1894895
+portugal,cp_membership_num,1968,2000
+portuguese africa,cp_membership_num,1968,0
+reunion,cp_membership_num,1968,0
+rio muni (see spanish africa),cp_membership_num,1968,0
+romania,cp_membership_num,1968,1730000
+rwanda,cp_membership_num,1968,0
+san marino -- part of italian party,cp_membership_num,1968,NA
+saudi arabia,cp_membership_num,1968,0
+senegal,cp_membership_num,1968,N/A
+sierra leone,cp_membership_num,1968,0
+singapore,cp_membership_num,1968,200
+somali republic,cp_membership_num,1968,0
+south africa,cp_membership_num,1968,N/A
+southern rhodesia,cp_membership_num,1968,0
+south west africa,cp_membership_num,1968,0
+spain,cp_membership_num,1968,5000
+spanish africa,cp_membership_num,1968,0
+spanish sahara,cp_membership_num,1968,0
+sudan,cp_membership_num,1968,7500
+surinam,cp_membership_num,1968,0
+swaziland,cp_membership_num,1968,0
+sweden,cp_membership_num,1968,29000
+switzerland,cp_membership_num,1968,4000
+syria,cp_membership_num,1968,3000
+tanzania,cp_membership_num,1968,0
+thailand,cp_membership_num,1968,1450
+togo,cp_membership_num,1968,0
+trinidad and tobago,cp_membership_num,1968,0
+tunisia,cp_membership_num,1968,100
+turkey,cp_membership_num,1968,1250
+uganda,cp_membership_num,1968,0
+ussr,cp_membership_num,1968,12947926
+united arab republic,cp_membership_num,1968,0
+uk,cp_membership_num,1968,32562
+upper volta,cp_membership_num,1968,0
+uruguay,cp_membership_num,1968,21000
+venezuela,cp_membership_num,1968,5000
+"vietnam, north",cp_membership_num,1968,760000
+"vietnam, south",cp_membership_num,1968,N/A
+yemen,cp_membership_num,1968,0
+the peoples republic of south yemen (see arabian peninsula),cp_membership_num,1968,NA
+yugoslavia,cp_membership_num,1968,1046018
+zambia,cp_membership_num,1968,0
+afghanistan,cp_membership_num,1969,400
+albania,cp_membership_num,1969,66327
+algeria,cp_membership_num,1969,500
+angola,cp_membership_num,1969,0
+antilles (netherlands),cp_membership_num,1969,0
+argentina,cp_membership_num,1969,60000
+australia,cp_membership_num,1969,4750
+austria,cp_membership_num,1969,27500
+bahrain,cp_membership_num,1969,0
+barbados,cp_membership_num,1969,0
+belgium,cp_membership_num,1969,12500
+"berlin, west",cp_membership_num,1969,6000
+bolivia,cp_membership_num,1969,6000
+botswana,cp_membership_num,1969,0
+brazil,cp_membership_num,1969,15750
+bulgaria,cp_membership_num,1969,613393
+burma,cp_membership_num,1969,N/A
+burundi,cp_membership_num,1969,0
+cambodia,cp_membership_num,1969,100
+cameroon,cp_membership_num,1969,0
+canada,cp_membership_num,1969,2500
+central african republic,cp_membership_num,1969,0
+ceylon,cp_membership_num,1969,2300
+chad,cp_membership_num,1969,0
+chile,cp_membership_num,1969,45000
+"china, communist",cp_membership_num,1969,17000000
+"china, republic of",cp_membership_num,1969,0
+colombia,cp_membership_num,1969,9000
+comoro islands,cp_membership_num,1969,0
+congo (brazzaville),cp_membership_num,1969,0
+congo (kinshasa),cp_membership_num,1969,0
+costa rica,cp_membership_num,1969,600
+cuba,cp_membership_num,1969,60000
+cyprus,cp_membership_num,1969,13000
+czechoslovakia,cp_membership_num,1969,1700000
+dahomey,cp_membership_num,1969,0
+denmark,cp_membership_num,1969,6000
+dominican republic,cp_membership_num,1969,1100
+ecuador,cp_membership_num,1969,1650
+egypt (see uar),cp_membership_num,1969,NA
+el salvador,cp_membership_num,1969,200
+ethiopia,cp_membership_num,1969,0
+fernando po (guinea equatorial),cp_membership_num,1969,0
+finland,cp_membership_num,1969,49000
+france,cp_membership_num,1969,275000
+french overseas departments listed separately,cp_membership_num,1969,NA
+french territory of the afars and issas (ftai),cp_membership_num,1969,0
+gabon,cp_membership_num,1969,0
+gambia,cp_membership_num,1969,0
+"germany, east",cp_membership_num,1969,1769912
+"germany, west",cp_membership_num,1969,7000
+ghana,cp_membership_num,1969,0
+greece,cp_membership_num,1969,27000
+guadeloupe,cp_membership_num,1969,1300
+guatemala,cp_membership_num,1969,750
+"guiana, french",cp_membership_num,1969,0
+guinea,cp_membership_num,1969,0
+"guinea, equatorial",cp_membership_num,1969,0
+"guinea, portuguese",cp_membership_num,1969,0
+guyana,cp_membership_num,1969,100
+haiti,cp_membership_num,1969,N/A
+honduras,cp_membership_num,1969,300
+hong kong,cp_membership_num,1969,N/A
+hungary,cp_membership_num,1969,600000
+iceland,cp_membership_num,1969,1000
+india,cp_membership_num,1969,125000
+indonesia,cp_membership_num,1969,5000
+iran,cp_membership_num,1969,1000
+iraq,cp_membership_num,1969,2000
+ireland,cp_membership_num,1969,125
+israel,cp_membership_num,1969,2000
+italy,cp_membership_num,1969,1500000
+ivory coast,cp_membership_num,1969,0
+jamaica,cp_membership_num,1969,0
+japan,cp_membership_num,1969,250000
+jordan,cp_membership_num,1969,700
+kenya,cp_membership_num,1969,0
+"korea, north",cp_membership_num,1969,1600000
+"korea, south",cp_membership_num,1969,0
+kuwait,cp_membership_num,1969,0
+laos,cp_membership_num,1969,N/A
+lebanon,cp_membership_num,1969,6000
+lesotho,cp_membership_num,1969,0
+liberia,cp_membership_num,1969,0
+libya,cp_membership_num,1969,0
+luxembourg,cp_membership_num,1969,500
+malagasy republic,cp_membership_num,1969,0
+malawi,cp_membership_num,1969,0
+malaysia,cp_membership_num,1969,2000
+maldive islands,cp_membership_num,1969,0
+mali,cp_membership_num,1969,0
+malta,cp_membership_num,1969,0
+martinique,cp_membership_num,1969,700
+mauritania,cp_membership_num,1969,0
+mauritius,cp_membership_num,1969,0
+mexico,cp_membership_num,1969,5250
+"mongolia, outer",cp_membership_num,1969,48570
+morocco,cp_membership_num,1969,600
+mozambique (see portuguese africa),cp_membership_num,1969,0
+namibia (south west africa),cp_membership_num,1969,0
+nepal,cp_membership_num,1969,8000
+the netherlands,cp_membership_num,1969,11500
+netherlands realm members (western hemisphere) listed separately,cp_membership_num,1969,NA
+new zealand,cp_membership_num,1969,400
+nicaragua,cp_membership_num,1969,200
+niger,cp_membership_num,1969,0
+nigeria,cp_membership_num,1969,500
+norway,cp_membership_num,1969,2500
+pakistan,cp_membership_num,1969,1450
+panama,cp_membership_num,1969,250
+paraguay,cp_membership_num,1969,5000
+peoples republic of south yemen,cp_membership_num,1969,0
+persian gulf states,cp_membership_num,1969,0
+peru,cp_membership_num,1969,5000
+philippines,cp_membership_num,1969,2000
+poland,cp_membership_num,1969,2030068
+portugal,cp_membership_num,1969,2000
+portuguese africa,cp_membership_num,1969,0
+reunion,cp_membership_num,1969,500
+rio muni (see spanish africa),cp_membership_num,1969,0
+romania,cp_membership_num,1969,1800000
+rwanda,cp_membership_num,1969,0
+san marino -- part of italian party,cp_membership_num,1969,NA
+saudi arabia,cp_membership_num,1969,0
+senegal,cp_membership_num,1969,0
+sierra leone,cp_membership_num,1969,0
+singapore,cp_membership_num,1969,200
+somali republic,cp_membership_num,1969,0
+south africa,cp_membership_num,1969,N/A
+southern rhodesia,cp_membership_num,1969,0
+south west africa (see namibia),cp_membership_num,1969,NA
+spain,cp_membership_num,1969,5000
+spanish sahara,cp_membership_num,1969,0
+sudan,cp_membership_num,1969,7500
+surinam,cp_membership_num,1969,0
+swaziland,cp_membership_num,1969,0
+sweden,cp_membership_num,1969,29000
+switzerland,cp_membership_num,1969,4000
+syria,cp_membership_num,1969,3000
+tanzania,cp_membership_num,1969,0
+thailand,cp_membership_num,1969,2500
+togo,cp_membership_num,1969,0
+trinidad and tobago,cp_membership_num,1969,0
+tunisia,cp_membership_num,1969,100
+turkey,cp_membership_num,1969,1250
+uganda,cp_membership_num,1969,0
+ussr,cp_membership_num,1969,13500000
+united arab republic,cp_membership_num,1969,0
+uk,cp_membership_num,1969,32562
+upper volta,cp_membership_num,1969,0
+uruguay,cp_membership_num,1969,21000
+venezuela,cp_membership_num,1969,5000
+"vietnam, north",cp_membership_num,1969,766000
+"vietnam, south",cp_membership_num,1969,N/A
+yemen,cp_membership_num,1969,0
+the peoples republic of south yemen (see arabian peninsula),cp_membership_num,1969,NA
+yugoslavia,cp_membership_num,1969,1013500
+zambia,cp_membership_num,1969,0
+afghanistan,cp_membership_num,1970,400
+albania,cp_membership_num,1970,50000
+algeria,cp_membership_num,1970,750
+angola,cp_membership_num,1970,0
+antilles (netherlands),cp_membership_num,1970,0
+argentina,cp_membership_num,1970,55000
+australia,cp_membership_num,1970,4700
+austria,cp_membership_num,1970,25000
+bahrain,cp_membership_num,1970,0
+barbados,cp_membership_num,1970,0
+belgium,cp_membership_num,1970,12500
+"berlin, west",cp_membership_num,1970,6000
+bolivia,cp_membership_num,1970,5000
+botswana,cp_membership_num,1970,0
+brazil,cp_membership_num,1970,16000
+bulgaria,cp_membership_num,1970,637300
+burma,cp_membership_num,1970,N/A
+burundi,cp_membership_num,1970,0
+cambodia,cp_membership_num,1970,100
+cameroon,cp_membership_num,1970,0
+canada,cp_membership_num,1970,2500
+central african republic,cp_membership_num,1970,0
+ceylon,cp_membership_num,1970,2300
+chad,cp_membership_num,1970,0
+chile,cp_membership_num,1970,45000
+"china, communist",cp_membership_num,1970,17000000
+"china, republic of",cp_membership_num,1970,0
+colombia,cp_membership_num,1970,9000
+comoro islands,cp_membership_num,1970,0
+congo (brazzaville),cp_membership_num,1970,0
+congo (kinshasa),cp_membership_num,1970,0
+costa rica,cp_membership_num,1970,600
+cuba,cp_membership_num,1970,120000
+cyprus,cp_membership_num,1970,13000
+czechoslovakia,cp_membership_num,1970,1650000
+dahomey,cp_membership_num,1970,0
+denmark,cp_membership_num,1970,6000
+dominican republic,cp_membership_num,1970,1100
+ecuador,cp_membership_num,1970,1650
+egypt (see uar),cp_membership_num,1970,NA
+el salvador,cp_membership_num,1970,200
+ethiopia,cp_membership_num,1970,0
+finland,cp_membership_num,1970,46700
+france,cp_membership_num,1970,275000
+french overseas departments listed separately,cp_membership_num,1970,NA
+french territory of the afars and issas (ftai),cp_membership_num,1970,0
+gabon,cp_membership_num,1970,0
+gambia,cp_membership_num,1970,0
+"germany, east",cp_membership_num,1970,1769900
+"germany, west",cp_membership_num,1970,8000
+ghana,cp_membership_num,1970,0
+greece,cp_membership_num,1970,28000
+guadeloupe,cp_membership_num,1970,1500
+guatemala,cp_membership_num,1970,750
+"guiana, french",cp_membership_num,1970,0
+guinea,cp_membership_num,1970,0
+"guinea, equatorial",cp_membership_num,1970,0
+"guinea, portuguese",cp_membership_num,1970,0
+guyana,cp_membership_num,1970,100
+haiti,cp_membership_num,1970,N/A
+honduras,cp_membership_num,1970,300
+hong kong,cp_membership_num,1970,N/A
+hungary,cp_membership_num,1970,600000
+iceland,cp_membership_num,1970,1000
+india,cp_membership_num,1970,124000
+indonesia,cp_membership_num,1970,N/A
+iran,cp_membership_num,1970,500
+iraq,cp_membership_num,1970,2000
+ireland,cp_membership_num,1970,125
+israel,cp_membership_num,1970,2000
+italy,cp_membership_num,1970,1500000
+ivory coast,cp_membership_num,1970,0
+jamaica,cp_membership_num,1970,0
+japan,cp_membership_num,1970,250000
+jordan,cp_membership_num,1970,700
+kenya,cp_membership_num,1970,0
+"korea, north",cp_membership_num,1970,1600000
+"korea, south",cp_membership_num,1970,0
+kuwait,cp_membership_num,1970,0
+laos,cp_membership_num,1970,N/A
+lebanon,cp_membership_num,1970,1500
+lesotho (see botswana),cp_membership_num,1970,0
+liberia,cp_membership_num,1970,0
+libya,cp_membership_num,1970,0
+luxembourg,cp_membership_num,1970,500
+malagasy republic,cp_membership_num,1970,0
+malawi,cp_membership_num,1970,0
+malaysia,cp_membership_num,1970,2000
+maldive islands,cp_membership_num,1970,0
+mali,cp_membership_num,1970,0
+malta,cp_membership_num,1970,0
+martinique,cp_membership_num,1970,1300
+mauritania,cp_membership_num,1970,0
+mauritius,cp_membership_num,1970,0
+mexico,cp_membership_num,1970,5000
+"mongolia, outer",cp_membership_num,1970,48600
+morocco,cp_membership_num,1970,400
+mozambique (see portuguese africa),cp_membership_num,1970,0
+namibia (south west africa),cp_membership_num,1970,0
+nepal,cp_membership_num,1970,9000
+the netherlands,cp_membership_num,1970,11000
+netherlands realm members (western hemisphere) listed separately,cp_membership_num,1970,NA
+new zealand,cp_membership_num,1970,400
+nicaragua,cp_membership_num,1970,200
+niger,cp_membership_num,1970,0
+nigeria,cp_membership_num,1970,500
+norway,cp_membership_num,1970,2500
+pakistan,cp_membership_num,1970,1450
+panama,cp_membership_num,1970,250
+paraguay,cp_membership_num,1970,4500
+peoples republic of south yemen,cp_membership_num,1970,0
+persian gulf states,cp_membership_num,1970,0
+peru,cp_membership_num,1970,5000
+philippines,cp_membership_num,1970,2000
+poland,cp_membership_num,1970,2030000
+portugal,cp_membership_num,1970,2000
+portuguese africa,cp_membership_num,1970,0
+reunion,cp_membership_num,1970,500
+romania,cp_membership_num,1970,1924000
+rwanda,cp_membership_num,1970,0
+san marino -- part of italian party,cp_membership_num,1970,NA
+saudi arabia,cp_membership_num,1970,0
+senegal,cp_membership_num,1970,0
+sierra leone,cp_membership_num,1970,0
+singapore,cp_membership_num,1970,200
+somali republic,cp_membership_num,1970,0
+south africa,cp_membership_num,1970,100
+southern rhodesia,cp_membership_num,1970,0
+south west africa (see namibia),cp_membership_num,1970,NA
+spain,cp_membership_num,1970,5000
+spanish sahara,cp_membership_num,1970,0
+sudan,cp_membership_num,1970,7500
+surinam,cp_membership_num,1970,0
+swaziland (see botswana),cp_membership_num,1970,0
+sweden,cp_membership_num,1970,24000
+switzerland,cp_membership_num,1970,4500
+syria,cp_membership_num,1970,3000
+tanzania,cp_membership_num,1970,0
+thailand,cp_membership_num,1970,1000
+togo,cp_membership_num,1970,0
+trinidad and tobago,cp_membership_num,1970,0
+tunisia,cp_membership_num,1970,100
+turkey,cp_membership_num,1970,1250
+uganda,cp_membership_num,1970,0
+ussr,cp_membership_num,1970,14000000
+united arab republic,cp_membership_num,1970,0
+uk,cp_membership_num,1970,30600
+upper volta,cp_membership_num,1970,0
+uruguay,cp_membership_num,1970,20000
+venezuela,cp_membership_num,1970,8000
+"vietnam, north",cp_membership_num,1970,766000
+"vietnam, south",cp_membership_num,1970,N/A
+yemen,cp_membership_num,1970,0
+yugoslavia,cp_membership_num,1970,1146100
+zambia,cp_membership_num,1970,0
+afghanistan,cp_membership_num,1971,400
+albania,cp_membership_num,1971,75670
+algeria,cp_membership_num,1971,400
+angola,cp_membership_num,1971,0
+antilles (netherlands),cp_membership_num,1971,NA
+argentina,cp_membership_num,1971,60000
+australia,cp_membership_num,1971,3900
+bahrain,cp_membership_num,1971,0
+barbados,cp_membership_num,1971,0
+belgium,cp_membership_num,1971,12500
+west berlin,cp_membership_num,1971,6000
+bolivia,cp_membership_num,1971,4500
+botswana,cp_membership_num,1971,0
+brazil,cp_membership_num,1971,14000
+bulgaria,cp_membership_num,1971,637300
+burma,cp_membership_num,1971,N/A
+burundi,cp_membership_num,1971,0
+cambodia,cp_membership_num,1971,1000
+cameroon,cp_membership_num,1971,0
+canada,cp_membership_num,1971,2000
+central african republic,cp_membership_num,1971,0
+ceylon,cp_membership_num,1971,2300
+chad,cp_membership_num,1971,0
+chile,cp_membership_num,1971,45000
+china,cp_membership_num,1971,17000000
+taiwan,cp_membership_num,1971,0
+colombia,cp_membership_num,1971,9000
+comoro islands,cp_membership_num,1971,0
+congo (brazzaville),cp_membership_num,1971,0
+congo (kinshasa),cp_membership_num,1971,0
+council of the entente,cp_membership_num,1971,0
+costa rica,cp_membership_num,1971,1000
+cuba,cp_membership_num,1971,125000
+cyprus,cp_membership_num,1971,13000
+czechoslovakia,cp_membership_num,1971,1200000
+dahomey,cp_membership_num,1971,0
+denmark,cp_membership_num,1971,5000
+dominican republic,cp_membership_num,1971,1680
+ecuador,cp_membership_num,1971,1250
+egypt (see uar),cp_membership_num,1971,0
+el salvador,cp_membership_num,1971,100
+ethiopia,cp_membership_num,1971,0
+finland,cp_membership_num,1971,47000
+france,cp_membership_num,1971,275000
+french territory of the afars and issas (ftai),cp_membership_num,1971,0
+gabon,cp_membership_num,1971,0
+gambia,cp_membership_num,1971,0
+east germany,cp_membership_num,1971,1900000
+west germany,cp_membership_num,1971,22500
+ghana,cp_membership_num,1971,0
+greece,cp_membership_num,1971,28000
+guadeloupe,cp_membership_num,1971,1500
+guatemala,cp_membership_num,1971,750
+french guiana,cp_membership_num,1971,0
+guinea,cp_membership_num,1971,0
+equatorial guinea,cp_membership_num,1971,0
+guinea-bissau,cp_membership_num,1971,0
+guyana,cp_membership_num,1971,100
+haiti,cp_membership_num,1971,N/A
+honduras,cp_membership_num,1971,300
+hong kong,cp_membership_num,1971,N/A
+hungary,cp_membership_num,1971,662400
+iceland,cp_membership_num,1971,1000
+india,cp_membership_num,1971,144500
+indonesia,cp_membership_num,1971,3000
+iran,cp_membership_num,1971,500
+iraq,cp_membership_num,1971,2000
+ireland,cp_membership_num,1971,200
+israel,cp_membership_num,1971,1000
+palestine,cp_membership_num,1971,1000
+italy,cp_membership_num,1971,1500000
+ivory coast,cp_membership_num,1971,0
+jamaica,cp_membership_num,1971,0
+japan,cp_membership_num,1971,300000
+jordan,cp_membership_num,1971,700
+kenya,cp_membership_num,1971,0
+north korea,cp_membership_num,1971,1600000
+south korea,cp_membership_num,1971,0
+kuwait,cp_membership_num,1971,0
+laos,cp_membership_num,1971,13000
+lebanon,cp_membership_num,1971,1500
+lesotho,cp_membership_num,1971,0
+liberia,cp_membership_num,1971,0
+libya,cp_membership_num,1971,0
+luxembourg,cp_membership_num,1971,500
+madagascar,cp_membership_num,1971,0
+malawi,cp_membership_num,1971,0
+malaysia,cp_membership_num,1971,2000
+maldive islands,cp_membership_num,1971,0
+mali,cp_membership_num,1971,0
+malta,cp_membership_num,1971,100
+martinique,cp_membership_num,1971,1300
+mauritania,cp_membership_num,1971,0
+mauritius,cp_membership_num,1971,0
+mexico,cp_membership_num,1971,5000
+mongolia,cp_membership_num,1971,48600
+morocco,cp_membership_num,1971,300
+mozambique,cp_membership_num,1971,0
+namibia (south west africa),cp_membership_num,1971,0
+nepal,cp_membership_num,1971,9000
+netherlands,cp_membership_num,1971,11000
+new zealand,cp_membership_num,1971,300
+nicaragua,cp_membership_num,1971,100
+niger,cp_membership_num,1971,0
+nigeria,cp_membership_num,1971,500
+norway,cp_membership_num,1971,2000
+pakistan,cp_membership_num,1971,1450
+panama,cp_membership_num,1971,125
+paraguay,cp_membership_num,1971,4500
+people's democratic republic of yemen,cp_membership_num,1971,0
+persian gulf states,cp_membership_num,1971,0
+peru,cp_membership_num,1971,3200
+philippines,cp_membership_num,1971,2000
+poland,cp_membership_num,1971,2296000
+portugal,cp_membership_num,1971,2000
+portuguese africa,cp_membership_num,1971,0
+reunion,cp_membership_num,1971,500
+romania,cp_membership_num,1971,1999700
+rwanda,cp_membership_num,1971,0
+san marino -- part of italian party,cp_membership_num,1971,NA
+saudi arabia,cp_membership_num,1971,0
+senegal,cp_membership_num,1971,0
+seychelles,cp_membership_num,1971,0
+sierra leone,cp_membership_num,1971,0
+singapore,cp_membership_num,1971,200
+somalia,cp_membership_num,1971,0
+south africa,cp_membership_num,1971,100
+south west africa (see namibia),cp_membership_num,1971,NA
+southern rhodesia,cp_membership_num,1971,0
+spain,cp_membership_num,1971,5000
+spanish sahara,cp_membership_num,1971,0
+sudan,cp_membership_num,1971,7500
+suriname,cp_membership_num,1971,0
+swaziland,cp_membership_num,1971,0
+sweden,cp_membership_num,1971,17000
+switzerland,cp_membership_num,1971,3500
+syria,cp_membership_num,1971,3000
+tanzania,cp_membership_num,1971,0
+thailand,cp_membership_num,1971,1000
+togo,cp_membership_num,1971,0
+trinidad and tobago,cp_membership_num,1971,0
+tunisia,cp_membership_num,1971,100
+turkey,cp_membership_num,1971,1250
+uganda,cp_membership_num,1971,0
+ussr,cp_membership_num,1971,14254000
+united arab republic,cp_membership_num,1971,0
+uk,cp_membership_num,1971,32000
+upper volta,cp_membership_num,1971,0
+uruguay,cp_membership_num,1971,20000
+venezuela,cp_membership_num,1971,8000
+north vietnam,cp_membership_num,1971,1100000
+south vietnam,cp_membership_num,1971,N/A
+north yemen,cp_membership_num,1971,0
+yugoslavia,cp_membership_num,1971,1146100
+zambia,cp_membership_num,1971,0
+afghanistan,cp_membership_num,1972,400
+albania,cp_membership_num,1972,87000
+algeria,cp_membership_num,1972,400
+angola,cp_membership_num,1972,0
+antilles (netherlands),cp_membership_num,1972,0
+argentina,cp_membership_num,1972,60000
+australia,cp_membership_num,1972,3900
+austria,cp_membership_num,1972,25000
+bahrain,cp_membership_num,1972,0
+barbados,cp_membership_num,1972,0
+belgium,cp_membership_num,1972,12500
+"berlin, west",cp_membership_num,1972,6000
+bolivia,cp_membership_num,1972,2800
+botswana,cp_membership_num,1972,0
+brazil,cp_membership_num,1972,13000
+bulgaria,cp_membership_num,1972,700000
+burma,cp_membership_num,1972,N/A
+burundi,cp_membership_num,1972,0
+cambodia,cp_membership_num,1972,N/A
+cameroon,cp_membership_num,1972,0
+canada,cp_membership_num,1972,2000
+central african republic,cp_membership_num,1972,0
+ceylon,cp_membership_num,1972,4000
+chad,cp_membership_num,1972,0
+chile,cp_membership_num,1972,90000
+"china, people's republic of",cp_membership_num,1972,17000000
+"china, republic of",cp_membership_num,1972,0
+colombia,cp_membership_num,1972,11000
+comoro islands,cp_membership_num,1972,0
+congo (brazzaville),cp_membership_num,1972,0
+congo (kinshasa) (see zaire),cp_membership_num,1972,NA
+costa rica,cp_membership_num,1972,1000
+"council of the entente (see also dahomey, ivory coast, niger, togo, upper volta)",cp_membership_num,1972,0
+cuba,cp_membership_num,1972,125000
+cyprus,cp_membership_num,1972,13000
+czechoslovakia,cp_membership_num,1972,1200000
+dahomey (see council of the entente),cp_membership_num,1972,0
+denmark,cp_membership_num,1972,5000
+dominican republic,cp_membership_num,1972,1400
+ecuador,cp_membership_num,1972,1200
+egypt,cp_membership_num,1972,0
+el salvador,cp_membership_num,1972,100
+ethiopia,cp_membership_num,1972,0
+finland,cp_membership_num,1972,47000
+france,cp_membership_num,1972,275000
+"french overseas departments (see guiana, french; guadeloupe; martinique)",cp_membership_num,1972,NA
+french territory of the afars and issas (ftai),cp_membership_num,1972,0
+gabon,cp_membership_num,1972,0
+gambia,cp_membership_num,1972,0
+"germany, east",cp_membership_num,1972,1909800
+"germany, federal republic of",cp_membership_num,1972,33400
+ghana,cp_membership_num,1972,0
+greece,cp_membership_num,1972,28000
+guadeloupe,cp_membership_num,1972,2000
+guatemala,cp_membership_num,1972,750
+"guiana, french",cp_membership_num,1972,0
+guinea,cp_membership_num,1972,0
+"guinea, equatorial",cp_membership_num,1972,0
+"guinea, portuguese",cp_membership_num,1972,0
+guyana,cp_membership_num,1972,100
+haiti,cp_membership_num,1972,N/A
+honduras,cp_membership_num,1972,300
+hong kong,cp_membership_num,1972,N/A
+hungary,cp_membership_num,1972,693000
+iceland,cp_membership_num,1972,1500
+india,cp_membership_num,1972,162000
+indonesia,cp_membership_num,1972,N/A
+iran,cp_membership_num,1972,500
+iraq,cp_membership_num,1972,2000
+ireland,cp_membership_num,1972,300
+israel,cp_membership_num,1972,2000
+italy,cp_membership_num,1972,1521000
+ivory coast,cp_membership_num,1972,0
+jamaica,cp_membership_num,1972,0
+japan,cp_membership_num,1972,300000
+jordan,cp_membership_num,1972,500
+kenya,cp_membership_num,1972,0
+"korea, north",cp_membership_num,1972,1600000
+"korea, south",cp_membership_num,1972,0
+kuwait,cp_membership_num,1972,0
+laos,cp_membership_num,1972,13000
+lebanon,cp_membership_num,1972,1500
+lesotho (see botswana),cp_membership_num,1972,0
+liberia,cp_membership_num,1972,0
+libya,cp_membership_num,1972,0
+luxembourg,cp_membership_num,1972,500
+malagasy republic,cp_membership_num,1972,0
+malawi,cp_membership_num,1972,0
+malaysia,cp_membership_num,1972,2000
+maldive islands,cp_membership_num,1972,0
+mali,cp_membership_num,1972,0
+malta,cp_membership_num,1972,100
+martinique,cp_membership_num,1972,1000
+mauritania,cp_membership_num,1972,0
+mauritius,cp_membership_num,1972,0
+mexico,cp_membership_num,1972,5000
+mongolian people's republic,cp_membership_num,1972,58000
+morocco,cp_membership_num,1972,300
+mozambique (see portuguese africa),cp_membership_num,1972,0
+nepal,cp_membership_num,1972,10000
+netherlands,cp_membership_num,1972,10000
+netherlands realm members (western hemisphere) listed separately,cp_membership_num,1972,NA
+new zealand,cp_membership_num,1972,300
+nicaragua,cp_membership_num,1972,100
+niger (see council of the entente),cp_membership_num,1972,0
+nigeria,cp_membership_num,1972,500
+norway,cp_membership_num,1972,2250
+pakistan,cp_membership_num,1972,1750
+panama,cp_membership_num,1972,250
+paraguay,cp_membership_num,1972,4500
+people's democratic republic of yemen,cp_membership_num,1972,0
+peru,cp_membership_num,1972,3200
+philippines,cp_membership_num,1972,1850
+poland,cp_membership_num,1972,2270000
+portugal,cp_membership_num,1972,2000
+portuguese africa,cp_membership_num,1972,0
+qatar,cp_membership_num,1972,0
+reunion,cp_membership_num,1972,500
+romania,cp_membership_num,1972,2175000
+rwanda,cp_membership_num,1972,0
+san marino -- part of italian party,cp_membership_num,1972,NA
+saudi arabia,cp_membership_num,1972,0
+senegal,cp_membership_num,1972,0
+seychelles,cp_membership_num,1972,0
+sierra leone,cp_membership_num,1972,0
+singapore,cp_membership_num,1972,200
+somalia,cp_membership_num,1972,0
+south africa,cp_membership_num,1972,100
+south west africa (see namibia),cp_membership_num,1972,0
+southern rhodesia,cp_membership_num,1972,0
+spain,cp_membership_num,1972,5000
+spanish sahara,cp_membership_num,1972,0
+sudan,cp_membership_num,1972,7500
+surinam,cp_membership_num,1972,0
+swaziland (see botswana),cp_membership_num,1972,0
+sweden,cp_membership_num,1972,17000
+switzerland,cp_membership_num,1972,3500
+syria,cp_membership_num,1972,3000
+tanzania,cp_membership_num,1972,0
+thailand,cp_membership_num,1972,1000
+togo (see council of the entente),cp_membership_num,1972,0
+trinidad and tobago,cp_membership_num,1972,0
+tunisia,cp_membership_num,1972,100
+turkey,cp_membership_num,1972,1250
+uganda,cp_membership_num,1972,0
+ussr,cp_membership_num,1972,14455000
+united arab emirates,cp_membership_num,1972,0
+uk,cp_membership_num,1972,29000
+upper volta,cp_membership_num,1972,0
+uruguay,cp_membership_num,1972,20000
+venezuela,cp_membership_num,1972,8000
+"vietnam, north",cp_membership_num,1972,1100000
+"vietnam, south",cp_membership_num,1972,N/A
+yemen,cp_membership_num,1972,0
+yugoslavia,cp_membership_num,1972,1049000
+zaire,cp_membership_num,1972,0
+zambia,cp_membership_num,1972,0
+afghanistan,cp_membership_num,1973,400
+albania,cp_membership_num,1973,87000
+algeria,cp_membership_num,1973,400
+argentina,cp_membership_num,1973,70000
+australia,cp_membership_num,1973,3900
+austria,cp_membership_num,1973,250000
+bangladesh,cp_membership_num,1973,2500
+belgium,cp_membership_num,1973,12500
+"berlin, west",cp_membership_num,1973,8000
+bolivia,cp_membership_num,1973,3200
+brazil,cp_membership_num,1973,7000
+bulgaria,cp_membership_num,1973,700000
+burma,cp_membership_num,1973,N/A
+cambodia (see khmer republic),cp_membership_num,1973,NA
+canada,cp_membership_num,1973,1800
+chile,cp_membership_num,1973,120000
+"china, people's republic of",cp_membership_num,1973,17000000
+colombia,cp_membership_num,1973,11000
+costa rica,cp_membership_num,1973,1000
+cuba,cp_membership_num,1973,125000
+cyprus,cp_membership_num,1973,13000
+czechoslovakia,cp_membership_num,1973,1200000
+denmark,cp_membership_num,1973,6000
+dominican republic,cp_membership_num,1973,1400
+ecuador,cp_membership_num,1973,1200
+el salvador,cp_membership_num,1973,125
+finland,cp_membership_num,1973,49000
+france,cp_membership_num,1973,275000
+"french overseas departments (see guiana, french; guadeloupe; martinique)",cp_membership_num,1973,NA
+"germany, east",cp_membership_num,1973,1909800
+"germany, federal republic of",cp_membership_num,1973,35000
+greece,cp_membership_num,1973,28000
+guadeloupe,cp_membership_num,1973,3000
+guatemala,cp_membership_num,1973,750
+"guiana, french",cp_membership_num,1973,0
+guyana,cp_membership_num,1973,100
+haiti,cp_membership_num,1973,N/A
+honduras,cp_membership_num,1973,300
+hungary,cp_membership_num,1973,724000
+iceland,cp_membership_num,1973,2200
+india,cp_membership_num,1973,166000
+indonesia,cp_membership_num,1973,N/A
+iran,cp_membership_num,1973,500
+iraq,cp_membership_num,1973,2000
+ireland,cp_membership_num,1973,300
+israel,cp_membership_num,1973,2000
+italy,cp_membership_num,1973,1596000
+japan,cp_membership_num,1973,320000
+jordan,cp_membership_num,1973,500
+khmer republic (cambodia),cp_membership_num,1973,N/A
+"korea, north",cp_membership_num,1973,1600000
+laos,cp_membership_num,1973,13000
+lebanon,cp_membership_num,1973,2500
+lesotho,cp_membership_num,1973,0
+luxembourg,cp_membership_num,1973,500
+malagasy republic,cp_membership_num,1973,0
+malaysia,cp_membership_num,1973,2000
+malta,cp_membership_num,1973,100
+martinique,cp_membership_num,1973,1000
+mauritius,cp_membership_num,1973,0
+mexico,cp_membership_num,1973,5000
+mongolian people's republic,cp_membership_num,1973,58000
+morocco,cp_membership_num,1973,300
+nepal,cp_membership_num,1973,5000
+netherlands,cp_membership_num,1973,10000
+new zealand,cp_membership_num,1973,300
+nicaragua,cp_membership_num,1973,100
+nigeria,cp_membership_num,1973,500
+norway,cp_membership_num,1973,2500
+pakistan,cp_membership_num,1973,0
+panama,cp_membership_num,1973,500
+paraguay,cp_membership_num,1973,3500
+peru,cp_membership_num,1973,3200
+philippines,cp_membership_num,1973,8000
+poland,cp_membership_num,1973,2270000
+portugal,cp_membership_num,1973,1000
+reunion,cp_membership_num,1973,800
+romania,cp_membership_num,1973,2260000
+senegal,cp_membership_num,1973,0
+singapore,cp_membership_num,1973,200
+south africa,cp_membership_num,1973,100
+spain,cp_membership_num,1973,5000
+sri lanka (ceylon),cp_membership_num,1973,4000
+sudan,cp_membership_num,1973,7500
+sweden,cp_membership_num,1973,17000
+switzerland,cp_membership_num,1973,3000
+syria,cp_membership_num,1973,3000
+thailand,cp_membership_num,1973,1000
+tunisia,cp_membership_num,1973,100
+turkey,cp_membership_num,1973,1250
+ussr,cp_membership_num,1973,14700000
+uk,cp_membership_num,1973,29000
+uruguay,cp_membership_num,1973,22000
+venezuela,cp_membership_num,1973,8000
+"vietnam, north",cp_membership_num,1973,1100000
+"vietnam, republic of",cp_membership_num,1973,N/A
+yemen,cp_membership_num,1973,0
+yugoslavia,cp_membership_num,1973,1025000
+bulgaria,cp_membership_num,1971,637000
+czechoslovakia,cp_membership_num,1971,1200000
+german democratic republic,cp_membership_num,1971,1893594
+hungary,cp_membership_num,1971,662397
+poland,cp_membership_num,1971,2296000
+romania,cp_membership_num,1971,1999720
+ussr,cp_membership_num,1971,14254000
+yugoslavia,cp_membership_num,1971,1046084
+austria,cp_membership_num,1971,26000
+belgium,cp_membership_num,1971,12450
+cyprus,cp_membership_num,1971,13500
+denmark,cp_membership_num,1971,6000
+finland,cp_membership_num,1971,47000
+france,cp_membership_num,1971,290000
+federal republic of germany,cp_membership_num,1971,37000
+west berlin,cp_membership_num,1971,7000
+great britain,cp_membership_num,1971,33452
+greece,cp_membership_num,1971,39500
+iceland,cp_membership_num,1971,1000
+ireland,cp_membership_num,1971,250
+italy,cp_membership_num,1971,1507047
+luxembourg,cp_membership_num,1971,750
+netherlands,cp_membership_num,1971,10000
+norway,cp_membership_num,1971,3000
+portugal,cp_membership_num,1971,2000
+san marino,cp_membership_num,1971,1000
+spain,cp_membership_num,1971,12500
+sweden,cp_membership_num,1971,17000
+switzerland,cp_membership_num,1971,4750
+turkey,cp_membership_num,1971,1600
+algeria,cp_membership_num,1971,750
+iran,cp_membership_num,1971,750
+iraq,cp_membership_num,1971,2000
+israel,cp_membership_num,1971,2000
+jordan,cp_membership_num,1971,1000
+lebanon,cp_membership_num,1971,2000
+lesotho,cp_membership_num,1971,0
+morocco,cp_membership_num,1971,400
+nigeria,cp_membership_num,1971,1000
+reunion,cp_membership_num,1971,500
+south africa,cp_membership_num,1971,300
+sudan,cp_membership_num,1971,7500
+syria,cp_membership_num,1971,3500
+tunisia,cp_membership_num,1971,100
+united arab republic,cp_membership_num,1971,900
+canada,cp_membership_num,1971,4500
+usa,cp_membership_num,1971,13100
+argentina,cp_membership_num,1971,60000
+bolivia,cp_membership_num,1971,5090
+brazil,cp_membership_num,1971,21250
+chile,cp_membership_num,1971,60000
+colombia,cp_membership_num,1971,9330
+costa rica,cp_membership_num,1971,900
+cuba,cp_membership_num,1971,120000
+dominican republic,cp_membership_num,1971,1100
+ecuador,cp_membership_num,1971,1650
+el salvador,cp_membership_num,1971,200
+guadeloupe,cp_membership_num,1971,1500
+guatemala,cp_membership_num,1971,900
+guyana,cp_membership_num,1971,20000
+haiti,cp_membership_num,1971,500
+honduras,cp_membership_num,1971,1450
+martinique,cp_membership_num,1971,1000
+mexico,cp_membership_num,1971,81000
+nicaragua,cp_membership_num,1971,300
+panama,cp_membership_num,1971,250
+paraguay,cp_membership_num,1971,4750
+peru,cp_membership_num,1971,5000
+puerto rico,cp_membership_num,1971,1217
+uruguay,cp_membership_num,1971,33500
+venezuela,cp_membership_num,1971,8175
+australia,cp_membership_num,1971,4250
+burma,cp_membership_num,1971,11950
+cambodia,cp_membership_num,1971,66450
+ceylon,cp_membership_num,1971,2850
+china,cp_membership_num,1971,17000000
+india,cp_membership_num,1971,169500
+indonesia,cp_membership_num,1971,299500
+japan,cp_membership_num,1971,465200
+democratic people's republic of korea,cp_membership_num,1971,1600000
+laos,cp_membership_num,1971,94350
+malaysia,cp_membership_num,1971,2750
+mongolia,cp_membership_num,1971,71000
+nepal,cp_membership_num,1971,8000
+new zealand,cp_membership_num,1971,500
+pakistan,cp_membership_num,1971,3000
+philippines,cp_membership_num,1971,37300
+singapore,cp_membership_num,1971,200
+thailand,cp_membership_num,1971,4350
+democratic republic of vietnam (north vietnam),cp_membership_num,1971,760000
+republic of vietnam (south vietnam),cp_membership_num,1971,350500
+albania,cp_membership_num,1974,92485
+bulgaria,cp_membership_num,1974,699476
+czechoslovakia,cp_membership_num,1974,1280000
+german democratic republic,cp_membership_num,1974,1951421
+hungary,cp_membership_num,1974,724000
+poland,cp_membership_num,1974,2300000
+romania,cp_membership_num,1974,2366000
+ussr,cp_membership_num,1974,14821031
+yugoslavia,cp_membership_num,1974,1025476
+austria,cp_membership_num,1974,15000
+belgium,cp_membership_num,1974,12500
+cyprus,cp_membership_num,1974,13000
+denmark,cp_membership_num,1974,7500
+finland,cp_membership_num,1974,48000
+france,cp_membership_num,1974,300000
+federal republic of germany,cp_membership_num,1974,49800
+west berlin,cp_membership_num,1974,8000
+great britain,cp_membership_num,1974,29943
+greece,cp_membership_num,1974,42000
+iceland,cp_membership_num,1974,2000
+ireland,cp_membership_num,1974,300
+italy,cp_membership_num,1974,1726537
+luxembourg,cp_membership_num,1974,550
+netherlands,cp_membership_num,1974,10000
+norway,cp_membership_num,1974,3000
+portugal,cp_membership_num,1974,2000
+san marino,cp_membership_num,1974,1000
+spain,cp_membership_num,1974,37000
+sweden,cp_membership_num,1974,17000
+switzerland,cp_membership_num,1974,4750
+turkey,cp_membership_num,1974,5000
+algeria,cp_membership_num,1974,400
+egypt,cp_membership_num,1974,N/A
+iran,cp_membership_num,1974,500
+iraq,cp_membership_num,1974,2000
+israel,cp_membership_num,1974,3000
+jordan,cp_membership_num,1974,750
+lebanon,cp_membership_num,1974,2500
+morocco,cp_membership_num,1974,350
+nigeria,cp_membership_num,1974,N/A
+reunion,cp_membership_num,1974,800
+south africa,cp_membership_num,1974,N/A
+sudan,cp_membership_num,1974,7500
+syria,cp_membership_num,1974,3500
+tunisia,cp_membership_num,1974,100
+argentina,cp_membership_num,1974,155000
+bolivia,cp_membership_num,1974,2600
+brazil,cp_membership_num,1974,7000
+canada,cp_membership_num,1974,2500
+chile,cp_membership_num,1974,275000
+colombia,cp_membership_num,1974,11800
+costa rica,cp_membership_num,1974,1000
+cuba,cp_membership_num,1974,153000
+dominican republic,cp_membership_num,1974,1400
+ecuador,cp_membership_num,1974,750
+el salvador,cp_membership_num,1974,125
+guadeloupe,cp_membership_num,1974,3000
+guatemala,cp_membership_num,1974,950
+guyana,cp_membership_num,1974,20000
+haiti,cp_membership_num,1974,500
+honduras,cp_membership_num,1974,300
+martinique,cp_membership_num,1974,1000
+mexico,cp_membership_num,1974,5000
+nicaragua,cp_membership_num,1974,140
+panama,cp_membership_num,1974,375
+paraguay,cp_membership_num,1974,3500
+peru,cp_membership_num,1974,3200
+puerto rico,cp_membership_num,1974,16600
+usa,cp_membership_num,1974,13000
+uruguay,cp_membership_num,1974,32500
+venezuela,cp_membership_num,1974,7500
+australia,cp_membership_num,1974,2300
+bangladesh,cp_membership_num,1974,2500
+burma,cp_membership_num,1974,10600
+cambodia,cp_membership_num,1974,292500
+china,cp_membership_num,1974,28000000
+india,cp_membership_num,1974,181000
+indonesia,cp_membership_num,1974,62000
+japan,cp_membership_num,1974,540000
+democratic people's republic of korea,cp_membership_num,1974,2000000
+laos,cp_membership_num,1974,58000
+malaysia,cp_membership_num,1974,8500
+mongolia,cp_membership_num,1974,58048
+nepal,cp_membership_num,1974,5000
+new zealand,cp_membership_num,1974,240
+pakistan,cp_membership_num,1974,N/A
+philippines,cp_membership_num,1974,2000
+singapore,cp_membership_num,1974,N/A
+sri lanka,cp_membership_num,1974,20000
+thailand,cp_membership_num,1974,4700
+democratic republic of vietnam (north vietnam),cp_membership_num,1974,1300000
+republic of vietnam (south vietnam),cp_membership_num,1974,435000
+albania,cp_membership_num,1975,86985
+bulgaria,cp_membership_num,1975,700000
+czechoslovakia,cp_membership_num,1975,1374000
+german democratic republic,cp_membership_num,1975,1946000
+hungary,cp_membership_num,1975,770000
+poland,cp_membership_num,1975,2330000
+romania,cp_membership_num,1975,2480000
+ussr,cp_membership_num,1975,14970000
+yugoslavia,cp_membership_num,1975,1076711
+austria,cp_membership_num,1975,20676
+belgium,cp_membership_num,1975,11250
+cyprus,cp_membership_num,1975,13000
+denmark,cp_membership_num,1975,8000
+finland,cp_membership_num,1975,48000
+france,cp_membership_num,1975,370000
+federal republic of germany,cp_membership_num,1975,40000
+west berlin,cp_membership_num,1975,8000
+great britain,cp_membership_num,1975,28943
+greece,cp_membership_num,1975,100000
+iceland,cp_membership_num,1975,2500
+ireland,cp_membership_num,1975,275
+italy,cp_membership_num,1975,1657815
+luxembourg,cp_membership_num,1975,750
+netherlands,cp_membership_num,1975,10000
+norway,cp_membership_num,1975,3500
+portugal,cp_membership_num,1975,64800
+san marino,cp_membership_num,1975,3246
+spain,cp_membership_num,1975,34000
+sweden,cp_membership_num,1975,17000
+switzerland,cp_membership_num,1975,5000
+turkey,cp_membership_num,1975,N/A
+australia,cp_membership_num,1975,2000
+bangladesh,cp_membership_num,1975,N/A
+burma,cp_membership_num,1975,11200
+china,cp_membership_num,1975,28000000
+india,cp_membership_num,1975,190150
+indonesia,cp_membership_num,1975,4000
+japan,cp_membership_num,1975,330000
+people's democratic republic of korea,cp_membership_num,1975,2000000
+laos,cp_membership_num,1975,N/A
+malaysia,cp_membership_num,1975,3400
+mongolia,cp_membership_num,1975,58048
+nepal,cp_membership_num,1975,5000
+new zealand,cp_membership_num,1975,100
+pakistan,cp_membership_num,1975,0
+philippines,cp_membership_num,1975,4750
+singapore,cp_membership_num,1975,600
+sri lanka,cp_membership_num,1975,3000
+thailand,cp_membership_num,1975,8300
+north vietnam,cp_membership_num,1975,1100000
+south vietnam,cp_membership_num,1975,175000
+argentina,cp_membership_num,1975,130000
+bolivia,cp_membership_num,1975,450
+brazil,cp_membership_num,1975,7700
+canada,cp_membership_num,1975,2500
+chile,cp_membership_num,1975,255000
+colombia,cp_membership_num,1975,11000
+costa rica,cp_membership_num,1975,1000
+cuba,cp_membership_num,1975,200000
+dominican republic,cp_membership_num,1975,3000
+ecuador,cp_membership_num,1975,600
+el salvador,cp_membership_num,1975,200
+guadeloupe,cp_membership_num,1975,3000
+guatemala,cp_membership_num,1975,1050
+guyana,cp_membership_num,1975,20000
+haiti,cp_membership_num,1975,200
+honduras,cp_membership_num,1975,650
+martinique,cp_membership_num,1975,1000
+mexico,cp_membership_num,1975,125000
+nicaragua,cp_membership_num,1975,N/A
+panama,cp_membership_num,1975,500
+paraguay,cp_membership_num,1975,3500
+peru,cp_membership_num,1975,3200
+puerto rico,cp_membership_num,1975,16700
+usa,cp_membership_num,1975,16000
+uruguay,cp_membership_num,1975,30000
+venezuela,cp_membership_num,1975,6000
+egypt,cp_membership_num,1975,N/A
+iran,cp_membership_num,1975,300
+iraq,cp_membership_num,1975,2500
+israel,cp_membership_num,1975,3000
+jordan,cp_membership_num,1975,400
+lebanon,cp_membership_num,1975,4500
+algeria,cp_membership_num,1975,400
+morocco,cp_membership_num,1975,300
+tunisia,cp_membership_num,1975,100
+reunion,cp_membership_num,1975,800
+south africa,cp_membership_num,1975,300
+sudan,cp_membership_num,1975,7500
+syria,cp_membership_num,1975,3500
+albania,cp_membership_num,1976,100000
+bulgaria,cp_membership_num,1976,700000
+czechoslovakia,cp_membership_num,1976,1100000
+east germany,cp_membership_num,1976,1900000
+hungary,cp_membership_num,1976,754353
+poland,cp_membership_num,1976,2453000
+romania,cp_membership_num,1976,2500000
+ussr,cp_membership_num,1976,15000000
+yugoslavia,cp_membership_num,1976,1192446
+australia,cp_membership_num,1976,2300
+bangladesh,cp_membership_num,1976,2500
+burma,cp_membership_num,1976,6500
+cambodia,cp_membership_num,1976,10000
+china,cp_membership_num,1976,28000000
+india,cp_membership_num,1976,461000
+indonesia,cp_membership_num,1976,800
+japan,cp_membership_num,1976,330000
+north korea,cp_membership_num,1976,2000000
+laos,cp_membership_num,1976,N/A
+malaysia,cp_membership_num,1976,3000
+mongolia,cp_membership_num,1976,58000
+nepal,cp_membership_num,1976,5000
+new zealand,cp_membership_num,1976,220
+pakistan,cp_membership_num,1976,800
+philippines,cp_membership_num,1976,2000
+singapore,cp_membership_num,1976,200
+sri lanka,cp_membership_num,1976,3000
+thailand,cp_membership_num,1976,8000
+north vietnam,cp_membership_num,1976,900000
+south vietnam,cp_membership_num,1976,180000
+egypt,cp_membership_num,1976,500
+iran,cp_membership_num,1976,1000
+iraq,cp_membership_num,1976,2000
+israel,cp_membership_num,1976,1500
+jordan,cp_membership_num,1976,400
+lebanon,cp_membership_num,1976,3000
+algeria,cp_membership_num,1976,400
+morocco,cp_membership_num,1976,500
+tunisia,cp_membership_num,1976,100
+reunion,cp_membership_num,1976,800
+south africa,cp_membership_num,1976,300
+sudan,cp_membership_num,1976,3500
+syria,cp_membership_num,1976,3500
+argentina,cp_membership_num,1976,147000
+bolivia,cp_membership_num,1976,450
+brazil,cp_membership_num,1976,7000
+canada,cp_membership_num,1976,2500
+chile,cp_membership_num,1976,100000
+colombia,cp_membership_num,1976,12000
+costa rica,cp_membership_num,1976,1500
+cuba,cp_membership_num,1976,200000
+dominican republic,cp_membership_num,1976,1500
+ecuador,cp_membership_num,1976,600
+el salvador,cp_membership_num,1976,175
+guadeloupe,cp_membership_num,1976,3000
+guatemala,cp_membership_num,1976,750
+guyana,cp_membership_num,1976,100
+haiti,cp_membership_num,1976,150
+honduras,cp_membership_num,1976,750
+martinique,cp_membership_num,1976,1000
+mexico,cp_membership_num,1976,5000
+nicaragua,cp_membership_num,1976,150
+panama,cp_membership_num,1976,500
+paraguay,cp_membership_num,1976,3500
+peru,cp_membership_num,1976,3200
+puerto rico,cp_membership_num,1976,125
+usa,cp_membership_num,1976,15000
+uruguay,cp_membership_num,1976,30000
+venezuela,cp_membership_num,1976,6000
+austria,cp_membership_num,1976,22500
+belgium,cp_membership_num,1976,13250
+cyprus,cp_membership_num,1976,13000
+denmark,cp_membership_num,1976,8000
+finland,cp_membership_num,1976,48000
+france,cp_membership_num,1976,450000
+west germany,cp_membership_num,1976,102000
+west berlin,cp_membership_num,1976,8000
+great britain,cp_membership_num,1976,28519
+greece,cp_membership_num,1976,27500
+iceland,cp_membership_num,1976,2500
+ireland,cp_membership_num,1976,N/A
+italy,cp_membership_num,1976,1700000
+luxembourg,cp_membership_num,1976,N/A
+netherlands,cp_membership_num,1976,10000
+norway,cp_membership_num,1976,2500
+portugal,cp_membership_num,1976,N/A
+san marino,cp_membership_num,1976,300
+spain,cp_membership_num,1976,25000
+sweden,cp_membership_num,1976,17000
+switzerland,cp_membership_num,1976,9000
+turkey,cp_membership_num,1976,N/A
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+NA,cp_membership_num,1976,NA
+albania,cp_membership_num,1978,101500
+bulgaria,cp_membership_num,1978,789796
+czechoslovakia,cp_membership_num,1978,1382860
+east germany (gdr),cp_membership_num,1978,2077262
+hungary,cp_membership_num,1978,765566
+poland,cp_membership_num,1978,2573000
+romania,cp_membership_num,1978,2700000
+ussr,cp_membership_num,1978,16203446
+yugoslavia,cp_membership_num,1978,1537000
+austria,cp_membership_num,1978,20000
+belgium,cp_membership_num,1978,11000
+cyprus,cp_membership_num,1978,11000
+denmark,cp_membership_num,1978,8000
+faroe islands,cp_membership_num,1978,0
+finland,cp_membership_num,1978,48000
+france,cp_membership_num,1978,600000
+germany (frg),cp_membership_num,1978,40000
+west berlin,cp_membership_num,1978,7500
+great britain,cp_membership_num,1978,25293
+greece,cp_membership_num,1978,27500
+iceland,cp_membership_num,1978,2500
+ireland,cp_membership_num,1978,500
+italy,cp_membership_num,1978,1800000
+luxembourg,cp_membership_num,1978,600
+malta,cp_membership_num,1978,100
+netherlands,cp_membership_num,1978,14500
+norway,cp_membership_num,1978,1500
+portugal,cp_membership_num,1978,115000
+san marino,cp_membership_num,1978,300
+spain,cp_membership_num,1978,200000
+sweden,cp_membership_num,1978,17500
+switzerland,cp_membership_num,1978,5000
+turkey,cp_membership_num,1978,26000
+australia,cp_membership_num,1978,1500
+bangladesh,cp_membership_num,1978,2500
+burma,cp_membership_num,1978,10000
+cambodia,cp_membership_num,1978,10000
+china,cp_membership_num,1978,35000000
+hong kong,cp_membership_num,1978,2000
+india,cp_membership_num,1978,210000
+indonesia,cp_membership_num,1978,1000
+japan,cp_membership_num,1978,370000
+korea (dprk),cp_membership_num,1978,1800000
+laos,cp_membership_num,1978,15000
+malaysia,cp_membership_num,1978,2750000
+mongolia,cp_membership_num,1978,67000
+nepal,cp_membership_num,1978,6500
+new zealand,cp_membership_num,1978,500
+pakistan,cp_membership_num,1978,1500
+philippines,cp_membership_num,1978,2000
+singapore,cp_membership_num,1978,400
+sri lanka,cp_membership_num,1978,6000
+thailand,cp_membership_num,1978,N/A
+vietnam,cp_membership_num,1978,1533500
+argentina,cp_membership_num,1978,65000
+bolivia,cp_membership_num,1978,500
+brazil,cp_membership_num,1978,4500
+canada,cp_membership_num,1978,2000
+chile,cp_membership_num,1978,N/A
+colombia,cp_membership_num,1978,12000
+costa rica,cp_membership_num,1978,1000
+cuba,cp_membership_num,1978,204000
+dominican republic,cp_membership_num,1978,1000
+ecuador,cp_membership_num,1978,800
+el salvador,cp_membership_num,1978,150
+guadeloupe,cp_membership_num,1978,3000
+guatemala,cp_membership_num,1978,750
+guyana,cp_membership_num,1978,N/A
+haiti,cp_membership_num,1978,N/A
+honduras,cp_membership_num,1978,650
+jamaica,cp_membership_num,1978,200
+martinique,cp_membership_num,1978,1000
+mexico,cp_membership_num,1978,60000
+nicaragua,cp_membership_num,1978,160
+panama,cp_membership_num,1978,425
+paraguay,cp_membership_num,1978,3500
+peru,cp_membership_num,1978,3200
+puerto rico,cp_membership_num,1978,125
+united states,cp_membership_num,1978,18000
+uruguay,cp_membership_num,1978,6000
+venezuela,cp_membership_num,1978,10000
+egypt,cp_membership_num,1978,1000
+iran,cp_membership_num,1978,1500
+iraq,cp_membership_num,1978,2000
+israel,cp_membership_num,1978,1500
+jordan,cp_membership_num,1978,500
+lebanon,cp_membership_num,1978,2500
+lesotho,cp_membership_num,1978,N/A
+algeria,cp_membership_num,1978,400
+morocco,cp_membership_num,1978,400
+tunisia,cp_membership_num,1978,100
+nigeria,cp_membership_num,1978,N/A
+reunion,cp_membership_num,1978,2000
+saudi arabia,cp_membership_num,1978,0
+senegal,cp_membership_num,1978,N/A
+south africa,cp_membership_num,1978,N/A
+sudan,cp_membership_num,1978,N/A
+syria,cp_membership_num,1978,4000
+albania,cp_membership_num,1979,101500
+bulgaria,cp_membership_num,1979,812000
+czechoslovakia,cp_membership_num,1979,1473000
+east germany (gdr),cp_membership_num,1979,2077262
+hungary,cp_membership_num,1979,770000
+poland,cp_membership_num,1979,2758000
+romania,cp_membership_num,1979,2747000
+ussr,cp_membership_num,1979,16300000
+yugoslavia,cp_membership_num,1979,1629082
+austria,cp_membership_num,1979,22500
+belgium,cp_membership_num,1979,10000
+cyprus,cp_membership_num,1979,11500
+denmark,cp_membership_num,1979,8000
+faroe islands,cp_membership_num,1979,0
+finland,cp_membership_num,1979,48000
+france,cp_membership_num,1979,650000
+germany (frg),cp_membership_num,1979,46380
+west berlin,cp_membership_num,1979,7500
+great britain,cp_membership_num,1979,25938
+greece,cp_membership_num,1979,27500
+iceland,cp_membership_num,1979,3000
+ireland,cp_membership_num,1979,600
+italy,cp_membership_num,1979,1800000
+luxembourg,cp_membership_num,1979,600
+malta,cp_membership_num,1979,100
+netherlands,cp_membership_num,1979,14500
+norway,cp_membership_num,1979,2250
+portugal,cp_membership_num,1979,142000
+san marino,cp_membership_num,1979,300
+spain,cp_membership_num,1979,200000
+sweden,cp_membership_num,1979,17000
+switzerland,cp_membership_num,1979,5000
+turkey,cp_membership_num,1979,2000
+afghanistan,cp_membership_num,1979,50000
+australia,cp_membership_num,1979,3900
+bangladesh,cp_membership_num,1979,2500
+burma,cp_membership_num,1979,7000
+cambodia,cp_membership_num,1979,10000
+china,cp_membership_num,1979,35000000
+hong kong,cp_membership_num,1979,2000
+india,cp_membership_num,1979,185000
+indonesia,cp_membership_num,1979,1000
+japan,cp_membership_num,1979,350000
+korea (dprk),cp_membership_num,1979,1800000
+laos,cp_membership_num,1979,15000
+malaysia,cp_membership_num,1979,3150
+mongolia,cp_membership_num,1979,67000
+nepal,cp_membership_num,1979,6500
+new zealand,cp_membership_num,1979,500
+pakistan,cp_membership_num,1979,1500
+philippines,cp_membership_num,1979,2250
+singapore,cp_membership_num,1979,500
+sri lanka,cp_membership_num,1979,6000
+thailand,cp_membership_num,1979,11700
+vietnam,cp_membership_num,1979,1533000
+argentina,cp_membership_num,1979,70000
+bolivia,cp_membership_num,1979,500
+brazil,cp_membership_num,1979,6000
+canada,cp_membership_num,1979,2000
+chile,cp_membership_num,1979,N/A
+colombia,cp_membership_num,1979,12000
+costa rica,cp_membership_num,1979,3200
+cuba,cp_membership_num,1979,200000
+dominican republic,cp_membership_num,1979,5000
+ecuador,cp_membership_num,1979,1000
+el salvador,cp_membership_num,1979,225
+guadeloupe,cp_membership_num,1979,3000
+guatemala,cp_membership_num,1979,740
+guyana,cp_membership_num,1979,250
+haiti,cp_membership_num,1979,N/A
+honduras,cp_membership_num,1979,650
+jamaica,cp_membership_num,1979,200
+martinique,cp_membership_num,1979,1000
+mexico,cp_membership_num,1979,25000
+nicaragua,cp_membership_num,1979,160
+panama,cp_membership_num,1979,500
+paraguay,cp_membership_num,1979,3500
+peru,cp_membership_num,1979,3200
+puerto rico,cp_membership_num,1979,125
+united states,cp_membership_num,1979,18000
+uruguay,cp_membership_num,1979,10000
+venezuela,cp_membership_num,1979,6000
+egypt,cp_membership_num,1979,500
+iran,cp_membership_num,1979,1500
+iraq,cp_membership_num,1979,2000
+israel,cp_membership_num,1979,1500
+jordan,cp_membership_num,1979,500
+lebanon,cp_membership_num,1979,2500
+lesotho,cp_membership_num,1979,0
+algeria,cp_membership_num,1979,500
+morocco,cp_membership_num,1979,700
+tunisia,cp_membership_num,1979,100
+nigeria,cp_membership_num,1979,N/A
+reunion,cp_membership_num,1979,2000
+saudi arabia,cp_membership_num,1979,0
+senegal,cp_membership_num,1979,2000
+south africa,cp_membership_num,1979,N/A
+sudan,cp_membership_num,1979,3500
+syria,cp_membership_num,1979,4000
+albania,cp_membership_num,1980,101500
+bulgaria,cp_membership_num,1980,817000
+czechoslovakia,cp_membership_num,1980,1473000
+east germany (gdr),cp_membership_num,1980,2127413
+hungary,cp_membership_num,1980,797000
+poland,cp_membership_num,1980,3080000
+romania,cp_membership_num,1980,2930000
+ussr,cp_membership_num,1980,16630000
+yugoslavia,cp_membership_num,1980,1855638
+austria,cp_membership_num,1980,25000
+belgium,cp_membership_num,1980,10000
+cyprus,cp_membership_num,1980,12000
+denmark,cp_membership_num,1980,8000
+faroe islands,cp_membership_num,1980,0
+finland,cp_membership_num,1980,45000
+france,cp_membership_num,1980,700000
+germany (frg),cp_membership_num,1980,42000
+west berlin,cp_membership_num,1980,7500
+great britain,cp_membership_num,1980,20599
+greece,cp_membership_num,1980,29300
+iceland,cp_membership_num,1980,3000
+ireland,cp_membership_num,1980,600
+italy,cp_membership_num,1980,1790450
+luxembourg,cp_membership_num,1980,600
+malta,cp_membership_num,1980,100
+netherlands,cp_membership_num,1980,15000
+norway,cp_membership_num,1980,2000
+portugal,cp_membership_num,1980,164000
+san marino,cp_membership_num,1980,300
+spain,cp_membership_num,1980,200000
+sweden,cp_membership_num,1980,17000
+switzerland,cp_membership_num,1980,5000
+turkey,cp_membership_num,1980,2000
+afghanistan,cp_membership_num,1980,100000
+australia,cp_membership_num,1980,5000
+bangladesh,cp_membership_num,1980,2500
+burma,cp_membership_num,1980,17000
+china,cp_membership_num,1980,37000000
+hong kong,cp_membership_num,1980,2000
+india,cp_membership_num,1980,646000
+indonesia,cp_membership_num,1980,1000
+japan,cp_membership_num,1980,400000
+kampuchea,cp_membership_num,1980,N/A
+korea (dprk),cp_membership_num,1980,2000000
+laos,cp_membership_num,1980,15000
+malaysia,cp_membership_num,1980,3150
+mongolia,cp_membership_num,1980,67000
+nepal,cp_membership_num,1980,5000
+new zealand,cp_membership_num,1980,500
+pakistan,cp_membership_num,1980,250
+philippines,cp_membership_num,1980,4250
+singapore,cp_membership_num,1980,500
+sri lanka,cp_membership_num,1980,6000
+thailand,cp_membership_num,1980,11700
+vietnam,cp_membership_num,1980,1533000
+argentina,cp_membership_num,1980,70000
+bolivia,cp_membership_num,1980,2500
+brazil,cp_membership_num,1980,4000
+canada,cp_membership_num,1980,2500
+chile,cp_membership_num,1980,75000
+colombia,cp_membership_num,1980,12000
+costa rica,cp_membership_num,1980,3000
+cuba,cp_membership_num,1980,200000
+dominican republic,cp_membership_num,1980,5000
+ecuador,cp_membership_num,1980,2000
+el salvador,cp_membership_num,1980,225
+guadeloupe,cp_membership_num,1980,3000
+guatemala,cp_membership_num,1980,750
+guyana,cp_membership_num,1980,500
+haiti,cp_membership_num,1980,250
+honduras,cp_membership_num,1980,650
+jamaica,cp_membership_num,1980,400
+martinique,cp_membership_num,1980,1000
+mexico,cp_membership_num,1980,25000
+nicaragua,cp_membership_num,1980,410
+panama,cp_membership_num,1980,550
+paraguay,cp_membership_num,1980,3500
+peru,cp_membership_num,1980,4700
+puerto rico,cp_membership_num,1980,125
+united states,cp_membership_num,1980,17500
+uruguay,cp_membership_num,1980,8000
+venezuela,cp_membership_num,1980,10000
+egypt,cp_membership_num,1980,500
+iran,cp_membership_num,1980,1500
+iraq,cp_membership_num,1980,2000
+israel,cp_membership_num,1980,1500
+jordan,cp_membership_num,1980,500
+lebanon,cp_membership_num,1980,2500
+lesotho,cp_membership_num,1980,0
+algeria,cp_membership_num,1980,400
+morocco,cp_membership_num,1980,700
+tunisia,cp_membership_num,1980,100
+nigeria,cp_membership_num,1980,N/A
+reunion,cp_membership_num,1980,2000
+saudi arabia,cp_membership_num,1980,0
+senegal,cp_membership_num,1980,2000
+south africa,cp_membership_num,1980,N/A
+sudan,cp_membership_num,1980,3500
+syria,cp_membership_num,1980,5000
+angola,cp_membership_num,1985,31000
+benin,cp_membership_num,1985,N/A
+congo,cp_membership_num,1985,8685
+ethiopia,cp_membership_num,1985,30000
+lesotho,cp_membership_num,1985,N/A
+mozambique,cp_membership_num,1985,130000
+nigeria,cp_membership_num,1985,N/A
+reunion,cp_membership_num,1985,10000
+senegal,cp_membership_num,1985,N/A
+south africa,cp_membership_num,1985,N/A
+sudan,cp_membership_num,1985,1500
+zimbabwe,cp_membership_num,1985,N/A
+argentina,cp_membership_num,1985,70000
+bolivia,cp_membership_num,1985,300
+brazil,cp_membership_num,1985,8000
+canada,cp_membership_num,1985,2500
+chile,cp_membership_num,1985,20000
+colombia,cp_membership_num,1985,12000
+costa rica,cp_membership_num,1985,3500
+cuba,cp_membership_num,1985,434143
+dominican republic,cp_membership_num,1985,750
+ecuador,cp_membership_num,1985,500
+el salvador,cp_membership_num,1985,500
+grenada,cp_membership_num,1985,N/A
+guadeloupe,cp_membership_num,1985,3000
+guatemala,cp_membership_num,1985,750
+guyana,cp_membership_num,1985,200
+haiti,cp_membership_num,1985,N/A
+honduras,cp_membership_num,1985,N/A
+jamaica,cp_membership_num,1985,50
+martinique,cp_membership_num,1985,1000
+mexico,cp_membership_num,1985,40800
+nicaragua,cp_membership_num,1985,4250
+panama,cp_membership_num,1985,35000
+paraguay,cp_membership_num,1985,3500
+peru,cp_membership_num,1985,5000
+puerto rico,cp_membership_num,1985,125
+suriname,cp_membership_num,1985,100
+united states,cp_membership_num,1985,17500
+uruguay,cp_membership_num,1985,7500
+venezuela,cp_membership_num,1985,4000
+afghanistan,cp_membership_num,1985,120000
+australia,cp_membership_num,1985,2500
+bangladesh,cp_membership_num,1985,3000
+burma,cp_membership_num,1985,3000
+china,cp_membership_num,1985,40000000
+india,cp_membership_num,1985,750000
+indonesia,cp_membership_num,1985,250
+japan,cp_membership_num,1985,480000
+kampuchea,cp_membership_num,1985,700
+korea (north),cp_membership_num,1985,3000000
+laos,cp_membership_num,1985,35000
+malaysia,cp_membership_num,1985,1900
+mongolia,cp_membership_num,1985,76240
+nepal,cp_membership_num,1985,5000
+new zealand,cp_membership_num,1985,150
+pakistan,cp_membership_num,1985,200
+philippines,cp_membership_num,1985,38000
+singapore,cp_membership_num,1985,200
+sri lanka,cp_membership_num,1985,6000
+thailand,cp_membership_num,1985,1200
+vietnam,cp_membership_num,1985,1730214
+albania,cp_membership_num,1985,122000
+bulgaria,cp_membership_num,1985,825876
+czechoslovakia,cp_membership_num,1985,1623000
+germany: german democratic republic,cp_membership_num,1985,2202277
+hungary,cp_membership_num,1985,232000
+poland,cp_membership_num,1985,2186000
+romania,cp_membership_num,1985,3400000
+ussr,cp_membership_num,1985,18500000
+yugoslavia,cp_membership_num,1985,2500000
+algeria,cp_membership_num,1985,450
+bahrain,cp_membership_num,1985,0
+egypt,cp_membership_num,1985,500
+iran,cp_membership_num,1985,2000
+iraq,cp_membership_num,1985,N/A
+israel,cp_membership_num,1985,1500
+jordan,cp_membership_num,1985,1000
+lebanon,cp_membership_num,1985,15000
+morocco,cp_membership_num,1985,30000
+palestine,cp_membership_num,1985,200
+saudi arabia,cp_membership_num,1985,0
+syria,cp_membership_num,1985,5000
+tunisia,cp_membership_num,1985,2000
+yemen (pdry),cp_membership_num,1985,26000
+austria,cp_membership_num,1985,12000
+belgium,cp_membership_num,1985,10000
+cyprus,cp_membership_num,1985,14000
+denmark,cp_membership_num,1985,10000
+finland,cp_membership_num,1985,50000
+france,cp_membership_num,1985,610000
+germany: federal republic of germany,cp_membership_num,1985,50482
+great britain,cp_membership_num,1985,16000
+greece,cp_membership_num,1985,54000
+iceland,cp_membership_num,1985,3000
+ireland,cp_membership_num,1985,500
+italy,cp_membership_num,1985,1700000
+luxembourg,cp_membership_num,1985,600
+malta,cp_membership_num,1985,100
+netherlands,cp_membership_num,1985,10000
+norway,cp_membership_num,1985,1500
+portugal,cp_membership_num,1985,200000
+san marino,cp_membership_num,1985,300
+spain,cp_membership_num,1985,109000
+sweden,cp_membership_num,1985,22500
+switzerland,cp_membership_num,1985,4500
+turkey,cp_membership_num,1985,0
+west berlin,cp_membership_num,1985,4500
+angola,cp_membership_num,1990,45000
+benin,cp_membership_num,1990,2600
+congo,cp_membership_num,1990,9912
+ethiopia,cp_membership_num,1990,70000
+lesotho,cp_membership_num,1990,N/A
+mozambique,cp_membership_num,1990,130000
+reunion,cp_membership_num,1990,2000
+senegal,cp_membership_num,1990,N/A
+south africa,cp_membership_num,1990,N/A
+sudan,cp_membership_num,1990,9000
+zimbabwe,cp_membership_num,1990,3000000
+argentina,cp_membership_num,1990,80000
+bolivia,cp_membership_num,1990,500
+brazil,cp_membership_num,1990,130000
+canada,cp_membership_num,1990,3000
+chile,cp_membership_num,1990,20000
+colombia,cp_membership_num,1990,18000
+costa rica,cp_membership_num,1990,7500
+cuba,cp_membership_num,1990,600000
+dominican republic,cp_membership_num,1990,750
+ecuador,cp_membership_num,1990,1200
+el salvador,cp_membership_num,1990,1000
+grenada,cp_membership_num,1990,N/A
+guadeloupe,cp_membership_num,1990,3000
+guatemala,cp_membership_num,1990,250
+guyana,cp_membership_num,1990,300
+haiti,cp_membership_num,1990,350
+honduras,cp_membership_num,1990,100
+jamaica,cp_membership_num,1990,100
+martinique,cp_membership_num,1990,1000
+mexico,cp_membership_num,1990,90000
+nicaragua,cp_membership_num,1990,8500
+panama,cp_membership_num,1990,26350
+paraguay,cp_membership_num,1990,4000
+peru,cp_membership_num,1990,4000
+puerto rico,cp_membership_num,1990,100
+usa,cp_membership_num,1990,5000
+uruguay,cp_membership_num,1990,11000
+venezuela,cp_membership_num,1990,4000
+australia,cp_membership_num,1990,1500
+bangladesh,cp_membership_num,1990,5000
+burma,cp_membership_num,1990,3000
+cambodia,cp_membership_num,1990,10000
+china,cp_membership_num,1990,48000000
+india,cp_membership_num,1990,917539
+indonesia,cp_membership_num,1990,1700
+japan,cp_membership_num,1990,470000
+korea (north),cp_membership_num,1990,3000000
+laos,cp_membership_num,1990,40000
+malaysia,cp_membership_num,1990,2100
+mongolia,cp_membership_num,1990,89312
+nepal,cp_membership_num,1990,10000
+new zealand,cp_membership_num,1990,400
+pakistan,cp_membership_num,1990,200
+philippines,cp_membership_num,1990,35000
+singapore,cp_membership_num,1990,300
+sri lanka,cp_membership_num,1990,5000
+thailand,cp_membership_num,1990,375
+vietnam,cp_membership_num,1990,2195824
+albania,cp_membership_num,1990,147000
+bulgaria,cp_membership_num,1990,984000
+czechoslovakia,cp_membership_num,1990,1574690
+germany: german democratic republic,cp_membership_num,1990,1000000
+hungary,cp_membership_num,1990,132000
+poland,cp_membership_num,1990,1005100
+romania,cp_membership_num,1990,0
+ussr,cp_membership_num,1990,19487822
+yugoslavia,cp_membership_num,1990,1868000
+afghanistan,cp_membership_num,1990,30000
+algeria,cp_membership_num,1990,N/A
+bahrain,cp_membership_num,1990,0
+egypt,cp_membership_num,1990,500
+iran,cp_membership_num,1990,1500
+iraq,cp_membership_num,1990,N/A
+israel,cp_membership_num,1990,2000
+jordan,cp_membership_num,1990,N/A
+lebanon,cp_membership_num,1990,4000
+morocco,cp_membership_num,1990,4500
+palestine,cp_membership_num,1990,N/A
+saudi arabia,cp_membership_num,1990,0
+syria,cp_membership_num,1990,5000
+tunisia,cp_membership_num,1990,2000
+yemen (pdry),cp_membership_num,1990,31000
+austria,cp_membership_num,1990,15000
+belgium,cp_membership_num,1990,5000
+cyprus,cp_membership_num,1990,15000
+denmark,cp_membership_num,1990,7400
+finland,cp_membership_num,1990,34700
+france,cp_membership_num,1990,200000
+germany: federal republic of germany,cp_membership_num,1990,27500
+great britain,cp_membership_num,1990,7500
+greece,cp_membership_num,1990,50000
+iceland,cp_membership_num,1990,3000
+ireland,cp_membership_num,1990,500
+italy,cp_membership_num,1990,800000
+luxembourg,cp_membership_num,1990,600
+malta,cp_membership_num,1990,300
+netherlands,cp_membership_num,1990,4000
+norway,cp_membership_num,1990,7750
+portugal,cp_membership_num,1990,199275
+san marino,cp_membership_num,1990,300
+spain,cp_membership_num,1990,113500
+sweden,cp_membership_num,1990,22800
+switzerland,cp_membership_num,1990,4500
+turkey,cp_membership_num,1990,0
+west berlin,cp_membership_num,1990,7000

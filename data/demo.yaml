@@ -1,5 +1,7 @@
 ---
 index_rules:
+  - varname: year
+    ffill: true
   - varname: country
     alt_names: ['area']
     lowercase: true
