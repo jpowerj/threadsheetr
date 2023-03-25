@@ -4,7 +4,7 @@
 #' @export
 #'
 #' @examples
-threader_combine <- function(parsed_path, verbose = FALSE) {
+threader_combine <- function(parsed_path = "./data/parsed/", verbose = FALSE) {
     parsed_fpaths <- Sys.glob(file.path(parsed_path, "*.rds"))
     if (verbose) {
       print("parsed_fpaths:")

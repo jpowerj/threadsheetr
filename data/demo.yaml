@@ -40,6 +40,6 @@ grid:
   datatype: int
   rounding: warn
   unit_of_obs: country
-  time_var: year
+  time_varname: year
   time_start: 1945
   time_end: 1975
