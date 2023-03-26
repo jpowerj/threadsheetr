@@ -25,5 +25,6 @@ Imports:
     stringr,
     tidyr,
     yaml
-URL: https://github.com/jpowerj/threadsheetr
+URL: https://github.com/jpowerj/threadsheetr,
+    http://jjacobs.me/threadsheetr/
 BugReports: https://github.com/jpowerj/threadsheetr/issues
