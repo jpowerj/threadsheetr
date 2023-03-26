@@ -15,10 +15,9 @@
 }
 \value{
 The long-format tibble where each row is an estimate derived from the data file \code{fpath}
+
+long_df <- .process_data_file("./data/cp_membership_num/file.csv", spec, verbose = TRUE)
 }
 \description{
 This is the main function for this file
-}
-\examples{
-long_df <- .process_data_file("./data/cp_membership_num/file.csv", spec, verbose = TRUE)
 }

@@ -3,10 +3,10 @@
 #' @param spec_fpath
 #'
 #' @return Parsed spec object
-#'
-#' @examples
-#' spec <- .parse_spec_file("./data/demo.yaml")
-.parse_spec_file <- function(spec_fpath) {
+.parse_spec_file <- function(spec_fpath = NULL) {
+  if (is.null(spec_fpath)) {
+    spec_fpath <- demo_spec_fpath()
+  }
   # For now this just returns the result from read_yaml
   return(yaml::read_yaml(spec_fpath))
 }

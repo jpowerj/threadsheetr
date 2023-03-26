@@ -4,17 +4,16 @@
 \alias{.get_estimate_list}
 \title{Produces estimate list, formatted for Google Sheet, from the provided df}
 \usage{
-.get_estimate_list(estimate_df)
+.get_estimate_list(estimate_df, unit_of_obs)
 }
 \arguments{
 \item{estimate_df}{The tibble you want a summary of}
+
+\item{unit_of_obs}{The name of the variable you want to summarize by}
 }
 \value{
 A list where each line is the summary of a row in \code{estimate_df}
 }
 \description{
 Produces estimate list, formatted for Google Sheet, from the provided df
-}
-\examples{
-est_info <- .get_estimate_list(estimate_df)
 }

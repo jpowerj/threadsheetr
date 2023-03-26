@@ -5,7 +5,7 @@
 \title{Step 1: Parse Data Files}
 \usage{
 threader_parse(
-  data_path = "./data/",
+  data_path = NULL,
   spec_fpath = "./data/demo.yaml",
   verbose = FALSE
 )

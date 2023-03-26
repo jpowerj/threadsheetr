@@ -1,9 +1,11 @@
 threader_sumstats <- function(grid_fpath = "./data/parsed/cp_membership_num_grid.rds") {
   num_df <- readRDS(grid_fpath)
   num_obs <- num_df %>% dplyr::count() %>% dplyr::pull()
-  mean_est <- num_df %>% dplyr::summarize(mean(est, na.rm = TRUE)) %>% dplyr::pull()
+  mean_est <- num_df %>%
+    dplyr::summarize(mean(rlang::.data$est, na.rm = TRUE)) %>%
+    dplyr::pull()
   num_nonnull <- num_df %>%
-    dplyr::filter(!is.na(est)) %>%
+    dplyr::filter(!is.na(rlang::.data$est)) %>%
     dplyr::count() %>%
     dplyr::pull()
   num_null <- num_obs - num_nonnull

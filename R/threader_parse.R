@@ -5,14 +5,17 @@
 #'
 #' @examples
 #' all_dfs <- threader_parse()
-threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml",
+threader_parse <- function(data_path = NULL, spec_fpath = "./data/demo.yaml",
                            verbose = FALSE) {
+  if (is.null(data_path)) {
+    data_path <- demo_data_path()
+  }
   # Load data spec
   spec <- yaml::read_yaml(spec_fpath)
   # Find the variable
   varname <- spec$grid$varname
   # Find all variable datafiles
-  var_glob <- paste0(data_path,"/",v,"/*.csv")
+  var_glob <- paste0(data_path,"/",varname,"/*.csv")
   var_fpaths <- Sys.glob(var_glob)
   # Create the "parsed" subfolder if it doesn't already exist
   parsed_path <- paste0(data_path,"/parsed/")
@@ -116,8 +119,8 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
   df_head <- readr::read_csv(fpath, col_names = FALSE, show_col_types = FALSE)
   # Find number of rows with '\\\\' in the index col
   df_head <- df_head %>%
-    tidyr::drop_na(X1) %>%
-    dplyr::filter(stringr::str_detect(.$X1,'\\\\'))
+    tidyr::drop_na(rlang::.data$X1) %>%
+    dplyr::filter(stringr::str_detect(rlang::.data$X1,'\\\\'))
   num_headers <- df_head %>% dplyr::count() %>% dplyr::pull()
   print(paste0("Detected ",num_headers," headers"))
   return_obj <- new.env()
@@ -175,14 +178,15 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
 #'
 #' @return The long-format tibble where each row is an estimate derived from the data file `fpath`
 #'
-#' @examples
 #' long_df <- .process_data_file("./data/cp_membership_num/file.csv", spec, verbose = TRUE)
 .process_data_file <- function(fpath, spec, verbose = FALSE) {
   fname <- basename(fpath)
   fname_elts <- stringr::str_split_1(fname, "_")
   if (endsWith(fname_elts[1], "_entries")) {
-    print(paste0("process_data_file(): processing already-long dataset ",fname))
-    return(process_entries_file(fpath, spec))
+    #print(paste0("process_data_file(): processing already-long dataset ",fname))
+    #return(process_entries_file(fpath, spec))
+    print(paste0("Skipping already-long dataset ",fname))
+    return(NULL)
   }
   ### Part 1: Detect the headers/data split
   header_result <- .detect_header_rows(fpath, spec, verbose=verbose)
@@ -227,12 +231,12 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
   if (num_headers > 1) {
     # Here we know the unit var will be there
     df_long <- df %>%
-      tidyr::pivot_longer(cols = contains('@@'), names_pattern = "(.*)@@(.*)",
+      tidyr::pivot_longer(cols = dplyr::contains('@@'), names_pattern = "(.*)@@(.*)",
                           names_to = c("varname",time_varname),
                           values_transform = list("varname"=as.character,time_varname=as.character))
   } else {
-    df_long <- df %>% dplyr::select(all_of(vars_to_keep)) %>%
-      tidyr::pivot_longer(cols = -all_of(c(time_varname, unit_varname)), names_to = c("varname"))
+    df_long <- df %>% dplyr::select(dplyr::all_of(vars_to_keep)) %>%
+      tidyr::pivot_longer(cols = -dplyr::all_of(c(time_varname, unit_varname)), names_to = c("varname"))
   }
   # ### Part 5: Make sure the year, val columns are all-numeric
   #if (num_headers > 1) {
@@ -240,8 +244,8 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
   #    dplyr::mutate(dplyr::across(dplyr::contains('@@'), as.numeric))
   #} else {
   df_long <- df_long %>%
-    dplyr::mutate(value = stringr::str_replace_all(value,",","")) %>%
-    dplyr::mutate(value = as.numeric(value))
+    dplyr::mutate(value = stringr::str_replace_all(rlang::.data$value,",","")) %>%
+    dplyr::mutate(value = as.numeric(rlang::.data$value))
   #}
   # ### Part 6: Add row_num and source_id columns
   df_long <- tibble::rowid_to_column(df_long, var="row_id")
@@ -316,7 +320,6 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
 #'
 #' @return `TRUE` if one of the tibble headers is either (a) `varname` itself, or (b) `varname`@@<year>
 #'
-#' @examples
 #' df <- tribble(
 #'   ~country, ~`cp_membership_num@@1950`, ~`cp_membership_num@@1970`,
 #'   Austria, 10000, 5000,

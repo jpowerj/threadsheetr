@@ -13,16 +13,15 @@
 }
 \value{
 \code{TRUE} if one of the tibble headers is either (a) \code{varname} itself, or (b) \code{varname}@\if{html}{\out{<year>}}
+
+df <- tribble(
+~country, ~\verb{cp_membership_num@1950}, ~\verb{cp_membership_num@1970},
+Austria, 10000, 5000,
+Zimbabwe, 100, 50
+)
+.var_in_df("cp_membership_num", df)
 }
 \description{
 We need this because of the special '@' character, which separates levels
 of the MultiIndex
-}
-\examples{
-df <- tribble(
-  ~country, ~`cp_membership_num@1950`, ~`cp_membership_num@1970`,
-  Austria, 10000, 5000,
-  Zimbabwe, 100, 50
-)
-.var_in_df("cp_membership_num", df)
 }

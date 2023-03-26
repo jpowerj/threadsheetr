@@ -4,7 +4,7 @@
 \alias{.parse_spec_file}
 \title{Parse .yaml-format spec file}
 \usage{
-.parse_spec_file(spec_fpath)
+.parse_spec_file(spec_fpath = NULL)
 }
 \arguments{
 \item{spec_fpath}{}
@@ -14,7 +14,4 @@ Parsed spec object
 }
 \description{
 Parse .yaml-format spec file
-}
-\examples{
-spec <- .parse_spec_file("./data/demo.yaml")
 }

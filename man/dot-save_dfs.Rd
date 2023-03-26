@@ -19,10 +19,9 @@
 }
 \value{
 An environment with keys \code{num}, the filepath to the saved numeric \code{.rds} file, and \code{info}, the filepath to the saved info-grid \code{.rds} file.
+
+save_results <- .save_dfs(num_df, info_df, "./data/parsed/", "cp_membership_num", "_long")
 }
 \description{
 Helper function that saves the numeric and info dfs together
-}
-\examples{
-save_results <- .save_dfs(num_df, info_df, "./data/parsed/", "cp_membership_num", "_long")
 }
