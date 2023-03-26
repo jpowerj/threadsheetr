@@ -12,3 +12,7 @@ Output: a giant csv file with a row for \emph{every} piece of data we have
 \description{
 Step 2: Combine Parsed Data Files
 }
+\examples{
+combined_df <- threader_combine()
+
+}

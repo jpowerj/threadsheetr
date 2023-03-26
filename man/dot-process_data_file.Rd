@@ -7,8 +7,18 @@
 .process_data_file(fpath, spec, verbose = FALSE)
 }
 \arguments{
-\item{spec}{}
+\item{fpath}{The filepath to the dataset you want to process}
+
+\item{spec}{The parsed specification data (returned by \code{.parse_spec_file()})}
+
+\item{verbose}{Optional: Set to \code{TRUE} to print more debugging info than usual}
+}
+\value{
+The long-format tibble where each row is an estimate derived from the data file \code{fpath}
 }
 \description{
 This is the main function for this file
+}
+\examples{
+long_df <- .process_data_file("./data/cp_membership_num/file.csv", spec, verbose = TRUE)
 }

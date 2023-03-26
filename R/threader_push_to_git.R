@@ -1,9 +1,10 @@
 #' Push estimate grid to GitHub
 #'
-#' @return
+#' @return An environment with keys `num_result`, the return value from the GH API call pushing the numeric grid, and `info_result`, the return value from the GH API call pushing the info grid
 #' @export
 #'
 #' @examples
+#' gh_result <- threader_push_to_git()
 threader_push_to_git <- function(output_path = "./data/parsed/",
                                  spec_fpath = "./data/demo.yaml") {
   # The idea here is: get a list of .csvs in the output_dir, then push the
@@ -19,12 +20,12 @@ threader_push_to_git <- function(output_path = "./data/parsed/",
   # https://stackoverflow.com/questions/12193779/how-to-write-trycatch-in-r
   repo_obj <- tryCatch(
     {
-      (grid_repo <- gh(paste0("GET /repos/",gh_username,"/",gh_repo_name)))
+      (grid_repo <- gh::gh(paste0("GET /repos/",gh_username,"/",gh_repo_name)))
     },
     error=function(cond) {
       if (cond$response_content$message == "Not Found") {
         # Doesn't exist, will need to create it
-        return(gh("POST /user/repos", name = gh_repo_name))
+        return(gh::gh("POST /user/repos", name = gh_repo_name))
       }
       stop(paste0("Unknown error: ", cond))
     }
@@ -79,7 +80,7 @@ threader_push_to_git <- function(output_path = "./data/parsed/",
   # Check if file exists
   existing_sha <- tryCatch(
     {
-      gh_result <- gh(
+      gh_result <- gh::gh(
         'GET /repos/{owner}/{repo}/contents/{path}',
         owner = gh_username,
         repo = gh_repo_name,
@@ -95,7 +96,7 @@ threader_push_to_git <- function(output_path = "./data/parsed/",
   #old_sha <- exists_result$sha
   api_str <- paste0('PUT /repos/',gh_username,'/',gh_repo_name,'/contents/',gh_repo_path)
   if (is.null(existing_sha)) {
-    push_result <- gh(api_str,
+    push_result <- gh::gh(api_str,
                       owner = gh_username,
                       repo = gh_repo_name,
                       path = gh_repo_path,
@@ -106,7 +107,7 @@ threader_push_to_git <- function(output_path = "./data/parsed/",
     )
   } else {
     # Need to provide the old sha
-    push_result <- gh(api_str,
+    push_result <- gh::gh(api_str,
                       owner = gh_username,
                       repo = gh_repo_name,
                       path = gh_repo_path,

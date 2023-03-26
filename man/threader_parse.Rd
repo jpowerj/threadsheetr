@@ -10,6 +10,12 @@ threader_parse(
   verbose = FALSE
 )
 }
+\value{
+An environment where each key is an input file, and each value is the tibble generated from the data in that file
+}
 \description{
 Step 1: Parse Data Files
+}
+\examples{
+all_dfs <- threader_parse()
 }

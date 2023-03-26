@@ -1,9 +1,10 @@
 #' Step 3: Construct the Grid of Estimates
 #'
-#' @return
+#' @return Wide-format tibble, with one row per unit of observation and one column per unit of time
 #' @export
 #'
 #' @examples
+#' grid_df <- threader_create_grid()
 threader_create_grid <- function(combined_fpath = "./data/parsed/combined.rds",
                                  spec_fpath = "./data/demo.yaml") {
   # Interpret the combined_fpath as being inside the data dir
@@ -100,17 +101,23 @@ threader_create_grid <- function(combined_fpath = "./data/parsed/combined.rds",
 #'
 #' Combine the rows in a df of estimates into one final estimate
 #'
-#' @param unit_varname
-#' @param unit_val
-#' @param time_varname
-#' @param time_val
-#' @param combined_df
+#' @param unit_varname The name of the variable for the unit of observation (e.g., `"country`)
+#' @param unit_val The *value* of the current unit of observation (e.g., `"Panama"`)
+#' @param time_varname The name of the time variable
+#' @param time_val The *value* of the current time (e.g., `1975`)
+#' @param combined_df A tibble where each row is a single *estimate* of
+#'    the quantity of interest (to be combined with other rows )
 #'
-#' @return
-#' @export
+#' @return An environment with keys `num_result`, containing the numeric cell
+#'    value, and `info_result`, containing a string describing the estimate
 #'
 #' @examples
-compute_cell_value <- function(num_long_df, unit_varname, unit_val, time_varname, time_val,
+#' panama_1975 <- long_df %>% compute_cell_value("country", "Panama", "year",
+#'     1975, combined_df)
+#' p75_num <- panama_1975$num_result
+#' p75_info <- panama_1975$info_result
+compute_cell_value <- function(num_long_df, unit_varname, unit_val, time_varname,
+                               time_val,
                                combined_df) {
   print(paste0(unit_val,", ",time_val))
   # Get the subset of combined_df containing this unit x year
@@ -160,11 +167,13 @@ compute_cell_value <- function(num_long_df, unit_varname, unit_val, time_varname
 
 #' Produces estimate list, formatted for Google Sheet, from the provided df
 #'
-#' @return
-#' @export
+#' @param estimate_df The tibble you want a summary of
+#'
+#' @return A list where each line is the summary of a row in `estimate_df`
 #'
 #' @examples
-get_estimate_list <- function(estimate_df) {
+#' est_info <- .get_estimate_list(estimate_df)
+.get_estimate_list <- function(estimate_df) {
   estimate_strs <- estimate_df %>% tibble::rowid_to_column(var="index") %>%
     tidyr::unite("values", c(country, value), sep=" ") %>%
     tidyr::unite("output", c(index, values), sep=": ") %>%
@@ -176,14 +185,14 @@ get_estimate_list <- function(estimate_df) {
 #' Prints just the first two and last two entries, with "..." in between, unless
 #' `print_all` is set to True
 #'
-#' @param var_name
-#' @param val_list
-#' @param print_all
+#' @param var_name The name of the variable you're printing information about
+#' @param val_list The list of values that this variable can take on
+#' @param print_all If `FALSE`, only the first and last 2 values are printed.
 #'
-#' @return
-#' @export
+#' @return Nothing: it just prints the values
 #'
 #' @examples
+#' print_summary("year", c(1945,1946,1947))
 print_summary <- function(var_name, val_list, print_all = FALSE) {
   print(paste0("Values for grid axis [",var_name,"]:"))
   if (print_all) {
@@ -199,16 +208,18 @@ print_summary <- function(var_name, val_list, print_all = FALSE) {
 
 #' Helper function that saves the numeric and info dfs together
 #'
-#' @param num_df
-#' @param info_df
-#' @param fname_prefix
+#' @param num_df The (long- or wide-format) numeric-estimate tibble you want to save
+#' @param info_df The (long- or wide-format) string-info tibble you want to save
+#' @param output_path The path to the directory you want the dfs saved in
+#' @param grid_varname The name of the main variable you're estimating, use as the prefix to the filename for each saved file.
+#' @param fname_suffix A suffix added to the end of each filename. Defaults to `"_long"`, so you'll need to specify `"_wide"` to differentiate the latter format in the filenames.
 #'
-#' @return
-#' @export
+#' @return An environment with keys `num`, the filepath to the saved numeric `.rds` file, and `info`, the filepath to the saved info-grid `.rds` file.
 #'
 #' @examples
+#' save_results <- .save_dfs(num_df, info_df, "./data/parsed/", "cp_membership_num", "_long")
 .save_dfs <- function(num_df, info_df, output_path, grid_varname,
-                      fname_suffix) {
+                      fname_suffix = "_long") {
   num_fname_prefix = paste0(grid_varname,"_num",fname_suffix)
   num_rds_fpath = file.path(output_path, paste0(num_fname_prefix,".rds"))
   saveRDS(num_df, num_rds_fpath)

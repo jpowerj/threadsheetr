@@ -15,7 +15,20 @@ compute_cell_value(
 )
 }
 \arguments{
-\item{combined_df}{}
+\item{unit_varname}{The name of the variable for the unit of observation (e.g., \verb{"country})}
+
+\item{unit_val}{The \emph{value} of the current unit of observation (e.g., \code{"Panama"})}
+
+\item{time_varname}{The name of the time variable}
+
+\item{time_val}{The \emph{value} of the current time (e.g., \code{1975})}
+
+\item{combined_df}{A tibble where each row is a single \emph{estimate} of
+the quantity of interest (to be combined with other rows )}
+}
+\value{
+An environment with keys \code{num_result}, containing the numeric cell
+value, and \code{info_result}, containing a string describing the estimate
 }
 \description{
 For now \link{the default} just average them all, dropping any N/As, but
@@ -23,4 +36,10 @@ returning np.nan if this results in no entries
 }
 \details{
 Combine the rows in a df of estimates into one final estimate
+}
+\examples{
+panama_1975 <- long_df \%>\% compute_cell_value("country", "Panama", "year",
+    1975, combined_df)
+p75_num <- panama_1975$num_result
+p75_info <- panama_1975$info_result
 }

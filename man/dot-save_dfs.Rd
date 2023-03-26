@@ -4,11 +4,25 @@
 \alias{.save_dfs}
 \title{Helper function that saves the numeric and info dfs together}
 \usage{
-.save_dfs(num_df, info_df, output_path, grid_varname, fname_suffix)
+.save_dfs(num_df, info_df, output_path, grid_varname, fname_suffix = "_long")
 }
 \arguments{
-\item{fname_prefix}{}
+\item{num_df}{The (long- or wide-format) numeric-estimate tibble you want to save}
+
+\item{info_df}{The (long- or wide-format) string-info tibble you want to save}
+
+\item{output_path}{The path to the directory you want the dfs saved in}
+
+\item{grid_varname}{The name of the main variable you're estimating, use as the prefix to the filename for each saved file.}
+
+\item{fname_suffix}{A suffix added to the end of each filename. Defaults to \code{"_long"}, so you'll need to specify \code{"_wide"} to differentiate the latter format in the filenames.}
+}
+\value{
+An environment with keys \code{num}, the filepath to the saved numeric \code{.rds} file, and \code{info}, the filepath to the saved info-grid \code{.rds} file.
 }
 \description{
 Helper function that saves the numeric and info dfs together
+}
+\examples{
+save_results <- .save_dfs(num_df, info_df, "./data/parsed/", "cp_membership_num", "_long")
 }

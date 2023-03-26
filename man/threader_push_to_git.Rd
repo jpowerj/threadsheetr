@@ -9,6 +9,12 @@ threader_push_to_git(
   spec_fpath = "./data/demo.yaml"
 )
 }
+\value{
+An environment with keys \code{num_result}, the return value from the GH API call pushing the numeric grid, and \code{info_result}, the return value from the GH API call pushing the info grid
+}
 \description{
 Push estimate grid to GitHub
+}
+\examples{
+gh_result <- threader_push_to_git()
 }

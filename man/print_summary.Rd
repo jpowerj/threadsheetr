@@ -8,9 +8,19 @@
 print_summary(var_name, val_list, print_all = FALSE)
 }
 \arguments{
-\item{print_all}{}
+\item{var_name}{The name of the variable you're printing information about}
+
+\item{val_list}{The list of values that this variable can take on}
+
+\item{print_all}{If \code{FALSE}, only the first and last 2 values are printed.}
+}
+\value{
+Nothing: it just prints the values
 }
 \description{
 Prints just the first two and last two entries, with "..." in between, unless
 \code{print_all} is set to True
+}
+\examples{
+print_summary("year", c(1945,1946,1947))
 }

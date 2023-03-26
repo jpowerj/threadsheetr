@@ -9,6 +9,12 @@ threader_create_grid(
   spec_fpath = "./data/demo.yaml"
 )
 }
+\value{
+Wide-format tibble, with one row per unit of observation and one column per unit of time
+}
 \description{
 Step 3: Construct the Grid of Estimates
+}
+\examples{
+grid_df <- threader_create_grid()
 }

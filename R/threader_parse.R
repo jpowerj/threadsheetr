@@ -1,9 +1,10 @@
 #' Step 1: Parse Data Files
 #'
-#' @return
+#' @return An environment where each key is an input file, and each value is the tibble generated from the data in that file
 #' @export
 #'
 #' @examples
+#' all_dfs <- threader_parse()
 threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml",
                            verbose = FALSE) {
   # Load data spec
@@ -63,7 +64,7 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
   for (cur_alt_name in alt_var_names) {
     #print("--- loop iter ---")
     if (any(header_row == cur_alt_name, na.rm = TRUE)) {
-      header_row <- header_row %>% replace(. == cur_alt_name, varname)
+      header_row <- header_row %>% replace(rlang::.data == cur_alt_name, varname)
       # We return on first one we find (so that, the order in the .yaml file
       # matters, in terms of priority)
       return(header_row)
@@ -102,7 +103,7 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
     if ("ffill" %in% names(cur_index_spec)) {
       should_ffill <- cur_index_spec$ffill
       if (should_ffill) {
-        df <- df %>% tidyr::fill(all_of(cur_index_varname))
+        df <- df %>% tidyr::fill(dplyr::all_of(cur_index_varname))
       }
     }
   }
@@ -168,13 +169,14 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
 #'
 #' This is the main function for this file
 #'
-#' @param fpath
-#' @param spec
+#' @param fpath The filepath to the dataset you want to process
+#' @param spec The parsed specification data (returned by `.parse_spec_file()`)
+#' @param verbose Optional: Set to `TRUE` to print more debugging info than usual
 #'
-#' @return
-#' @export
+#' @return The long-format tibble where each row is an estimate derived from the data file `fpath`
 #'
 #' @examples
+#' long_df <- .process_data_file("./data/cp_membership_num/file.csv", spec, verbose = TRUE)
 .process_data_file <- function(fpath, spec, verbose = FALSE) {
   fname <- basename(fpath)
   fname_elts <- stringr::str_split_1(fname, "_")
@@ -309,13 +311,18 @@ threader_parse <- function(data_path = "./data/", spec_fpath = "./data/demo.yaml
 #' We need this because of the special '@@' character, which separates levels
 #' of the MultiIndex
 #'
-#' @param df
-#' @param varname
+#' @param df The tibble you want to check the headers of
+#' @param varname The variable you want to look for in the headers of `df`
 #'
-#' @return
-#' @export
+#' @return `TRUE` if one of the tibble headers is either (a) `varname` itself, or (b) `varname`@@<year>
 #'
 #' @examples
+#' df <- tribble(
+#'   ~country, ~`cp_membership_num@@1950`, ~`cp_membership_num@@1970`,
+#'   Austria, 10000, 5000,
+#'   Zimbabwe, 100, 50
+#' )
+#' .var_in_df("cp_membership_num", df)
 .var_in_df <- function(varname, df) {
   # This gets the *full* list of varnames
   full_varlist <- names(df) %>% stringr::str_split("@@") %>% unlist()
