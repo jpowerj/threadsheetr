@@ -4,7 +4,8 @@
 #' @export
 #'
 #' @examples
-#' gh_result <- threader_push_to_git()
+#' # Not run, since it requires authentication (via `.env` file)
+#' #gh_result <- threader_push_to_git()
 threader_push_to_git <- function(output_path = "./data/parsed/",
                                  spec_fpath = "./data/demo.yaml") {
   # The idea here is: get a list of .csvs in the output_dir, then push the

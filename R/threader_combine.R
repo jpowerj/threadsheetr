@@ -8,26 +8,38 @@
 #'
 #' @examples
 #' combined_df <- threader_combine()
-threader_combine <- function(parsed_path = NULL, verbose = FALSE) {
-    if (is.null(parsed_path)) {
-      parsed_path <- demo_parsed_path()
-    }
-    parsed_fpaths <- Sys.glob(file.path(parsed_path, "*.rds"))
-    if (verbose) {
+threader_combine <- function(parsed_path = NULL, combined_path = NULL,
+                             spec_fpath = NULL, verbose = FALSE) {
+  if (is.null(parsed_path)) {
+    parsed_path <- demo_parsed_path()
+  }
+  if (is.null(combined_path)) {
+    combined_path <- demo_combined_path()
+  }
+  if (is.null(spec_fpath)) {
+    spec_fpath <- demo_spec_fpath()
+  }
+  # Parse spec
+  spec <- .parse_spec_file(spec_fpath)
+  # Get the varname from the spec
+  grid_varname <- .spec_get_varname(spec)
+  varname_glob <- file.path(parsed_path, "*.rds")
+  parsed_fpaths <- Sys.glob(varname_glob)
+  if (verbose) {
       print("parsed_fpaths:")
       print(parsed_fpaths)
-    }
-    # Remove combined.rds, if it already exists, just in case
-    parsed_fpaths <- parsed_fpaths[!stringr::str_detect(parsed_fpaths, "combined.rds")]
-    full_df <- dplyr::tibble()
-    for (cur_fpath in parsed_fpaths) {
-      cur_df <- readRDS(cur_fpath)
-      full_df <- dplyr::bind_rows(full_df, cur_df)
-    }
-    csv_output_fpath <- file.path(parsed_path, "combined.csv")
-    readr::write_csv(full_df, csv_output_fpath)
-    rds_output_fpath <- stringr::str_replace(csv_output_fpath, ".csv", ".rds")
-    if (verbose) { print(paste0("Saving to ",rds_output_fpath)) }
-    saveRDS(full_df, rds_output_fpath)
-    return(full_df)
+  }
+  # Remove combined.rds, if it already exists, just in case
+  parsed_fpaths <- parsed_fpaths[!stringr::str_detect(parsed_fpaths, "combined.rds")]
+  full_df <- dplyr::tibble()
+  for (cur_fpath in parsed_fpaths) {
+    cur_df <- readRDS(cur_fpath)
+    full_df <- dplyr::bind_rows(full_df, cur_df)
+  }
+  csv_output_fpath <- file.path(combined_path, "all_entries.csv")
+  readr::write_csv(full_df, csv_output_fpath)
+  rds_output_fpath <- stringr::str_replace(csv_output_fpath, ".csv", ".rds")
+  if (verbose) { print(paste0("Saving to ",rds_output_fpath)) }
+  saveRDS(full_df, rds_output_fpath)
+  return(full_df)
 }

@@ -8,33 +8,28 @@
 #'
 #' @examples
 #' grid_df <- threader_create_grid()
-threader_create_grid <- function(combined_fpath = NULL,
+threader_create_grid <- function(all_entries_fpath = NULL,
                                  spec_fpath = NULL) {
-  if (is.null(combined_fpath)) {
-    combined_fpath <- demo_combined_fpath()
+  if (is.null(all_entries_fpath)) {
+    all_entries_fpath <- demo_all_entries_fpath()
   }
   if (is.null(spec_fpath)) {
     spec_fpath <- demo_spec_fpath()
   }
-  # Interpret the combined_fpath as being inside the data dir
-  output_path <- dirname(combined_fpath)
+  # Saving to the same directory as the all_entries.rds file
+  output_path <- dirname(all_entries_fpath)
   # Load the combined file
-  combined_df <- readRDS(combined_fpath)
-  spec <- yaml::read_yaml(spec_fpath)
-  grid_spec <- spec$grid
-  grid_var <- grid_spec$varname
-  grid_unit <- grid_spec$unit_of_obs
-  grid_time_var <- grid_spec$time_var
-  grid_time_start <- grid_spec$time_start
-  grid_time_end <- grid_spec$time_end
-  grid_exclude <- NULL
-  if ("exclude_units" %in% names(grid_spec)) {
-    grid_exclude <- grid_spec$exclude_units
-  }
+  combined_df <- readRDS(all_entries_fpath)
+  spec <- .parse_spec_file(spec_fpath)
+  grid_varname <- .spec_get_varname(spec)
+  grid_unit <- .spec_get_unit(spec)
+  grid_time_varname <- .spec_get_time_varname(spec)
+  grid_time_start <- .spec_get_time_start(spec)
+  grid_time_end <- .spec_get_time_end(spec)
+  grid_exclude <- .spec_get_excluded(spec)
   # And create!
-  result <- .create_grid(combined_df, grid_var, grid_unit, grid_time_var,
-                        grid_time_start,
-                        grid_time_end, output_path, exclude=grid_exclude)
+  result <- .create_grid(combined_df, grid_varname, grid_unit, grid_time_varname,
+                        grid_time_start, grid_time_end, output_path, exclude=grid_exclude)
   return(result)
 }
 
@@ -46,7 +41,8 @@ threader_create_grid <- function(combined_fpath = NULL,
   #trust_df = pd.read_csv(trust_fpath)
   #init_trust_dict(trust_df)
   # Get all the entries for the var we care about
-  estimates_df <- estimates_df %>% dplyr::filter(dplyr::pick(varname) == grid_varname)
+  estimates_df <- estimates_df %>%
+    dplyr::filter(varname == grid_varname)
   # And now filter to the ones within range
   estimates_df <- estimates_df %>%
     dplyr::filter((!!as.symbol(time_varname) >= time_start) & (!!as.symbol(time_varname) <= time_end))
@@ -73,7 +69,7 @@ threader_create_grid <- function(combined_fpath = NULL,
   # Aggregate the combined df so there's one value per country x year
   agg_df <- estimates_df %>%
     dplyr::group_by(!!as.symbol(unit_of_obs), !!as.symbol(time_varname)) %>%
-    dplyr::summarise(est = mean(dplyr::pick(value)))
+    dplyr::summarise(est = mean(value))
   # And now merge so that we have a full grid, even for cells without any estimates
   # num_df_long has every possible country x year combo, so we want to left merge
   # the estimates into that
@@ -83,7 +79,7 @@ threader_create_grid <- function(combined_fpath = NULL,
     dplyr::mutate(info = "")
   # Save these completed but long-form dfs
   .save_dfs(num_df_merged, info_df_merged, output_path, grid_varname, "_long")
-  # Finally, un-pivot it, so that it's back to being a grid
+  # Finally, un-pivot it, so that it's back to being a wide-form grid
   num_df_wide <- num_df_merged %>%
     tidyr::pivot_wider(names_from = as.symbol(time_varname),
                        values_from = "est")

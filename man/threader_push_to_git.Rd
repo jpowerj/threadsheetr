@@ -16,5 +16,6 @@ An environment with keys \code{num_result}, the return value from the GH API cal
 Push estimate grid to GitHub
 }
 \examples{
-gh_result <- threader_push_to_git()
+# Not run, since it requires authentication (via `.env` file)
+#gh_result <- threader_push_to_git()
 }

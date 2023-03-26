@@ -4,11 +4,7 @@
 \alias{threader_parse}
 \title{Step 1: Parse Data Files}
 \usage{
-threader_parse(
-  data_path = NULL,
-  spec_fpath = "./data/demo.yaml",
-  verbose = FALSE
-)
+threader_parse(data_path = NULL, spec_fpath = NULL, verbose = FALSE)
 }
 \value{
 An environment where each key is an input file, and each value is the tibble generated from the data in that file

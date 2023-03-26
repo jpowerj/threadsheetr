@@ -1,5 +1,5 @@
 options(warn=1)
-parse_result <- threadsheetr::threader_parse("./data/", "./data/demo.yaml")
+parse_result <- threadsheetr::threader_parse()
 
 combine_result <- threadsheetr::threader_combine()
 

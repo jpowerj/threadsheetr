@@ -5,10 +5,13 @@
 #'
 #' @examples
 #' all_dfs <- threader_parse()
-threader_parse <- function(data_path = NULL, spec_fpath = "./data/demo.yaml",
+threader_parse <- function(data_path = NULL, spec_fpath = NULL,
                            verbose = FALSE) {
   if (is.null(data_path)) {
     data_path <- demo_data_path()
+  }
+  if (is.null(spec_fpath)) {
+    spec_fpath <- demo_spec_fpath()
   }
   # Load data spec
   spec <- yaml::read_yaml(spec_fpath)
@@ -67,7 +70,7 @@ threader_parse <- function(data_path = NULL, spec_fpath = "./data/demo.yaml",
   for (cur_alt_name in alt_var_names) {
     #print("--- loop iter ---")
     if (any(header_row == cur_alt_name, na.rm = TRUE)) {
-      header_row <- header_row %>% replace(rlang::.data == cur_alt_name, varname)
+      header_row <- replace(header_row, header_row == cur_alt_name, varname)
       # We return on first one we find (so that, the order in the .yaml file
       # matters, in terms of priority)
       return(header_row)
@@ -117,10 +120,11 @@ threader_parse <- function(data_path = NULL, spec_fpath = "./data/demo.yaml",
   if (verbose) { print(paste0("detect_header_rows(): ",fpath)) }
   # Load the csv *without* assuming header rows
   df_head <- readr::read_csv(fpath, col_names = FALSE, show_col_types = FALSE)
+  # Drop NA index rows
+  df_head <- df_head %>% tidyr::drop_na(`X1`)
   # Find number of rows with '\\\\' in the index col
   df_head <- df_head %>%
-    tidyr::drop_na(rlang::.data$X1) %>%
-    dplyr::filter(stringr::str_detect(rlang::.data$X1,'\\\\'))
+    dplyr::filter(stringr::str_detect(`X1`,'\\\\'))
   num_headers <- df_head %>% dplyr::count() %>% dplyr::pull()
   print(paste0("Detected ",num_headers," headers"))
   return_obj <- new.env()
@@ -243,10 +247,11 @@ threader_parse <- function(data_path = NULL, spec_fpath = "./data/demo.yaml",
   #  df_long <- df_long %>%
   #    dplyr::mutate(dplyr::across(dplyr::contains('@@'), as.numeric))
   #} else {
+  # Remove commas
   df_long <- df_long %>%
-    dplyr::mutate(value = stringr::str_replace_all(rlang::.data$value,",","")) %>%
-    dplyr::mutate(value = as.numeric(rlang::.data$value))
-  #}
+    dplyr::mutate(value = stringr::str_replace_all(value,",",""))
+  # Convert to numeric
+  df_long$value <- as.numeric(df_long$value)
   # ### Part 6: Add row_num and source_id columns
   df_long <- tibble::rowid_to_column(df_long, var="row_id")
   df_long <- df_long %>% dplyr::mutate(source_id = fname)
