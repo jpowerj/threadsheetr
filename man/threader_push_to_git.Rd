@@ -4,10 +4,12 @@
 \alias{threader_push_to_git}
 \title{Push estimate grid to GitHub}
 \usage{
-threader_push_to_git(
-  output_path = "./data/parsed/",
-  spec_fpath = "./data/demo.yaml"
-)
+threader_push_to_git(combined_path = NULL, spec_fpath = NULL)
+}
+\arguments{
+\item{combined_path}{Path to the directory containing the combined (wide-format) grid datasets you want to push to git}
+
+\item{spec_fpath}{Filepath to the \code{.yaml}-format spec file.}
 }
 \value{
 An environment with keys \code{num_result}, the return value from the GH API call pushing the numeric grid, and \code{info_result}, the return value from the GH API call pushing the info grid

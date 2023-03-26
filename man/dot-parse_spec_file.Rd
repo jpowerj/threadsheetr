@@ -7,7 +7,7 @@
 .parse_spec_file(spec_fpath = NULL)
 }
 \arguments{
-\item{spec_fpath}{}
+\item{spec_fpath}{Filepath to the \code{.yaml}-format spec file}
 }
 \value{
 Parsed spec object

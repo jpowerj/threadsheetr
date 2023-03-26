@@ -1,5 +1,9 @@
 #' Step 1: Parse Data Files
 #'
+#' @param data_path Path to the directory containing the raw data you want to parse.
+#' @param spec_fpath Filepath to the `.yaml`-format spec file
+#' @param verbose Optional: If `TRUE`, prints additional debugging information.
+#'
 #' @return An environment where each key is an input file, and each value is the tibble generated from the data in that file
 #' @export
 #'

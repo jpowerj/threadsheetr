@@ -7,7 +7,7 @@
 threader_sumstats(grid_long_fpath = NULL)
 }
 \arguments{
-\item{grid_fpath}{The filepath to the generated \emph{long-format} grid data}
+\item{grid_long_fpath}{The filepath to the generated \emph{long-format} grid data}
 }
 \value{
 A list with keys \code{num_obs}, \code{mean_est}, \code{num_nonnull}, and \code{num_null}.

@@ -1,6 +1,6 @@
 #' Parse .yaml-format spec file
 #'
-#' @param spec_fpath
+#' @param spec_fpath Filepath to the `.yaml`-format spec file
 #'
 #' @return Parsed spec object
 .parse_spec_file <- function(spec_fpath = NULL) {

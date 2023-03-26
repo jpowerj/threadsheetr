@@ -2,7 +2,7 @@
 #'
 #' Can be used as an initial diagnostic, to check that the pipeline ran successfully
 #'
-#' @param grid_fpath The filepath to the generated *long-format* grid data
+#' @param grid_long_fpath The filepath to the generated *long-format* grid data
 #'
 #' @return A list with keys `num_obs`, `mean_est`, `num_nonnull`, and `num_null`.
 #' @export

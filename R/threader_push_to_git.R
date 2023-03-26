@@ -1,13 +1,22 @@
 #' Push estimate grid to GitHub
 #'
+#' @param combined_path Path to the directory containing the combined (wide-format) grid datasets you want to push to git
+#' @param spec_fpath Filepath to the `.yaml`-format spec file.
+#'
 #' @return An environment with keys `num_result`, the return value from the GH API call pushing the numeric grid, and `info_result`, the return value from the GH API call pushing the info grid
 #' @export
 #'
 #' @examples
 #' # Not run, since it requires authentication (via `.env` file)
 #' #gh_result <- threader_push_to_git()
-threader_push_to_git <- function(output_path = "./data/parsed/",
-                                 spec_fpath = "./data/demo.yaml") {
+threader_push_to_git <- function(combined_path = NULL,
+                                 spec_fpath = NULL) {
+  if (is.null(output_path)) {
+    output_path <- demo_combined_path()
+  }
+  if (is.null(spec_fpath)) {
+    spec_fpath <- demo_spec_fpath()
+  }
   # The idea here is: get a list of .csvs in the output_dir, then push the
   #   # contents of this folder onto GitHub
   #   # Load the personal access token

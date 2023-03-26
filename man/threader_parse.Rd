@@ -6,6 +6,13 @@
 \usage{
 threader_parse(data_path = NULL, spec_fpath = NULL, verbose = FALSE)
 }
+\arguments{
+\item{data_path}{Path to the directory containing the raw data you want to parse.}
+
+\item{spec_fpath}{Filepath to the \code{.yaml}-format spec file}
+
+\item{verbose}{Optional: If \code{TRUE}, prints additional debugging information.}
+}
 \value{
 An environment where each key is an input file, and each value is the tibble generated from the data in that file
 }
