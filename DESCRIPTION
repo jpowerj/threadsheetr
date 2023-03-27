@@ -1,6 +1,6 @@
 Package: threadsheetr
 Type: Package
-Title: ThreadsheetR: Weave Tabular Datasets into Aggregate Estimates
+Title: Weave Tabular Datasets into Aggregate Estimates
 Version: 0.1.0
 Authors@R: 
     person("Jeff", "Jacobs", , "jjacobs3@cs.stanford.edu", role = c("aut", "cre", "cph"))
@@ -8,12 +8,14 @@ Maintainer: Jeff Jacobs <jjacobs3@cs.stanford.edu>
 Description: Weave tabular datasets into aggregate estimates,
     with color-coded visual summaries of data discrepancies and/or
     imputations performed.
-License: GPL (>= 3)
+License: GPL (>= 3) + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
@@ -29,6 +31,6 @@ Imports:
     tidyr,
     yaml
 URL: https://github.com/jpowerj/threadsheetr,
-    http://jjacobs.me/threadsheetr/,
     https://jjacobs.me/threadsheetr/
 BugReports: https://github.com/jpowerj/threadsheetr/issues
+VignetteBuilder: knitr

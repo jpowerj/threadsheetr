@@ -12,7 +12,8 @@
 \item{df}{The tibble you want to check the headers of}
 }
 \value{
-\code{TRUE} if one of the tibble headers is either (a) \code{varname} itself, or (b) \code{varname}@\if{html}{\out{<year>}}
+\code{TRUE} if one of the tibble headers is either (a) \code{varname} itself,
+or (b) of the form "\code{varname}@year"
 
 df <- tribble(
 ~country, ~\verb{cp_membership_num@1950}, ~\verb{cp_membership_num@1970},

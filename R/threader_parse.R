@@ -327,7 +327,8 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
 #' @param df The tibble you want to check the headers of
 #' @param varname The variable you want to look for in the headers of `df`
 #'
-#' @return `TRUE` if one of the tibble headers is either (a) `varname` itself, or (b) `varname`@@<year>
+#' @return `TRUE` if one of the tibble headers is either (a) `varname` itself,
+#' or (b) of the form "`varname`@@year"
 #'
 #' df <- tribble(
 #'   ~country, ~`cp_membership_num@@1950`, ~`cp_membership_num@@1970`,

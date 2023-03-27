@@ -1,0 +1,43 @@
+---
+title: "Weaving Tabular Datasets using ThreadsheetR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{threadsheetr}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(threadsheetr)
+```
+
+## The Problem
+
+While working on my PhD dissertation (a chapter on Cold War diplomacy that didn't make it into the final version...) I found myself trying to juggle hundreds of different datasets, which I had OCRed into `.csv` format, from sources like the US State Department, CIA, and official Soviet statistical publications. Each source used different conventions (e.g., names for countries or regions) and structures (e.g., some with countries on the $x$-axis and years on the $y$-axis, others with just three columns: country, year, value). So, even to get to the stage of being able to impute missing datapoints, I had to find some way to align these different formats. That's task 1 that `threadsheetr` automates for us.
+
+Then, a second problem arose: at first, when I only had (say) two differing estimates for a given country-year pair, I could get away with just creating a new "master dataset" whose cells represented manually-computed averages between the two estimates. As the project progressed, however, I realized this was way above my pay grade: I'd have 4, 5, sometimes 6 or more estimates for a given quantity, and if I decided to remove one, or downweight one of the sources as less trustworthy, or use the median instead of the mean... Every cell in the master dataset had to be re-calculated. This is when I realized I needed a way to automate this task, and `threadsheetr` was born.
+
+In summary, the two main problems that `threadsheetr` sets out to solve are:
+
+1. Datasets in a range of non-standard formats---wide, long, multiple headers, etc.: `threadsheetr` parses them so that different datapoints from different input files can be compared, aggregated, imputed, etc.
+2. Datasets with disagree on the same underlying value: Given an aggregation function and a set of "trust scores", `threadsheetr` automates the process of combining individual estimates into a single "master dataset" containing the trust-weighted average of these individual estimates.
+3. Datasets with missing data: While other R packages like `mice` provide sophisticated data imputation algorithms which should be used for more intensive data-concordance tasks, `threadsheetr` contains implementations of some simple data imputation algorithms to allow the generation of "ballpark" estimates of these missing values (as part of a larger grid of aggregated estimate values)
+
+In addition, `threadsheetr` interfaces with both GitHub and Google Sheets to produce interactive color-coded master data grids, allowing you to visualize the current state of your data aggregation/imputation: Green cells, for example, represent values for which all sources are in agreement, while yellow cells represent those with conflicting values. Crucially, hovering your mouse over these columns brings up a popover box containing a description of how the estimate was arrived at: by hovering over these yellow cells, for example, you can see a listing of each source file used, their respective trust weights and estimates of the cell's value.
+
+## Step 1: Parsing Raw Data Files
+
+## Step 2: Combining Parsed Files
+
+## Step 3: Aggregating Individual Estimates into Master Grid
+
+## Step 4: Viewing Summary Statistics
+
+## Step 5: Pushing to GitHub and Generating Color-Coded Google Sheets
