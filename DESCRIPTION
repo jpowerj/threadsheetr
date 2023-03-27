@@ -1,13 +1,14 @@
 Package: threadsheetr
 Type: Package
-Title: Weave Tabular Datasets into Aggregate Estimates
+Title: ThreadsheetR: Weave Tabular Datasets into Aggregate Estimates
 Version: 0.1.0
 Authors@R: 
-    person("Jeff", "Jacobs", , "jjacobs3@cs.stanford.edu", role = c("aut", "cre"))
+    person("Jeff", "Jacobs", , "jjacobs3@cs.stanford.edu", role = c("aut", "cre", "cph"))
 Maintainer: Jeff Jacobs <jjacobs3@cs.stanford.edu>
 Description: Weave tabular datasets into aggregate estimates,
-    with visual summary of data discrepancies and/or imputations performed.
-License: MIT + file LICENSE
+    with color-coded visual summaries of data discrepancies and/or
+    imputations performed.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

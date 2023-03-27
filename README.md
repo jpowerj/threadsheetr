@@ -8,6 +8,16 @@
 
 ## Installation
 
+### Stable Releases
+
+You can install the stable builds of `threadsheetr` via
+
+``` r
+install.packages("threadsheetr")
+```
+
+### Development/Beta Versions
+
 You can install the development version of threadsheetr from
 [GitHub](https://github.com/) with:
 
