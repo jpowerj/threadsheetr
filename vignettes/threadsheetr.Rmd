@@ -24,7 +24,7 @@ While working on my PhD dissertation (a chapter on Cold War diplomacy that didn'
 
 Then, a second problem arose: at first, when I only had (say) two differing estimates for a given country-year pair, I could get away with just creating a new "master dataset" whose cells represented manually-computed averages between the two estimates. As the project progressed, however, I realized this was way above my pay grade: I'd have 4, 5, sometimes 6 or more estimates for a given quantity, and if I decided to remove one, or downweight one of the sources as less trustworthy, or use the median instead of the mean... Every cell in the master dataset had to be re-calculated. This is when I realized I needed a way to automate this task, and `threadsheetr` was born.
 
-In summary, the two main problems that `threadsheetr` sets out to solve are:
+In summary, the three main problems that `threadsheetr` sets out to solve are:
 
 1. Datasets in a range of non-standard formats---wide, long, multiple headers, etc.: `threadsheetr` parses them so that different datapoints from different input files can be compared, aggregated, imputed, etc.
 2. Datasets with disagree on the same underlying value: Given an aggregation function and a set of "trust scores", `threadsheetr` automates the process of combining individual estimates into a single "master dataset" containing the trust-weighted average of these individual estimates.
@@ -32,11 +32,101 @@ In summary, the two main problems that `threadsheetr` sets out to solve are:
 
 In addition, `threadsheetr` interfaces with both GitHub and Google Sheets to produce interactive color-coded master data grids, allowing you to visualize the current state of your data aggregation/imputation: Green cells, for example, represent values for which all sources are in agreement, while yellow cells represent those with conflicting values. Crucially, hovering your mouse over these columns brings up a popover box containing a description of how the estimate was arrived at: by hovering over these yellow cells, for example, you can see a listing of each source file used, their respective trust weights and estimates of the cell's value.
 
+## The Demo
+
+For this demo I'll walk through the process that I went through, for the dissertation, to generate an aggregated grid of country $\times$ year Communist Party membership estimates. The data come from two main sources:
+
+1. *Strength of the World Communist Parties*: US State Department publication, issued yearly from 1963 to 1973. When appended together, we get a **long**-format dataset: each row represents a (country,year) pair.
+2. *Hoover Yearbook of World Communism*: Yearly statistics compiled by the Hoover Institution, from 1971 to 1990. Each yearbook provides a "checklist" wherein each row represents a country, so that when appended together we get a **long**-format dataset: each row represents a (country,year) pair.
+
+Along with two additional miscellaneous sources which provided rich data for particular years/regions:
+
+3. *Handbook of Statistical Social Science Data*: Provides membership estimates for select years from 1924 to 1968, in wide format (each row represents a country, each column represents a year)
+4. *Statistical Abstract of Latin America*: Provides yearly membership estimates for Latin American countries from 1947 to 1976, in wide format (each row represents a country, each column represents a year)
+
+Part of the difficulty, therefore, came from the fact that the first two datasets were given in **long** format, while the latter two were in **wide** (grid) format. Thus in the first step, which I now describe, `threadsheetr` detects the format of each input file and transforms it into a standardized **long** format, as this format (unlike wide format) will allow us to record multiple estimates for a single (country,year) pair.
+
+## Step 0: Specifying the Structure of the Data
+
+Before we can run the `threadsheetr` library functions, we need to create a **specification file** which will record
+
+1. The **format** for the grid we want to generate:
+  a. `varname`: The name of the variable we want to generate a grid for
+  b. `alt_names`: Any alternative names that this variable might have in various datasets.
+  c. `datatype`: The data type we'd like the cells in the generated grid to have (`boolean`, `int`, `float`, or `string`)
+  d. `rounding`: What the algorithm should do when it encounters the need to round: if `error`, the algorithm terminates when the need to round is encountered, if `warn` a warning message is printed but the algorithm continues after rounding, and if `ignore` the algorithm just performs the rounding and continues.
+  e. `unit_of_obs`: The name of the **index** variable for the panel dataset (for example, the `id` of a survey respondent, or the name of a country)
+  f. `time_varname`: The name of the **time** variable for the panel dataset (for example, the month of the current row's survey, or the year for which a country's value was estimated)
+  g. `time_start`: The first value of `time_varname` that we want in the generated grid
+  h. `time_end`: The last value of `time_varname` that we want in the generated grid
+2. **Rules** for how to transform various values the algorithm encounters, to enable the different formats of the input datasets to be comported. In this case, for each variable we want to create rules for, we provide:
+  a. `varname`: The name of the index variable
+  b. `altnames`: Any alternative names that this index variable might have across the various datasets
+  c. `ffill`: If `TRUE`, missing values of this index variable will be filled with the closest non-missing value above them. If `FALSE` (or not provided), these missing values will be retained
+  d. `lowercase` If `TRUE`, values of this index variable will be lowercased before being combined (helpful for ensuring that, for example, "Democratic Republic of Congo" and "Democratic Republic Of Congo" are treated as the same unit)
+  e. `rules`: The list of rules for this index variable. Each rule should have the format `value1: {operation: value2}`. The two operations available are `rename` and `addto`, so that the following two forms are valid:
+    i. `oldName: {rename: newName}`
+    ii. `altname: {addto: name}`
+
+This information should be given in `yaml` format, and saved in a file with a `.yaml` extension. So, in the case of this vignette, our file is named `demo.yaml` and has the following contents (where the rule list for `country` is shortened for brevity):
+
+```yaml
+---
+index_rules:
+  - varname: year
+    ffill: true
+  - varname: country
+    alt_names: ['area']
+    lowercase: true
+    rules:
+      - "Abu Dhabi": {rename: "United Arab Emirates"}
+      - "Basutoland": {rename: "Lesotho"}
+      - "Bechuanaland": {rename: "Botswana"}
+      - "British Guiana": {rename: "Guyana"}
+      - "Cameroons": {addto: "Nigeria"} # British Cameroon, became part of Nigeria in 1960
+      - "Cameroun": {addto: "Cameroon"} # French Cameroon, became modern-day Cameroon
+      ...
+      - "Rio Muni": {addto: "Equatorial Guinea"} # The non-continental part of Equatorial Guinea
+      - "South West Africa": {rename: "Namibia"} # Independence from SA in 1990
+      - "Southern Rhodesia": {rename: "Zimbabwe"}
+      - "Tanganyika": {rename: "Tanzania"}
+      - "TOTALS": {rename: "Total"}
+      - "Trucial States": {rename: "United Arab Emirates"} # I know it's not 1-to-1 but this makes life a lot easier
+      - "United Arab Republic": {rename: "Egypt"} # Again, I know... but there's literally only 1 single observation where it's actually Egypt+Syria. All the rest just mean Egypt
+      - "U.S.S.R.": {rename: "USSR"}
+      - "Zaire": {rename: "Democratic Republic of the Congo"}
+      - "Zanzibar": {addto: "Tanzania"} # Tanganyika and Zanzibar merged to become Tanzania in 1964
+grid:
+  varname: cp_membership_num
+  alt_names: ["cp_membership", "num_members"] # Used as the index if varname isn't found
+  datatype: int
+  rounding: warn
+  unit_of_obs: country
+  time_varname: year
+  time_start: 1945
+  time_end: 1975
+
+```
+
 ## Step 1: Parsing Raw Data Files
+
+With this specification file now in place, we place our four `.csv` files in a directory named after the variable we want to estimate (`cp_membership_num`), and run the `threader_parse_data()` function, telling it where our `.csv` files are located and where our `.yaml` spec file is located:
+
+```{r}
+parsed_dfs <- threadsheetr::threader_parse(system.file('extdata/cp_membership_num',package='threadsheetr'), system.file('extdata/','demo.yaml',package='threadsheetr'))
+```
 
 ## Step 2: Combining Parsed Files
 
+```{r}
+combined_df <- threadsheetr::threader_combine(system.file('extdata/parsed',package='threadsheetr'),system.file('extdata/combined',package='threadsheetr'),system.file('extdata/','demo.yaml',package='threadsheetr'))
+```
+
 ## Step 3: Aggregating Individual Estimates into Master Grid
+
+```{r}
+
+```
 
 ## Step 4: Viewing Summary Statistics
 
