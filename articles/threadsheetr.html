@@ -103,8 +103,8 @@ decided to remove one, or downweight one of the sources as less
 trustworthy, or use the median instead of the mean… Every cell in the
 master dataset had to be re-calculated. This is when I realized I needed
 a way to automate this task, and <code>threadsheetr</code> was born.</p>
-<p>In summary, the two main problems that <code>threadsheetr</code> sets
-out to solve are:</p>
+<p>In summary, the three main problems that <code>threadsheetr</code>
+sets out to solve are:</p>
 <ol style="list-style-type: decimal">
 <li>Datasets in a range of non-standard formats—wide, long, multiple
 headers, etc.: <code>threadsheetr</code> parses them so that different
@@ -135,12 +135,178 @@ example, you can see a listing of each source file used, their
 respective trust weights and estimates of the cell’s value.</p>
 </div>
 <div class="section level2">
+<h2 id="the-demo">The Demo<a class="anchor" aria-label="anchor" href="#the-demo"></a>
+</h2>
+<p>For this demo I’ll walk through the process that I went through, for
+the dissertation, to generate an aggregated grid of country <span class="math inline">\(\times\)</span> year Communist Party membership
+estimates. The data come from two main sources:</p>
+<ol style="list-style-type: decimal">
+<li>
+<em>Strength of the World Communist Parties</em>: US State
+Department publication, issued yearly from 1963 to 1973. When appended
+together, we get a <strong>long</strong>-format dataset: each row
+represents a (country,year) pair.</li>
+<li>
+<em>Hoover Yearbook of World Communism</em>: Yearly statistics
+compiled by the Hoover Institution, from 1971 to 1990. Each yearbook
+provides a “checklist” wherein each row represents a country, so that
+when appended together we get a <strong>long</strong>-format dataset:
+each row represents a (country,year) pair.</li>
+</ol>
+<p>Along with two additional miscellaneous sources which provided rich
+data for particular years/regions:</p>
+<ol start="3" style="list-style-type: decimal">
+<li>
+<em>Handbook of Statistical Social Science Data</em>: Provides
+membership estimates for select years from 1924 to 1968, in wide format
+(each row represents a country, each column represents a year)</li>
+<li>
+<em>Statistical Abstract of Latin America</em>: Provides yearly
+membership estimates for Latin American countries from 1947 to 1976, in
+wide format (each row represents a country, each column represents a
+year)</li>
+</ol>
+<p>Part of the difficulty, therefore, came from the fact that the first
+two datasets were given in <strong>long</strong> format, while the
+latter two were in <strong>wide</strong> (grid) format. Thus in the
+first step, which I now describe, <code>threadsheetr</code> detects the
+format of each input file and transforms it into a standardized
+<strong>long</strong> format, as this format (unlike wide format) will
+allow us to record multiple estimates for a single (country,year)
+pair.</p>
+</div>
+<div class="section level2">
+<h2 id="step-0-specifying-the-structure-of-the-data">Step 0: Specifying the Structure of the Data<a class="anchor" aria-label="anchor" href="#step-0-specifying-the-structure-of-the-data"></a>
+</h2>
+<p>Before we can run the <code>threadsheetr</code> library functions, we
+need to create a <strong>specification file</strong> which will
+record</p>
+<ol style="list-style-type: decimal">
+<li>The <strong>format</strong> for the grid we want to generate:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>
+<code>varname</code>: The name of the variable we want to generate a
+grid for</li>
+<li>
+<code>alt_names</code>: Any alternative names that this variable
+might have in various datasets.</li>
+<li>
+<code>datatype</code>: The data type we’d like the cells in the
+generated grid to have (<code>boolean</code>, <code>int</code>,
+<code>float</code>, or <code>string</code>)</li>
+<li>
+<code>rounding</code>: What the algorithm should do when it
+encounters the need to round: if <code>error</code>, the algorithm
+terminates when the need to round is encountered, if <code>warn</code> a
+warning message is printed but the algorithm continues after rounding,
+and if <code>ignore</code> the algorithm just performs the rounding and
+continues.</li>
+<li>
+<code>unit_of_obs</code>: The name of the <strong>index</strong>
+variable for the panel dataset (for example, the <code>id</code> of a
+survey respondent, or the name of a country)</li>
+<li>
+<code>time_varname</code>: The name of the <strong>time</strong>
+variable for the panel dataset (for example, the month of the current
+row’s survey, or the year for which a country’s value was
+estimated)</li>
+<li>
+<code>time_start</code>: The first value of
+<code>time_varname</code> that we want in the generated grid</li>
+<li>
+<code>time_end</code>: The last value of <code>time_varname</code>
+that we want in the generated grid</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>
+<strong>Rules</strong> for how to transform various values the
+algorithm encounters, to enable the different formats of the input
+datasets to be comported. In this case, for each variable we want to
+create rules for, we provide:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>
+<code>varname</code>: The name of the index variable</li>
+<li>
+<code>altnames</code>: Any alternative names that this index
+variable might have across the various datasets</li>
+<li>
+<code>ffill</code>: If <code>TRUE</code>, missing values of this
+index variable will be filled with the closest non-missing value above
+them. If <code>FALSE</code> (or not provided), these missing values will
+be retained</li>
+<li>
+<code>lowercase</code> If <code>TRUE</code>, values of this index
+variable will be lowercased before being combined (helpful for ensuring
+that, for example, “Democratic Republic of Congo” and “Democratic
+Republic Of Congo” are treated as the same unit)</li>
+<li>
+<code>rules</code>: The list of rules for this index variable. Each
+rule should have the format <code>value1: {operation: value2}</code>.
+The two operations available are <code>rename</code> and
+<code>addto</code>, so that the following two forms are valid: i.
+<code>oldName: {rename: newName}</code> ii.
+<code>altname: {addto: name}</code>
+</li>
+</ol>
+<p>This information should be given in <code>yaml</code> format, and
+saved in a file with a <code>.yaml</code> extension. So, in the case of
+this vignette, our file is named <code>demo.yaml</code> and has the
+following contents (where the rule list for <code>country</code> is
+shortened for brevity):</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">index_rules</span><span class="kw">:</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">varname</span><span class="kw">:</span><span class="at"> year</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">ffill</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">varname</span><span class="kw">:</span><span class="at"> country</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">alt_names</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">'area'</span><span class="kw">]</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">lowercase</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">rules</span><span class="kw">:</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Abu Dhabi"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"United Arab Emirates"</span><span class="er">}</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Basutoland"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lesotho"</span><span class="er">}</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Bechuanaland"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Botswana"</span><span class="er">}</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"British Guiana"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Guyana"</span><span class="er">}</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Cameroons"</span><span class="fu">: {addto</span><span class="kw">:</span><span class="at"> </span><span class="st">"Nigeria"</span><span class="er">}</span><span class="co"> # British Cameroon, became part of Nigeria in 1960</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Cameroun"</span><span class="fu">: {addto</span><span class="kw">:</span><span class="at"> </span><span class="st">"Cameroon"</span><span class="er">}</span><span class="co"> # French Cameroon, became modern-day Cameroon</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="at">      ...</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Rio Muni"</span><span class="fu">: {addto</span><span class="kw">:</span><span class="at"> </span><span class="st">"Equatorial Guinea"</span><span class="er">}</span><span class="co"> # The non-continental part of Equatorial Guinea</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"South West Africa"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Namibia"</span><span class="er">}</span><span class="co"> # Independence from SA in 1990</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Southern Rhodesia"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Zimbabwe"</span><span class="er">}</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Tanganyika"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Tanzania"</span><span class="er">}</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"TOTALS"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Total"</span><span class="er">}</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Trucial States"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"United Arab Emirates"</span><span class="er">}</span><span class="co"> # I know it's not 1-to-1 but this makes life a lot easier</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"United Arab Republic"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Egypt"</span><span class="er">}</span><span class="co"> # Again, I know... but there's literally only 1 single observation where it's actually Egypt+Syria. All the rest just mean Egypt</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"U.S.S.R."</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"USSR"</span><span class="er">}</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Zaire"</span><span class="fu">: {rename</span><span class="kw">:</span><span class="at"> </span><span class="st">"Democratic Republic of the Congo"</span><span class="er">}</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"Zanzibar"</span><span class="fu">: {addto</span><span class="kw">:</span><span class="at"> </span><span class="st">"Tanzania"</span><span class="er">}</span><span class="co"> # Tanganyika and Zanzibar merged to become Tanzania in 1964</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="fu">grid</span><span class="kw">:</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">varname</span><span class="kw">:</span><span class="at"> cp_membership_num</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">alt_names</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">"cp_membership"</span><span class="kw">,</span><span class="at"> </span><span class="st">"num_members"</span><span class="kw">]</span><span class="co"> # Used as the index if varname isn't found</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">datatype</span><span class="kw">:</span><span class="at"> int</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">rounding</span><span class="kw">:</span><span class="at"> warn</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">unit_of_obs</span><span class="kw">:</span><span class="at"> country</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">time_varname</span><span class="kw">:</span><span class="at"> year</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">time_start</span><span class="kw">:</span><span class="at"> </span><span class="dv">1945</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">time_end</span><span class="kw">:</span><span class="at"> </span><span class="dv">1975</span></span></code></pre></div>
+</div>
+<div class="section level2">
 <h2 id="step-1-parsing-raw-data-files">Step 1: Parsing Raw Data Files<a class="anchor" aria-label="anchor" href="#step-1-parsing-raw-data-files"></a>
 </h2>
+<p>With this specification file now in place, we place our four
+<code>.csv</code> files in a directory named after the variable we want
+to estimate (<code>cp_membership_num</code>), and run the
+<code>threader_parse_data()</code> function, telling it where our
+<code>.csv</code> files are located and where our <code>.yaml</code>
+spec file is located:</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">parsed_dfs</span> <span class="op">&lt;-</span> <span class="fu">threadsheetr</span><span class="fu">::</span><span class="fu"><a href="../reference/threader_parse.html">threader_parse</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/cp_membership_num'</span>,package<span class="op">=</span><span class="st">'threadsheetr'</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/'</span>,<span class="st">'demo.yaml'</span>,package<span class="op">=</span><span class="st">'threadsheetr'</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="step-2-combining-parsed-files">Step 2: Combining Parsed Files<a class="anchor" aria-label="anchor" href="#step-2-combining-parsed-files"></a>
 </h2>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">combined_df</span> <span class="op">&lt;-</span> <span class="fu">threadsheetr</span><span class="fu">::</span><span class="fu"><a href="../reference/threader_combine.html">threader_combine</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/parsed'</span>,package<span class="op">=</span><span class="st">'threadsheetr'</span><span class="op">)</span>,<span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/combined'</span>,package<span class="op">=</span><span class="st">'threadsheetr'</span><span class="op">)</span>,<span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/'</span>,<span class="st">'demo.yaml'</span>,package<span class="op">=</span><span class="st">'threadsheetr'</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="step-3-aggregating-individual-estimates-into-master-grid">Step 3: Aggregating Individual Estimates into Master Grid<a class="anchor" aria-label="anchor" href="#step-3-aggregating-individual-estimates-into-master-grid"></a>

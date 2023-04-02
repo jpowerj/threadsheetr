@@ -3,7 +3,7 @@ pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   threadsheetr: threadsheetr.html
-last_built: 2023-03-27T02:45Z
+last_built: 2023-04-02T23:05Z
 urls:
   reference: https://jjacobs.me/threadsheetr/reference
   article: https://jjacobs.me/threadsheetr/articles
