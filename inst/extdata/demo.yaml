@@ -7,8 +7,9 @@ index_rules:
     lowercase: true
     rules:
       - "Abu Dhabi": {rename: "United Arab Emirates"}
-      - "Aden": {addto: "South Yemen"}
-      - "Albania": {rename: "Albaaania"}
+      # - "Aden": {addto: "South Yemen"}
+      - "Albania": {rename: "Albaaania"} # For testing
+      - "Angola": {addto: "Algeria"} # For testing (3rd cp col for Algeria should go 7500->7550)
       - "Angola (see Portuguese Africa)": exclude
       - "Antilles (Netherlands)": {addto: "Antilles"}
       - "Bahrein": {rename: "Bahrain"}
