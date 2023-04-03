@@ -18,14 +18,16 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
     spec_fpath <- demo_spec_fpath()
   }
   # Load data spec
-  spec <- yaml::read_yaml(spec_fpath)
+  spec <- .parse_spec_file(spec_fpath)
   # Find the variable
   varname <- spec$grid$varname
   # Find all variable datafiles
-  var_glob <- paste0(data_path,"/",varname,"/*.csv")
+  var_glob <- file.path(data_path, "*.csv")
+  if (verbose) { print(paste0("Finding fpaths using ",var_glob))}
   var_fpaths <- Sys.glob(var_glob)
+  if (verbose) { print(paste0("Found fpaths: ",var_fpaths))}
   # Create the "parsed" subfolder if it doesn't already exist
-  parsed_path <- paste0(data_path,"/parsed/")
+  parsed_path <- file.path(data_path,"parsed")
   if (!dir.exists(parsed_path)) {
     dir.create(parsed_path)
   }
@@ -41,7 +43,11 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
     rlang::env_poke(all_dfs, cur_fpath, processed_df)
   }
   #env_print(all_dfs)
-  return(all_dfs)
+  #return(all_dfs)
+  return_env <- new.env()
+  rlang::env_poke(return_env, "data", all_dfs)
+  rlang::env_poke(return_env, "path", parsed_path)
+  return(return_env)
 }
 
 # Helper Functions
@@ -98,6 +104,25 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
     if (!(cur_index_varname %in% names(df))) {
       next
     }
+    # First we apply the [rename/addto/exclude] rules for this var
+    rule_list <- cur_index_spec$rules
+    rules_flat <- purrr::flatten(rule_list)
+    # This gets val1
+    v1 <- names(rules_flat)
+    ops <- as.character(lapply(rules_flat, names))
+    v2 <- as.character(lapply(rules_flat, as.character))
+    rule_tibble <- tibble::tibble(val1=v1,op=ops,val2=v2)
+    # Now we can apply the specific operations
+    renames <- rule_tibble %>% dplyr::filter(op == "rename")
+    rename_vec <- setNames(renames$val2, renames$val1)
+    # And apply
+    df <- df %>%
+      dplyr::mutate(!!as.symbol(cur_index_varname) := dplyr::recode(!!as.symbol(cur_index_varname), !!!rename_vec))
+    # Now the adding
+    adds <- rule_tibble %>% dplyr::filter(op == "addto")
+    ### TODO adding and excluding
+    # Finally, drop the rows with index in excludes
+    excludes <- rule_tibble %>% dplyr::filter(val2 == "exclude")
     # Check if it should be lowercased
     # Default is, leave as-is
     should_lowercase <- FALSE

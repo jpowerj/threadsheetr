@@ -41,6 +41,7 @@ threader_create_grid <- function(all_entries_fpath = NULL,
   #trust_df = pd.read_csv(trust_fpath)
   #init_trust_dict(trust_df)
   # Get all the entries for the var we care about
+  print(names(estimates_df))
   estimates_df <- estimates_df %>%
     dplyr::filter(varname == grid_varname)
   # And now filter to the ones within range
@@ -142,12 +143,13 @@ threader_create_grid <- function(all_entries_fpath = NULL,
 #' @param grid_varname The name of the main variable you're estimating, use as the prefix to the filename for each saved file.
 #' @param fname_suffix A suffix added to the end of each filename. Defaults to `"_long"`, so you'll need to specify `"_wide"` to differentiate the latter format in the filenames.
 #'
-#' @return An environment with keys `num`, the filepath to the saved numeric `.rds` file, and `info`, the filepath to the saved info-grid `.rds` file.
+#' @return An environment with keys `num`, the filepath to the saved numeric
+#'     `.rds` file, and `info`, the filepath to the saved info-grid `.rds` file.
 #'
 #' save_results <- .save_dfs(num_df, info_df, "./data/parsed/", "cp_membership_num", "_long")
 .save_dfs <- function(num_df, info_df, output_path, grid_varname,
                       fname_suffix = "_long") {
-  num_fname_prefix = paste0(grid_varname,"_num",fname_suffix)
+  num_fname_prefix = paste0(grid_varname,"_est",fname_suffix)
   num_rds_fpath = file.path(output_path, paste0(num_fname_prefix,".rds"))
   saveRDS(num_df, num_rds_fpath)
   info_fname_prefix = paste0(grid_varname,"_info",fname_suffix)

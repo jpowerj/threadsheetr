@@ -8,7 +8,7 @@ demo_all_entries_fpath <- function() {
 }
 
 demo_data_path <- function() {
-  return(system.file("extdata/", package="threadsheetr", mustWork = TRUE))
+  return(system.file("extdata/cp_membership_num/", package="threadsheetr", mustWork = TRUE))
 }
 
 demo_grid_long_fpath <- function() {

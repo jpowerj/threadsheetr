@@ -7,33 +7,89 @@ index_rules:
     lowercase: true
     rules:
       - "Abu Dhabi": {rename: "United Arab Emirates"}
+      - "Aden": {addto: "South Yemen"}
+      - "Albania": {rename: "Albaaania"}
+      - "Angola (see Portuguese Africa)": exclude
+      - "Antilles (Netherlands)": {addto: "Antilles"}
+      - "Bahrein": {rename: "Bahrain"}
       - "Basutoland": {rename: "Lesotho"}
       - "Bechuanaland": {rename: "Botswana"}
+      - "Berlin, West": {rename: "West Berlin"}
       - "British Guiana": {rename: "Guyana"}
+      - "Cambodia (see Khmer Republic)": exclude
       - "Cameroons": {addto: "Nigeria"} # British Cameroon, became state in Nigeria in 1960
       - "Cameroun": {addto: "Cameroon"} # French Cameroon, became modern-day Cameroon
       - "Ceylon": {rename: "Sri Lanka"}
+      - "China, Communist": {rename: "China"}
+      - "China, People's Republic of": {rename: "China"}
+      - "China, Republic of": {rename: "Taiwan"}
+      - "Communist China (\"People's Republic of China\")": {rename: "China"}
       - "Comoro Islands": {rename: "Comoros"}
       - "Congo": {rename: "Republic of the Congo"}
+      - "Congo (Brazzaville)": {rename: "Republic of the Congo"}
       - "Congo-Brazzaville": {rename: "Republic of the Congo"}
+      - "Congo (Kinshasa)": {rename: "Democratic Republic of the Congo"}
       - "Congo-Kinshasa": {rename: "Democratic Republic of the Congo"}
       - "Congo-Leopoldville": {rename: "Democratic Republic of the Congo"}
+      - "Dahomey": {rename: "Benin"}
+      - "Democratic People's Republic of Korea": {rename: "North Korea"}
+      - "Democratic Republic of Vietnam (North Vietnam)": {addto: "Vietnam"}
+      - "Federal Republic of Germany": {rename: "West Germany"}
+      - "Federation of Malaya": {rename: "Malaysia"}
+      - "French Somaliland": {addto: "Somalia"}
       - "French Territory of the Afars and the Issas": {rename: "Djibouti"} # 1979
+      - "Gambia (British Colony and Protectorate)": {rename: "Gambia"}
+      - "German Democratic Republic": {rename: "East Germany"}
+      - "Germany (combined)": {rename: "Germany"}
+      - "Germany, East": {rename: "East Germany"}
+      - "Germany, Federal Republic of": {rename: "West Germany"}
+      - "Germany, West": {rename: "West Germany"}
       - "Great Britain": {rename: "UK"}
+      - "Guiana, British": {rename: "Guyana"}
+      - "Guiana, French": {rename: "French Guiana"}
+      - "Guinea, Equatorial": {rename: "Equatorial Guinea"}
+      - "Guinea, Portuguese": {rename: "Guinea-Bissau"}
       - "Ifni": {addto: "Morocco"}
+      - "Khmer Republic (Cambodia)": {rename: "Cambodia"}
+      - "Korea, North": {rename: "North Korea"}
+      - "Korea, South": {rename: "South Korea"}
+      - "Malagasy": {rename: "Madagascar"}
+      - "Malagasy Republic": {rename: "Madagascar"}
+      - "Malagasy Republic (Madagascar)": {rename: "Madagascar"}
+      - "Maldive Islands": {rename: "Maldives"}
+      - "Mongolia, Outer": {rename: "Mongolia"}
+      - "Monglian People's Republic": {rename: "Mongolia"}
+      - "Namibia (South West Africa)": {rename: "Namibia"}
+      - "North Vietnam": {addto: "Vietnam"}
       - "Northern Rhodesia": {rename: "Zambia"}
       - "Nyasaland": {rename:  "Malawi"}
+      - "Outer Mongolia (\"Mongolian People's Republic\")": {rename: "Mongolia"}
+      - "People's Republic of South Yemen": {rename: "South Yemen"}
+      - "Republic of China": {rename: "Taiwan"}
+      - "Republic of South Africa": {rename: "South Africa"}
+      - "Republic of Vietnam (South Vietnam)": {addto: "Vietnam"}
       - "Rhodesia": {rename: "Zimbabwe"} # White rule overthrown in 1980
+      - "Rumania": {rename: "Romania"}
       - "Rio Muni": {addto: "Equatorial Guinea"} # The non-continental part of Equatorial Guinea
+      - "Somali Republic": {rename: "Somalia"}
       - "South West Africa": {rename: "Namibia"} # Independence from SA in 1990
+      - "South West Africa (see Namibia)": exclude
       - "Southern Rhodesia": {rename: "Zimbabwe"}
+      - "Sri Lanka (Ceylon)": {rename: "Sri Lanka"}
       - "Tanganyika": {rename: "Tanzania"}
+      - "The Gambia": {rename: "Gambia"}
+      - "The Yemen": {rename: "Yemen"}
       - "TOTALS": {rename: "Total"}
+      - "Trinidad & Tobago": {rename: "Trinidad and Tobago"}
       - "Trucial States": {rename: "United Arab Emirates"} # I know it's not 1-to-1 but this makes life a lot easier
       - "United Arab Republic": {rename: "Egypt"} # Again, I know... but there's literally only 1 single observation where it's actually Egypt+Syria. All the rest just mean Egypt
+      - "Upper Volta": {rename: "Burkina Faso"}
       - "U.S.S.R.": {rename: "USSR"}
+      - "Vietnam, North": {addto: "Vietnam"}
+      - "Vietnam, South": {addto: "Vietnam"}
       - "Zaire": {rename: "Democratic Republic of the Congo"}
       - "Zanzibar": {addto: "Tanzania"} # Tanganyika and Zanzibar merged to become Tanzania in 1964
+      - "Zanzibar (British Protectorate)": {addto: "Tanzania"}
 grid:
   varname: cp_membership_num
   alt_names: ["cp_membership", "num_members"] # Used as the index if varname isn't found

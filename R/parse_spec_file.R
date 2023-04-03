@@ -8,7 +8,7 @@
     spec_fpath <- demo_spec_fpath()
   }
   # For now this just returns the result from read_yaml
-  return(yaml::read_yaml(spec_fpath))
+  return(yaml::read_yaml(spec_fpath, as.named.list = TRUE))
 }
 
 .spec_get_excluded <- function(parsed_spec) {

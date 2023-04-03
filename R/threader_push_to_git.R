@@ -1,18 +1,23 @@
 #' Push estimate grid to GitHub
 #'
-#' @param combined_path Path to the directory containing the combined (wide-format) grid datasets you want to push to git
+#' @param combined_path Path to the directory containing the combined (wide-format)
+#'     grid datasets you want to push to git
 #' @param spec_fpath Filepath to the `.yaml`-format spec file.
+#' @param repo_name Optional: Defaults to `"ts-grids"`, provide a different value
+#'     if you'd like to push to a differently-named repo.
 #'
-#' @return An environment with keys `num_result`, the return value from the GH API call pushing the numeric grid, and `info_result`, the return value from the GH API call pushing the info grid
+#' @return An environment with keys `num_result`, the return value from the GH API
+#'     call pushing the numeric grid, and `info_result`, the return value from
+#'     the GH API call pushing the info grid
 #' @export
 #'
 #' @examples
 #' # Not run, since it requires authentication (via `.env` file)
 #' #gh_result <- threader_push_to_git()
-threader_push_to_git <- function(combined_path = NULL,
-                                 spec_fpath = NULL) {
-  if (is.null(output_path)) {
-    output_path <- demo_combined_path()
+threader_push_to_git <- function(combined_path = NULL, spec_fpath = NULL,
+                                 repo_name = "ts-grids", verbose = FALSE) {
+  if (is.null(combined_path)) {
+    combined_path <- demo_combined_path()
   }
   if (is.null(spec_fpath)) {
     spec_fpath <- demo_spec_fpath()
@@ -25,7 +30,7 @@ threader_push_to_git <- function(combined_path = NULL,
   # sure that's set
   #gh_token <- Sys.getenv("GITHUB_TOKEN")
   gh_username <- Sys.getenv("GITHUB_USERNAME")
-  gh_repo_name <- "ts-grids"
+  gh_repo_name <- repo_name
   # Try to get the repo
   # https://stackoverflow.com/questions/12193779/how-to-write-trycatch-in-r
   repo_obj <- tryCatch(
@@ -51,10 +56,11 @@ threader_push_to_git <- function(combined_path = NULL,
   spec <- .parse_spec_file(spec_fpath)
   # Get the grid var name so we can derive the .csv fpaths
   grid_varname <- spec$grid$varname
-  num_fname <- paste0(grid_varname,"_num_wide.csv")
-  num_fpath <- file.path(output_path, num_fname)
+  num_fname <- paste0(grid_varname,"_est_wide.csv")
+  num_fpath <- file.path(combined_path, num_fname)
+  if (verbose) { print(paste0("Pushing numeric file ",num_fpath))}
   # And push
-  num_repo_fpath <- file.path("public_grids", num_fname)
+  num_repo_fpath <- file.path(num_fname)
   num_push_result <- .push_file(
     gh_username = gh_username,
     gh_repo_name = gh_repo_name,
@@ -63,9 +69,10 @@ threader_push_to_git <- function(combined_path = NULL,
     file_fpath = num_fpath
   )
   info_fname <- paste0(grid_varname,"_info_wide.csv")
-  info_fpath <- file.path(output_path, info_fname)
+  info_fpath <- file.path(combined_path, info_fname)
+  if (verbose) { print(paste0("Pushing info file ",info_fpath))}
   # Load it as raw text
-  info_repo_fpath <- file.path("public_grids", info_fname)
+  info_repo_fpath <- file.path(info_fname)
   info_push_result <- .push_file(
     gh_username = gh_username,
     gh_repo_name = gh_repo_name,

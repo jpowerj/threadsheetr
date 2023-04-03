@@ -68,7 +68,7 @@ Before we can run the `threadsheetr` library functions, we need to create a **sp
     i. `oldName: {rename: newName}`
     ii. `altname: {addto: name}`
 
-This information should be given in `yaml` format, and saved in a file with a `.yaml` extension. So, in the case of this vignette, our file is named `demo.yaml` and has the following contents (where the rule list for `country` is shortened for brevity):
+This information should be given in [`yaml` format](https://yaml.org/), and saved in a file with a `.yaml` extension. So, in the case of this vignette, our file is named `demo.yaml` and has the following contents (where the rule list for `country` is shortened for brevity):
 
 ```yaml
 ---
@@ -113,21 +113,76 @@ grid:
 With this specification file now in place, we place our four `.csv` files in a directory named after the variable we want to estimate (`cp_membership_num`), and run the `threader_parse_data()` function, telling it where our `.csv` files are located and where our `.yaml` spec file is located:
 
 ```{r}
-parsed_dfs <- threadsheetr::threader_parse(system.file('extdata/cp_membership_num',package='threadsheetr'), system.file('extdata/','demo.yaml',package='threadsheetr'))
+input_path <- system.file('extdata/cp_membership_num/',package='threadsheetr')
+spec_fpath <- system.file('extdata/','demo.yaml',package='threadsheetr')
+parse_result <- threadsheetr::threader_parse(input_path, spec_fpath, verbose=TRUE)
 ```
 
 ## Step 2: Combining Parsed Files
 
 ```{r}
-combined_df <- threadsheetr::threader_combine(system.file('extdata/parsed',package='threadsheetr'),system.file('extdata/combined',package='threadsheetr'),system.file('extdata/','demo.yaml',package='threadsheetr'))
+parsed_path <- parse_result$path
+combined_path <- system.file('extdata/combined/',package='threadsheetr')
+print(parsed_path)
+print(combined_path)
+combine_result <- threadsheetr::threader_combine(parsed_path, combined_path,
+                                                 spec_fpath, verbose = TRUE)
+print(combine_result$data)
 ```
 
 ## Step 3: Aggregating Individual Estimates into Master Grid
 
 ```{r}
+combined_rds_fpath <- combine_result$rds_fpath
+df <- readRDS(combined_rds_fpath)
+```
 
+```{r}
+combined_path <- combine_result$path
+combined_rds_fpath <- combine_result$rds_fpath
+grid_result <- threadsheetr::threader_create_grid(combined_rds_fpath)
+```
+
+And view the result
+
+```{r}
+grid_result$num_df
+```
+
+And the aggregation summaries for each value in the result
+
+```{r}
+grid_result$info_df
 ```
 
 ## Step 4: Viewing Summary Statistics
 
-## Step 5: Pushing to GitHub and Generating Color-Coded Google Sheets
+```{r}
+long_fpath <- grid_result$num_long_fpath
+threadsheetr::threader_sumstats(long_fpath)
+```
+
+And now grouped by country
+
+```{r}
+threadsheetr::threader_sumstats(long_fpath, "country")
+```
+
+## Step 5: Pushing to GitHub
+
+This next step is run outside of the vignette, since it requires a `.env` file
+with my GitHub Personal Access Token (which is used by the `gh` library for R).
+But this command just pushes any grids found in `combined_path` to a (public or
+private) GitHub repo. The default name for the repo is `ts-grids`, but can be
+changed to whatever you'd like using the `repo_name` parameter to this function.
+
+```{r}
+#gh_result <- threadsheetr::threader_push_to_git(combined_path, spec_fpath)
+```
+
+## Step 6: Generating Color-Coded Google Sheet
+
+This step is done using JS code, via Google's Apps Script for Google Sheets, but
+results in a grid that looks as follows:
+
+

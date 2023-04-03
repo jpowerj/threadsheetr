@@ -26,6 +26,7 @@ threader_combine <- function(parsed_path = NULL, combined_path = NULL,
   # Get the varname from the spec
   grid_varname <- .spec_get_varname(spec)
   varname_glob <- file.path(parsed_path, "*.rds")
+  if (verbose) { print(paste0("Checking for .rds files via ",varname_glob)) }
   parsed_fpaths <- Sys.glob(varname_glob)
   if (verbose) {
       print("parsed_fpaths:")
@@ -43,5 +44,9 @@ threader_combine <- function(parsed_path = NULL, combined_path = NULL,
   rds_output_fpath <- stringr::str_replace(csv_output_fpath, ".csv", ".rds")
   if (verbose) { print(paste0("Saving to ",rds_output_fpath)) }
   saveRDS(full_df, rds_output_fpath)
-  return(full_df)
+  return_env <- new.env()
+  rlang::env_poke(return_env, "data", full_df)
+  rlang::env_poke(return_env, "csv_fpath", csv_output_fpath)
+  rlang::env_poke(return_env, "rds_fpath", rds_output_fpath)
+  return(return_env)
 }
