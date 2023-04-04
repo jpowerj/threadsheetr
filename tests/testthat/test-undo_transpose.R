@@ -1,4 +1,4 @@
-test_that("multiplication works", {
+test_that("undo_transpose() works", {
   dft <- tibble::tribble(
     ~country, ~"Albania", ~"Algeria", ~"Zimbabwe",
     "num@@1970", 1000, 100, NA,

@@ -52,6 +52,45 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
 
 # Helper Functions
 
+#' Apply the addto/rename/exclude rules given in the spec file
+#'
+#' @param df The tibble you want to transform
+#' @param cur_index_spec The spec for the index variable you want to transform
+#'
+#' @return A new tibble with the addto/rename/exclude rules applied
+#' @export
+#'
+#' @examples
+.apply_rules <- function(df, cur_index_spec) {
+  cur_index_varname <- cur_index_spec$varname
+  # First we apply the [rename/exclude] rules for this var, since they don't
+  # require parsing string cols into numeric cols
+  rule_tibble <- .rules_to_tibble(cur_index_spec)
+  # Now we can apply the specific operations
+  # 1. Renames
+  renames <- rule_tibble %>% dplyr::filter(op == "rename")
+  rename_vec <- setNames(renames$val2, renames$val1)
+  # And apply
+  df <- df %>%
+    dplyr::mutate(!!as.symbol(cur_index_varname) := dplyr::recode(!!as.symbol(cur_index_varname), !!!rename_vec))
+  # 2. Addto
+  adds <- rule_tibble %>% dplyr::filter(op == "addto")
+  dft <- .transpose_df(df)
+  for (i in 1:nrow(adds)) {
+    cur_val1 <- adds[i,"val1"] %>% dplyr::pull()
+    cur_val2 <- adds[i,"val2"] %>% dplyr::pull()
+    dft <- .do_addto(dft, cur_val1, cur_val2)
+  }
+  # And now we undo the transpose
+  df <- .undo_transpose(dft)
+  # Finally, drop the rows with index in excludes
+  excludes <- rule_tibble %>% dplyr::filter(val2 == "exclude")
+  exclude_vals <- excludes %>% dplyr::select(val1) %>% dplyr::pull()
+  # And, for this, we can just drop the list of val1 entries
+  df <- df %>% dplyr::filter(!(!!dplyr::sym(cur_index_varname) %in% exclude_vals))
+  return(df)
+}
+
 .check_replace_headers <- function(header_row, spec) {
   # First we check the grid rules
   grid_spec <- spec$grid
@@ -95,7 +134,7 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   return(df)
 }
 
-.clean_index_vals <- function(df, spec) {
+.clean_index_vals <- function(df, spec, verbose = FALSE) {
   # Get index var names
   index_specs <- spec$index_rules
   for (cur_index_spec in index_specs) {
@@ -104,32 +143,14 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
     if (!(cur_index_varname %in% names(df))) {
       next
     }
-    # First we apply the [rename/exclude] rules for this var, since they don't
-    # require parsing string cols into numeric cols
-    rule_tibble <- .rules_to_tibble(cur_index_spec)
-    # Now we can apply the specific operations
-    # 1. Renames
-    renames <- rule_tibble %>% dplyr::filter(op == "rename")
-    rename_vec <- setNames(renames$val2, renames$val1)
-    # And apply
-    df <- df %>%
-      dplyr::mutate(!!as.symbol(cur_index_varname) := dplyr::recode(!!as.symbol(cur_index_varname), !!!rename_vec))
-    # 2. Addto
-    adds <- rule_tibble %>% dplyr::filter(op == "addto")
-    dft <- .transpose_df(df)
-    for (i in 1:nrow(adds)) {
-      cur_val1 <- adds[i,"val1"] %>% dplyr::pull()
-      cur_val2 <- adds[i,"val2"] %>% dplyr::pull()
-      dft <- .do_addto(dft, cur_index_varname, cur_val1, cur_val2)
+    # First, ffill
+    should_ffill <- FALSE
+    if ("ffill" %in% names(cur_index_spec)) {
+      should_ffill <- cur_index_spec$ffill
+      if (should_ffill) {
+        df <- df %>% tidyr::fill(dplyr::all_of(cur_index_varname))
+      }
     }
-    # And now we undo the transpose
-    df <- .undo_transpose(dft)
-    ### TODO excluding
-    # Finally, drop the rows with index in excludes
-    excludes <- rule_tibble %>% dplyr::filter(val2 == "exclude")
-    exclude_vals <- excludes %>% dplyr::select(val1) %>% dplyr::pull()
-    # And, for this, we can just drop the list of val1 entries
-    df <- df %>% dplyr::filter(!(!!dplyr::sym(cur_index_varname) %in% exclude_vals))
     # Check if it should be lowercased
     # Default is, leave as-is
     should_lowercase <- FALSE
@@ -140,13 +161,11 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
         df[[cur_index_varname]] <- tolower(df[[cur_index_varname]])
       }
     }
-    # And ffill
-    should_ffill <- FALSE
-    if ("ffill" %in% names(cur_index_spec)) {
-      should_ffill <- cur_index_spec$ffill
-      if (should_ffill) {
-        df <- df %>% tidyr::fill(dplyr::all_of(cur_index_varname))
-      }
+    # Check if there are any rename/addto/exclude rules
+    if ("rules" %in% names(cur_index_spec)) {
+      # For debugging
+      if (verbose) { old_df <- df }
+      df <- .apply_rules(df, cur_index_spec)
     }
   }
   return(df)
@@ -209,16 +228,17 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
 
 #' Carry out an addto rule
 #'
-#' @param dft
-#' @param index_varname
-#' @param val1
-#' @param val2
+#' @param dft The *transpose* of the tibble, so that each column is a different
+#'     unit of observation and each row is a time value
+#' @param val1 The column in `dft` whose values we want to add to the `val2` column
+#' @param val2 The column in `dft` which is being added to
 #'
-#' @return New tibble where val1 has been added to val2, and then dropped
+#' @return New tibble where the values in the `val1` column have been added to
+#'     the `val2` column, and the `val1` column has been dropped
 #' @export
 #'
 #' @examples
-.do_addto <- function(dft, index_varname, val1, val2) {
+.do_addto <- function(dft, val1, val2) {
   # If val1 isn't a col in the df (remember that we're working with the transposed
   # version), then there's nothing to add, so we return the df as-is
   if (!(val1 %in% colnames(dft))) {
@@ -228,11 +248,12 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   # If it is, then we can do the adding
   if (val2 %in% colnames(dft)) {
     # Ensure they're both numeric
-    dft_num <- .ensure_numeric(dft, colname = val1)
+    dft_num <- dft %>% .ensure_numeric(colname = val1)
     dft_num <- .ensure_numeric(dft_num, colname = val2)
-    dft_num <- dft_num %>% dplyr::mutate(!!dplyr::sym(val2) := !!dplyr::sym(val2) + !!dplyr::sym(val1))
+    dft_num <- dft_num %>%
+      dplyr::mutate(!!dplyr::sym(val2) := !!dplyr::sym(val2) + !!dplyr::sym(val1))
     # And now we can drop the val1 column
-    dft_num <- dft_num %>% dplyr::select(-val1)
+    dft_num <- dft_num %>% dplyr::select(-dplyr::all_of(val1))
     return(dft_num)
   } else {
     # Otherwise, it becomes a rename operation
@@ -240,8 +261,6 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
     dft_num <- dft %>% dplyr::rename(val2 = val1)
     return(dft_num)
   }
-
-  print(existing_df)
 }
 
 #' Process a raw data file, transforming it into Threadsheets format
@@ -264,6 +283,9 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
     print(paste0("Skipping already-long dataset ",fname))
     return(NULL)
   }
+  if (stringr::str_detect(fpath, "1971-1990_Hoover_Yearbooks.csv")) {
+    print("hoover")
+  }
   ### Part 1: Detect the headers/data split
   header_result <- .detect_header_rows(fpath, spec, verbose=verbose)
   df_head <- header_result$df_head
@@ -272,8 +294,13 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   ### Part 2: Load csv
   # Need the keep_default_na=False option otherwise it stores missing vals as
   # np.nan even with dtype=str -___-
+  use_default_col_names <- FALSE
+  if (num_headers == 0) {
+    # Use the headers as-is, parsed by read_csv
+    use_default_col_names <- TRUE
+  }
   df <- readr::read_csv(fpath, skip=num_headers, show_col_types = FALSE,
-                        col_types = list(.default = "c"))
+                        col_names = use_default_col_names, col_types = list(.default = "c"))
   # If the header detection returned 0, we need to manually set the index name now
   if (num_headers == 0) {
     index_name <- df[1,1] %>% dplyr::pull()
@@ -296,8 +323,7 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   # ORDER MATTERS: Need to clean the headers first, since clean_index depends on
   # having the correct headers
   df <- .clean_header_vals(df, spec)
-  df <- .clean_index_vals(df, spec)
-  # First we make sure any rename rules are applied
+  df <- .clean_index_vals(df, spec, verbose=verbose)
   # Ensure that the tibble is as long as possible
   time_varname <- spec$grid$time_varname
   unit_varname <- spec$grid$unit_of_obs
@@ -327,31 +353,6 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   # ### Part 6: Add row_num and source_id columns
   df_long <- tibble::rowid_to_column(df_long, var="row_id")
   df_long <- df_long %>% dplyr::mutate(source_id = fname)
-  # ### Part 7: Run the parser (turning the strings into ints/floats as desired)
-  # ### on the value column
-  # # parse_row_val needs to have the pipeline object, so this partial function
-  # # lets us pass that while still using it in an apply() call
-  # df.to_pickle("df_before_parse.pkl")
-  # if debug:
-  #   # Use a for loop
-  #   results = []
-  # for row_index, row in df.iterrows():
-  #   row_parsed = parse_row_value(row, pl.data_spec, verbose=verbose)
-  # results.append(row_parsed)
-  # df[['value','unit']] = results
-  # else:
-  #   # Lambda function
-  #   parse_row_partial = lambda x: parse_row_value(x, pl.data_spec)
-  # df[["value", "unit"]] = df.apply(parse_row_partial, axis=1)
-  # ### Part 5: Extract entries (i.e., turn into a long-format dataset essentially)
-  # # Print statements for debugging
-  # #print(f"process_file(): About to call extract_entries():\n***\ndf.index.name={df.index.name}\n***\ndf.index={df.index}\n***\ndf.columns={df.columns}")
-  # #df.to_pickle("last_df.pkl")
-  # # We also need to give it the pipeline (for getting the data specs)
-  # #all_entries = extract_entries(pl, df)
-  # ### Part 6: Take this entries list and make it into its own df
-  # #long_df = pd.DataFrame(all_entries)
-  # #breakpoint()
   return(df_long)
 }
 

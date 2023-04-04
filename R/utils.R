@@ -38,7 +38,6 @@ demo_spec_fpath <- function() {
     return(new_combined)
   } else {
     converted_df <- cleaned_df %>%
-      dplyr::select(!!dplyr::sym(colname)) %>%
       dplyr::mutate(!!dplyr::sym(colname) := as.numeric(!!dplyr::sym(colname)))
     return(converted_df)
   }
@@ -70,6 +69,21 @@ demo_spec_fpath <- function() {
   return(fake_df)
 }
 
+.gen_test_dft <- function() {
+  fake_df <- tibble::tribble(
+    ~year, ~"Albania", ~"Algeria", ~"Zimbabwe",
+    1970, 1000, 100, NA,
+    1980, 2000, 1000000, 1234567
+  )
+  return(fake_df)
+}
+
+.get_col_type <- function(df, colname) {
+  ct <- df %>% dplyr::select(!!dplyr::sym(colname)) %>%
+    dplyr::summarise_all(class) %>% dplyr::pull()
+  return(ct)
+}
+
 #' Remove commas from a column (or all columns) of a tibble
 #'
 #' @param df tibble
@@ -99,12 +113,23 @@ demo_spec_fpath <- function() {
     new_combined <- dplyr::bind_cols(old_index, new_numeric)
     return(new_combined)
   } else {
-    new_df <- df %>% dplyr::mutate(!!dplyr::sym(colname) := .remove_commas_vec(!!dplyr::sym(colname)))
+    # Check if it's numeric or string
+    coltype <- .get_col_type(df, colname)
+    if (coltype == "numeric") {
+      # No conversion needed (no commas in a numeric)
+      return(df)
+    }
+    new_df <- df %>%
+      dplyr::mutate(!!dplyr::sym(colname) := .remove_commas_vec(df[,colname] %>% dplyr::pull()))
     return(new_df)
   }
 }
 
 .rules_to_tibble <- function(cur_index_spec) {
+  # Check if it has any rules
+  if (!("rules" %in% names(cur_index_spec))) {
+    return(NULL)
+  }
   rule_list <- cur_index_spec$rules
   rules_flat <- purrr::flatten(rule_list)
   # This gets val1
@@ -131,7 +156,7 @@ demo_spec_fpath <- function() {
   index_varname <- names(dft)[1]
   index_vals <- dft %>% dplyr::select(dplyr::sym(index_varname)) %>% dplyr::pull()
   index_vec <- c(index_varname, index_vals)
-  df_tib <- tibble::as_tibble(df, rownames = index_varname)
+  df_tib <- tibble::as_tibble(df, rownames = index_varname, .name_repair = "minimal")
   colnames(df_tib) <- index_vec
   return(df_tib)
 }
