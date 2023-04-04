@@ -104,14 +104,9 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
     if (!(cur_index_varname %in% names(df))) {
       next
     }
-    # First we apply the [rename/addto/exclude] rules for this var
-    rule_list <- cur_index_spec$rules
-    rules_flat <- purrr::flatten(rule_list)
-    # This gets val1
-    val1 <- names(rules_flat)
-    op <- as.character(lapply(rules_flat, names))
-    val2 <- as.character(lapply(rules_flat, as.character))
-    rule_tibble <- tibble::tibble(val1=val1,op=op,val2=val2)
+    # First we apply the [rename/exclude] rules for this var, since they don't
+    # require parsing string cols into numeric cols
+    rule_tibble <- .rules_to_tibble(cur_index_spec)
     # Now we can apply the specific operations
     # 1. Renames
     renames <- rule_tibble %>% dplyr::filter(op == "rename")
@@ -121,23 +116,20 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
       dplyr::mutate(!!as.symbol(cur_index_varname) := dplyr::recode(!!as.symbol(cur_index_varname), !!!rename_vec))
     # 2. Addto
     adds <- rule_tibble %>% dplyr::filter(op == "addto")
-    # For the adding, because of how dplyr works, its 1000x easier to work with
-    # the transpose of df
-    dft <- t(df)
-    colnames(dft) <- dft[1,]
-    index_header <- names(dft[,1])[1]
-    dft <- tibble::as_tibble(dft[-1,], rownames=index_header)
+    dft <- .transpose_df(df)
     for (i in 1:nrow(adds)) {
       cur_val1 <- adds[i,"val1"] %>% dplyr::pull()
       cur_val2 <- adds[i,"val2"] %>% dplyr::pull()
       dft <- .do_addto(dft, cur_index_varname, cur_val1, cur_val2)
     }
+    # And now we undo the transpose
+    df <- .undo_transpose(dft)
     ### TODO excluding
     # Finally, drop the rows with index in excludes
     excludes <- rule_tibble %>% dplyr::filter(val2 == "exclude")
-    # This one is more complicated than rename, so I'm not sure it's worth it to
-    # try and figure out a vectorized way to do it. Just using a loop for now
-
+    exclude_vals <- excludes %>% dplyr::select(val1) %>% dplyr::pull()
+    # And, for this, we can just drop the list of val1 entries
+    df <- df %>% dplyr::filter(!(!!dplyr::sym(cur_index_varname) %in% exclude_vals))
     # Check if it should be lowercased
     # Default is, leave as-is
     should_lowercase <- FALSE
@@ -215,6 +207,17 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   return(return_obj)
 }
 
+#' Carry out an addto rule
+#'
+#' @param dft
+#' @param index_varname
+#' @param val1
+#' @param val2
+#'
+#' @return New tibble where val1 has been added to val2, and then dropped
+#' @export
+#'
+#' @examples
 .do_addto <- function(dft, index_varname, val1, val2) {
   # If val1 isn't a col in the df (remember that we're working with the transposed
   # version), then there's nothing to add, so we return the df as-is
@@ -224,15 +227,19 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   # Check if val2 is already a col in the df
   # If it is, then we can do the adding
   if (val2 %in% colnames(dft)) {
-    # TODO Add them
-    #df[!!dplyr::sym(index_varname) == !!val2,2:] <- df[]
-    quit()
+    # Ensure they're both numeric
+    dft_num <- .ensure_numeric(dft, colname = val1)
+    dft_num <- .ensure_numeric(dft_num, colname = val2)
+    dft_num <- dft_num %>% dplyr::mutate(!!dplyr::sym(val2) := !!dplyr::sym(val2) + !!dplyr::sym(val1))
+    # And now we can drop the val1 column
+    dft_num <- dft_num %>% dplyr::select(-val1)
+    return(dft_num)
   } else {
     # Otherwise, it becomes a rename operation
     # Rename the val1 col to be val2
-    quit()
+    dft_num <- dft %>% dplyr::rename(val2 = val1)
+    return(dft_num)
   }
-
 
   print(existing_df)
 }
