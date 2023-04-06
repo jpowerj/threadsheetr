@@ -9,30 +9,33 @@
 #'
 #' @examples
 #' all_dfs <- threader_parse()
-threader_parse <- function(data_path = NULL, spec_fpath = NULL,
+threader_parse <- function(data_path = NULL, spec_fpath = NULL, fname_glob = NULL,
                            verbose = FALSE) {
   if (is.null(data_path)) {
-    data_path <- demo_data_path()
+    data_path <- .demo_data_path()
   }
   if (is.null(spec_fpath)) {
-    spec_fpath <- demo_spec_fpath()
+    spec_fpath <- .demo_spec_fpath()
+  }
+  if (is.null(fname_glob)) {
+    fname_glob = "*.csv"
   }
   # Load data spec
   spec <- .parse_spec_file(spec_fpath)
   # Find the variable
   varname <- spec$grid$varname
   # Find all variable datafiles
-  var_glob <- file.path(data_path, "*.csv")
-  if (verbose) { print(paste0("Finding fpaths using ",var_glob))}
-  var_fpaths <- Sys.glob(var_glob)
-  if (verbose) { print(paste0("Found fpaths: ",var_fpaths))}
+  fpath_glob <- file.path(data_path, fname_glob)
+  if (verbose) { print(paste0("Finding fpaths using ",fpath_glob))}
+  data_fpaths <- Sys.glob(fpath_glob)
+  if (verbose) { print(paste0("Found fpaths: ",data_fpaths))}
   # Create the "parsed" subfolder if it doesn't already exist
-  parsed_path <- file.path(data_path,"parsed")
+  parsed_path <- file.path(data_path, "parsed")
   if (!dir.exists(parsed_path)) {
     dir.create(parsed_path)
   }
-  all_dfs <- new.env()
-  for (cur_fpath in var_fpaths) {
+  all_dfs <- rlang::new_environment()
+  for (cur_fpath in data_fpaths) {
     print(paste0("Parsing ",cur_fpath))
     cur_fname <- basename(cur_fpath)
     processed_df <- .process_data_file(cur_fpath, spec, verbose=verbose)
@@ -44,7 +47,7 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   }
   #env_print(all_dfs)
   #return(all_dfs)
-  return_env <- new.env()
+  return_env <- rlang::new_environment()
   rlang::env_poke(return_env, "data", all_dfs)
   rlang::env_poke(return_env, "path", parsed_path)
   return(return_env)
@@ -322,7 +325,7 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   # Now, since we have a df parsed from the original .csv file, we let .process_df()
   # take over (since we want a callable function if the user wants to start with
   # an already-clean df rather than a raw .csv file)
-  return(.process_df(clean_df, spec, verbose=verbose))
+  return(.process_df(df, spec, verbose=verbose))
 }
 
 #' Parse an already-cleaned tibble
@@ -335,10 +338,9 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
 #' @export
 #'
 #' @examples
-.process_df <- function(df, spec, num_headers = NULL, verbose = FALSE) {
-  if (is.null(num_headers)) {
-    # If num_headers hasn't already been determined by .process_data_file, check it here
-
+.process_df <- function(df, spec, dataset_name = NULL, verbose = FALSE) {
+  if (is.null(dataset_name)) {
+    dataset_name <- "in-memory"
   }
   ### Part 4: Lowercase any strings in the index and remove "notes" row if it exists
   # ORDER MATTERS: Need to clean the headers first, since clean_index depends on
@@ -346,23 +348,45 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   df <- .clean_header_vals(df, spec)
   df <- .clean_index_vals(df, spec, verbose=verbose)
   # Ensure that the tibble is as long as possible
-  time_varname <- spec$grid$time_varname
-  unit_varname <- spec$grid$unit_of_obs
   grid_varname <- spec$grid$varname
-  vars_to_keep <- c(time_varname, unit_varname, grid_varname)
-  # Here we process differently based on whether it's (a) *cross-sectional* or *time-series* data, or
+  # Here we process differently based on whether it's
+  # (a) *cross-sectional* or *time-series* data, or
   # (b) *panel* data
-  is_panel <- ((time_varname %in% names(df)) && (unit_varname %in% names(df)))
-  if (is_panel) {
-    # Here we know the unit var will be there
-    df_long <- df %>%
-      tidyr::pivot_longer(cols = dplyr::contains('@@'), names_pattern = "(.*)@@(.*)",
-                          names_to = c("varname",time_varname),
-                          values_transform = list("varname"=as.character,time_varname=as.character))
-  } else {
+  if (spec$grid$type == "panel") {
+    time_varname <- spec$grid$time_varname
+    unit_varname <- spec$grid$unit_of_obs
+    vars_to_keep <- c(grid_varname, time_varname, unit_varname)
+    # There are three possibilities for the particular .csv: long, wide, or multiindex
+    is_multiindex <- any(stringr::str_detect(names(df), "@@"))
+    if (is_multiindex) {
+      # Turn the MultiIndex into a longer dataset with single index
+      df_long <- df %>%
+        tidyr::pivot_longer(cols = dplyr::contains('@@'), names_pattern = "(.*)@@(.*)",
+                            names_to = c("varname",time_varname),
+                            values_transform = list("varname"=as.character,time_varname=as.character))
+    } else {
+      #is_long <- ((time_varname %in% names(df)) && (unit_varname %in% names(df)))
+      # If we're here, we know it's in long form, so we just need to make it
+      # one step longer, with "varname" and "value" columns
+      df_long <- df %>% dplyr::select(dplyr::all_of(vars_to_keep)) %>%
+        tidyr::pivot_longer(cols = -dplyr::all_of(c(time_varname, unit_varname)),
+                            names_to = c("varname"))
+    }
+  } else if (spec$grid$type == "ts") {
+    time_varname <- spec$grid$time_varname
+    vars_to_keep <- c(grid_varname, time_varname)
     df_long <- df %>% dplyr::select(dplyr::all_of(vars_to_keep)) %>%
-      tidyr::pivot_longer(cols = -dplyr::all_of(c(time_varname, unit_varname)), names_to = c("varname"))
+      tidyr::pivot_longer(cols = -dplyr::all_of(c(time_varname)),
+                          names_to = c("varname"))
+  } else {
+    # spec$grid$type == "cs"
+    unit_varname <- spec$grid$unit_of_obs
+    vars_to_keep <- c(grid_varname, unit_varname)
+    df_long <- df %>% dplyr::select(dplyr::all_of(vars_to_keep)) %>%
+      tidyr::pivot_longer(cols = -dplyr::all_of(c(unit_varname)),
+                          names_to = c("varname"))
   }
+
   # ### Part 5: Make sure the year, val columns are all-numeric
   #if (num_headers > 1) {
   #  df_long <- df_long %>%
@@ -371,12 +395,30 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   # Remove commas
   df_long <- df_long %>%
     dplyr::mutate(value = stringr::str_replace_all(value,",",""))
-  # Convert to numeric
+  # Convert the value col to numeric
   df_long$value <- as.numeric(df_long$value)
+  # As well as the timevar col, if panel or time-series
+  if ((spec$grid$type == "panel") || (spec$grid$type == "ts")) {
+    df_long[[time_varname]] <- as.numeric(df_long[[time_varname]])
+  }
   # ### Part 6: Add row_num and source_id columns
   df_long <- tibble::rowid_to_column(df_long, var="row_id")
-  df_long <- df_long %>% dplyr::mutate(source_id = fname)
+  df_long <- df_long %>% dplyr::mutate(source_id = dataset_name)
   return(df_long)
+}
+
+.process_dfs <- function(dfs, spec, dataset_names = NULL, verbose = FALSE) {
+  if (is.null(dataset_names)) {
+    dataset_names <- paste0("df",as.character(1:length(dfs)))
+  }
+  return_env <- rlang::new_environment()
+  for (i in 1:length(dfs)) {
+    cur_df <- dfs[[i]]
+    cur_name <- dataset_names[[i]]
+    processed_df <- .process_df(cur_df, spec, dataset_name=cur_name, verbose=verbose)
+    rlang::env_poke(return_env, cur_name, processed_df)
+  }
+  return(return_env)
 }
 
 #

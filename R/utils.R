@@ -1,28 +1,58 @@
-demo_combined_path <- function() {
+.demo_combined_path <- function() {
   return(system.file("extdata/combined/", package="threadsheetr", mustWork = TRUE))
 }
 
-demo_all_entries_fpath <- function() {
+.demo_all_entries_fpath <- function() {
   return(system.file("extdata/combined/", "all_entries.rds", package="threadsheetr",
                      mustWork = TRUE))
 }
 
-demo_data_path <- function() {
+.demo_data_fpaths <- function() {
+  data_path <- .demo_data_path()
+  data_glob <- file.path(data_path, "*.csv")
+  data_fpaths <- Sys.glob(data_glob)
+  return(data_fpaths)
+}
+
+.demo_data_path <- function() {
   return(system.file("extdata/cp_membership_num/", package="threadsheetr", mustWork = TRUE))
 }
 
-demo_grid_long_fpath <- function() {
+.demo_grid_long_fpath <- function() {
   fname <- "cp_membership_num_num_long.rds"
   return(system.file("extdata/combined/", fname, package="threadsheetr", mustWork = TRUE))
 }
 
-demo_parsed_path <- function() {
+.demo_parsed_path <- function() {
   return(system.file("extdata/parsed/", package = "threadsheetr", mustWork = TRUE))
 }
 
-demo_spec_fpath <- function() {
-  return(system.file("extdata", "demo.yaml", package = "threadsheetr",
-                     mustWork = TRUE))
+.demo_spec_fpath <- function() {
+  return(system.file("extdata", "demo_panel.yaml", package = "threadsheetr", mustWork = TRUE))
+}
+
+.test_cs_spec_fpath <- function() {
+  return(system.file("extdata", "test_cs.yaml", package = "threadsheetr", mustWork = TRUE))
+}
+
+.test_data_path <- function() {
+  return(system.file("extdata", "data_test", package = "threadsheetr", mustWork = TRUE))
+}
+
+.test_panel_long_fpath <- function() {
+  return(system.file("extdata", "data_test/test_panel_long.csv", package = "threadsheetr", mustWork = TRUE))
+}
+
+.test_panel_spec_fpath <- function() {
+  return(system.file("extdata", "test_panel.yaml", package = "threadsheetr", mustWork = TRUE))
+}
+
+.test_panel_wide_fpath <- function() {
+  return(system.file("extdata", "data_test/test_panel_wide.csv", package = "threadsheetr", mustWork = TRUE))
+}
+
+.test_ts_spec_fpath <- function() {
+  return(system.file("extdata", "test_ts.yaml", package = "threadsheetr", mustWork = TRUE))
 }
 
 .ensure_numeric <- function(df, colname = NULL) {

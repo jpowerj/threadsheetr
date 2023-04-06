@@ -1,0 +1,4 @@
+country, cp_membership_num, extra_col, notes
+"Albania", 700, "blah7", "note7"
+"Algeria", 800, "blah8", "note8"
+"Zimbabwe", 900, "blah9",

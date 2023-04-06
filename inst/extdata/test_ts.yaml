@@ -1,0 +1,13 @@
+---
+index_rules:
+  - varname: "year"
+    ffill: true
+grid:
+  type: "ts"
+  varname: "cp_membership"
+  alt_names: ["cp_membership_num", "num_members"] # Used as the index if varname isn't found
+  datatype: int
+  rounding: warn
+  time_varname: year
+  time_start: 1945
+  time_end: 1975

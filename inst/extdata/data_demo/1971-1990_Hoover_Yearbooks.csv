@@ -1,4 +1,4 @@
-year\variable,category,area_prefix,area,party_name,population_est,party_membership,cp_membership_num,pct_of_pop,status,sino_soviet,pub_names,pub_circs,date_founded,party_leader,pct_vote,vote_as_of,seats_txt,seats_controlled,total_seats,seats_pct,leg_text,last_congress
+year\variable,category,area_prefix,area,party_name,population_est,party_membership_est,cp_membership,pct_of_pop,status,sino_soviet,pub_names,pub_circs,date_founded,party_leader,pct_vote,vote_as_of,seats_txt,seats_controlled,total_seats,seats_pct,leg_text,last_congress
 1971,Eastern Europe and the Soviet Union,,Albania,Albanian Party of Labor (APL),2108000,75673 (claim),75673,0.035898008,,,,,8-Nov-41,Enver Hoxha,,,,,,,,
 1971,,,Bulgaria,Bulgarian Communist Party (BCP),8500000,637000 (claim),637000,0.074941176,,,,,1903,,,,,,,,,
 1971,,,Czechoslovakia,Communist Party of Czechoslovakia (KSC),14300000,slightly above 1.2 million (est),1200000,0.083916084,,,,,21-Nov,,,,,,,,,

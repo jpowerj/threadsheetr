@@ -1,13 +1,13 @@
 ---
 index_rules:
-  - varname: year
-    ffill: true
-  - varname: country
-    alt_names: ['area']
+  - varname: "country"
+    alt_names: ["area"]
     lowercase: true
     rules:
       - "Abu Dhabi": {rename: "United Arab Emirates"}
-      - "Aden": {addto: "South Yemen"}
+      # - "Aden": {addto: "South Yemen"}
+      - "Albania": {rename: "Albaaania"} # For testing
+      - "Angola": {addto: "Algeria"} # For testing (3rd cp col for Algeria should go 7500->7550)
       - "Angola (see Portuguese Africa)": exclude
       - "Antilles (Netherlands)": {addto: "Antilles"}
       - "Bahrein": {rename: "Bahrain"}
@@ -90,11 +90,9 @@ index_rules:
       - "Zanzibar": {addto: "Tanzania"} # Tanganyika and Zanzibar merged to become Tanzania in 1964
       - "Zanzibar (British Protectorate)": {addto: "Tanzania"}
 grid:
-  varname: cp_membership_num
-  alt_names: ["cp_membership", "num_members"] # Used as the index if varname isn't found
+  type: "cs"
+  varname: "cp_membership"
+  alt_names: ["cp_membership_num", "num_members"] # Used as the index if varname isn't found
   datatype: int
   rounding: warn
-  unit_of_obs: country
-  time_varname: year
-  time_start: 1945
-  time_end: 1975
+  unit_of_obs: "country"
