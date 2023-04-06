@@ -319,6 +319,27 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   if (num_headers > 0) {
     colnames(df) <- df_head[1,] %>% unlist()
   }
+  # Now, since we have a df parsed from the original .csv file, we let .process_df()
+  # take over (since we want a callable function if the user wants to start with
+  # an already-clean df rather than a raw .csv file)
+  return(.process_df(clean_df, spec, verbose=verbose))
+}
+
+#' Parse an already-cleaned tibble
+#'
+#' @param df The df, either constructed separately or produced by `.process_data_file()`.
+#' @param spec The specification object, returned by `.parse_spec_file()`.
+#' @param verbose Optional: If `TRUE`, additional debugging information will be printed.
+#'
+#' @return A new df with the data from the passed-in `df` in a standardized long format.
+#' @export
+#'
+#' @examples
+.process_df <- function(df, spec, num_headers = NULL, verbose = FALSE) {
+  if (is.null(num_headers)) {
+    # If num_headers hasn't already been determined by .process_data_file, check it here
+
+  }
   ### Part 4: Lowercase any strings in the index and remove "notes" row if it exists
   # ORDER MATTERS: Need to clean the headers first, since clean_index depends on
   # having the correct headers
@@ -329,8 +350,10 @@ threader_parse <- function(data_path = NULL, spec_fpath = NULL,
   unit_varname <- spec$grid$unit_of_obs
   grid_varname <- spec$grid$varname
   vars_to_keep <- c(time_varname, unit_varname, grid_varname)
-  # But, before we check, we make sure to do any necessary renames
-  if (num_headers > 1) {
+  # Here we process differently based on whether it's (a) *cross-sectional* or *time-series* data, or
+  # (b) *panel* data
+  is_panel <- ((time_varname %in% names(df)) && (unit_varname %in% names(df)))
+  if (is_panel) {
     # Here we know the unit var will be there
     df_long <- df %>%
       tidyr::pivot_longer(cols = dplyr::contains('@@'), names_pattern = "(.*)@@(.*)",

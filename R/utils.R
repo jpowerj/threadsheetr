@@ -147,7 +147,7 @@ demo_spec_fpath <- function() {
   cols <- purrr::flatten(df[,1])
   colnames(dft) <- cols
   index_header <- names(df)[1]
-  dft <- tibble::as_tibble(dft, rownames = index_header)
+  dft <- tibble::as_tibble(dft, rownames = index_header, .name_repair = "minimal")
   return(dft)
 }
 
